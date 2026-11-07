@@ -123,6 +123,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="serviceproviders.html">Serviceproviders vergelijken</a></li>
       <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
       <li><a href="https://ai-permanent-actueel.nl/" rel="noopener">AI Permanent Actueel</a></li>
+      <li><a href="https://pa-wft.nl/" rel="noopener">Wft Permanent Actueel</a></li>
       <li><a href="de-mening-van.html">De mening van</a></li>
       <li><a href="performance.html">Performance-onderzoek</a></li>
       <li><a href="kennisbank.html">Kennisbank begrippen</a></li>
@@ -1508,6 +1509,9 @@ def portals_section():
         ("https://ai-permanent-actueel.nl/", "cap", "AI Permanent Actueel", "AI-geletterdheid (art. 4 AI-verordening) voor financieel dienstverleners: elke maand een korte AI-update, elk kwartaal een kennistoets met certificaat.",
          '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs en medewerkers · zonder account</p>',
          [("https://ai-permanent-actueel.nl/kennistoets/", "Start de kennistoets"), ("https://ai-permanent-actueel.nl/#modules", "Bekijk de 7 modules")]),
+        ("https://pa-wft.nl/", "shield", "Wft Permanent Actueel", "Kennis actueel, elk kwartaal weer. Oefen per Wft-module met vragen over wat er actueel is, met uitleg bij elk antwoord.",
+         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs · 9 Wft-modules · met certificaat. Oefentoets: levert geen PE-examen op.</p>',
+         [("https://pa-wft.nl/toets.html", "Start de kennistoets"), ("https://pa-wft.nl/index.html#modules", "Bekijk de 9 modules")]),
     ]
     html_ = ""
     for href, ic, t, d, extra, links in tiles:
