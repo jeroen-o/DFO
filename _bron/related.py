@@ -122,7 +122,7 @@ def card(it):
         when = f'<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Eerstvolgende: {d.day} {MAAND[d.month-1]} {d.year}{" · " + E(loc) if loc else ""}</p>'
     tag = '<span class="tag alt">NVHP-masterclass</span>' if it["src"] == "NVHP" else f'<span class="tag">{E(it.get("type") or "Opleiding")}</span>'
     return (f'<a class="card" href="{E(it["u"])}" rel="noopener">{tag}<h3 style="font-size:1rem">{E(it["t"])}</h3>{when}'
-            f'<div style="margin-top:auto;padding-top:10px;font-weight:600">{E(it["prijs"])}</div><span class="more arrow">Bekijk &amp; inschrijven </span></a>')
+            f'<div style="margin-top:auto;padding-top:10px;font-weight:600">{E(it["prijs"])}</div><span class="more arrow">{"Masterclass volgen" if it["src"] == "NVHP" else "Bekijk &amp; inschrijven"} </span></a>')
 
 
 def same(a, b):
@@ -222,5 +222,5 @@ def nvhp_section():
   <div class="grid g3">{cards}</div>
   <h3 style="margin-top:36px">Geplande data NVHP</h3>
   <div class="list">{rows}</div>
-  <div class="btns"><a class="btn btn-primary arrow" href="{NVHP_PORTAL}" rel="noopener">Naar het NVHP-opleidingsportaal</a><a class="btn btn-ghost" href="{NVHP_MC}" rel="noopener">Regels en voorwaarden masterclasses</a></div>
+  <div class="btns"><a class="btn btn-primary arrow" href="{NVHP_PORTAL}" rel="noopener">Masterclass volgen</a><a class="btn btn-ghost" href="{NVHP_MC}" rel="noopener">Regels en voorwaarden masterclasses</a></div>
 </div></section>"""
