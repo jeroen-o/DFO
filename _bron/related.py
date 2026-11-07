@@ -73,7 +73,7 @@ def nvhp_items():
     nxt = {}
     today = datetime.date.today().isoformat()
     for d in sorted(NVHP["data"], key=lambda x: x["d"]):
-        if d["d"] >= today and LOCATIE in d["loc"].lower():
+        if d["d"] >= today and LOCATIE in d["loc"].lower() and d.get("plaatsen") != 0:  # volgeboekte data niet promoten
             k = d["t"].lower()[:25]
             nxt.setdefault(k, d)
     out = []
@@ -122,7 +122,9 @@ def card(it):
     if nd:
         d = datetime.date.fromisoformat(nd["d"])
         loc = nd.get("loc", "")
-        when = f'<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Eerstvolgende: {d.day} {MAAND[d.month-1]} {d.year}{" · " + E(loc) if loc else ""}</p>'
+        pl = nd.get("plaatsen")
+        vrij = f' · <strong style="color:var(--accent-ink,#9a3412)">nog {pl} {"plaats" if pl == 1 else "plaatsen"}</strong>' if isinstance(pl, int) and 0 < pl <= 5 else ""
+        when = f'<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Eerstvolgende: {d.day} {MAAND[d.month-1]} {d.year}{" · " + E(loc) if loc else ""}{vrij}</p>'
     else:
         when = '<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Data en locaties: zie het opleidingsportaal</p>'
     tag = '<span class="tag alt">NVHP-masterclass</span>' if it["src"] == "NVHP" else f'<span class="tag">{E(it.get("type") or "Opleiding")}</span>'
@@ -325,8 +327,10 @@ def nvhp_section():
         dd = datetime.date.fromisoformat(d["d"])
         cur = next((c for c in NVHP["cursussen"] if c["t"].lower()[:20] == d["t"].lower()[:20]), None)
         href = cur["u"] if cur else NVHP_PORTAL
+        pl = d.get("plaatsen")
+        status = "Vol" if pl == 0 else (f"Nog {pl}" if isinstance(pl, int) and pl <= 5 else "NVHP")
         rows += (f'<a class="date" href="{E(href)}" rel="noopener"><div class="d"><b>{dd.day}</b><span>{MAAND[dd.month-1]}</span></div>'
-                 f'<div><div class="t">{E(d["t"])}</div><div class="m">{E(d["tijd"])} · {E(d["loc"])} · {E(d["doc"])}</div></div><div class="p">NVHP</div></a>')
+                 f'<div><div class="t">{E(d["t"])}</div><div class="m">{E(d["tijd"])} · {E(d["loc"])} · {E(d["doc"])}{" · volgeboekt" if pl == 0 else ""}</div></div><div class="p">{status}</div></a>')
     return f"""<section id="nvhp"><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Open voor alle financieel adviseurs</span><h2>NVHP-masterclasses bij Bureau DFO in Hoevelaken</h2>
   <p>De masterclasses van de NVHP staan open voor iedere financieel adviseur, ook als je geen lid bent van de NVHP. Bureau DFO voert het secretariaat van de NVHP. Voor Erkend Hypothecair Planners tellen de masterclasses mee voor hun permanente educatie: zij volgen per kalenderjaar minimaal drie verschillende masterclasses om de titel te mogen blijven voeren. De prijs ligt in 2026 tussen € 162,50 en € 243,50 per masterclass. Inschrijven gaat via het <a href="{NVHP_PORTAL}" rel="noopener">NVHP-opleidingsportaal</a>; niet-leden maken daar een account aan, leden loggen in zodat hun gegevens al zijn ingevuld. Hieronder staan de masterclasses die bij Bureau DFO in Hoevelaken worden gegeven.</p></div>
