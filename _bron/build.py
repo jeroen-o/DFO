@@ -122,6 +122,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="signalen.html">DFO Signalen</a></li>
       <li><a href="serviceproviders.html">Serviceproviders vergelijken</a></li>
       <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
+      <li><a href="https://ai-permanent-actueel.nl/" rel="noopener">AI Permanent Actueel</a></li>
       <li><a href="de-mening-van.html">De mening van</a></li>
       <li><a href="performance.html">Performance-onderzoek</a></li>
       <li><a href="kennisbank.html">Kennisbank begrippen</a></li>
@@ -1486,7 +1487,7 @@ def kennisbank_tile():
 
 
 def portals_section():
-    """Vier tegels voor de DFO-portalen."""
+    """Tegels voor de DFO-portalen."""
     sig = "".join(f'<li><a href="{E(e["u"])}" rel="noopener">{E(e["t"])} – {E(e["d"])}</a></li>' for e in SIG[:3])
     cats = ["Hypotheken", "Schade", "Inkomen, leven & pensioen", "Bedrijfsvoering", "Compliance"]
     nxt = agenda[0] if agenda else None
@@ -1504,15 +1505,19 @@ def portals_section():
         ("nazorg.html", "folder", "Nazorg &amp; Onderhoud", "Het portaal met alle documenten over nazorg en onderhoud: modeldocumenten, AFM-publicaties en jurisprudentie.",
          '<p class="fine" style="font-size:.86rem;color:var(--muted)">Toegang: eenmalig € 195,- excl. btw</p>',
          [("nazorg.html", "Meer over de portal"), (NAZ_LOGIN, "Inloggen")]),
+        ("https://ai-permanent-actueel.nl/", "cap", "AI Permanent Actueel", "AI-geletterdheid (art. 4 AI-verordening) voor financieel dienstverleners: elke maand een korte AI-update, elk kwartaal een kennistoets met certificaat.",
+         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs en medewerkers · zonder account</p>',
+         [("https://ai-permanent-actueel.nl/kennistoets/", "Start de kennistoets"), ("https://ai-permanent-actueel.nl/#modules", "Bekijk de 7 modules")]),
     ]
     html_ = ""
     for href, ic, t, d, extra, links in tiles:
         ls = "".join(f'<a class="more arrow" href="{E(u)}"{" rel=noopener" if u.startswith("http") else ""} style="display:block;margin-top:6px">{E(lt)} </a>' for u, lt in links)
-        html_ += f'<div class="card portal"><a href="{href}" class="portal-head"><div class="icon">{icon(ic)}</div><h3>{t}</h3></a><p>{d}</p>{extra}<div style="margin-top:auto;padding-top:14px">{ls}</div></div>'
+        ext = ' rel="noopener"' if href.startswith("http") else ""
+        html_ += f'<div class="card portal"><a href="{href}"{ext} class="portal-head"><div class="icon">{icon(ic)}</div><h3>{t}</h3></a><p>{d}</p>{extra}<div style="margin-top:auto;padding-top:14px">{ls}</div></div>'
     return f"""<section class="alt" id="portalen"><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Portalen</span><h2>Alle DFO-portalen op één plek</h2></div>
   {kennisbank_tile()}
-  <div class="grid g4">{html_}</div>
+  <div class="grid portals-grid">{html_}</div>
 </div></section>"""
 
 

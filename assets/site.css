@@ -303,3 +303,4 @@ details.date summary::-webkit-details-marker{display:none}
 .kb-opl h3{margin-bottom:10px}
 @media (max-width:1180px){.kb-tools{top:64px}}
 @media (max-width:640px){.kb-tools{position:static}}
+.portals-grid{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
