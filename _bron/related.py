@@ -55,7 +55,7 @@ SKIP = {"index.html", "contact.html", "zoeken.html", "404.html", "zalencentrum.h
         "info-algemene-leveringsvoorwaarden.html", "info-klachtenprocedure.html", "info-privacyverklaring-en-cookies.html",
         "info-onafhankelijkheidsverklaring.html", "info-contact.html", "info-ons-team.html", "info-over-dfo.html",
         "info-home.html", "info-zaalverhuur.html", "info-stemapparatuur.html", "info-congressen.html", "info-blog.html",
-        "info-opinie.html", "congressen.html"}
+        "info-opinie.html", "congressen.html", "kennisbank.html"}
 SKIP_PREFIX = ("studio",)
 
 

@@ -26,7 +26,7 @@ ADRES = "De Wel 14–16, 3871 MV Hoevelaken"
 NAV = [
     ("opleidingen.html", "Opleidingen"),
     ("documenten.html", "Documenten"),
-    ("themas.html", "Thema’s"),
+    ("kennisbank.html", "Kennisbank"),
     ("compliance.html", "Compliance"),
     ("abonnementen.html", "Abonnementen"),
     ("vergadercentrum.html", "Vergaderruimte"),
@@ -82,7 +82,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
   <a href="mailto:{MAIL}">{MAIL}</a>
   <a href="webshop.html">Webshop</a>
   <a href="opleidingen.html#agenda">Agenda</a>
-  <a href="https://kennisbank.dfobv.nl/" rel="noopener">Kennisbank</a>
+  <a href="https://kennisbank.dfobv.nl/" rel="noopener">Wft-kennisbank</a>
   <a href="{SHOP}/mijn-account/" rel="noopener">Mijn account</a>
   <a href="{PORTAL}/inloggen-prs/standaard" rel="noopener">Inloggen opleidingsportaal</a>
 </div></div>
@@ -124,6 +124,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
       <li><a href="de-mening-van.html">De mening van</a></li>
       <li><a href="performance.html">Performance-onderzoek</a></li>
+      <li><a href="kennisbank.html">Kennisbank begrippen</a></li>
       <li><a href="themas.html">Thema’s</a></li>
       <li><a href="https://www.youtube.com/@bureaudfo6854/videos" rel="noopener">Webinars op YouTube</a></li>
       <li><a href="https://www.youtube.com/@VIPcongres/videos" rel="noopener">Videoproducties op YouTube</a></li>
@@ -143,7 +144,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="webshop.html#personeel">Personeel / HR</a></li>
       <li><a href="webshop.html#schade">Schade</a></li>
       <li><a href="webshop.html#alle-opleidingen">Alle opleidingen</a></li>
-      <li><a href="https://kennisbank.dfobv.nl/" rel="noopener">Kennisbank</a></li>
+      <li><a href="https://kennisbank.dfobv.nl/" rel="noopener">Wft-kennisbank</a></li>
       <li><a href="{SHOP}/mijn-account/" rel="noopener">Mijn account</a></li>
     </ul></div>
     <div><h4>Bureau DFO</h4><ul>
@@ -1075,7 +1076,7 @@ def build_zoeken():
     from bs4 import BeautifulSoup
     idx = []
     for f in sorted(ROOT.glob("*.html")):
-        if f.name in ("404.html", "zoeken.html"):
+        if f.name in ("404.html", "zoeken.html", "kennisbank.html"):
             continue
         s = BeautifulSoup(f.read_text(), "html.parser")
         main = s.find("main")
@@ -1095,6 +1096,9 @@ def build_zoeken():
             idx.append({"u": f.name + anchor, "p": title, "h": h.get_text(" ", strip=True) if h else title, "x": txt[:lim]})
     for c in cursussen:
         idx.append({"u": c["u"], "p": "Opleiding", "h": c["t"], "x": c["s"] + " " + c["wg"] + " " + c["prijs"]})
+    import kennisbank
+    for it in kennisbank.load():
+        idx.append({"u": f"kennisbank.html#{it['id']}", "p": "Kennisbank · " + it["domnaam"], "h": it["term"] + (f" ({it['afk']})" if it.get("afk") else ""), "x": it["def"]})
     for d in DOCS:
         for g in d["groups"]:
             for it in g["items"]:
@@ -1495,6 +1499,11 @@ def portals_section():
 
 
 
+def build_kennisbank_page():
+    import kennisbank
+    print("kennisbank:", kennisbank.build_kennisbank(page, hero, callout, icon, cursussen, agenda), "begrippen")
+
+
 def build_related_pages():
     import related
     print("opleidingsblokken toegevoegd op", related.build_related(cursussen, agenda), "pagina's")
@@ -1509,6 +1518,6 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_404, build_related_pages, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
