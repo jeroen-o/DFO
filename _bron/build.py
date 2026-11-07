@@ -1578,9 +1578,15 @@ def build_nieuws():
     bronnen = {}
     for i in items:
         bronnen.setdefault(i["bron"], i.get("home", ""))
-    alle_bronnen = [("DNB", "https://www.dnb.nl/"), ("ECB", "https://www.ecb.europa.eu/"), ("AFM", "https://www.afm.nl/"),
-                    ("Verbond van Verzekeraars", "https://www.verzekeraars.nl/"), ("NVB", "https://www.nvb.nl/"), ("SIVI", "https://www.sivi.org/"),
-                    ("HDN", "https://www.hdn.nl/"), ("NHG", "https://www.nhg.nl/"), ("Rijksoverheid", "https://www.rijksoverheid.nl/")]
+    alle_bronnen = [("AFM", "https://www.afm.nl/"), ("DNB", "https://www.dnb.nl/"), ("ECB", "https://www.ecb.europa.eu/"), ("EIOPA", "https://www.eiopa.europa.eu/"),
+                    ("Kifid", "https://www.kifid.nl/"), ("Verbond van Verzekeraars", "https://www.verzekeraars.nl/"), ("NVB", "https://www.nvb.nl/"),
+                    ("SIVI", "https://www.sivi.org/"), ("HDN", "https://www.hdn.nl/"), ("NHG", "https://www.nhg.nl/"), ("Nibud", "https://www.nibud.nl/"),
+                    ("Adfiz", "https://www.adfiz.nl/"), ("OvFD", "https://www.ovfd.nl/"), ("NVHP", "https://www.hypothecairplanner.nl/"),
+                    ("Pensioenfederatie", "https://www.pensioenfederatie.nl/"), ("CBS", "https://www.cbs.nl/"), ("Kadaster", "https://www.kadaster.nl/"),
+                    ("NVM", "https://www.nvm.nl/"), ("Belastingdienst", "https://www.belastingdienst.nl/"),
+                    ("Ministerie van Financiën", "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien"), ("Rijksoverheid", "https://www.rijksoverheid.nl/"),
+                    ("Tweede Kamer", "https://www.tweedekamer.nl/"), ("DFO Signalen", "https://www.dfosignalen.nl/"),
+                    ("Wft Permanent Actueel", "https://pa-wft.nl/"), ("AI Permanent Actueel", "https://ai-permanent-actueel.nl/")]
     cnt = {b: sum(1 for i in items if i["bron"] == b) for b, _ in alle_bronnen}
     chips = f'<button class="chip" data-b="" aria-pressed="true">Alle ({len(items)})</button>' + "".join(
         f'<button class="chip" data-b="{E(b)}" aria-pressed="false">{E(b)} ({cnt[b]})</button>' for b, _ in alle_bronnen if cnt.get(b))
@@ -1595,7 +1601,7 @@ def build_nieuws():
                  + (f'<p>{E(x)}</p>' if x else "")
                  + f'<a class="btn btn-ghost nw-btn" href="{E(i["u"])}" rel="noopener" target="_blank">Lees bij {E(i["bron"])} →</a></article>')
     bron_links = " · ".join(f'<a href="{u}" rel="noopener">{E(b)}</a>' for b, u in alle_bronnen)
-    body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken en verzekeringen van toezichthouders, de overheid en brancheorganisaties, dagelijks bijgewerkt.",
+    body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, de overheid, brancheorganisaties, marktcijfers en DFO, dagelijks bijgewerkt.",
                 crumbs=["Actueel nieuws"])
     body += f"""
 <section><div class="wrap" style="max-width:980px">
@@ -1616,7 +1622,7 @@ document.querySelectorAll('#nb .chip').forEach(b=>b.onclick=()=>{nb=b.dataset.b;
 nq.oninput=f;f();
 </script>"""
     page("nieuws.html", "Actueel nieuws hypotheken en verzekeringen – Bureau DFO",
-         "Dagelijks bijgewerkt nieuws over hypotheken en verzekeringen van DNB, ECB, AFM, Verbond van Verzekeraars, NVB, SIVI, HDN, NHG en Rijksoverheid.", body, scripts=js)
+         "Dagelijks bijgewerkt nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, overheid, brancheorganisaties en DFO.", body, scripts=js)
     return len(items)
 
 
@@ -1634,7 +1640,7 @@ def nieuws_teaser():
                 f'<div><div class="t">{E(i["t"])}</div><div class="m">{E(i["bron"])}</div></div><div class="p">→</div></a>')
     return f"""<section class="tight"><div class="wrap split" style="align-items:start">
   <div><span class="kicker" style="color:var(--blue)">Dagelijks bijgewerkt</span><h2>Actueel nieuws</h2>
-  <p class="muted">Nieuws over hypotheken en verzekeringen van DNB, ECB, AFM, Verbond van Verzekeraars, NVB, SIVI, HDN, NHG en Rijksoverheid.</p>
+  <p class="muted">Nieuws over hypotheken, verzekeringen en pensioen van toezichthouders (AFM, DNB, ECB, EIOPA, Kifid), overheid, brancheorganisaties, marktcijfers en DFO.</p>
   <div class="btns"><a class="btn btn-primary arrow" href="nieuws.html">Al het nieuws</a></div></div>
   <div class="list">{lis}</div>
 </div></section>"""
