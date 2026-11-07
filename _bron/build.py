@@ -55,6 +55,10 @@ def icon(name):
             f'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{ICONS[name]}</svg>')
 
 
+import hashlib as _hl
+CSSV = _hl.md5((ROOT / "assets" / "site.css").read_bytes()).hexdigest()[:10]
+
+
 def page(fname, title, desc, body, extra_head="", scripts=""):
     nav = "".join(
         f'<li><a href="{h}"{" aria-current=page" if h == fname else ""}>{E(t)}</a></li>' for h, t in NAV)
@@ -72,7 +76,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <meta name="theme-color" content="#005EA9">
 <link rel="icon" type="image/png" href="assets/img/favicon.png">
 <link rel="preload" href="assets/fonts/poppins-regular.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v={CSSV}">
 {extra_head}
 </head>
 <body>
@@ -478,9 +482,9 @@ def build_home():
              '<a class="btn btn-ghost" href="contact.html">Neem contact op</a>')
     body += f"""
 <section class="tight alt"><div class="wrap"><div class="stats">
-  <a class="stat stat-link" href="opleidingen.html#aanbod"><b>{len(cursussen)}</b><span>opleidingen &amp; trainingen</span><em class="more arrow">Bekijk het aanbod </em></a>
-  <a class="stat stat-link" href="documenten.html"><b>200+</b><span>modeldocumenten &amp; contracten</span><em class="more arrow">Naar de documenten </em></a>
-  <a class="stat stat-link" href="vergadercentrum.html#zalen"><b>7</b><span>zalen voor groepen tot 70 personen</span><em class="more arrow">Bekijk de zalen </em></a>
+  <div class="stat"><b>{len(cursussen)}</b><span>opleidingen &amp; trainingen</span><a class="btn btn-primary stat-btn" href="opleidingen.html#aanbod">Lees meer</a></div>
+  <div class="stat"><b>200+</b><span>modeldocumenten &amp; contracten</span><a class="btn btn-primary stat-btn" href="documenten.html">Lees meer</a></div>
+  <div class="stat"><b>7</b><span>zalen voor groepen tot 70 personen</span><a class="btn btn-primary stat-btn" href="vergadercentrum.html#zalen">Lees meer</a></div>
   <div class="stat"><b>3.000+</b><span>cursisten per jaar in Hoevelaken</span></div>
 </div></div></section>
 

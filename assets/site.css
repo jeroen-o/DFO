@@ -411,3 +411,7 @@ a.stat-link .more{color:var(--blue)}
 h1,h2,h3,h4{overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
 p,li,td{hyphens:manual}
 .tablewrap table{min-width:0}
+/* Cijferblokken met knop */
+.stat{display:flex;flex-direction:column}
+.stat .stat-btn{margin-top:auto;align-self:flex-start;padding:9px 16px;font-size:.88rem}
+.stat span{margin-bottom:12px}
