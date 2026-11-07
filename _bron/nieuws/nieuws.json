@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-07T19:38:05.473Z",
+ "bijgewerkt": "2026-11-07T19:41:13.104Z",
  "items": [
   {
    "t": "Minister Hans Vijlbrief: “Onze polder zorgt voor draagvlak”",
@@ -645,6 +645,15 @@
    "u": "https://www.sivi.org/actueel/artikel-vvp-special-on-demand-toegang-tot-polisgegevens/",
    "d": "2026-07-01",
    "x": "In de nieuwste VVP Special Slimmer Klantbeheer beschrijft Ruud van Bommel, ketenmanager Intermediaire Distributie bij SIVI, hoe de markt werkt aan een nieuwe service voor het gestandaardiseerd raadplegen van polisgegevens en polisdocumenten via API’s.",
+   "bron": "SIVI",
+   "home": "https://www.sivi.org/",
+   "opgehaald": "2026-11-07"
+  },
+  {
+   "t": "SIVI AFS Magazine nummer 12 is uit!",
+   "u": "https://www.sivi.org/actueel/sivi-afs-magazine-nummer-12-is-uit/",
+   "d": "2026-06-30",
+   "x": "In deze twaalfde editie van het SIVI AFS Magazine staat het thema Makkelijker werken met AFD centraal. De focus ligt op meer eenduidigheid, betere vindbaarheid en toegankelijkere tooling voor gebruikers van het AFD.",
    "bron": "SIVI",
    "home": "https://www.sivi.org/",
    "opgehaald": "2026-11-07"
