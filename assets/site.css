@@ -367,3 +367,47 @@ footer.site a.btn-light:hover{color:var(--blue-d);background:var(--sky-l);text-d
 @media (max-width:1180px){.kb-tools{top:126px}}
 @media (max-width:700px){.topbar .wrap>a{display:inline}.topbar .wrap>a:nth-of-type(n+3){display:none}.sitesearch .wrap{padding-top:6px;padding-bottom:8px}.sitesearch button{padding:10px 14px}}
 .topbar .wrap{justify-content:flex-end}
+/* Mobiel: geen horizontaal scrollen door lange woorden, links of brede inhoud */
+.split>*,.grid>*,.lid>div,ul.wlijst>li>div,.doc-list a,.doc-list a span,.prose,.article,.card,.kb-item{min-width:0}
+.card h2,.card h3,.prose,.article,.wp,.doc-list a span,.wart p,.date .t{overflow-wrap:anywhere;word-break:normal}
+.wp a,.prose a,.article a{overflow-wrap:anywhere}
+.wp img,.wp iframe,.wp video,.wp table,.media img,.wp *{max-width:100%}
+.wp p.wpimg a,.wp p.wpimg{display:block}
+/* Leesbare labels en aantikgebieden */
+.tag{font-size:.78rem}
+.price .badge{font-size:.78rem}
+.more{display:inline-block;padding:6px 0;min-height:24px}
+/* Cijferblokken als link */
+a.stat-link{text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s,border-color .2s}
+a.stat-link:hover{box-shadow:var(--shadow);transform:translateY(-2px);border-color:#cfdbe6}
+a.stat-link .more{font-style:normal;font-size:.85rem;margin-top:auto;padding-top:8px}
+/* Nieuws: 2 bij 2 */
+.news.news-2x2{grid-template-columns:repeat(2,1fr)}
+.news.news-2x2 .card.img .ph{aspect-ratio:16/8}
+@media (max-width:760px){.news.news-2x2{grid-template-columns:1fr}}
+/* Lange woorden in hero-koppen */
+.hero .wrap>*{min-width:0}.hero h1,.hero .lead,.crumbs{overflow-wrap:anywhere}
+/* Nieuwsbrieftegels: prijs en knoppen op gelijke hoogte */
+.nb-card .nb-foot{margin-top:auto;padding-top:14px}
+.nb-card .amount{margin:0 0 14px;line-height:1.1;min-height:2.3rem;display:flex;align-items:baseline;gap:6px;flex-wrap:wrap}
+.nb-btns{display:grid;gap:10px}
+.nb-btns .btn{width:100%;justify-content:center;text-align:center;min-height:50px}
+a.stat-link .more{color:var(--blue)}
+/* Verdiep je kennis: twee kolommen rij voor rij uitgelijnd */
+.vk-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:24px;row-gap:14px}
+.vk-col{display:grid;grid-row:span 6;grid-template-rows:subgrid;row-gap:14px;align-content:start}
+.vk-col h3,#verdiep h3{margin:0}
+.vk-note{font-size:.88rem;margin:0 0 4px}
+.vk-col>.card{height:100%}
+.vk-foot{margin:4px 0 0}
+#verdiep .card .fine{min-height:1.3em}
+@media (max-width:860px){.vk-grid{grid-template-columns:1fr}.vk-col{grid-row:auto;grid-template-rows:none;display:flex;flex-direction:column}.vk-col>div[aria-hidden]{display:none}}
+/* Nieuwsbrieftegels: knoppen altijd even hoog */
+.nb-btns .btn{min-height:66px}
+#verdiep .card .more{margin-top:6px}
+.tablewrap{max-width:100%;width:100%}
+.wet,.wet>*{min-width:0;max-width:100%}
+/* Lange Nederlandse samenstellingen netjes afbreken */
+h1,h2,h3,h4{overflow-wrap:break-word;hyphens:auto;-webkit-hyphens:auto}
+p,li,td{hyphens:manual}
+.tablewrap table{min-width:0}

@@ -474,19 +474,18 @@ def build_home():
         "Bureau DFO",
         "Jouw partner waar het gaat om succesvol ondernemen in de financiële dienstverlening",
         kicker="Sinds 1992 · Hoevelaken", img="assets/img/de-wel.jpg", small=False,
-        btns='<form class="hsearch" action="zoeken.html" method="get" role="search"><input type="search" name="q" placeholder="Waar ben je naar op zoek? Bijv. NHG, Wwft, AOV-opleiding…" aria-label="Zoek op de site"><button class="btn btn-light" type="submit">Zoeken</button></form>'
-             '<a class="btn btn-light arrow" href="opleidingen.html">Bekijk opleidingen</a>'
+        btns='<a class="btn btn-light arrow" href="opleidingen.html">Bekijk opleidingen</a>'
              '<a class="btn btn-ghost" href="contact.html">Neem contact op</a>')
     body += f"""
 <section class="tight alt"><div class="wrap"><div class="stats">
-  <div class="stat"><b>{len(cursussen)}</b><span>opleidingen &amp; trainingen</span></div>
-  <div class="stat"><b>200+</b><span>modeldocumenten &amp; contracten</span></div>
-  <div class="stat"><b>7</b><span>zalen voor groepen tot 70 personen</span></div>
+  <a class="stat stat-link" href="opleidingen.html#aanbod"><b>{len(cursussen)}</b><span>opleidingen &amp; trainingen</span><em class="more arrow">Bekijk het aanbod </em></a>
+  <a class="stat stat-link" href="documenten.html"><b>200+</b><span>modeldocumenten &amp; contracten</span><em class="more arrow">Naar de documenten </em></a>
+  <a class="stat stat-link" href="vergadercentrum.html#zalen"><b>7</b><span>zalen voor groepen tot 70 personen</span><em class="more arrow">Bekijk de zalen </em></a>
   <div class="stat"><b>3.000+</b><span>cursisten per jaar in Hoevelaken</span></div>
 </div></div></section>
 
 <section><div class="wrap">
-  <div class="news">
+  <div class="news news-2x2">
     <div class="card img">
       <a class="ph" href="https://www.dfobv.nl/product/gratis-vakpaper-serviceproviders-onderzoek-2026/" rel="noopener"><img src="assets/img/persbericht.jpg" alt="Gratis vakpaper Serviceproviders-onderzoek 2026" loading="lazy" width="960" height="608"></a>
       <div class="body"><span class="tag">Onderzoek</span><h3>{E(t1)}</h3><p>{get(t1)}</p>
@@ -501,6 +500,11 @@ def build_home():
       <div class="body"><span class="tag">Column</span><h3>{E(COLS[0]['titel'])}</h3>
       <p>Lees hier de nieuwste column van Jurjen Oosterbaan Martinius</p>
       <span class="more arrow">Lees de column </span></div></a>
+    <a class="card img" href="signalen.html">
+      <div class="ph"><img src="assets/img/signalen.jpg" alt="" loading="lazy" width="528" height="463"></div>
+      <div class="body"><span class="tag">Nieuwsbrief</span><h3>DFO Signalen – {E(SIG[0]["t"].replace("DFO signalen ", ""))} {E(SIG[0]["jaar"])}</h3>
+      <p>Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs. Nieuwste editie: {E(SIG[0]["d"])}.</p>
+      <span class="more arrow">Lees DFO Signalen </span></div></a>
   </div>
 </div></section>
 
@@ -692,8 +696,8 @@ f();
 def build_abonnementen():
     def nb(title, text, prijs, voorbeeld, extra="", lees=None, vlabel="Voorbeeld nieuwsbrief", alabel="Abonnement aanvragen", ahref="#aanvragen"):
         lm = f'<a class="more arrow" href="{lees}" rel="noopener" style="margin:0 0 .6em">Lees meer </a>' if lees else ""
-        return f'''<div class="card price"><h3>{title}</h3><p>{text}</p>{lm}<div class="amount" style="margin-top:auto">{prijs}</div>{extra}
-<div class="btns" style="margin-top:16px"><a class="btn btn-primary" href="{ahref}"{' rel="noopener"' if ahref.startswith("http") else ""}>{alabel}</a><a class="btn btn-ghost" href="{voorbeeld}" rel="noopener">{vlabel}</a></div></div>'''
+        return f'''<div class="card price nb-card"><h3>{title}</h3><p>{text}</p>{lm}<div class="nb-foot"><div class="amount">{prijs}</div>{extra}
+<div class="nb-btns"><a class="btn btn-primary" href="{ahref}"{' rel="noopener"' if ahref.startswith("http") else ""}>{alabel}</a><a class="btn btn-ghost" href="{voorbeeld}" rel="noopener">{vlabel}</a></div></div></div>'''
     sp1 = ["2x opleiding met € 95,- korting", "1x deelname aan Webinar Actualiteiten", "2 gratis documenten", "Wft nieuwsbrief", "Helpdesk voor al je Wft vragen", "Jaarlijks het Onderzoek waardering assurantieportefeuilles", "50% korting op 1 informatierapport naar keuze", "50% korting op een Klanttevredenheidsonderzoek", "50% korting op nieuwsteksten voor je particuliere relaties", "5 gratis faillissementscontroles"]
     sp2 = ["3x opleiding met € 95,- korting", "1x deelname aan Webinar Actualiteiten", "3 gratis documenten", "Wft nieuwsbrief", "Helpdesk voor al je Wft vragen", "Jaarlijks het Onderzoek waardering assurantieportefeuilles", "Keuze uit 1 informatierapport", "Klanttevredenheidsonderzoek", "Nieuwsteksten voor je particuliere relaties", "10 gratis faillissementscontroles"]
     li = lambda xs: "".join(f"<li>{E(x)}</li>" for x in xs)
@@ -727,7 +731,7 @@ def build_abonnementen():
     {nb("Wft Nieuwsbrief","Blijf op de hoogte met deze wekelijkse nieuwsbrief van de laatste ontwikkelingen in wet- en regelgeving rond de Wft. Toegankelijk uitgelegd en direct toepasbaar in de praktijk. Zit ook in beide servicepakketten.","€ 23,50 <small>per maand</small>","https://kennisbank.dfobv.nl/", lees="https://www.dfobv.nl/product/nieuwsbrief-wft/")}
     {nb("Nieuwsbrief Hypotheken","Elke maand bieden wij je vier kant-en-klare teksten over hypotheekontwikkelingen die je kunt inzetten op je website, sociale media of in je eigen nieuwsbrief.","€ 15,- <small>per maand</small>","https://hypotheken-update.nl/hypnwkr/113_crt/index.html", lees="https://www.dfobv.nl/product/commerciele-hypotheek-artikelen-nieuwsbrief-hypotheken-voor-particulieren/")}
     {nb("Nieuwsbrief Particulier","Elke maand bieden wij je vier kant-en-klare teksten voor jouw particuliere relaties. Denk aan nieuwsberichten op het gebied van schade, hypotheken en diversen andere actuele ontwikkelingen, die je kunt inzetten op je website, sociale media of in je eigen nieuwsbrief. Met het servicepakket krijg je 50% korting op deze nieuwsbrief, bij het servicepakket plus is die inbegrepen.","€ 15,- <small>per maand</small>","https://www.financieel-alert.nl/nwkr/365_vej/index.php", lees="https://www.dfobv.nl/product/commerciele-teksten-particuliere-klanten/")}
-    {nb("Signalen","Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.","€ Gratis","https://www.dfosignalen.nl/", vlabel="Voorbeeld signaal", alabel="Gratis aanmelden", ahref="https://c.spotler.com/ct/m13/k1/9pW48L55hi0RE83hRjww-Hd3uMqXFZGIQCHugsxWgB97fqn8ZL7W6w87AC_kFwQ78iEMI_KouOA-T5fJ06QX3_zpXI9Vdj1NHcjMiQSKt0M/fXUsq5LID7H9H5Z")}
+    {nb("Signalen","Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.","Gratis","https://www.dfosignalen.nl/", vlabel="Voorbeeld signaal", alabel="Gratis aanmelden", ahref="https://c.spotler.com/ct/m13/k1/9pW48L55hi0RE83hRjww-Hd3uMqXFZGIQCHugsxWgB97fqn8ZL7W6w87AC_kFwQ78iEMI_KouOA-T5fJ06QX3_zpXI9Vdj1NHcjMiQSKt0M/fXUsq5LID7H9H5Z")}
   </div>
 </div></section>
 
@@ -1077,7 +1081,7 @@ def build_calculator():
                         '<a class="btn btn-primary arrow" href="https://www2.dfobv.nl/abonnement-dashboard/" target="_blank" rel="noopener">')
     body = body.replace('</h1>', '</h1>', 1)
     body = body.replace('<section><div class="wrap"><div class="prose">',
-                        '<section><div class="wrap"><div class="prose"><img src="assets/img/calculator.jpg" alt="Schermafbeelding calculator" loading="lazy" style="border-radius:14px;margin-bottom:24px;max-width:520px">', 1)
+                        '<section><div class="wrap"><div class="prose"><img src="assets/img/calculator.jpg" alt="Schermafbeelding calculator" loading="lazy" style="border-radius:14px;margin-bottom:24px;width:min(100%,520px)">', 1)
     page("nazorg-calculator.html", "Calculator onderhoud en nazorg – Bureau DFO",
          "Tool voor gratis indicatie kosten / opbrengsten serviceabonnementen voor onderhoud en nazorg.", body)
 

@@ -120,6 +120,8 @@ def card(it):
         d = datetime.date.fromisoformat(nd["d"])
         loc = nd.get("loc", "")
         when = f'<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Eerstvolgende: {d.day} {MAAND[d.month-1]} {d.year}{" · " + E(loc) if loc else ""}</p>'
+    else:
+        when = '<p class="fine" style="font-size:.82rem;color:var(--muted);margin:.2em 0 0">Data en locaties: zie het opleidingsportaal</p>'
     tag = '<span class="tag alt">NVHP-masterclass</span>' if it["src"] == "NVHP" else f'<span class="tag">{E(it.get("type") or "Opleiding")}</span>'
     return (f'<a class="card" href="{E(it["u"])}" rel="noopener">{tag}<h3 style="font-size:1rem">{E(it["t"])}</h3>{when}'
             f'<div style="margin-top:auto;padding-top:10px;font-weight:600">{E(it["prijs"])}</div><span class="more arrow">{"Masterclass volgen" if it["src"] == "NVHP" else "Bekijk &amp; inschrijven"} </span></a>')
@@ -186,16 +188,21 @@ def build_related(cursussen, agenda):
         n = pick(nv, ptop, ptok, 3, 9, title, nvhp=True)
         if not d and not n:
             continue
-        cols = ""
-        inner = "grid" if (d and n) else "grid g3"
-        if d:
-            cols += f'<div><h3 style="margin-bottom:12px">Opleidingen van Bureau DFO</h3><div class="{inner}" style="gap:14px">{"".join(card(x) for x in d)}</div>' \
-                    f'<p style="margin-top:12px"><a class="more arrow" href="opleidingen.html">Alle DFO-opleidingen </a></p></div>'
-        if n:
-            cols += f'<div><h3 style="margin-bottom:4px">Masterclasses van de NVHP</h3><p class="muted" style="font-size:.88rem;margin:0 0 12px">Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.</p><div class="{inner}" style="gap:14px">{"".join(card(x) for x in n)}</div>' \
-                    f'<p style="margin-top:12px"><a class="more arrow" href="{NVHP_MC}" rel="noopener">Alle NVHP-masterclasses </a></p></div>'
+        both = bool(d and n)
+        def col(title, note, items, foot):
+            if not items:
+                return ""
+            cards = [card(x) for x in items]
+            if both:  # vaste opbouw zodat beide kolommen rij voor rij gelijk lopen (subgrid)
+                cards += ['<div aria-hidden="true"></div>'] * (3 - len(cards))
+                return (f'<div class="vk-col"><h3>{title}</h3><p class="muted vk-note">{note}</p>{"".join(cards)}<p class="vk-foot">{foot}</p></div>')
+            return (f'<div><h3>{title}</h3><p class="muted vk-note">{note}</p><div class="grid g3" style="gap:14px">{"".join(cards)}</div><p class="vk-foot">{foot}</p></div>')
+        cols = col("Opleidingen van Bureau DFO", "Praktijkgerichte trainingen, webinars en leergangen.", d,
+                   '<a class="more arrow" href="opleidingen.html">Alle DFO-opleidingen </a>') + \
+               col("Masterclasses van de NVHP", "Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.", n,
+                   f'<a class="more arrow" href="{NVHP_MC}" rel="noopener">Alle NVHP-masterclasses </a>')
         block = (f'<section class="alt" id="verdiep"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Verdiep je kennis</span>'
-                 f'<h2>Passende opleidingen en masterclasses</h2></div><div class="grid {"g2" if d and n else ""}" style="align-items:start">{cols}</div></div></section>')
+                 f'<h2>Passende opleidingen en masterclasses</h2></div><div class="{"vk-grid" if both else ""}">{cols}</div></div></section>')
         raw = raw.replace("</main>", block + "\n</main>", 1)
         f.write_text(raw)
         count += 1
