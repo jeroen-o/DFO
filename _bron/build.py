@@ -78,6 +78,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <body>
 <a class="skip" href="#inhoud">Naar de inhoud</a>
 <div class="topbar"><div class="wrap">
+  <form class="tsearch" action="zoeken.html" method="get" role="search"><input type="search" name="q" placeholder="Zoek op de site: begrip, opleiding, document, wetsartikel…" aria-label="Zoek op de site"><button type="submit">Zoeken</button></form>
   <a href="{TEL_HREF}">☎ {TEL}</a>
   <a href="mailto:{MAIL}">{MAIL}</a>
   <a href="webshop.html">Webshop</a>
@@ -468,7 +469,8 @@ def build_home():
         "Bureau DFO",
         "Jouw partner waar het gaat om succesvol ondernemen in de financiële dienstverlening",
         kicker="Sinds 1992 · Hoevelaken", img="assets/img/de-wel.jpg", small=False,
-        btns='<a class="btn btn-light arrow" href="opleidingen.html">Bekijk opleidingen</a>'
+        btns='<form class="hsearch" action="zoeken.html" method="get" role="search"><input type="search" name="q" placeholder="Waar ben je naar op zoek? Bijv. NHG, Wwft, AOV-opleiding…" aria-label="Zoek op de site"><button class="btn btn-light" type="submit">Zoeken</button></form>'
+             '<a class="btn btn-light arrow" href="opleidingen.html">Bekijk opleidingen</a>'
              '<a class="btn btn-ghost" href="contact.html">Neem contact op</a>')
     body += f"""
 <section class="tight alt"><div class="wrap"><div class="stats">
@@ -1114,7 +1116,7 @@ def build_zoeken():
     body = hero("Zoeken", "Hier kunt u zoeken naar alles op de DFO website", crumbs=["Zoeken"])
     body += """<section><div class="wrap" style="max-width:880px">
 <div class="filters"><input type="search" id="zq" placeholder="Zoek op pagina’s, opleidingen en documenten…" aria-label="Zoeken" autofocus></div>
-<div class="count" id="zc"></div><div class="list" id="zr"></div></div></section>"""
+<div class="count" id="zc"></div><div class="list" id="zr"></div><div id="zm" hidden></div></div></section>"""
     js = """<script>
 const I=__IDX__;const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const q=document.getElementById('zq');
@@ -1123,8 +1125,13 @@ function go(){const t=q.value.trim().toLowerCase().split(/\\s+/).filter(w=>w.len
  if(!t.length){document.getElementById('zr').innerHTML='';document.getElementById('zc').textContent='';return;}
  const r=I.map(it=>{const h=it.h.toLowerCase(),x=it.x.toLowerCase();let sc=0;for(const w of t){if(h.includes(w))sc+=5;else if(x.includes(w))sc+=1;else return null;}return [sc,it];}).filter(Boolean).sort((a,b)=>b[0]-a[0]).slice(0,60);
  document.getElementById('zc').textContent=r.length+(r.length===60?'+':'')+' resultaten';
- document.getElementById('zr').innerHTML=r.length?r.map(([s,it])=>`<a class="row" style="grid-template-columns:1fr" href="${esc(it.u)}"${it.u.startsWith('http')?' rel="noopener"':''}><div><div class="m" style="display:block">${esc(it.p)}</div><div class="t">${esc(it.h)}</div><div class="s">${esc(snip(it.x,t[0]))}</div></div></a>`).join(''):'<div class="empty">Niets gevonden.</div>';
+ document.getElementById('zr').innerHTML=r.length?r.map(([s,it])=>`<a class="row" style="grid-template-columns:1fr" href="${esc(it.u)}"${it.u.startsWith('http')?' rel="noopener"':''}><div><div class="m" style="display:block">${esc(it.p)}</div><div class="t">${esc(it.h)}</div><div class="s">${esc(snip(it.x,t[0]))}</div></div></a>`).join(''):nf(q.value);
+ document.getElementById('zm').hidden=!(r.length&&r.length<5);
+ document.getElementById('zm').innerHTML=mailbox(q.value,false);
  history.replaceState(null,'','?q='+encodeURIComponent(q.value));}
+function mailhref(t){const sub='Gezocht op de website: '+t;const body='Beste Bureau DFO,\\n\\nIk zocht op jullie website naar: "'+t+'"\\nmaar kon niet vinden wat ik zocht.\\n\\nKunnen jullie dit voor mij maken of uitzoeken?\\n\\nToelichting:\\n\\n\\nMet vriendelijke groet,\\n\\nNaam:\\nKantoor:\\nTelefoon:\\n';return 'mailto:info@dfobv.nl?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(body);}
+function mailbox(t,big){return `<div class="${big?'empty':'note'}" style="${big?'':'margin-top:16px'}"><p style="margin:0 0 10px"><strong>${big?'We konden niets vinden voor “'+esc(t)+'”.':'Niet gevonden wat je zocht?'}</strong> Wil je dat we dit voor je maken?</p><a class="btn btn-primary arrow" href="${mailhref(t)}">Stuur een mail naar info@dfobv.nl</a><p class="muted" style="font-size:.82rem;margin:8px 0 0">Je mailprogramma opent met een concept dat je nog kunt aanvullen.</p></div>`;}
+function nf(t){return mailbox(t,true);}
 q.addEventListener('input',go);const p=new URLSearchParams(location.search).get('q');if(p){q.value=p;}go();
 </script>""".replace("__IDX__", json.dumps(uniq, ensure_ascii=False))
     page("zoeken.html", "Zoeken – Bureau DFO", "Zoek op de website van Bureau DFO.", body, scripts=js)

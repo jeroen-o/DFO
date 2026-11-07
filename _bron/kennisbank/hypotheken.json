@@ -1,1087 +1,1087 @@
 [
-  {
-    "term": "Adviesrapport",
-    "afk": "",
-    "def": "Schriftelijke vastlegging van het hypotheekadvies, met daarin de inventarisatie van de klantsituatie, de geadviseerde oplossing en de onderbouwing waarom die passend is. Het adviesrapport maakt het advies controleerbaar voor de klant en voor de toezichthouder en is onderdeel van de dossiervorming die bij de zorgplicht hoort.",
-    "zie": [
-      "Zorgplicht",
-      "Dienstverleningsdocument",
-      "Execution only"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Aflossingseis",
-    "afk": "",
-    "def": "Fiscale voorwaarde dat een eigenwoningschuld die vanaf 1 januari 2013 is aangegaan, in maximaal 360 maanden (30 jaar) ten minste annuïtair volledig wordt afgelost; lineair aflossen voldoet ook. Alleen als aan deze eis wordt voldaan, is de rente aftrekbaar in box 1. Voor schulden die op 31 december 2012 al bestonden geldt overgangsrecht.",
-    "zie": [
-      "Annuïteitenhypotheek",
-      "Lineaire hypotheek",
-      "Eigenwoningschuld",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Aflossingsvrije hypotheek",
-    "afk": "",
-    "def": "Hypotheek of leningdeel waarop gedurende de looptijd niet wordt afgelost; aan het einde van de looptijd staat de volledige schuld nog open. Voor leningen aangegaan vanaf 2013 is de rente niet aftrekbaar en valt de schuld in box 3, tenzij overgangsrecht van toepassing is. Op grond van de Tijdelijke regeling hypothecair krediet mag het aflossingsvrije deel niet meer bedragen dan 50% van de marktwaarde van de woning.",
-    "zie": [
-      "Overgangsrecht eigen woning",
-      "Box 3",
-      "Tijdelijke regeling hypothecair krediet"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Annuïteitenhypotheek",
-    "afk": "",
-    "def": "Hypotheekvorm waarbij de klant periodiek een vast bedrag aan rente en aflossing samen betaalt, zolang de rente gelijk blijft. In het begin bestaat het bedrag vooral uit rente en later steeds meer uit aflossing, waardoor de netto maandlast door afnemende renteaftrek stijgt. Bij een looptijd van maximaal 30 jaar voldoet deze vorm aan de fiscale aflossingseis.",
-    "zie": [
-      "Aflossingseis",
-      "Lineaire hypotheek",
-      "Hypotheekrenteaftrek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Autoriteit Financiële Markten",
-    "afk": "AFM",
-    "def": "Toezichthouder op het gedrag van financiële ondernemingen in Nederland, waaronder hypotheekaanbieders en -adviseurs. De AFM houdt toezicht op naleving van de Wet op het financieel toezicht, zoals zorgplicht, informatieverstrekking en vakbekwaamheid, en publiceert de toetsrente die bij korte rentevaste perioden wordt gebruikt.",
-    "zie": [
-      "Wet op het financieel toezicht",
-      "Leidraad",
-      "Toetsrente"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bankgarantie",
-    "afk": "",
-    "def": "Schriftelijke verklaring van een bank dat zij een bepaald bedrag aan de verkoper betaalt als de koper zijn verplichtingen uit de koopakte niet nakomt. Een bankgarantie wordt vaak gebruikt in plaats van het storten van een waarborgsom; de bank brengt hiervoor kosten in rekening.",
-    "zie": [
-      "Waarborgsom",
-      "Koopakte"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bankhypotheek",
-    "afk": "",
-    "def": "Recht van hypotheek dat niet alleen dient tot zekerheid van een specifieke lening, maar van alle bestaande en toekomstige schulden van de hypotheekgever aan de geldverstrekker. Vaak wordt een hoger bedrag ingeschreven dan de aanvankelijke lening, zodat later binnen dat bedrag kan worden verhoogd zonder nieuwe hypotheekakte.",
-    "zie": [
-      "Recht van hypotheek",
-      "Hypotheekinschrijving",
-      "Hypotheek verhogen"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bankspaarhypotheek",
-    "afk": "",
-    "def": "Hypotheek waarbij gedurende de looptijd niet wordt afgelost, maar wordt ingelegd op een geblokkeerde bankspaarrekening (spaarrekening eigen woning) die aan het einde van de looptijd wordt gebruikt om de lening af te lossen. Over het spaartegoed wordt doorgaans dezelfde rente vergoed als over de lening. Nieuwe bankspaarhypotheken zijn sinds 2013 fiscaal niet meer gefaciliteerd; bestaande vallen onder overgangsrecht.",
-    "zie": [
-      "Spaarrekening eigen woning",
-      "Spaarhypotheek",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bedenktijd koper",
-    "afk": "",
-    "def": "Wettelijke bedenktijd van drie dagen voor een particuliere koper van een woning, die ingaat nadat de koper de getekende koopakte (of een kopie) heeft ontvangen (art. 7:2 BW). Binnen deze termijn kan de koper zonder opgaaf van redenen de koop ontbinden. De koop van een woning door een consument moet schriftelijk worden aangegaan.",
-    "zie": [
-      "Koopakte",
-      "Ontbindende voorwaarden"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Beleggingshypotheek",
-    "afk": "",
-    "def": "Hypotheek waarbij niet tussentijds wordt afgelost, maar periodiek wordt ingelegd in een beleggingsrekening of beleggingsverzekering die aan het einde van de looptijd de lening (gedeeltelijk) moet aflossen. De hoogte van het eindkapitaal is onzeker en afhankelijk van beleggingsresultaten. Voor fiscale facilitering geldt sinds 2013 alleen nog overgangsrecht voor bestaande producten.",
-    "zie": [
-      "Beleggingsrecht eigen woning",
-      "Levenhypotheek",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Beleggingsrecht eigen woning",
-    "afk": "BEW",
-    "def": "Geblokkeerde beleggingsrekening die is gekoppeld aan een eigenwoningschuld en waarvan de waarde wordt gebruikt om die schuld af te lossen. Onder voorwaarden, waaronder een minimale looptijd en premiebandbreedte, is de opbrengst tot een vrijgesteld bedrag onbelast. Alleen BEW's die vóór 1 januari 2013 zijn afgesloten, vallen onder het fiscale overgangsrecht.",
-    "zie": [
-      "Beleggingshypotheek",
-      "Overgangsrecht eigen woning",
-      "Spaarrekening eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bestaande eigenwoningschuld",
-    "afk": "",
-    "def": "Eigenwoningschuld die op 31 december 2012 al bestond en daardoor onder het fiscale overgangsrecht valt; ook wel 'oude eigenwoningschuld' genoemd. Voor dit deel geldt de aflossingseis niet, zodat de rente in box 1 aftrekbaar blijft, ook als niet wordt afgelost, binnen de maximale aftrekperiode van 30 jaar. De status kan bij verhuizing onder voorwaarden worden meegenomen.",
-    "zie": [
-      "Overgangsrecht eigen woning",
-      "Eigenwoningschuld",
-      "Aflossingseis",
-      "Box 1"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bijleenregeling",
-    "afk": "",
-    "def": "Fiscale regeling die bepaalt dat de overwaarde die bij verkoop van een eigen woning vrijkomt, in beginsel moet worden ingebracht in de volgende eigen woning. Wie dat niet doet en toch meer leent, heeft over het deel van de lening ter hoogte van de eigenwoningreserve geen recht op renteaftrek in box 1. De regeling geldt sinds 2004.",
-    "zie": [
-      "Eigenwoningreserve",
-      "Overwaarde",
-      "Eigenwoningschuld"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "BKR-toetsing",
-    "afk": "BKR",
-    "def": "Raadpleging door de geldverstrekker van het Centraal Krediet Informatiesysteem van Stichting Bureau Krediet Registratie, waarin kredieten en eventuele betalingsachterstanden van consumenten zijn geregistreerd. Lopende kredieten verlagen de maximale hypotheek; een achterstandscodering kan leiden tot afwijzing van de aanvraag.",
-    "zie": [
-      "Toetsinkomen",
-      "Loan-to-income"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Boeterente",
-    "afk": "",
-    "def": "Vergoeding die een klant verschuldigd kan zijn bij vervroegde aflossing boven het boetevrije bedrag tijdens een rentevaste periode, meestal alleen als de actuele marktrente lager is dan de afgesproken rente; ook wel vergoeding vervroegde aflossing genoemd. Wettelijk mag deze vergoeding niet hoger zijn dan het financiële nadeel van de geldverstrekker. In veel voorwaarden is aflossen zonder vergoeding mogelijk bij onder meer verkoop van de woning, overlijden of tot een jaarlijks percentage van de lening.",
-    "zie": [
-      "Rentevaste periode",
-      "Oversluiten",
-      "Rentemiddeling"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Borgtochtprovisie",
-    "afk": "",
-    "def": "Eenmalige vergoeding die de klant bij het afsluiten van een hypotheek met Nationale Hypotheek Garantie betaalt aan Stichting Waarborgfonds Eigen Woningen. De provisie wordt berekend als percentage van het leenbedrag; dat percentage wordt periodiek vastgesteld. Fiscaal geldt de borgtochtprovisie als aftrekbare financieringskosten.",
-    "zie": [
-      "Nationale Hypotheek Garantie",
-      "Financieringskosten",
-      "Kostengrens NHG"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bouwdepot",
-    "afk": "",
-    "def": "Deel van de hypotheek dat bij de geldverstrekker wordt gereserveerd voor nieuwbouw of verbouwing en dat pas wordt uitbetaald na indiening van facturen of termijnnota's. Over het nog niet opgenomen bedrag ontvangt de klant meestal een depotrente. Geldverstrekkers hanteren een maximale termijn waarbinnen het depot moet zijn opgenomen.",
-    "zie": [
-      "Bouwrente",
-      "Marktwaarde na verbouwing",
-      "Energiebesparende voorzieningen"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bouwkundige keuring",
-    "afk": "",
-    "def": "Onderzoek door een bouwkundige naar de staat van onderhoud en eventuele gebreken van een woning, vaak voorafgaand aan of als ontbindende voorwaarde bij de aankoop. De uitkomst kan aanleiding geven tot heronderhandeling of tot financiering van herstelkosten.",
-    "zie": [
-      "Ontbindende voorwaarden",
-      "Fundering",
-      "Taxatierapport"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Bouwrente",
-    "afk": "",
-    "def": "Rente over de lening of het bouwdepot die verschuldigd is tijdens de bouwperiode van een nieuwbouwwoning, vóór de oplevering. Bouwrente kan onder voorwaarden fiscaal aftrekbaar zijn en kan in sommige gevallen worden meegefinancierd.",
-    "zie": [
-      "Bouwdepot",
-      "Hypotheekrenteaftrek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Box 1",
-    "afk": "",
-    "def": "Onderdeel van de inkomstenbelasting voor inkomen uit werk en woning. Het eigenwoningforfait wordt hier bijgeteld en de rente en financieringskosten van de eigenwoningschuld worden hier afgetrokken.",
-    "zie": [
-      "Hypotheekrenteaftrek",
-      "Eigenwoningforfait",
-      "Eigenwoningschuld",
-      "Box 3"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Box 3",
-    "afk": "",
-    "def": "Onderdeel van de inkomstenbelasting voor inkomen uit sparen en beleggen, waarin vermogen en schulden worden belast op basis van een (forfaitair) rendement. Hypotheekschulden die geen eigenwoningschuld zijn, zoals een aflossingsvrije lening aangegaan na 2012 of een lening die niet voor de eigen woning is gebruikt, vallen als schuld in box 3. Ook een vordering uit een familiehypotheek valt bij de uitlener in box 3.",
-    "zie": [
-      "Box 1",
-      "Aflossingsvrije hypotheek",
-      "Familiehypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Dienstverleningsdocument",
-    "afk": "",
-    "def": "Document waarmee een financieel adviseur de klant vooraf informeert over de aard van de dienstverlening, de wijze van beloning en de kosten. Het verstrekken ervan volgt uit de informatieverplichtingen onder de Wet op het financieel toezicht.",
-    "zie": [
-      "Adviesrapport",
-      "Wet op het financieel toezicht",
-      "Zorgplicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Dubbele woonlasten",
-    "afk": "",
-    "def": "Situatie waarin een klant tijdelijk de lasten van twee woningen draagt, bijvoorbeeld omdat de oude woning nog niet is verkocht of de nieuwbouwwoning nog niet is opgeleverd. Geldverstrekkers toetsen of de klant deze lasten tijdelijk kan dragen; een overbruggingskrediet kan de periode overbruggen.",
-    "zie": [
-      "Overbruggingskrediet",
-      "Woonquote",
-      "Explain"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Eigenwoningforfait",
-    "afk": "",
-    "def": "Fiscale bijtelling in box 1 voor het bezit van een eigen woning, berekend als percentage van de WOZ-waarde. In 2025 bedroeg het forfait 0,35% van de WOZ-waarde voor woningen tussen € 75.000 en € 1.330.000; over het deel boven € 1.330.000 gold een hoger percentage van 2,35%. De percentages en grenzen worden jaarlijks vastgesteld.",
-    "zie": [
-      "WOZ-waarde",
-      "Box 1",
-      "Wet Hillen"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Eigenwoningreserve",
-    "afk": "",
-    "def": "Bedrag ter grootte van de fiscale overwaarde bij verkoop van een eigen woning: de verkoopprijs minus verkoopkosten minus de eigenwoningschuld. Dit bedrag wordt in mindering gebracht op de maximale nieuwe eigenwoningschuld, totdat het in een volgende eigen woning is geïnvesteerd. De eigenwoningreserve vervalt drie jaar na de verkoop.",
-    "zie": [
-      "Bijleenregeling",
-      "Overwaarde",
-      "Eigenwoningschuld"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Eigenwoningschuld",
-    "afk": "",
-    "def": "Fiscaal begrip voor de schuld die is aangegaan voor de verwerving, verbetering of het onderhoud van de eigen woning, verminderd met een eventuele eigenwoningreserve. Voor schulden aangegaan vanaf 2013 geldt bovendien de aflossingseis. Alleen over de eigenwoningschuld is de rente aftrekbaar in box 1, voor maximaal 30 jaar.",
-    "zie": [
-      "Hypotheekrenteaftrek",
-      "Aflossingseis",
-      "Eigenwoningreserve",
-      "Bestaande eigenwoningschuld"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Energiebesparende voorzieningen",
-    "afk": "",
-    "def": "Maatregelen die het energieverbruik van een woning verlagen, zoals isolatie, zonnepanelen, een warmtepomp of HR++-glas. Onder de Tijdelijke regeling hypothecair krediet mogen kosten van deze voorzieningen onder voorwaarden boven de normale leennormen worden gefinancierd; ook de NHG-kostengrens is hoger als de lening deze voorzieningen omvat.",
-    "zie": [
-      "Energielabel",
-      "Groene hypotheek",
-      "Kostengrens NHG",
-      "Loan-to-value"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Energielabel",
-    "afk": "",
-    "def": "Label dat de energiezuinigheid van een woning aangeeft, op een schaal van G (minst zuinig) tot A++++ (zuinigst). In de leennormen van de Tijdelijke regeling hypothecair krediet hangt de extra leenruimte voor energiezuinige woningen en energiebesparende voorzieningen mede af van het energielabel.",
-    "zie": [
-      "Energiebesparende voorzieningen",
-      "Groene hypotheek",
-      "Tijdelijke regeling hypothecair krediet"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Erfpacht",
-    "afk": "",
-    "def": "Zakelijk recht om de grond van een ander, vaak de gemeente, te gebruiken alsof men eigenaar is, meestal tegen betaling van een periodieke vergoeding (canon). De canon telt mee in de woonlasten bij de hypotheektoets en is als periodieke betaling fiscaal aftrekbaar als kosten van de eigen woning. Geldverstrekkers stellen voorwaarden aan de erfpachtvoorwaarden en de resterende looptijd.",
-    "zie": [
-      "Marktwaarde",
-      "Hypotheekrenteaftrek",
-      "Toetsinkomen"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "ESIS",
-    "afk": "ESIS",
-    "def": "European Standardised Information Sheet: een gestandaardiseerd Europees informatieblad dat de kredietgever bij een hypotheekaanbod verstrekt, voortvloeiend uit de Europese hypothecaire kredietrichtlijn. Het bevat onder meer leenbedrag, rente, looptijd, totale kosten en het jaarlijks kostenpercentage, zodat aanbiedingen vergelijkbaar zijn.",
-    "zie": [
-      "Offerte",
-      "Wet op het financieel toezicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Executieveiling",
-    "afk": "",
-    "def": "Openbare verkoop van een onderpand door de hypotheekhouder wanneer de schuldenaar zijn betalingsverplichtingen niet nakomt. De hypotheekhouder heeft hiertoe het recht van parate executie. Een opbrengst die lager is dan de schuld leidt tot een restschuld.",
-    "zie": [
-      "Parate executie",
-      "Restschuld",
-      "Executiewaarde"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Executiewaarde",
-    "afk": "",
-    "def": "Geschatte opbrengst van een woning bij een gedwongen verkoop, zoals een executieveiling; deze ligt doorgaans lager dan de marktwaarde. Vroeger werd de maximale hypotheek mede op de executiewaarde gebaseerd; tegenwoordig is de marktwaarde de maatstaf voor de leennormen.",
-    "zie": [
-      "Marktwaarde",
-      "Executieveiling",
-      "Taxatierapport"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Execution only",
-    "afk": "",
-    "def": "Afsluiten van een hypotheek zonder advies, waarbij de klant zelf het product kiest. Op grond van de Wft moet de aanbieder of bemiddelaar dan nagaan of de klant voldoende kennis en ervaring heeft om de risico's te overzien. De klant draagt zelf de verantwoordelijkheid voor de keuze.",
-    "zie": [
-      "Adviesrapport",
-      "Zorgplicht",
-      "Wet op het financieel toezicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Explain",
-    "afk": "",
-    "def": "Mogelijkheid in de Tijdelijke regeling hypothecair krediet om in individuele gevallen gemotiveerd af te wijken van de leennormen ('comply or explain'), bijvoorbeeld bij oversluiten zonder verhoging of tijdelijke dubbele lasten. De geldverstrekker moet de afwijking onderbouwen en vastleggen.",
-    "zie": [
-      "Tijdelijke regeling hypothecair krediet",
-      "Loan-to-income",
-      "Dubbele woonlasten"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Familiehypotheek",
-    "afk": "",
-    "def": "Lening voor de eigen woning die wordt verstrekt door familieleden, meestal ouders, in plaats van of naast een geldverstrekker. Voor renteaftrek bij de lener moet de lening onder meer aan de aflossingseis voldoen, schriftelijk zijn vastgelegd en een zakelijke rente kennen; de lener moet gegevens van de lening in de aangifte vermelden. Voor de uitlener valt de vordering in box 3.",
-    "zie": [
-      "Eigenwoningschuld",
-      "Aflossingseis",
-      "Box 3"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Financieringskosten",
-    "afk": "",
-    "def": "Kosten die worden gemaakt om de eigenwoningschuld af te sluiten, zoals advies- en bemiddelingskosten, taxatiekosten, notariskosten voor de hypotheekakte en borgtochtprovisie. Deze kosten zijn in het jaar van betaling aftrekbaar in box 1. Kosten koper, zoals overdrachtsbelasting, zijn niet aftrekbaar.",
-    "zie": [
-      "Hypotheekrenteaftrek",
-      "Borgtochtprovisie",
-      "Kosten koper"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Fundering",
-    "afk": "",
-    "def": "Constructie waarop een woning rust; in delen van Nederland bestaan oudere woningen met houten paalfunderingen die kunnen worden aangetast door paalrot of verzakking. Funderingsproblemen kunnen de marktwaarde sterk drukken en tot hoge herstelkosten leiden. Taxateurs en geldverstrekkers kunnen een funderingsonderzoek verlangen voordat zij financieren.",
-    "zie": [
-      "Taxatierapport",
-      "Bouwkundige keuring",
-      "Marktwaarde"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Gedragscode Hypothecaire Financieringen",
-    "afk": "GHF",
-    "def": "Zelfregulering van geldverstrekkers met normen voor verantwoorde hypotheekverstrekking. Sinds de invoering van de Tijdelijke regeling hypothecair krediet zijn de belangrijkste leennormen in wetgeving vastgelegd; de gedragscode bevat daarnaast aanvullende afspraken.",
-    "zie": [
-      "Tijdelijke regeling hypothecair krediet",
-      "Wet op het financieel toezicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Groene hypotheek",
-    "afk": "",
-    "def": "Verzamelnaam voor hypotheken of leningdelen met gunstiger voorwaarden, zoals een rentekorting, voor energiezuinige woningen of voor de financiering van energiebesparende voorzieningen. De invulling verschilt per geldverstrekker; het begrip is geen wettelijk afgebakende productcategorie.",
-    "zie": [
-      "Energiebesparende voorzieningen",
-      "Energielabel"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hybride hypotheek",
-    "afk": "",
-    "def": "Hypotheek die bestaat uit meerdere leningdelen met verschillende aflossingsvormen, bijvoorbeeld een annuïtair deel en een aflossingsvrij deel. Elk leningdeel heeft een eigen fiscale behandeling en eigen rentevoorwaarden.",
-    "zie": [
-      "Annuïteitenhypotheek",
-      "Aflossingsvrije hypotheek",
-      "Lineaire hypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheek verhogen",
-    "afk": "",
-    "def": "Het uitbreiden van een bestaande hypotheek, bijvoorbeeld voor een verbouwing, vaak bij dezelfde geldverstrekker en binnen het ingeschreven bedrag van een bankhypotheek. Voor het extra deel gelden de actuele leennormen. De rente op het extra deel is alleen aftrekbaar als het wordt besteed aan de eigen woning en voldoet aan de aflossingseis.",
-    "zie": [
-      "Bankhypotheek",
-      "Tweede hypotheek",
-      "Aflossingseis"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheekakte",
-    "afk": "",
-    "def": "Notariële akte waarin het recht van hypotheek wordt gevestigd en de voorwaarden van de zekerheid worden vastgelegd. Een hypotheek ontstaat door deze akte en de inschrijving ervan in de openbare registers (art. 3:260 BW).",
-    "zie": [
-      "Notaris",
-      "Recht van hypotheek",
-      "Hypotheekinschrijving"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheekgever",
-    "afk": "",
-    "def": "De eigenaar van het registergoed die een recht van hypotheek verleent aan de geldverstrekker, in de praktijk meestal de consument die de woning financiert.",
-    "zie": [
-      "Hypotheekhouder",
-      "Recht van hypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheekhouder",
-    "afk": "",
-    "def": "De partij aan wie het recht van hypotheek is verleend, in de praktijk de geldverstrekker; ook wel hypotheeknemer genoemd. De hypotheekhouder heeft voorrang bij verhaal op het onderpand en kan bij wanbetaling overgaan tot parate executie.",
-    "zie": [
-      "Hypotheekgever",
-      "Recht van hypotheek",
-      "Parate executie"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheekinschrijving",
-    "afk": "",
-    "def": "Inschrijving van de hypotheekakte in de openbare registers van het Kadaster, waardoor het recht van hypotheek ontstaat en kenbaar is voor derden. De volgorde van inschrijving bepaalt in beginsel de rangorde tussen meerdere hypotheekrechten op hetzelfde onderpand.",
-    "zie": [
-      "Kadaster",
-      "Hypotheekakte",
-      "Tweede hypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Hypotheekrenteaftrek",
-    "afk": "",
-    "def": "Fiscale aftrek in box 1 van de rente en financieringskosten van de eigenwoningschuld, gedurende maximaal 30 jaar. De aftrek vindt plaats tegen een gemaximeerd tarief; in 2025 bedroeg dat 37,48%. Voor leningen vanaf 2013 geldt de aflossingseis als voorwaarde.",
-    "zie": [
-      "Eigenwoningschuld",
-      "Aflossingseis",
-      "Eigenwoningforfait",
-      "Financieringskosten"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Inkomensbepaling Loondienst",
-    "afk": "IBL",
-    "def": "Methode om het toetsinkomen van werknemers vast te stellen op basis van gegevens uit de UWV-registratie over de afgelopen jaren, met behulp van een rekentool. Hierdoor kan ook bij flexibele of tijdelijke dienstverbanden een bestendig inkomen worden bepaald, zonder werkgeversverklaring.",
-    "zie": [
-      "Toetsinkomen",
-      "Loan-to-income"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Kadaster",
-    "afk": "",
-    "def": "Dienst voor het kadaster en de openbare registers, waarin onder meer eigendom van onroerende zaken en hypotheekrechten worden ingeschreven. De notaris laat de leveringsakte en de hypotheekakte bij het Kadaster inschrijven.",
-    "zie": [
-      "Hypotheekinschrijving",
-      "Notaris"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Kapitaalverzekering eigen woning",
-    "afk": "KEW",
-    "def": "Levensverzekering waarvan de uitkering bestemd is voor aflossing van de eigenwoningschuld, gebruikt bij spaar- en beleggingshypotheken. Onder voorwaarden, waaronder een minimale looptijd en een premiebandbreedte, is de uitkering tot een vrijgesteld bedrag onbelast. Alleen KEW's die vóór 1 januari 2013 zijn afgesloten, vallen onder het overgangsrecht.",
-    "zie": [
-      "Spaarhypotheek",
-      "Levenhypotheek",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Koopakte",
-    "afk": "",
-    "def": "Schriftelijke overeenkomst tussen koper en verkoper waarin de koop van de woning wordt vastgelegd, met onder meer koopprijs, leveringsdatum, waarborgsom en ontbindende voorwaarden. De eigendom gaat pas over bij de notariële leveringsakte en inschrijving in het Kadaster.",
-    "zie": [
-      "Ontbindende voorwaarden",
-      "Waarborgsom",
-      "Bedenktijd koper",
-      "Notaris"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Kosten koper",
-    "afk": "k.k.",
-    "def": "Kosten die bij aankoop van een bestaande woning voor rekening van de koper komen, zoals overdrachtsbelasting, notariskosten voor de levering en inschrijvingskosten van het Kadaster. Omdat de maximale lening in de regel 100% van de marktwaarde bedraagt, moeten deze kosten veelal uit eigen middelen worden betaald.",
-    "zie": [
-      "Overdrachtsbelasting",
-      "Loan-to-value",
-      "Financieringskosten"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Kostengrens NHG",
-    "afk": "",
-    "def": "Maximaal bedrag van de lening waarvoor Nationale Hypotheek Garantie kan worden verkregen, gekoppeld aan de gemiddelde woningprijs en jaarlijks vastgesteld. In 2025 bedroeg de kostengrens € 450.000, en € 477.000 bij financiering van energiebesparende voorzieningen.",
-    "zie": [
-      "Nationale Hypotheek Garantie",
-      "Borgtochtprovisie",
-      "Energiebesparende voorzieningen"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Leidraad",
-    "afk": "",
-    "def": "Publicatie van de AFM waarin zij uitlegt hoe zij open normen uit de Wft, zoals de zorgplicht, interpreteert en welk gedrag zij van financiële ondernemingen verwacht. Een leidraad is geen wet, maar geeft richting aan de praktijk van advies en dienstverlening.",
-    "zie": [
-      "Autoriteit Financiële Markten",
-      "Zorgplicht",
-      "Wet op het financieel toezicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Levenhypotheek",
-    "afk": "",
-    "def": "Hypotheek gekoppeld aan een levensverzekering waarin de premie naar keuze wordt gespaard en/of belegd, met het doel aan het einde van de looptijd de lening af te lossen. Vaak bevat de verzekering ook een overlijdensrisicodekking. Fiscale facilitering geldt alleen nog voor bestaande polissen onder overgangsrecht.",
-    "zie": [
-      "Kapitaalverzekering eigen woning",
-      "Beleggingshypotheek",
-      "Spaarhypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Lineaire hypotheek",
-    "afk": "",
-    "def": "Hypotheekvorm waarbij elke periode een vast bedrag wordt afgelost, zodat de schuld en daarmee de rentelast gelijkmatig dalen. De bruto maandlasten zijn in het begin hoger dan bij een annuïteitenhypotheek en nemen daarna af. Deze vorm voldoet bij een looptijd van maximaal 30 jaar aan de aflossingseis.",
-    "zie": [
-      "Annuïteitenhypotheek",
-      "Aflossingseis"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Loan-to-income",
-    "afk": "LTI",
-    "def": "Verhouding tussen de hypotheeklasten en het inkomen, die bepaalt hoeveel iemand maximaal kan lenen. De normen zijn gebaseerd op adviezen van het Nibud en worden jaarlijks vastgelegd in de Tijdelijke regeling hypothecair krediet.",
-    "zie": [
-      "Woonquote",
-      "Toetsinkomen",
-      "Toetsrente",
-      "Nibud"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Loan-to-value",
-    "afk": "LTV",
-    "def": "Verhouding tussen de hoogte van de hypotheek en de marktwaarde van de woning. Op grond van de Tijdelijke regeling hypothecair krediet bedraagt de maximale LTV sinds 2018 in beginsel 100%, met ruimte voor extra financiering van energiebesparende voorzieningen. Veel geldverstrekkers hanteren een lagere rente naarmate de LTV lager is.",
-    "zie": [
-      "Marktwaarde",
-      "Risico-opslag",
-      "Tijdelijke regeling hypothecair krediet"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Marktwaarde",
-    "afk": "",
-    "def": "De prijs die bij verkoop van de woning in de vrije markt naar verwachting kan worden behaald, zoals vastgesteld in een taxatierapport. De marktwaarde is de basis voor de maximale lening volgens de LTV-norm.",
-    "zie": [
-      "Taxatierapport",
-      "Loan-to-value",
-      "Executiewaarde",
-      "Marktwaarde na verbouwing"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Marktwaarde na verbouwing",
-    "afk": "",
-    "def": "De door een taxateur geschatte marktwaarde van de woning nadat geplande verbouwingen zijn uitgevoerd. Bij financiering van een verbouwing via een bouwdepot kan de geldverstrekker deze waarde als uitgangspunt voor de LTV nemen.",
-    "zie": [
-      "Marktwaarde",
-      "Bouwdepot",
-      "Taxatierapport"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Nationale Hypotheek Garantie",
-    "afk": "NHG",
-    "def": "Garantie van Stichting Waarborgfonds Eigen Woningen aan de geldverstrekker, waarmee de lening wordt geborgd. Als de woning door omstandigheden als werkloosheid, arbeidsongeschiktheid, scheiding of overlijden met verlies moet worden verkocht, kan de restschuld onder voorwaarden worden kwijtgescholden. Geldverstrekkers bieden voor leningen met NHG doorgaans een lagere rente.",
-    "zie": [
-      "Kostengrens NHG",
-      "Borgtochtprovisie",
-      "Restschuld"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Nibud",
-    "afk": "Nibud",
-    "def": "Nationaal Instituut voor Budgetvoorlichting, een onafhankelijke stichting die onder meer jaarlijks adviseert over verantwoorde woonlasten. Deze adviezen vormen de basis voor de woonquotes in de Tijdelijke regeling hypothecair krediet.",
-    "zie": [
-      "Woonquote",
-      "Loan-to-income",
-      "Tijdelijke regeling hypothecair krediet"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Notaris",
-    "afk": "",
-    "def": "Onafhankelijk juridisch ambtenaar die bij de aankoop van een woning de leveringsakte en de hypotheekakte opstelt en passeert, de betalingen via de derdengeldenrekening afwikkelt en de akten laat inschrijven bij het Kadaster. De notaris controleert onder meer eigendom, beslagen en bestaande hypotheken.",
-    "zie": [
-      "Hypotheekakte",
-      "Kadaster",
-      "Koopakte"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "NWWI",
-    "afk": "NWWI",
-    "def": "Nederlands Woningwaarde Instituut, een organisatie die taxatierapporten van woningen valideert op volledigheid en plausibiliteit voordat geldverstrekkers ze accepteren. Gevalideerde rapporten worden opgesteld door geregistreerde taxateurs.",
-    "zie": [
-      "Taxatierapport",
-      "Marktwaarde"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Offerte",
-    "afk": "",
-    "def": "Aanbod van een geldverstrekker voor een hypotheek met de belangrijkste voorwaarden, zoals rente, rentevaste periode, looptijd en zekerheden; ook wel hypotheekofferte. Na acceptatie en het aanleveren van de gevraagde stukken volgt een definitief, bindend aanbod. Bij het aanbod hoort het ESIS-informatieblad.",
-    "zie": [
-      "ESIS",
-      "Rentebedenktijd",
-      "Rentevaste periode"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Ontbindende voorwaarden",
-    "afk": "",
-    "def": "Voorwaarden in de koopakte waarmee de koper de koop kosteloos kan ontbinden als zich een bepaalde situatie voordoet, zoals het niet verkrijgen van financiering (financieringsvoorbehoud), NHG of een positieve bouwkundige keuring. Een ontbindende voorwaarde moet tijdig en volgens de afspraken in de akte worden ingeroepen.",
-    "zie": [
-      "Koopakte",
-      "Bouwkundige keuring",
-      "Bedenktijd koper"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Opstalverzekering",
-    "afk": "",
-    "def": "Verzekering tegen schade aan het woonhuis zelf, zoals door brand of storm. Geldverstrekkers stellen een opstalverzekering in de regel verplicht, omdat de woning het onderpand voor de lening vormt.",
-    "zie": [
-      "Recht van hypotheek",
-      "Marktwaarde"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Overbruggingskrediet",
-    "afk": "",
-    "def": "Tijdelijke lening waarmee de overwaarde van de huidige woning wordt vrijgemaakt voor de aankoop van een nieuwe woning, voordat de oude woning is verkocht. Het krediet wordt afgelost uit de verkoopopbrengst. Onder voorwaarden geldt het fiscaal als eigenwoningschuld.",
-    "zie": [
-      "Overwaarde",
-      "Dubbele woonlasten",
-      "Bijleenregeling"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Overdrachtsbelasting",
-    "afk": "",
-    "def": "Belasting bij verkrijging van een onroerende zaak, verschuldigd door de koper over de koopprijs of hogere waarde. Voor een woning die de koper zelf als hoofdverblijf gaat bewonen gold in 2025 een tarief van 2%; voor andere woningen en onroerende zaken gelden hogere tarieven. Jonge kopers kunnen onder voorwaarden gebruikmaken van de startersvrijstelling.",
-    "zie": [
-      "Startersvrijstelling overdrachtsbelasting",
-      "Kosten koper"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Overgangsrecht eigen woning",
-    "afk": "",
-    "def": "Fiscale regeling die ervoor zorgt dat eigenwoningschulden en kapitaalverzekeringen, spaarrekeningen en beleggingsrechten eigen woning die op 31 december 2012 al bestonden, onder de oude regels kunnen blijven vallen. Voor die schulden geldt de aflossingseis niet en de vrijstellingen voor KEW, SEW en BEW blijven onder voorwaarden behouden.",
-    "zie": [
-      "Bestaande eigenwoningschuld",
-      "Aflossingseis",
-      "Kapitaalverzekering eigen woning",
-      "Box 1"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Overlijdensrisicoverzekering",
-    "afk": "ORV",
-    "def": "Verzekering die een vast of dalend bedrag uitkeert bij overlijden van de verzekerde binnen de looptijd, vaak gebruikt om de hypotheek na overlijden van een partner betaalbaar te houden. Geldverstrekkers kunnen een ORV als voorwaarde stellen. Een kruislingse polis, waarbij de partner verzekeringnemer en begunstigde is, voorkomt dat over de uitkering erfbelasting verschuldigd is.",
-    "zie": [
-      "Nationale Hypotheek Garantie",
-      "Woonquote",
-      "Zorgplicht"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Oversluiten",
-    "afk": "",
-    "def": "Het vervangen van een bestaande hypotheek door een nieuwe, bij dezelfde of een andere geldverstrekker, bijvoorbeeld om een lagere rente of andere voorwaarden te krijgen. Daarbij kunnen boeterente, advies-, taxatie- en notariskosten ontstaan. Fiscaal kan bij oversluiten het overgangsrecht voor bestaande eigenwoningschuld onder voorwaarden behouden blijven.",
-    "zie": [
-      "Boeterente",
-      "Rentemiddeling",
-      "Bestaande eigenwoningschuld"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Overwaarde",
-    "afk": "",
-    "def": "Het positieve verschil tussen de marktwaarde van een woning en de openstaande hypotheekschuld. Bij verkoop vloeit de overwaarde vrij; fiscaal moet deze in beginsel op grond van de bijleenregeling in een volgende eigen woning worden ingebracht.",
-    "zie": [
-      "Bijleenregeling",
-      "Eigenwoningreserve",
-      "Overbruggingskrediet",
-      "Verzilverhypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Parate executie",
-    "afk": "",
-    "def": "Bevoegdheid van de hypotheekhouder om bij wanbetaling het onderpand zonder voorafgaande rechterlijke uitspraak in het openbaar te laten verkopen (art. 3:268 BW). Met toestemming van de voorzieningenrechter kan ook een onderhandse verkoop plaatsvinden.",
-    "zie": [
-      "Executieveiling",
-      "Hypotheekhouder",
-      "Recht van hypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Recht van hypotheek",
-    "afk": "",
-    "def": "Beperkt recht op een registergoed, zoals een woning, dat strekt tot zekerheid voor de terugbetaling van een geldvordering (art. 3:227 BW). De hypotheekhouder kan zich bij wanbetaling met voorrang boven andere schuldeisers verhalen op de opbrengst van het onderpand.",
-    "zie": [
-      "Hypotheekakte",
-      "Hypotheekgever",
-      "Hypotheekhouder",
-      "Parate executie"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Rentebedenktijd",
-    "afk": "",
-    "def": "Periode na het uitbrengen van een offerte waarin de klant van een eventuele rentedaling kan profiteren, terwijl een rentestijging niet wordt doorberekend. Of en hoe lang rentebedenktijd geldt, en onder welke voorwaarden, verschilt per geldverstrekker.",
-    "zie": [
-      "Offerte",
-      "Rentevaste periode"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Rentemiddeling",
-    "afk": "",
-    "def": "Regeling waarbij een klant tijdens een lopende rentevaste periode overstapt naar een nieuwe, lagere rente, waarbij de vergoeding voor vervroegde aflossing niet ineens wordt betaald maar in de nieuwe rente wordt verwerkt. De nieuwe rente is dan een gemiddelde van de oude rente, een opslag en de actuele rente.",
-    "zie": [
-      "Boeterente",
-      "Rentevaste periode",
-      "Oversluiten"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Rentevaste periode",
-    "afk": "",
-    "def": "Periode waarvoor de hypotheekrente contractueel vastligt, bijvoorbeeld 5, 10 of 20 jaar. Na afloop doet de geldverstrekker een nieuw renteaanbod. Bij een rentevaste periode korter dan tien jaar wordt de maximale lening berekend met de toetsrente in plaats van de werkelijke rente.",
-    "zie": [
-      "Toetsrente",
-      "Variabele rente",
-      "Boeterente"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Restschuld",
-    "afk": "",
-    "def": "Schuld die overblijft als de opbrengst van de woning bij verkoop lager is dan de openstaande hypotheek. Rente over een restschuld is niet aftrekbaar, behalve onder een tijdelijke regeling voor woningen verkocht tussen 29 oktober 2012 en 31 december 2017, waarvoor de rente maximaal 15 jaar aftrekbaar is. Bij NHG kan een restschuld onder voorwaarden worden kwijtgescholden.",
-    "zie": [
-      "Nationale Hypotheek Garantie",
-      "Executieveiling",
-      "Box 3"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Risico-opslag",
-    "afk": "",
-    "def": "Opslag op de hypotheekrente die afhankelijk is van het risico voor de geldverstrekker, vooral van de verhouding tussen lening en marktwaarde (LTV-klasse). Daalt de LTV door aflossing of waardestijging, dan kan de klant onder voorwaarden in een lagere risicoklasse en daarmee lagere rente terechtkomen.",
-    "zie": [
-      "Loan-to-value",
-      "Marktwaarde",
-      "Nationale Hypotheek Garantie"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Seniorenhypotheek",
-    "afk": "",
-    "def": "Verzamelnaam voor hypotheekoplossingen voor oudere huiseigenaren, bijvoorbeeld bij pensionering of om overwaarde te benutten. Bij de toetsing wordt rekening gehouden met de inkomensdaling na pensionering; voor AOW-gerechtigden gelden aparte woonquotes. Afwijken van de normen is onder voorwaarden mogelijk via explain.",
-    "zie": [
-      "Verzilverhypotheek",
-      "Overwaarde",
-      "Woonquote",
-      "Explain"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Spaarhypotheek",
-    "afk": "",
-    "def": "Hypotheek waarbij gedurende de looptijd niet wordt afgelost, maar premie wordt betaald voor een spaarverzekering (kapitaalverzekering eigen woning) waarvan de uitkering de lening aan het einde aflost. Het spaardeel krijgt doorgaans dezelfde rente als de hypotheek. Fiscale facilitering geldt alleen nog voor bestaande polissen onder overgangsrecht.",
-    "zie": [
-      "Kapitaalverzekering eigen woning",
-      "Bankspaarhypotheek",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Spaarrekening eigen woning",
-    "afk": "SEW",
-    "def": "Geblokkeerde spaarrekening die is gekoppeld aan een eigenwoningschuld en waarvan het tegoed wordt gebruikt om die schuld af te lossen; de basis van de bankspaarhypotheek. Onder voorwaarden is het tegoed tot een vrijgesteld bedrag onbelast. Alleen SEW's die vóór 1 januari 2013 zijn geopend, vallen onder het overgangsrecht.",
-    "zie": [
-      "Bankspaarhypotheek",
-      "Beleggingsrecht eigen woning",
-      "Overgangsrecht eigen woning"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Starterslening",
-    "afk": "",
-    "def": "Aanvullende lening voor starters op de woningmarkt, verstrekt via Stimuleringsfonds Volkshuisvesting Nederlandse gemeenten (SVn) door deelnemende gemeenten of provincies. De lening overbrugt het verschil tussen de koopprijs en de maximale reguliere hypotheek. De voorwaarden, zoals een periode zonder rente en aflossing gevolgd door een hertoetsing, verschillen per regeling.",
-    "zie": [
-      "Loan-to-income",
-      "Nationale Hypotheek Garantie"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Startersvrijstelling overdrachtsbelasting",
-    "afk": "",
-    "def": "Eenmalige vrijstelling van overdrachtsbelasting voor kopers van 18 tot 35 jaar die de woning zelf als hoofdverblijf gaan bewonen. De vrijstelling geldt alleen als de woningwaarde onder een jaarlijks vastgestelde grens blijft; in 2025 was dat € 510.000.",
-    "zie": [
-      "Overdrachtsbelasting",
-      "Kosten koper"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Studieschuld",
-    "afk": "",
-    "def": "Schuld bij DUO die bij de hypotheektoets wordt meegewogen en de maximale lening verlaagt, ook als deze niet bij BKR staat geregistreerd. De wijze van meewegen volgt uit de rekenregels in de Tijdelijke regeling hypothecair krediet; deze regels zijn de afgelopen jaren aangepast.",
-    "zie": [
-      "Loan-to-income",
-      "BKR-toetsing",
-      "Toetsinkomen"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Taxatierapport",
-    "afk": "",
-    "def": "Rapport van een geregistreerde taxateur waarin de marktwaarde van de woning wordt vastgesteld, met een beschrijving van de woning, de staat van onderhoud en vergelijkbare verkopen. Geldverstrekkers accepteren in de regel alleen gevalideerde rapporten, bijvoorbeeld via het NWWI, en stellen eisen aan de ouderdom ervan.",
-    "zie": [
-      "Marktwaarde",
-      "NWWI",
-      "Marktwaarde na verbouwing"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Tijdelijke regeling hypothecair krediet",
-    "afk": "Trhk",
-    "def": "Ministeriële regeling op basis van de Wft waarin sinds 2013 de leennormen voor hypotheken zijn vastgelegd: de maximale lening ten opzichte van het inkomen (LTI) en ten opzichte van de woningwaarde (LTV). De bijlagen met woonquotes worden jaarlijks geactualiseerd op basis van Nibud-advies.",
-    "zie": [
-      "Loan-to-income",
-      "Loan-to-value",
-      "Woonquote",
-      "Explain"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Toetsinkomen",
-    "afk": "",
-    "def": "Het inkomen dat de geldverstrekker gebruikt om de maximale lening te berekenen, vastgesteld volgens vaste regels, bijvoorbeeld via een werkgeversverklaring, Inkomensbepaling Loondienst of jaarcijfers bij ondernemers. Ook partnerinkomen en toekomstig pensioeninkomen kunnen een rol spelen.",
-    "zie": [
-      "Inkomensbepaling Loondienst",
-      "Woonquote",
-      "Loan-to-income"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Toetsrente",
-    "afk": "",
-    "def": "Rentepercentage waarmee de maximale lening wordt berekend. Bij een rentevaste periode van tien jaar of langer is dat de werkelijke rente; bij een kortere periode of variabele rente geldt de door de AFM periodiek gepubliceerde toetsrente, tenzij de werkelijke rente hoger is.",
-    "zie": [
-      "Rentevaste periode",
-      "Loan-to-income",
-      "Autoriteit Financiële Markten"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Tweede hypotheek",
-    "afk": "",
-    "def": "Aanvullende hypotheek op dezelfde woning, vaak bij een andere geldverstrekker, die in rang achter de eerste hypotheek staat. Omdat de tweede hypotheekhouder pas na de eerste wordt voldaan, is het risico voor die verstrekker groter. De term wordt in de praktijk ook gebruikt voor een verhoging van de bestaande hypotheek.",
-    "zie": [
-      "Hypotheek verhogen",
-      "Hypotheekinschrijving",
-      "Recht van hypotheek"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Variabele rente",
-    "afk": "",
-    "def": "Hypotheekrente die niet voor een langere periode vastligt en door de geldverstrekker periodiek, bijvoorbeeld maandelijks, kan worden aangepast aan de marktontwikkeling. Bij de toetsing van de maximale lening geldt voor variabele rente de toetsrente.",
-    "zie": [
-      "Rentevaste periode",
-      "Toetsrente"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Verhuisregeling",
-    "afk": "",
-    "def": "Regeling waarmee de klant bij verhuizing de rente en resterende rentevaste periode van de bestaande hypotheek kan meenemen naar de nieuwe woning; ook wel meeneemregeling. Voor een eventueel extra leenbedrag geldt meestal de actuele rente. De voorwaarden verschillen per geldverstrekker.",
-    "zie": [
-      "Rentevaste periode",
-      "Boeterente",
-      "Bijleenregeling"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Verzilverhypotheek",
-    "afk": "",
-    "def": "Hypotheek voor senioren waarmee overwaarde in de woning wordt vrijgemaakt zonder maandelijkse rente- en aflossingsverplichting; de rente wordt bijgeschreven op de schuld. De lening wordt afgelost bij verkoop van de woning of overlijden. De maximale lening hangt onder meer af van leeftijd en woningwaarde; bijgeschreven rente is fiscaal doorgaans niet aftrekbaar.",
-    "zie": [
-      "Seniorenhypotheek",
-      "Overwaarde",
-      "Box 3"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Waarborgsom",
-    "afk": "",
-    "def": "Bedrag, gebruikelijk 10% van de koopsom, dat de koper na het tekenen van de koopakte stort bij de notaris als zekerheid voor de nakoming van de koopovereenkomst. Bij levering wordt de waarborgsom verrekend met de koopsom. In plaats van een storting kan een bankgarantie worden afgegeven.",
-    "zie": [
-      "Bankgarantie",
-      "Koopakte",
-      "Notaris"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Wet Hillen",
-    "afk": "",
-    "def": "Regeling die voorkomt dat huiseigenaren met geen of een kleine eigenwoningschuld per saldo belasting betalen over de eigen woning: als het eigenwoningforfait hoger is dan de aftrekbare kosten, volgt een extra aftrek. Sinds 2019 wordt deze aftrek in 30 jaar afgebouwd met 3 1/3 procentpunt per jaar; in 2025 bedroeg de aftrek 76,667% van het verschil.",
-    "zie": [
-      "Eigenwoningforfait",
-      "Hypotheekrenteaftrek",
-      "Box 1"
-    ],
-    "volatiel": true
-  },
-  {
-    "term": "Wet op het financieel toezicht",
-    "afk": "Wft",
-    "def": "Wet die het toezicht op de financiële sector regelt, waaronder het gedragstoezicht door de AFM en het prudentieel toezicht door De Nederlandsche Bank. Voor hypotheekadvies bevat de Wft onder meer eisen aan vakbekwaamheid, informatieverstrekking, zorgplicht en het voorkomen van overkreditering.",
-    "zie": [
-      "Autoriteit Financiële Markten",
-      "Zorgplicht",
-      "Tijdelijke regeling hypothecair krediet"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Woonquote",
-    "afk": "",
-    "def": "Percentage van het bruto toetsinkomen dat maximaal aan hypotheeklasten mag worden besteed. De woonquote hangt af van de hoogte van het inkomen, de toetsrente en de leeftijd (wel of niet AOW-gerechtigd), en is vastgelegd in tabellen bij de Tijdelijke regeling hypothecair krediet.",
-    "zie": [
-      "Loan-to-income",
-      "Toetsinkomen",
-      "Nibud",
-      "Toetsrente"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "WOZ-waarde",
-    "afk": "",
-    "def": "Waarde van een onroerende zaak volgens de Wet waardering onroerende zaken, jaarlijks door de gemeente vastgesteld naar een peildatum van 1 januari van het voorafgaande jaar. De WOZ-waarde is onder meer de grondslag voor het eigenwoningforfait.",
-    "zie": [
-      "Eigenwoningforfait",
-      "Marktwaarde"
-    ],
-    "volatiel": false
-  },
-  {
-    "term": "Zorgplicht",
-    "afk": "",
-    "def": "Verplichting van een financieel adviseur en aanbieder onder de Wft om zorgvuldig te handelen in het belang van de klant. Bij hypotheken omvat dit onder meer het inventariseren van de financiële positie, kennis, ervaring, doelstellingen en risicobereidheid, het geven van passend advies en het voorkomen van overkreditering.",
-    "zie": [
-      "Wet op het financieel toezicht",
-      "Adviesrapport",
-      "Leidraad"
-    ],
-    "volatiel": false
-  }
+ {
+  "term": "Adviesrapport",
+  "afk": "",
+  "def": "Schriftelijke vastlegging van het hypotheekadvies, met daarin de inventarisatie van de klantsituatie, de geadviseerde oplossing en de onderbouwing waarom die passend is. Het adviesrapport maakt het advies controleerbaar voor de klant en voor de toezichthouder en is onderdeel van de dossiervorming die bij de zorgplicht hoort.",
+  "zie": [
+   "Zorgplicht",
+   "Dienstverleningsdocument",
+   "Execution only"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Aflossingseis",
+  "afk": "",
+  "def": "Fiscale voorwaarde dat een eigenwoningschuld die vanaf 1 januari 2013 is aangegaan, in maximaal 360 maanden (30 jaar) ten minste annuïtair volledig wordt afgelost; lineair aflossen voldoet ook. Alleen als aan deze eis wordt voldaan, is de rente aftrekbaar in box 1. Voor schulden die op 31 december 2012 al bestonden geldt overgangsrecht.",
+  "zie": [
+   "Annuïteitenhypotheek",
+   "Lineaire hypotheek",
+   "Eigenwoningschuld",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Aflossingsvrije hypotheek",
+  "afk": "",
+  "def": "Hypotheek of leningdeel waarop gedurende de looptijd niet wordt afgelost; aan het einde van de looptijd staat de volledige schuld nog open. Voor leningen aangegaan vanaf 2013 is de rente niet aftrekbaar en valt de schuld in box 3, tenzij overgangsrecht van toepassing is. Op grond van de Tijdelijke regeling hypothecair krediet mag het aflossingsvrije deel niet meer bedragen dan 50% van de marktwaarde van de woning.",
+  "zie": [
+   "Overgangsrecht eigen woning",
+   "Box 3",
+   "Tijdelijke regeling hypothecair krediet"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Annuïteitenhypotheek",
+  "afk": "",
+  "def": "Hypotheekvorm waarbij de klant periodiek een vast bedrag aan rente en aflossing samen betaalt, zolang de rente gelijk blijft. In het begin bestaat het bedrag vooral uit rente en later steeds meer uit aflossing, waardoor de netto maandlast door afnemende renteaftrek stijgt. Bij een looptijd van maximaal 30 jaar voldoet deze vorm aan de fiscale aflossingseis.",
+  "zie": [
+   "Aflossingseis",
+   "Lineaire hypotheek",
+   "Hypotheekrenteaftrek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Autoriteit Financiële Markten",
+  "afk": "AFM",
+  "def": "Toezichthouder op het gedrag van financiële ondernemingen in Nederland, waaronder hypotheekaanbieders en -adviseurs. De AFM houdt toezicht op naleving van de Wet op het financieel toezicht, zoals zorgplicht, informatieverstrekking en vakbekwaamheid, en publiceert de toetsrente die bij korte rentevaste perioden wordt gebruikt.",
+  "zie": [
+   "Wet op het financieel toezicht",
+   "Leidraad",
+   "Toetsrente"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bankgarantie",
+  "afk": "",
+  "def": "Schriftelijke verklaring van een bank dat zij een bepaald bedrag aan de verkoper betaalt als de koper zijn verplichtingen uit de koopakte niet nakomt. Een bankgarantie wordt vaak gebruikt in plaats van het storten van een waarborgsom; de bank brengt hiervoor kosten in rekening.",
+  "zie": [
+   "Waarborgsom",
+   "Koopakte"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bankhypotheek",
+  "afk": "",
+  "def": "Recht van hypotheek dat niet alleen dient tot zekerheid van een specifieke lening, maar van alle bestaande en toekomstige schulden van de hypotheekgever aan de geldverstrekker. Vaak wordt een hoger bedrag ingeschreven dan de aanvankelijke lening, zodat later binnen dat bedrag kan worden verhoogd zonder nieuwe hypotheekakte.",
+  "zie": [
+   "Recht van hypotheek",
+   "Hypotheekinschrijving",
+   "Hypotheek verhogen"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bankspaarhypotheek",
+  "afk": "",
+  "def": "Hypotheek waarbij gedurende de looptijd niet wordt afgelost, maar wordt ingelegd op een geblokkeerde bankspaarrekening (spaarrekening eigen woning) die aan het einde van de looptijd wordt gebruikt om de lening af te lossen. Over het spaartegoed wordt doorgaans dezelfde rente vergoed als over de lening. Nieuwe bankspaarhypotheken zijn sinds 2013 fiscaal niet meer gefaciliteerd; bestaande vallen onder overgangsrecht.",
+  "zie": [
+   "Spaarrekening eigen woning",
+   "Spaarhypotheek",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bedenktijd koper",
+  "afk": "",
+  "def": "Wettelijke bedenktijd van drie dagen voor een particuliere koper van een woning, die ingaat nadat de koper de getekende koopakte (of een kopie) heeft ontvangen (art. 7:2 BW). Binnen deze termijn kan de koper zonder opgaaf van redenen de koop ontbinden. De koop van een woning door een consument moet schriftelijk worden aangegaan.",
+  "zie": [
+   "Koopakte",
+   "Ontbindende voorwaarden"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Beleggingshypotheek",
+  "afk": "",
+  "def": "Hypotheek waarbij niet tussentijds wordt afgelost, maar periodiek wordt ingelegd in een beleggingsrekening of beleggingsverzekering die aan het einde van de looptijd de lening (gedeeltelijk) moet aflossen. De hoogte van het eindkapitaal is onzeker en afhankelijk van beleggingsresultaten. Voor fiscale facilitering geldt sinds 2013 alleen nog overgangsrecht voor bestaande producten.",
+  "zie": [
+   "Beleggingsrecht eigen woning",
+   "Levenhypotheek",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Beleggingsrecht eigen woning",
+  "afk": "BEW",
+  "def": "Geblokkeerde beleggingsrekening die is gekoppeld aan een eigenwoningschuld en waarvan de waarde wordt gebruikt om die schuld af te lossen. Onder voorwaarden, waaronder een minimale looptijd en premiebandbreedte, is de opbrengst tot een vrijgesteld bedrag onbelast. Alleen BEW's die vóór 1 januari 2013 zijn afgesloten, vallen onder het fiscale overgangsrecht.",
+  "zie": [
+   "Beleggingshypotheek",
+   "Overgangsrecht eigen woning",
+   "Spaarrekening eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bestaande eigenwoningschuld",
+  "afk": "",
+  "def": "Eigenwoningschuld die op 31 december 2012 al bestond en daardoor onder het fiscale overgangsrecht valt; ook wel 'oude eigenwoningschuld' genoemd. Voor dit deel geldt de aflossingseis niet, zodat de rente in box 1 aftrekbaar blijft, ook als niet wordt afgelost, binnen de maximale aftrekperiode van 30 jaar. De status kan bij verhuizing onder voorwaarden worden meegenomen.",
+  "zie": [
+   "Overgangsrecht eigen woning",
+   "Eigenwoningschuld",
+   "Aflossingseis",
+   "Box 1"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bijleenregeling",
+  "afk": "",
+  "def": "Fiscale regeling die bepaalt dat de overwaarde die bij verkoop van een eigen woning vrijkomt, in beginsel moet worden ingebracht in de volgende eigen woning. Wie dat niet doet en toch meer leent, heeft over het deel van de lening ter hoogte van de eigenwoningreserve geen recht op renteaftrek in box 1. De regeling geldt sinds 2004.",
+  "zie": [
+   "Eigenwoningreserve",
+   "Overwaarde",
+   "Eigenwoningschuld"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "BKR-toetsing",
+  "afk": "BKR",
+  "def": "Raadpleging door de geldverstrekker van het Centraal Krediet Informatiesysteem van Stichting Bureau Krediet Registratie, waarin kredieten en eventuele betalingsachterstanden van consumenten zijn geregistreerd. Lopende kredieten verlagen de maximale hypotheek; een achterstandscodering kan leiden tot afwijzing van de aanvraag.",
+  "zie": [
+   "Toetsinkomen",
+   "Loan-to-income"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Boeterente",
+  "afk": "",
+  "def": "Vergoeding die een klant verschuldigd kan zijn bij vervroegde aflossing boven het boetevrije bedrag tijdens een rentevaste periode, meestal alleen als de actuele marktrente lager is dan de afgesproken rente; ook wel vergoeding vervroegde aflossing genoemd. Wettelijk mag deze vergoeding niet hoger zijn dan het financiële nadeel van de geldverstrekker. In veel voorwaarden is aflossen zonder vergoeding mogelijk bij onder meer verkoop van de woning, overlijden of tot een jaarlijks percentage van de lening.",
+  "zie": [
+   "Rentevaste periode",
+   "Oversluiten",
+   "Rentemiddeling"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Borgtochtprovisie",
+  "afk": "",
+  "def": "Eenmalige vergoeding die de klant bij het afsluiten van een hypotheek met Nationale Hypotheek Garantie betaalt aan Stichting Waarborgfonds Eigen Woningen. De provisie wordt berekend als percentage van het leenbedrag; dat percentage wordt periodiek vastgesteld. Fiscaal geldt de borgtochtprovisie als aftrekbare financieringskosten.",
+  "zie": [
+   "Nationale Hypotheek Garantie",
+   "Financieringskosten",
+   "Kostengrens NHG"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bouwdepot",
+  "afk": "",
+  "def": "Deel van de hypotheek dat bij de geldverstrekker wordt gereserveerd voor nieuwbouw of verbouwing en dat pas wordt uitbetaald na indiening van facturen of termijnnota's. Over het nog niet opgenomen bedrag ontvangt de klant meestal een depotrente. Geldverstrekkers hanteren een maximale termijn waarbinnen het depot moet zijn opgenomen.",
+  "zie": [
+   "Bouwrente",
+   "Marktwaarde na verbouwing",
+   "Energiebesparende voorzieningen"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bouwkundige keuring",
+  "afk": "",
+  "def": "Onderzoek door een bouwkundige naar de staat van onderhoud en eventuele gebreken van een woning, vaak voorafgaand aan of als ontbindende voorwaarde bij de aankoop. De uitkomst kan aanleiding geven tot heronderhandeling of tot financiering van herstelkosten.",
+  "zie": [
+   "Ontbindende voorwaarden",
+   "Fundering",
+   "Taxatierapport"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Bouwrente",
+  "afk": "",
+  "def": "Rente over de lening of het bouwdepot die verschuldigd is tijdens de bouwperiode van een nieuwbouwwoning, vóór de oplevering. Bouwrente kan onder voorwaarden fiscaal aftrekbaar zijn en kan in sommige gevallen worden meegefinancierd.",
+  "zie": [
+   "Bouwdepot",
+   "Hypotheekrenteaftrek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Box 1",
+  "afk": "",
+  "def": "Onderdeel van de inkomstenbelasting voor inkomen uit werk en woning. Het eigenwoningforfait wordt hier bijgeteld en de rente en financieringskosten van de eigenwoningschuld worden hier afgetrokken.",
+  "zie": [
+   "Hypotheekrenteaftrek",
+   "Eigenwoningforfait",
+   "Eigenwoningschuld",
+   "Box 3"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Box 3",
+  "afk": "",
+  "def": "Onderdeel van de inkomstenbelasting voor inkomen uit sparen en beleggen, waarin vermogen en schulden worden belast op basis van een (forfaitair) rendement. Hypotheekschulden die geen eigenwoningschuld zijn, zoals een aflossingsvrije lening aangegaan na 2012 of een lening die niet voor de eigen woning is gebruikt, vallen als schuld in box 3. Ook een vordering uit een familiehypotheek valt bij de uitlener in box 3.",
+  "zie": [
+   "Box 1",
+   "Aflossingsvrije hypotheek",
+   "Familiehypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Dienstverleningsdocument",
+  "afk": "",
+  "def": "Document waarmee een financieel adviseur de klant vooraf informeert over de aard van de dienstverlening, de wijze van beloning en de kosten. Het verstrekken ervan volgt uit de informatieverplichtingen onder de Wet op het financieel toezicht.",
+  "zie": [
+   "Adviesrapport",
+   "Wet op het financieel toezicht",
+   "Zorgplicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Dubbele woonlasten",
+  "afk": "",
+  "def": "Situatie waarin een klant tijdelijk de lasten van twee woningen draagt, bijvoorbeeld omdat de oude woning nog niet is verkocht of de nieuwbouwwoning nog niet is opgeleverd. Geldverstrekkers toetsen of de klant deze lasten tijdelijk kan dragen; een overbruggingskrediet kan de periode overbruggen.",
+  "zie": [
+   "Overbruggingskrediet",
+   "Woonquote",
+   "Explain"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Eigenwoningforfait",
+  "afk": "",
+  "def": "Fiscale bijtelling in box 1 voor het bezit van een eigen woning, berekend als percentage van de WOZ-waarde. In 2026 bedraagt het forfait 0,35% van de WOZ-waarde voor woningen van € 75.000 tot € 1.350.000; boven € 1.350.000 is het € 4.725 plus 2,35% van het deel boven € 1.350.000 (villataks). De percentages en grenzen worden jaarlijks vastgesteld.",
+  "zie": [
+   "WOZ-waarde",
+   "Box 1",
+   "Wet Hillen"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Eigenwoningreserve",
+  "afk": "",
+  "def": "Bedrag ter grootte van de fiscale overwaarde bij verkoop van een eigen woning: de verkoopprijs minus verkoopkosten minus de eigenwoningschuld. Dit bedrag wordt in mindering gebracht op de maximale nieuwe eigenwoningschuld, totdat het in een volgende eigen woning is geïnvesteerd. De eigenwoningreserve vervalt drie jaar na de verkoop.",
+  "zie": [
+   "Bijleenregeling",
+   "Overwaarde",
+   "Eigenwoningschuld"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Eigenwoningschuld",
+  "afk": "",
+  "def": "Fiscaal begrip voor de schuld die is aangegaan voor de verwerving, verbetering of het onderhoud van de eigen woning, verminderd met een eventuele eigenwoningreserve. Voor schulden aangegaan vanaf 2013 geldt bovendien de aflossingseis. Alleen over de eigenwoningschuld is de rente aftrekbaar in box 1, voor maximaal 30 jaar.",
+  "zie": [
+   "Hypotheekrenteaftrek",
+   "Aflossingseis",
+   "Eigenwoningreserve",
+   "Bestaande eigenwoningschuld"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Energiebesparende voorzieningen",
+  "afk": "",
+  "def": "Maatregelen die het energieverbruik van een woning verlagen, zoals isolatie, zonnepanelen, een warmtepomp of HR++-glas. Onder de Tijdelijke regeling hypothecair krediet mogen kosten van deze voorzieningen onder voorwaarden boven de normale leennormen worden gefinancierd; ook de NHG-kostengrens is hoger als de lening deze voorzieningen omvat.",
+  "zie": [
+   "Energielabel",
+   "Groene hypotheek",
+   "Kostengrens NHG",
+   "Loan-to-value"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Energielabel",
+  "afk": "",
+  "def": "Label dat de energiezuinigheid van een woning aangeeft, op een schaal van G (minst zuinig) tot A++++ (zuinigst). In de leennormen van de Tijdelijke regeling hypothecair krediet hangt de extra leenruimte voor energiezuinige woningen en energiebesparende voorzieningen mede af van het energielabel.",
+  "zie": [
+   "Energiebesparende voorzieningen",
+   "Groene hypotheek",
+   "Tijdelijke regeling hypothecair krediet"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Erfpacht",
+  "afk": "",
+  "def": "Zakelijk recht om de grond van een ander, vaak de gemeente, te gebruiken alsof men eigenaar is, meestal tegen betaling van een periodieke vergoeding (canon). De canon telt mee in de woonlasten bij de hypotheektoets en is als periodieke betaling fiscaal aftrekbaar als kosten van de eigen woning. Geldverstrekkers stellen voorwaarden aan de erfpachtvoorwaarden en de resterende looptijd.",
+  "zie": [
+   "Marktwaarde",
+   "Hypotheekrenteaftrek",
+   "Toetsinkomen"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "ESIS",
+  "afk": "ESIS",
+  "def": "European Standardised Information Sheet: een gestandaardiseerd Europees informatieblad dat de kredietgever bij een hypotheekaanbod verstrekt, voortvloeiend uit de Europese hypothecaire kredietrichtlijn. Het bevat onder meer leenbedrag, rente, looptijd, totale kosten en het jaarlijks kostenpercentage, zodat aanbiedingen vergelijkbaar zijn.",
+  "zie": [
+   "Offerte",
+   "Wet op het financieel toezicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Executieveiling",
+  "afk": "",
+  "def": "Openbare verkoop van een onderpand door de hypotheekhouder wanneer de schuldenaar zijn betalingsverplichtingen niet nakomt. De hypotheekhouder heeft hiertoe het recht van parate executie. Een opbrengst die lager is dan de schuld leidt tot een restschuld.",
+  "zie": [
+   "Parate executie",
+   "Restschuld",
+   "Executiewaarde"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Executiewaarde",
+  "afk": "",
+  "def": "Geschatte opbrengst van een woning bij een gedwongen verkoop, zoals een executieveiling; deze ligt doorgaans lager dan de marktwaarde. Vroeger werd de maximale hypotheek mede op de executiewaarde gebaseerd; tegenwoordig is de marktwaarde de maatstaf voor de leennormen.",
+  "zie": [
+   "Marktwaarde",
+   "Executieveiling",
+   "Taxatierapport"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Execution only",
+  "afk": "",
+  "def": "Afsluiten van een hypotheek zonder advies, waarbij de klant zelf het product kiest. Op grond van de Wft moet de aanbieder of bemiddelaar dan nagaan of de klant voldoende kennis en ervaring heeft om de risico's te overzien. De klant draagt zelf de verantwoordelijkheid voor de keuze.",
+  "zie": [
+   "Adviesrapport",
+   "Zorgplicht",
+   "Wet op het financieel toezicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Explain",
+  "afk": "",
+  "def": "Mogelijkheid in de Tijdelijke regeling hypothecair krediet om in individuele gevallen gemotiveerd af te wijken van de leennormen ('comply or explain'), bijvoorbeeld bij oversluiten zonder verhoging of tijdelijke dubbele lasten. De geldverstrekker moet de afwijking onderbouwen en vastleggen.",
+  "zie": [
+   "Tijdelijke regeling hypothecair krediet",
+   "Loan-to-income",
+   "Dubbele woonlasten"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Familiehypotheek",
+  "afk": "",
+  "def": "Lening voor de eigen woning die wordt verstrekt door familieleden, meestal ouders, in plaats van of naast een geldverstrekker. Voor renteaftrek bij de lener moet de lening onder meer aan de aflossingseis voldoen, schriftelijk zijn vastgelegd en een zakelijke rente kennen; de lener moet gegevens van de lening in de aangifte vermelden. Voor de uitlener valt de vordering in box 3.",
+  "zie": [
+   "Eigenwoningschuld",
+   "Aflossingseis",
+   "Box 3"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Financieringskosten",
+  "afk": "",
+  "def": "Kosten die worden gemaakt om de eigenwoningschuld af te sluiten, zoals advies- en bemiddelingskosten, taxatiekosten, notariskosten voor de hypotheekakte en borgtochtprovisie. Deze kosten zijn in het jaar van betaling aftrekbaar in box 1. Kosten koper, zoals overdrachtsbelasting, zijn niet aftrekbaar.",
+  "zie": [
+   "Hypotheekrenteaftrek",
+   "Borgtochtprovisie",
+   "Kosten koper"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Fundering",
+  "afk": "",
+  "def": "Constructie waarop een woning rust; in delen van Nederland bestaan oudere woningen met houten paalfunderingen die kunnen worden aangetast door paalrot of verzakking. Funderingsproblemen kunnen de marktwaarde sterk drukken en tot hoge herstelkosten leiden. Taxateurs en geldverstrekkers kunnen een funderingsonderzoek verlangen voordat zij financieren.",
+  "zie": [
+   "Taxatierapport",
+   "Bouwkundige keuring",
+   "Marktwaarde"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Gedragscode Hypothecaire Financieringen",
+  "afk": "GHF",
+  "def": "Zelfregulering van geldverstrekkers met normen voor verantwoorde hypotheekverstrekking. Sinds de invoering van de Tijdelijke regeling hypothecair krediet zijn de belangrijkste leennormen in wetgeving vastgelegd; de gedragscode bevat daarnaast aanvullende afspraken.",
+  "zie": [
+   "Tijdelijke regeling hypothecair krediet",
+   "Wet op het financieel toezicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Groene hypotheek",
+  "afk": "",
+  "def": "Verzamelnaam voor hypotheken of leningdelen met gunstiger voorwaarden, zoals een rentekorting, voor energiezuinige woningen of voor de financiering van energiebesparende voorzieningen. De invulling verschilt per geldverstrekker; het begrip is geen wettelijk afgebakende productcategorie.",
+  "zie": [
+   "Energiebesparende voorzieningen",
+   "Energielabel"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hybride hypotheek",
+  "afk": "",
+  "def": "Hypotheek die bestaat uit meerdere leningdelen met verschillende aflossingsvormen, bijvoorbeeld een annuïtair deel en een aflossingsvrij deel. Elk leningdeel heeft een eigen fiscale behandeling en eigen rentevoorwaarden.",
+  "zie": [
+   "Annuïteitenhypotheek",
+   "Aflossingsvrije hypotheek",
+   "Lineaire hypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheek verhogen",
+  "afk": "",
+  "def": "Het uitbreiden van een bestaande hypotheek, bijvoorbeeld voor een verbouwing, vaak bij dezelfde geldverstrekker en binnen het ingeschreven bedrag van een bankhypotheek. Voor het extra deel gelden de actuele leennormen. De rente op het extra deel is alleen aftrekbaar als het wordt besteed aan de eigen woning en voldoet aan de aflossingseis.",
+  "zie": [
+   "Bankhypotheek",
+   "Tweede hypotheek",
+   "Aflossingseis"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheekakte",
+  "afk": "",
+  "def": "Notariële akte waarin het recht van hypotheek wordt gevestigd en de voorwaarden van de zekerheid worden vastgelegd. Een hypotheek ontstaat door deze akte en de inschrijving ervan in de openbare registers (art. 3:260 BW).",
+  "zie": [
+   "Notaris",
+   "Recht van hypotheek",
+   "Hypotheekinschrijving"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheekgever",
+  "afk": "",
+  "def": "De eigenaar van het registergoed die een recht van hypotheek verleent aan de geldverstrekker, in de praktijk meestal de consument die de woning financiert.",
+  "zie": [
+   "Hypotheekhouder",
+   "Recht van hypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheekhouder",
+  "afk": "",
+  "def": "De partij aan wie het recht van hypotheek is verleend, in de praktijk de geldverstrekker; ook wel hypotheeknemer genoemd. De hypotheekhouder heeft voorrang bij verhaal op het onderpand en kan bij wanbetaling overgaan tot parate executie.",
+  "zie": [
+   "Hypotheekgever",
+   "Recht van hypotheek",
+   "Parate executie"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheekinschrijving",
+  "afk": "",
+  "def": "Inschrijving van de hypotheekakte in de openbare registers van het Kadaster, waardoor het recht van hypotheek ontstaat en kenbaar is voor derden. De volgorde van inschrijving bepaalt in beginsel de rangorde tussen meerdere hypotheekrechten op hetzelfde onderpand.",
+  "zie": [
+   "Kadaster",
+   "Hypotheekakte",
+   "Tweede hypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Hypotheekrenteaftrek",
+  "afk": "",
+  "def": "Fiscale aftrek in box 1 van de rente en financieringskosten van de eigenwoningschuld, gedurende maximaal 30 jaar. De aftrek vindt plaats tegen een gemaximeerd tarief; in 2026 bedraagt dat 37,56% (gelijk aan het tarief van de eerste/tweede schijf). Voor leningen vanaf 2013 geldt de aflossingseis als voorwaarde.",
+  "zie": [
+   "Eigenwoningschuld",
+   "Aflossingseis",
+   "Eigenwoningforfait",
+   "Financieringskosten"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Inkomensbepaling Loondienst",
+  "afk": "IBL",
+  "def": "Methode om het toetsinkomen van werknemers vast te stellen op basis van gegevens uit de UWV-registratie over de afgelopen jaren, met behulp van een rekentool. Hierdoor kan ook bij flexibele of tijdelijke dienstverbanden een bestendig inkomen worden bepaald, zonder werkgeversverklaring.",
+  "zie": [
+   "Toetsinkomen",
+   "Loan-to-income"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Kadaster",
+  "afk": "",
+  "def": "Dienst voor het kadaster en de openbare registers, waarin onder meer eigendom van onroerende zaken en hypotheekrechten worden ingeschreven. De notaris laat de leveringsakte en de hypotheekakte bij het Kadaster inschrijven.",
+  "zie": [
+   "Hypotheekinschrijving",
+   "Notaris"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Kapitaalverzekering eigen woning",
+  "afk": "KEW",
+  "def": "Levensverzekering waarvan de uitkering bestemd is voor aflossing van de eigenwoningschuld, gebruikt bij spaar- en beleggingshypotheken. Onder voorwaarden, waaronder een minimale looptijd en een premiebandbreedte, is de uitkering tot een vrijgesteld bedrag onbelast. Alleen KEW's die vóór 1 januari 2013 zijn afgesloten, vallen onder het overgangsrecht.",
+  "zie": [
+   "Spaarhypotheek",
+   "Levenhypotheek",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Koopakte",
+  "afk": "",
+  "def": "Schriftelijke overeenkomst tussen koper en verkoper waarin de koop van de woning wordt vastgelegd, met onder meer koopprijs, leveringsdatum, waarborgsom en ontbindende voorwaarden. De eigendom gaat pas over bij de notariële leveringsakte en inschrijving in het Kadaster.",
+  "zie": [
+   "Ontbindende voorwaarden",
+   "Waarborgsom",
+   "Bedenktijd koper",
+   "Notaris"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Kosten koper",
+  "afk": "k.k.",
+  "def": "Kosten die bij aankoop van een bestaande woning voor rekening van de koper komen, zoals overdrachtsbelasting, notariskosten voor de levering en inschrijvingskosten van het Kadaster. Omdat de maximale lening in de regel 100% van de marktwaarde bedraagt, moeten deze kosten veelal uit eigen middelen worden betaald.",
+  "zie": [
+   "Overdrachtsbelasting",
+   "Loan-to-value",
+   "Financieringskosten"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Kostengrens NHG",
+  "afk": "",
+  "def": "Maximaal bedrag van de lening waarvoor Nationale Hypotheek Garantie kan worden verkregen, gekoppeld aan de gemiddelde woningprijs en jaarlijks vastgesteld. In 2026 bedraagt de kostengrens € 470.000, en € 498.200 bij financiering van energiebesparende voorzieningen (6% hoger). De borgtochtprovisie blijft in 2026 0,4%.",
+  "zie": [
+   "Nationale Hypotheek Garantie",
+   "Borgtochtprovisie",
+   "Energiebesparende voorzieningen"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Leidraad",
+  "afk": "",
+  "def": "Publicatie van de AFM waarin zij uitlegt hoe zij open normen uit de Wft, zoals de zorgplicht, interpreteert en welk gedrag zij van financiële ondernemingen verwacht. Een leidraad is geen wet, maar geeft richting aan de praktijk van advies en dienstverlening.",
+  "zie": [
+   "Autoriteit Financiële Markten",
+   "Zorgplicht",
+   "Wet op het financieel toezicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Levenhypotheek",
+  "afk": "",
+  "def": "Hypotheek gekoppeld aan een levensverzekering waarin de premie naar keuze wordt gespaard en/of belegd, met het doel aan het einde van de looptijd de lening af te lossen. Vaak bevat de verzekering ook een overlijdensrisicodekking. Fiscale facilitering geldt alleen nog voor bestaande polissen onder overgangsrecht.",
+  "zie": [
+   "Kapitaalverzekering eigen woning",
+   "Beleggingshypotheek",
+   "Spaarhypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Lineaire hypotheek",
+  "afk": "",
+  "def": "Hypotheekvorm waarbij elke periode een vast bedrag wordt afgelost, zodat de schuld en daarmee de rentelast gelijkmatig dalen. De bruto maandlasten zijn in het begin hoger dan bij een annuïteitenhypotheek en nemen daarna af. Deze vorm voldoet bij een looptijd van maximaal 30 jaar aan de aflossingseis.",
+  "zie": [
+   "Annuïteitenhypotheek",
+   "Aflossingseis"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Loan-to-income",
+  "afk": "LTI",
+  "def": "Verhouding tussen de hypotheeklasten en het inkomen, die bepaalt hoeveel iemand maximaal kan lenen. De normen zijn gebaseerd op adviezen van het Nibud en worden jaarlijks vastgelegd in de Tijdelijke regeling hypothecair krediet.",
+  "zie": [
+   "Woonquote",
+   "Toetsinkomen",
+   "Toetsrente",
+   "Nibud"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Loan-to-value",
+  "afk": "LTV",
+  "def": "Verhouding tussen de hoogte van de hypotheek en de marktwaarde van de woning. Op grond van de Tijdelijke regeling hypothecair krediet bedraagt de maximale LTV sinds 2018 in beginsel 100%, met ruimte voor extra financiering van energiebesparende voorzieningen. Veel geldverstrekkers hanteren een lagere rente naarmate de LTV lager is.",
+  "zie": [
+   "Marktwaarde",
+   "Risico-opslag",
+   "Tijdelijke regeling hypothecair krediet"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Marktwaarde",
+  "afk": "",
+  "def": "De prijs die bij verkoop van de woning in de vrije markt naar verwachting kan worden behaald, zoals vastgesteld in een taxatierapport. De marktwaarde is de basis voor de maximale lening volgens de LTV-norm.",
+  "zie": [
+   "Taxatierapport",
+   "Loan-to-value",
+   "Executiewaarde",
+   "Marktwaarde na verbouwing"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Marktwaarde na verbouwing",
+  "afk": "",
+  "def": "De door een taxateur geschatte marktwaarde van de woning nadat geplande verbouwingen zijn uitgevoerd. Bij financiering van een verbouwing via een bouwdepot kan de geldverstrekker deze waarde als uitgangspunt voor de LTV nemen.",
+  "zie": [
+   "Marktwaarde",
+   "Bouwdepot",
+   "Taxatierapport"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Nationale Hypotheek Garantie",
+  "afk": "NHG",
+  "def": "Garantie van Stichting Waarborgfonds Eigen Woningen aan de geldverstrekker, waarmee de lening wordt geborgd. Als de woning door omstandigheden als werkloosheid, arbeidsongeschiktheid, scheiding of overlijden met verlies moet worden verkocht, kan de restschuld onder voorwaarden worden kwijtgescholden. Geldverstrekkers bieden voor leningen met NHG doorgaans een lagere rente.",
+  "zie": [
+   "Kostengrens NHG",
+   "Borgtochtprovisie",
+   "Restschuld"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Nibud",
+  "afk": "Nibud",
+  "def": "Nationaal Instituut voor Budgetvoorlichting, een onafhankelijke stichting die onder meer jaarlijks adviseert over verantwoorde woonlasten. Deze adviezen vormen de basis voor de woonquotes in de Tijdelijke regeling hypothecair krediet.",
+  "zie": [
+   "Woonquote",
+   "Loan-to-income",
+   "Tijdelijke regeling hypothecair krediet"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Notaris",
+  "afk": "",
+  "def": "Onafhankelijk juridisch ambtenaar die bij de aankoop van een woning de leveringsakte en de hypotheekakte opstelt en passeert, de betalingen via de derdengeldenrekening afwikkelt en de akten laat inschrijven bij het Kadaster. De notaris controleert onder meer eigendom, beslagen en bestaande hypotheken.",
+  "zie": [
+   "Hypotheekakte",
+   "Kadaster",
+   "Koopakte"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "NWWI",
+  "afk": "NWWI",
+  "def": "Nederlands Woningwaarde Instituut, een organisatie die taxatierapporten van woningen valideert op volledigheid en plausibiliteit voordat geldverstrekkers ze accepteren. Gevalideerde rapporten worden opgesteld door geregistreerde taxateurs.",
+  "zie": [
+   "Taxatierapport",
+   "Marktwaarde"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Offerte",
+  "afk": "",
+  "def": "Aanbod van een geldverstrekker voor een hypotheek met de belangrijkste voorwaarden, zoals rente, rentevaste periode, looptijd en zekerheden; ook wel hypotheekofferte. Na acceptatie en het aanleveren van de gevraagde stukken volgt een definitief, bindend aanbod. Bij het aanbod hoort het ESIS-informatieblad.",
+  "zie": [
+   "ESIS",
+   "Rentebedenktijd",
+   "Rentevaste periode"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Ontbindende voorwaarden",
+  "afk": "",
+  "def": "Voorwaarden in de koopakte waarmee de koper de koop kosteloos kan ontbinden als zich een bepaalde situatie voordoet, zoals het niet verkrijgen van financiering (financieringsvoorbehoud), NHG of een positieve bouwkundige keuring. Een ontbindende voorwaarde moet tijdig en volgens de afspraken in de akte worden ingeroepen.",
+  "zie": [
+   "Koopakte",
+   "Bouwkundige keuring",
+   "Bedenktijd koper"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Opstalverzekering",
+  "afk": "",
+  "def": "Verzekering tegen schade aan het woonhuis zelf, zoals door brand of storm. Geldverstrekkers stellen een opstalverzekering in de regel verplicht, omdat de woning het onderpand voor de lening vormt.",
+  "zie": [
+   "Recht van hypotheek",
+   "Marktwaarde"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Overbruggingskrediet",
+  "afk": "",
+  "def": "Tijdelijke lening waarmee de overwaarde van de huidige woning wordt vrijgemaakt voor de aankoop van een nieuwe woning, voordat de oude woning is verkocht. Het krediet wordt afgelost uit de verkoopopbrengst. Onder voorwaarden geldt het fiscaal als eigenwoningschuld.",
+  "zie": [
+   "Overwaarde",
+   "Dubbele woonlasten",
+   "Bijleenregeling"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Overdrachtsbelasting",
+  "afk": "",
+  "def": "Belasting bij verkrijging van een onroerende zaak, verschuldigd door de koper over de koopprijs of hogere waarde. In 2026 geldt voor een woning die de koper zelf als hoofdverblijf gaat bewonen een tarief van 2%; voor overige woningen (bijvoorbeeld beleggingspanden) 8% en voor andere onroerende zaken 10,4%. Jonge kopers kunnen onder voorwaarden gebruikmaken van de startersvrijstelling.",
+  "zie": [
+   "Startersvrijstelling overdrachtsbelasting",
+   "Kosten koper"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Overgangsrecht eigen woning",
+  "afk": "",
+  "def": "Fiscale regeling die ervoor zorgt dat eigenwoningschulden en kapitaalverzekeringen, spaarrekeningen en beleggingsrechten eigen woning die op 31 december 2012 al bestonden, onder de oude regels kunnen blijven vallen. Voor die schulden geldt de aflossingseis niet en de vrijstellingen voor KEW, SEW en BEW blijven onder voorwaarden behouden.",
+  "zie": [
+   "Bestaande eigenwoningschuld",
+   "Aflossingseis",
+   "Kapitaalverzekering eigen woning",
+   "Box 1"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Overlijdensrisicoverzekering",
+  "afk": "ORV",
+  "def": "Verzekering die een vast of dalend bedrag uitkeert bij overlijden van de verzekerde binnen de looptijd, vaak gebruikt om de hypotheek na overlijden van een partner betaalbaar te houden. Geldverstrekkers kunnen een ORV als voorwaarde stellen. Een kruislingse polis, waarbij de partner verzekeringnemer en begunstigde is, voorkomt dat over de uitkering erfbelasting verschuldigd is.",
+  "zie": [
+   "Nationale Hypotheek Garantie",
+   "Woonquote",
+   "Zorgplicht"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Oversluiten",
+  "afk": "",
+  "def": "Het vervangen van een bestaande hypotheek door een nieuwe, bij dezelfde of een andere geldverstrekker, bijvoorbeeld om een lagere rente of andere voorwaarden te krijgen. Daarbij kunnen boeterente, advies-, taxatie- en notariskosten ontstaan. Fiscaal kan bij oversluiten het overgangsrecht voor bestaande eigenwoningschuld onder voorwaarden behouden blijven.",
+  "zie": [
+   "Boeterente",
+   "Rentemiddeling",
+   "Bestaande eigenwoningschuld"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Overwaarde",
+  "afk": "",
+  "def": "Het positieve verschil tussen de marktwaarde van een woning en de openstaande hypotheekschuld. Bij verkoop vloeit de overwaarde vrij; fiscaal moet deze in beginsel op grond van de bijleenregeling in een volgende eigen woning worden ingebracht.",
+  "zie": [
+   "Bijleenregeling",
+   "Eigenwoningreserve",
+   "Overbruggingskrediet",
+   "Verzilverhypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Parate executie",
+  "afk": "",
+  "def": "Bevoegdheid van de hypotheekhouder om bij wanbetaling het onderpand zonder voorafgaande rechterlijke uitspraak in het openbaar te laten verkopen (art. 3:268 BW). Met toestemming van de voorzieningenrechter kan ook een onderhandse verkoop plaatsvinden.",
+  "zie": [
+   "Executieveiling",
+   "Hypotheekhouder",
+   "Recht van hypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Recht van hypotheek",
+  "afk": "",
+  "def": "Beperkt recht op een registergoed, zoals een woning, dat strekt tot zekerheid voor de terugbetaling van een geldvordering (art. 3:227 BW). De hypotheekhouder kan zich bij wanbetaling met voorrang boven andere schuldeisers verhalen op de opbrengst van het onderpand.",
+  "zie": [
+   "Hypotheekakte",
+   "Hypotheekgever",
+   "Hypotheekhouder",
+   "Parate executie"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Rentebedenktijd",
+  "afk": "",
+  "def": "Periode na het uitbrengen van een offerte waarin de klant van een eventuele rentedaling kan profiteren, terwijl een rentestijging niet wordt doorberekend. Of en hoe lang rentebedenktijd geldt, en onder welke voorwaarden, verschilt per geldverstrekker.",
+  "zie": [
+   "Offerte",
+   "Rentevaste periode"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Rentemiddeling",
+  "afk": "",
+  "def": "Regeling waarbij een klant tijdens een lopende rentevaste periode overstapt naar een nieuwe, lagere rente, waarbij de vergoeding voor vervroegde aflossing niet ineens wordt betaald maar in de nieuwe rente wordt verwerkt. De nieuwe rente is dan een gemiddelde van de oude rente, een opslag en de actuele rente.",
+  "zie": [
+   "Boeterente",
+   "Rentevaste periode",
+   "Oversluiten"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Rentevaste periode",
+  "afk": "",
+  "def": "Periode waarvoor de hypotheekrente contractueel vastligt, bijvoorbeeld 5, 10 of 20 jaar. Na afloop doet de geldverstrekker een nieuw renteaanbod. Bij een rentevaste periode korter dan tien jaar wordt de maximale lening berekend met de toetsrente in plaats van de werkelijke rente.",
+  "zie": [
+   "Toetsrente",
+   "Variabele rente",
+   "Boeterente"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Restschuld",
+  "afk": "",
+  "def": "Schuld die overblijft als de opbrengst van de woning bij verkoop lager is dan de openstaande hypotheek. Rente over een restschuld is niet aftrekbaar, behalve onder een tijdelijke regeling voor woningen verkocht tussen 29 oktober 2012 en 31 december 2017, waarvoor de rente maximaal 15 jaar aftrekbaar is. Bij NHG kan een restschuld onder voorwaarden worden kwijtgescholden.",
+  "zie": [
+   "Nationale Hypotheek Garantie",
+   "Executieveiling",
+   "Box 3"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Risico-opslag",
+  "afk": "",
+  "def": "Opslag op de hypotheekrente die afhankelijk is van het risico voor de geldverstrekker, vooral van de verhouding tussen lening en marktwaarde (LTV-klasse). Daalt de LTV door aflossing of waardestijging, dan kan de klant onder voorwaarden in een lagere risicoklasse en daarmee lagere rente terechtkomen.",
+  "zie": [
+   "Loan-to-value",
+   "Marktwaarde",
+   "Nationale Hypotheek Garantie"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Seniorenhypotheek",
+  "afk": "",
+  "def": "Verzamelnaam voor hypotheekoplossingen voor oudere huiseigenaren, bijvoorbeeld bij pensionering of om overwaarde te benutten. Bij de toetsing wordt rekening gehouden met de inkomensdaling na pensionering; voor AOW-gerechtigden gelden aparte woonquotes. Afwijken van de normen is onder voorwaarden mogelijk via explain.",
+  "zie": [
+   "Verzilverhypotheek",
+   "Overwaarde",
+   "Woonquote",
+   "Explain"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Spaarhypotheek",
+  "afk": "",
+  "def": "Hypotheek waarbij gedurende de looptijd niet wordt afgelost, maar premie wordt betaald voor een spaarverzekering (kapitaalverzekering eigen woning) waarvan de uitkering de lening aan het einde aflost. Het spaardeel krijgt doorgaans dezelfde rente als de hypotheek. Fiscale facilitering geldt alleen nog voor bestaande polissen onder overgangsrecht.",
+  "zie": [
+   "Kapitaalverzekering eigen woning",
+   "Bankspaarhypotheek",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Spaarrekening eigen woning",
+  "afk": "SEW",
+  "def": "Geblokkeerde spaarrekening die is gekoppeld aan een eigenwoningschuld en waarvan het tegoed wordt gebruikt om die schuld af te lossen; de basis van de bankspaarhypotheek. Onder voorwaarden is het tegoed tot een vrijgesteld bedrag onbelast. Alleen SEW's die vóór 1 januari 2013 zijn geopend, vallen onder het overgangsrecht.",
+  "zie": [
+   "Bankspaarhypotheek",
+   "Beleggingsrecht eigen woning",
+   "Overgangsrecht eigen woning"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Starterslening",
+  "afk": "",
+  "def": "Aanvullende lening voor starters op de woningmarkt, verstrekt via Stimuleringsfonds Volkshuisvesting Nederlandse gemeenten (SVn) door deelnemende gemeenten of provincies. De lening overbrugt het verschil tussen de koopprijs en de maximale reguliere hypotheek. De voorwaarden, zoals een periode zonder rente en aflossing gevolgd door een hertoetsing, verschillen per regeling.",
+  "zie": [
+   "Loan-to-income",
+   "Nationale Hypotheek Garantie"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Startersvrijstelling overdrachtsbelasting",
+  "afk": "",
+  "def": "Eenmalige vrijstelling van overdrachtsbelasting voor kopers van 18 tot 35 jaar die de woning zelf als hoofdverblijf gaan bewonen. De vrijstelling geldt alleen als de woningwaarde niet boven een jaarlijks vastgestelde grens uitkomt; in 2026 is dat € 555.000 (2025: € 525.000). Ligt de waarde hoger, dan geldt de vrijstelling over het geheel niet.",
+  "zie": [
+   "Overdrachtsbelasting",
+   "Kosten koper"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Studieschuld",
+  "afk": "",
+  "def": "Schuld bij DUO die bij de hypotheektoets wordt meegewogen en de maximale lening verlaagt, ook als deze niet bij BKR staat geregistreerd. De wijze van meewegen volgt uit de rekenregels in de Tijdelijke regeling hypothecair krediet; deze regels zijn de afgelopen jaren aangepast.",
+  "zie": [
+   "Loan-to-income",
+   "BKR-toetsing",
+   "Toetsinkomen"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Taxatierapport",
+  "afk": "",
+  "def": "Rapport van een geregistreerde taxateur waarin de marktwaarde van de woning wordt vastgesteld, met een beschrijving van de woning, de staat van onderhoud en vergelijkbare verkopen. Geldverstrekkers accepteren in de regel alleen gevalideerde rapporten, bijvoorbeeld via het NWWI, en stellen eisen aan de ouderdom ervan.",
+  "zie": [
+   "Marktwaarde",
+   "NWWI",
+   "Marktwaarde na verbouwing"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Tijdelijke regeling hypothecair krediet",
+  "afk": "Trhk",
+  "def": "Ministeriële regeling op basis van de Wft waarin sinds 2013 de leennormen voor hypotheken zijn vastgelegd: de maximale lening ten opzichte van het inkomen (LTI) en ten opzichte van de woningwaarde (LTV). De bijlagen met woonquotes worden jaarlijks geactualiseerd op basis van Nibud-advies.",
+  "zie": [
+   "Loan-to-income",
+   "Loan-to-value",
+   "Woonquote",
+   "Explain"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Toetsinkomen",
+  "afk": "",
+  "def": "Het inkomen dat de geldverstrekker gebruikt om de maximale lening te berekenen, vastgesteld volgens vaste regels, bijvoorbeeld via een werkgeversverklaring, Inkomensbepaling Loondienst of jaarcijfers bij ondernemers. Ook partnerinkomen en toekomstig pensioeninkomen kunnen een rol spelen.",
+  "zie": [
+   "Inkomensbepaling Loondienst",
+   "Woonquote",
+   "Loan-to-income"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Toetsrente",
+  "afk": "",
+  "def": "Rentepercentage waarmee de maximale lening wordt berekend. Bij een rentevaste periode van tien jaar of langer is dat de werkelijke rente; bij een kortere periode of variabele rente geldt de door de AFM periodiek gepubliceerde toetsrente, tenzij de werkelijke rente hoger is.",
+  "zie": [
+   "Rentevaste periode",
+   "Loan-to-income",
+   "Autoriteit Financiële Markten"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Tweede hypotheek",
+  "afk": "",
+  "def": "Aanvullende hypotheek op dezelfde woning, vaak bij een andere geldverstrekker, die in rang achter de eerste hypotheek staat. Omdat de tweede hypotheekhouder pas na de eerste wordt voldaan, is het risico voor die verstrekker groter. De term wordt in de praktijk ook gebruikt voor een verhoging van de bestaande hypotheek.",
+  "zie": [
+   "Hypotheek verhogen",
+   "Hypotheekinschrijving",
+   "Recht van hypotheek"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Variabele rente",
+  "afk": "",
+  "def": "Hypotheekrente die niet voor een langere periode vastligt en door de geldverstrekker periodiek, bijvoorbeeld maandelijks, kan worden aangepast aan de marktontwikkeling. Bij de toetsing van de maximale lening geldt voor variabele rente de toetsrente.",
+  "zie": [
+   "Rentevaste periode",
+   "Toetsrente"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Verhuisregeling",
+  "afk": "",
+  "def": "Regeling waarmee de klant bij verhuizing de rente en resterende rentevaste periode van de bestaande hypotheek kan meenemen naar de nieuwe woning; ook wel meeneemregeling. Voor een eventueel extra leenbedrag geldt meestal de actuele rente. De voorwaarden verschillen per geldverstrekker.",
+  "zie": [
+   "Rentevaste periode",
+   "Boeterente",
+   "Bijleenregeling"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Verzilverhypotheek",
+  "afk": "",
+  "def": "Hypotheek voor senioren waarmee overwaarde in de woning wordt vrijgemaakt zonder maandelijkse rente- en aflossingsverplichting; de rente wordt bijgeschreven op de schuld. De lening wordt afgelost bij verkoop van de woning of overlijden. De maximale lening hangt onder meer af van leeftijd en woningwaarde; bijgeschreven rente is fiscaal doorgaans niet aftrekbaar.",
+  "zie": [
+   "Seniorenhypotheek",
+   "Overwaarde",
+   "Box 3"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Waarborgsom",
+  "afk": "",
+  "def": "Bedrag, gebruikelijk 10% van de koopsom, dat de koper na het tekenen van de koopakte stort bij de notaris als zekerheid voor de nakoming van de koopovereenkomst. Bij levering wordt de waarborgsom verrekend met de koopsom. In plaats van een storting kan een bankgarantie worden afgegeven.",
+  "zie": [
+   "Bankgarantie",
+   "Koopakte",
+   "Notaris"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Wet Hillen",
+  "afk": "",
+  "def": "Regeling die voorkomt dat huiseigenaren met geen of een kleine eigenwoningschuld per saldo belasting betalen over de eigen woning: als het eigenwoningforfait hoger is dan de aftrekbare kosten, volgt een extra aftrek. Sinds 2019 wordt deze aftrek afgebouwd; met het Belastingplan 2026 is de afbouw versneld naar 4,8 procentpunt per jaar, zodat de regeling in 2041 is uitgefaseerd. In 2026 bedraagt de aftrek 71,867% van het verschil.",
+  "zie": [
+   "Eigenwoningforfait",
+   "Hypotheekrenteaftrek",
+   "Box 1"
+  ],
+  "volatiel": true
+ },
+ {
+  "term": "Wet op het financieel toezicht",
+  "afk": "Wft",
+  "def": "Wet die het toezicht op de financiële sector regelt, waaronder het gedragstoezicht door de AFM en het prudentieel toezicht door De Nederlandsche Bank. Voor hypotheekadvies bevat de Wft onder meer eisen aan vakbekwaamheid, informatieverstrekking, zorgplicht en het voorkomen van overkreditering.",
+  "zie": [
+   "Autoriteit Financiële Markten",
+   "Zorgplicht",
+   "Tijdelijke regeling hypothecair krediet"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Woonquote",
+  "afk": "",
+  "def": "Percentage van het bruto toetsinkomen dat maximaal aan hypotheeklasten mag worden besteed. De woonquote hangt af van de hoogte van het inkomen, de toetsrente en de leeftijd (wel of niet AOW-gerechtigd), en is vastgelegd in tabellen bij de Tijdelijke regeling hypothecair krediet.",
+  "zie": [
+   "Loan-to-income",
+   "Toetsinkomen",
+   "Nibud",
+   "Toetsrente"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "WOZ-waarde",
+  "afk": "",
+  "def": "Waarde van een onroerende zaak volgens de Wet waardering onroerende zaken, jaarlijks door de gemeente vastgesteld naar een peildatum van 1 januari van het voorafgaande jaar. De WOZ-waarde is onder meer de grondslag voor het eigenwoningforfait.",
+  "zie": [
+   "Eigenwoningforfait",
+   "Marktwaarde"
+  ],
+  "volatiel": false
+ },
+ {
+  "term": "Zorgplicht",
+  "afk": "",
+  "def": "Verplichting van een financieel adviseur en aanbieder onder de Wft om zorgvuldig te handelen in het belang van de klant. Bij hypotheken omvat dit onder meer het inventariseren van de financiële positie, kennis, ervaring, doelstellingen en risicobereidheid, het geven van passend advies en het voorkomen van overkreditering.",
+  "zie": [
+   "Wet op het financieel toezicht",
+   "Adviesrapport",
+   "Leidraad"
+  ],
+  "volatiel": false
+ }
 ]

@@ -114,7 +114,7 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
     <div class="count" id="kc"></div>
   </div>
   <div id="kl">{''.join(cards)}</div>
-  <div class="empty" id="ke" hidden>Geen begrip gevonden. Mis je een begrip? Mail <a href="mailto:info@dfobv.nl?subject=Kennisbank%20-%20begrip%20toevoegen">info@dfobv.nl</a>.</div>
+  <div class="empty" id="ke" hidden><p><strong>Dit begrip staat nog niet in de kennisbank.</strong> Wil je dat we dit voor je maken?</p><a class="btn btn-primary arrow" id="kmail" href="mailto:info@dfobv.nl">Stuur een mail naar info@dfobv.nl</a><p class="muted" style="font-size:.82rem;margin:8px 0 0">Je mailprogramma opent met een concept dat je nog kunt aanvullen.</p></div>
   <div class="note" style="margin-top:30px"><strong>Let op:</strong> deze kennisbank is bedoeld als algemene uitleg en is geen advies. Wet- en regelgeving, fiscale grenzen en bedragen wijzigen regelmatig; begrippen met het label <em>Kan jaarlijks wijzigen</em> bevatten gegevens die per jaar kunnen verschillen. Peildatum: {vandaag.day}-{vandaag.month}-{vandaag.year}. Controleer actuele cijfers altijd bij de bron (Belastingdienst, AFM, UWV, NHG, BKR).</div>
 </div></section>
 {opl}
@@ -126,13 +126,14 @@ function f(){const t=kq.value.trim().toLowerCase().split(/\\s+/).filter(Boolean)
  items.forEach(a=>{const ok=(!kd||a.dataset.d===kd)&&t.every(w=>a.dataset.s.includes(w));a.hidden=!ok;if(ok)n++;});
  letters.forEach(h=>{let e=h.nextElementSibling,v=false;while(e&&!e.classList.contains('kb-letter')){if(!e.hidden)v=true;e=e.nextElementSibling;}h.hidden=!v;});
  document.querySelectorAll('.kb-opl').forEach(o=>o.hidden=!!kd&&o.dataset.d!==kd);
- document.getElementById('kc').textContent=n+(n===1?' begrip':' begrippen');document.getElementById('ke').hidden=n>0;}
-document.querySelectorAll('#kd .chip').forEach(b=>b.onclick=()=>{kd=b.dataset.d;document.querySelectorAll('#kd .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));history.replaceState(null,'',kd?'#'+kd:location.pathname);f();});
+ document.getElementById('kc').textContent=n+(n===1?' begrip':' begrippen');document.getElementById('ke').hidden=n>0;
+ if(!n){const t=kq.value.trim();document.getElementById('kmail').href='mailto:info@dfobv.nl?subject='+encodeURIComponent('Kennisbank: begrip toevoegen – '+t)+'&body='+encodeURIComponent('Beste Bureau DFO,\\n\\nIk zocht in de kennisbank naar: "'+t+'"\\nmaar dit begrip staat er nog niet in.\\n\\nKunnen jullie dit voor mij maken / toevoegen?\\n\\nToelichting:\\n\\n\\nMet vriendelijke groet,\\n\\nNaam:\\nKantoor:\\n');}}
+document.querySelectorAll('#kd .chip').forEach(b=>b.onclick=()=>{kd=b.dataset.d;document.querySelectorAll('#kd .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));history.replaceState(null,'',location.search+(kd?'#'+kd:''));f();});
 kq.oninput=f;
 document.addEventListener('click',e=>{const a=e.target.closest('a[data-jump]');if(!a)return;const el=document.getElementById(a.dataset.jump);if(el&&el.hidden){kq.value='';kd='';document.querySelectorAll('#kd .chip').forEach(x=>x.setAttribute('aria-pressed',x.dataset.d===''));f();}
  if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'center'});el.classList.add('kb-hl');setTimeout(()=>el.classList.remove('kb-hl'),1800);history.replaceState(null,'','#'+el.id);}});
-const h=location.hash.slice(1);const dk=document.querySelector('#kd .chip[data-d="'+h+'"]');if(dk)dk.click();
 const p=new URLSearchParams(location.search).get('q');if(p){kq.value=p;}
+const h=location.hash.slice(1);const dk=h?document.querySelector('#kd .chip[data-d="'+h+'"]'):null;if(dk)dk.click();
 f();if(h&&document.getElementById(h)&&!dk){const el=document.getElementById(h);el.scrollIntoView({block:'center'});el.classList.add('kb-hl');}
 </script>"""
     page("kennisbank.html", "Kennisbank begrippen – Bureau DFO",

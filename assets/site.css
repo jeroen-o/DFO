@@ -324,3 +324,19 @@ ul.wtoc{list-style:none;padding-left:0}
 ul.wtoc ul.wtoc{padding-left:20px;margin:.3em 0 .8em;font-size:.93rem}
 ul.wtoc li{margin:.35em 0}
 .kb-item,.kb-item h3,.kb-item p,.wart p,.wart h3{overflow-wrap:anywhere}.kb-tools .chips{max-width:100%}.wet table,.kb table{max-width:100%}
+/* Zoekbalk op elke pagina */
+.topbar .wrap{justify-content:space-between}
+.tsearch{display:flex;flex:1 1 380px;max-width:520px;margin-right:auto;gap:0}
+.tsearch input{flex:1;min-width:0;font:inherit;font-size:.82rem;padding:5px 10px;border:0;border-radius:6px 0 0 6px;background:#fff;color:var(--ink)}
+.tsearch button{font:inherit;font-size:.8rem;font-weight:600;padding:5px 12px;border:0;border-radius:0 6px 6px 0;background:var(--sky);color:var(--blue-dd);cursor:pointer}
+.tsearch button:hover{background:#fff}
+.topbar .wrap{padding-top:5px;padding-bottom:5px}
+.hsearch{display:flex;gap:8px;width:100%;max-width:560px;margin-bottom:6px}
+.hsearch input{flex:1;min-width:0;font:inherit;padding:13px 16px;border:0;border-radius:10px;font-size:1rem;color:var(--ink)}
+@media (max-width:700px){.tsearch{flex-basis:100%;max-width:none}.topbar .wrap{justify-content:flex-start;gap:10px 16px}}
+.tsearch{max-width:400px;flex:1 1 300px}
+.topbar .wrap{gap:16px;flex-wrap:nowrap}
+.topbar .wrap>a{white-space:nowrap}
+@media (max-width:1180px){.topbar .wrap>a:nth-of-type(n+4){display:none}}
+@media (max-width:700px){.topbar .wrap>a{display:none}.tsearch{max-width:none}}
+@media (max-width:560px){.hsearch{flex-wrap:wrap}.hsearch input{flex-basis:100%}.hsearch .btn{width:100%;justify-content:center}}
