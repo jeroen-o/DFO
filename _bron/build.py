@@ -29,7 +29,7 @@ NAV = [
     ("themas.html", "Thema’s"),
     ("compliance.html", "Compliance"),
     ("abonnementen.html", "Abonnementen"),
-    ("zalencentrum.html", "Zalen"),
+    ("zalencentrum.html", "Vergaderruimte"),
     ("studio.html", "Studio"),
     ("over-dfo.html", "Over DFO"),
 ]
@@ -486,7 +486,7 @@ def build_home():
   <div class="grid g3">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
-    {svc_card("zalencentrum.html","room","Zalen","— vergader- en cursusruimtes inclusief ontvangst")}
+    {svc_card("zalencentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
@@ -821,7 +821,7 @@ def build_over():
   <div class="grid g3">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
-    {svc_card("zalencentrum.html","room","Zalen","— vergader- en cursusruimtes inclusief ontvangst")}
+    {svc_card("zalencentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
