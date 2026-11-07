@@ -127,6 +127,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="de-mening-van.html">De mening van</a></li>
       <li><a href="performance.html">Performance-onderzoek</a></li>
       <li><a href="kennisbank.html">Kennisbank begrippen</a></li>
+      <li><a href="wetgeving.html">Wet- en regelgeving (Wft, BGfo, TRHK)</a></li>
       <li><a href="themas.html">Thema’s</a></li>
       <li><a href="https://www.youtube.com/@bureaudfo6854/videos" rel="noopener">Webinars op YouTube</a></li>
       <li><a href="https://www.youtube.com/@VIPcongres/videos" rel="noopener">Videoproducties op YouTube</a></li>
@@ -1478,7 +1479,7 @@ def kennisbank_tile():
     voorbeeld = " · ".join(f'<a href="kennisbank.html#{i["id"]}">{E(i["afk"] or i["term"])}</a>' for i in [x for x in items if x.get("afk")][:0])
     return f"""<div class="card kb-tile" style="margin-bottom:24px"><div class="split" style="gap:28px;align-items:center">
   <div><a href="kennisbank.html" class="portal-head" style="text-decoration:none;color:inherit"><div class="icon">{icon('doc')}</div><h3 style="font-size:1.4rem">Kennisbank</h3></a>
-  <p class="muted">{n if n else 'Honderden'} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten en inkomensverzekeringen, helder uitgelegd voor financieel adviseurs.</p>
+  <p class="muted">{n if n else 'Honderden'} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen en wet- en regelgeving (Wft, BGfo, TRHK), helder uitgelegd voor financieel adviseurs.</p>
   <div class="chips" style="margin:0">{doms}</div></div>
   <form action="kennisbank.html" method="get" class="f" role="search">
     <label>Zoek een begrip of afkorting<input type="search" name="q" placeholder="Bijv. NHG, WGA, eigen risico, jaarruimte…"></label>
@@ -1526,6 +1527,11 @@ def portals_section():
 
 
 
+def build_wetten_pages():
+    import wetten
+    print("wetten:", wetten.build_law_pages(page, hero, callout))
+
+
 def build_kennisbank_page():
     import kennisbank
     print("kennisbank:", kennisbank.build_kennisbank(page, hero, callout, icon, cursussen, agenda), "begrippen")
@@ -1545,6 +1551,6 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_wetten_pages, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")

@@ -304,3 +304,23 @@ details.date summary::-webkit-details-marker{display:none}
 @media (max-width:1180px){.kb-tools{top:64px}}
 @media (max-width:640px){.kb-tools{position:static}}
 .portals-grid{grid-template-columns:repeat(3,1fr)}@media (max-width:960px){.portals-grid{grid-template-columns:repeat(2,1fr)}}@media (max-width:600px){.portals-grid{grid-template-columns:1fr}}
+/* Wetteksten */
+.wet{max-width:900px}
+.wet .wkop{margin-top:2em;color:var(--blue-d);scroll-margin-top:100px}
+.wart{border-top:1px solid var(--line);padding:18px 0 6px;scroll-margin-top:100px}
+.wart h3{font-size:1.05rem;margin-bottom:.5em}
+.wart h3 a.anchor{color:var(--ink);text-decoration:none}
+.wart h3 a.anchor:hover{color:var(--blue)}
+.wart p{color:var(--ink-2);margin:.4em 0}
+.lid{display:grid;grid-template-columns:28px 1fr;gap:6px;margin:.4em 0}
+.lidnr{font-weight:700;color:var(--blue)}
+ul.wlijst{list-style:none;padding:0;margin:.3em 0 .6em}
+ul.wlijst>li{display:grid;grid-template-columns:34px 1fr;gap:4px}
+.linr{color:var(--muted);font-weight:600}
+.redactie{color:var(--muted)}
+.wbron{font-size:.78rem}
+.wbron a{color:var(--muted)}
+ul.wtoc{list-style:none;padding-left:0}
+ul.wtoc ul.wtoc{padding-left:20px;margin:.3em 0 .8em;font-size:.93rem}
+ul.wtoc li{margin:.35em 0}
+.kb-item,.kb-item h3,.kb-item p,.wart p,.wart h3{overflow-wrap:anywhere}.kb-tools .chips{max-width:100%}.wet table,.kb table{max-width:100%}

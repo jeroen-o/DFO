@@ -1,0 +1,3826 @@
+{
+"fin-home.html": [
+{
+"tag": "h3",
+"t": "FINANCIËLE WETGEVING - W FT - WWFT - BGFO - TRHK - WCL - NHG - Kif id - AFM",
+"l": [
+[
+"",
+"#h.7qkbeyw1jm8"
+]
+]
+},
+{
+"tag": "li",
+"t": "WFT - Wet op het financieel toezicht (Wft): BWBR0020368",
+"l": [
+[
+"BWBR0020368",
+"https://wetten.overheid.nl/BWBR0020368"
+]
+]
+},
+{
+"tag": "li",
+"t": "BGFO - Besluit Gedragstoezicht financiële ondernemingen Wft: BWBR0020421",
+"l": [
+[
+"BWBR0020421",
+"https://wetten.overheid.nl/BWBR0020421/2025-07-18"
+]
+]
+},
+{
+"tag": "li",
+"t": "TRHK - Tijdelijke regeling hypothecair krediet: BWBR0032503",
+"l": [
+[
+"BWBR0032503",
+"https://wetten.overheid.nl/BWBR0032503"
+]
+]
+},
+{
+"tag": "li",
+"t": "NHG - voorwaarden & normen: NHG",
+"l": [
+[
+"NHG",
+"https://www.nhg.nl/professional/"
+]
+]
+},
+{
+"tag": "li",
+"t": "WCK - Wet op het consumentenkrediet: BW BR0004815",
+"l": [
+[
+"BW BR0004815",
+"https://wetten.overheid.nl/BWBR0004815/2019-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "WwFT - Wet ter voorkoming van witwassen en terrorisme (Wwft): BWBR0024281",
+"l": [
+[
+"BWBR0024281",
+"https://wetten.overheid.nl/BWBR0024281"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit Wwft 2018: BWBR0041193",
+"l": [
+[
+"BWBR0041193",
+"https://wetten.overheid.nl/BWBR0041193/2025-02-04"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitspraken register Kifid: Bekijk register",
+"l": [
+[
+"Bekijk register",
+"https://www.kifid.nl/kifid-kennis-en-uitspraken/uitspraken/"
+]
+]
+},
+{
+"tag": "li",
+"t": "Reglement Kifid: Bekijk reglement",
+"l": [
+[
+"Bekijk reglement",
+"https://www.kifid.nl/nieuws/nieuw-reglement-commissie-van-beroep-kifid/"
+]
+]
+},
+{
+"tag": "li",
+"t": "AFM: Adviseurs, bemiddelaars & gevolmachtigden",
+"l": [
+[
+"Adviseurs, bemiddelaars & gevolmachtigden",
+"https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars-en-gevolmachtigde-agenten"
+]
+]
+},
+{
+"tag": "li",
+"t": "AI-verordering: Europese wet voor de ontwikkeling en gebruik van AI-systemen & toelichting",
+"l": [
+[
+"Europese wet voor de ontwikkeling en gebruik van AI-systemen",
+"https://digital-strategy.ec.europa.eu/nl/policies/regulatory-framework-ai"
+],
+[
+"toelichting",
+"https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/artificiele-intelligentie-ai/ai-verordening/"
+]
+]
+},
+{
+"tag": "p",
+"t": "GRONDWET",
+"l": []
+},
+{
+"tag": "li",
+"t": "Grondwet: BWBR0001840",
+"l": [
+[
+"BWBR0001840",
+"https://wetten.overheid.nl/BWBR0001840/2023-02-22"
+]
+]
+},
+{
+"tag": "h3",
+"t": "BURGERLIJK WETBOEK EN OVERIGE WETTEN",
+"l": [
+[
+"",
+"#h.orxri7jiwzl"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 1. Personen- en familierecht: BWBR0002656",
+"l": [
+[
+"BWBR0002656",
+"https://wetten.overheid.nl/BWBR0002656"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 2. Rechtspersonen: BWBR0003045",
+"l": [
+[
+"BWBR0003045",
+"https://wetten.overheid.nl/BWBR0003045/2025-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 3. Vermogensrecht in het algemeen: BWBR0005291",
+"l": [
+[
+"BWBR0005291",
+"https://wetten.overheid.nl/BWBR0005291"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 4. Erfrecht: BWBR0012701",
+"l": [
+[
+"BWBR0012701",
+"https://wetten.overheid.nl/BWBR0002761/2025-07-01/0"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 5. Zakelijke rechten: BWBR0005288",
+"l": [
+[
+"BWBR0005288",
+"https://wetten.overheid.nl/BWBR0005288"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 6. Algemeen gedeelte van het verbintenissenrecht: BWBR0005289",
+"l": [
+[
+"BWBR0005289",
+"https://wetten.overheid.nl/BWBR0005289"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 7. Bijzondere overeenkomsten: BWBR0005290",
+"l": [
+[
+"BWBR0005290",
+"https://wetten.overheid.nl/BWBR0005290/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Boek 7A. Bijzondere overeenkomsten; vervolg: BWBR0006000",
+"l": [
+[
+"BWBR0006000",
+"https://wetten.overheid.nl/BWBR0006000"
+]
+]
+},
+{
+"tag": "li",
+"t": "Faillissementswet: BWBR0001860",
+"l": [
+[
+"BWBR0001860",
+"https://wetten.overheid.nl/BWBR0001860/2025-11-19/#TiteldeelIII_AfdelingEerste_Artikel287"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wettelijke schuldsanering natuurlijke personen - WSNP: Rechtspraak.nl",
+"l": [
+[
+"Rechtspraak.nl",
+"https://www.rechtspraak.nl/onderwerpen/schulden/wet-schuldsanering-natuurlijke-personen/aanvragen-wsnp"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wetboek van Koophandel: BWBR0001838",
+"l": [
+[
+"BWBR0001838",
+"https://wetten.overheid.nl/BWBR0001838"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet arbeid en zorg: BWBR0013008",
+"l": [
+[
+"BWBR0013008",
+"https://wetten.overheid.nl/BWBR0013008/2025-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringswet Algemene verordening gegevensbescherming - AVG: BWBR0040940",
+"l": [
+[
+"BWBR0040940",
+"https://wetten.overheid.nl/BWBR0040940/2021-07-01"
+]
+]
+},
+{
+"tag": "h3",
+"t": "BELASTINGWET",
+"l": [
+[
+"",
+"#h.2tpx86jaumqu"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemene wet inzake rijksbelastingen: BWBR0002320",
+"l": [
+[
+"BWBR0002320",
+"https://wetten.overheid.nl/BWBR0002320"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling Algemene wet inzake rijksbelastingen 1994: BWBR0006736",
+"l": [
+[
+"BWBR0006736",
+"https://wetten.overheid.nl/BWBR0006736/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet inkomstenbelasting 2001: BWBR0011353",
+"l": [
+[
+"BWBR0011353",
+"https://wetten.overheid.nl/BWBR0011353"
+]
+]
+},
+{
+"tag": "li",
+"t": "Invoeringswet Wet inkomstenbelasting 2001: BWBR0011354",
+"l": [
+[
+"BWBR0011354",
+"https://wetten.overheid.nl/BWBR0011354/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit inkomstenbelasting 2001: BWBR0012066",
+"l": [
+[
+"BWBR0012066",
+"https://wetten.overheid.nl/BWBR0012066"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling inkomstenbelasting 2001: BWBR0012067",
+"l": [
+[
+"BWBR0012067",
+"https://wetten.overheid.nl/BWBR0012067"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet rechtsherstel box 3: BWBR0047699",
+"l": [
+[
+"BWBR0047699",
+"https://wetten.overheid.nl/BWBR0047699/2023-03-16"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op de loonbelasting 1964: BWBR0002471",
+"l": [
+[
+"BWBR0002471",
+"https://wetten.overheid.nl/BWBR0002471"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit loonbelasting 1965: BWBR0002489",
+"l": [
+[
+"BWBR0002489",
+"https://wetten.overheid.nl/BWBR0002489"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling loonbelasting 2011: BWBR0028965",
+"l": [
+[
+"BWBR0028965",
+"https://wetten.overheid.nl/BWBR0028965"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op de vennootschapsbelasting 1969: BWBR0002672",
+"l": [
+[
+"BWBR0002672",
+"https://wetten.overheid.nl/BWBR0002672"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit vennootschapsbelasting 1971: BWBR0002741",
+"l": [
+[
+"BWBR0002741",
+"https://wetten.overheid.nl/BWBR0002741"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbeschikking vennootschapsbelasting 1971: BWBR0002784",
+"l": [
+[
+"BWBR0002784",
+"https://wetten.overheid.nl/BWBR0002784/2024-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op de dividendbelasting 1965: BWBR0002515",
+"l": [
+[
+"BWBR0002515",
+"https://wetten.overheid.nl/BWBR0002515"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op belastingen van rechtsverkeer: BWBR0002740",
+"l": [
+[
+"BWBR0002740",
+"https://wetten.overheid.nl/BWBR0002740"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit belastingen van rechtsverkeer: BWBR0002758",
+"l": [
+[
+"BWBR0002758",
+"https://wetten.overheid.nl/BWBR0002758"
+]
+]
+},
+{
+"tag": "li",
+"t": "Successiewet 1956: BWBR0002226",
+"l": [
+[
+"BWBR0002226",
+"https://wetten.overheid.nl/BWBR0002226"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit Successiewet 1956: BWBR0002227",
+"l": [
+[
+"BWBR0002227",
+"https://wetten.overheid.nl/BWBR0002227"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling schenk- en erfbelasting: BWBR0027018",
+"l": [
+[
+"BWBR0027018",
+"https://wetten.overheid.nl/BWBR0027018"
+]
+]
+},
+{
+"tag": "li",
+"t": "Natuurschoonwet 1928: BWBR0001939",
+"l": [
+[
+"BWBR0001939",
+"https://wetten.overheid.nl/BWBR0001939"
+]
+]
+},
+{
+"tag": "li",
+"t": "Registratiewet 1970: BWBR0002739",
+"l": [
+[
+"BWBR0002739",
+"https://wetten.overheid.nl/BWBR0002739"
+]
+]
+},
+{
+"tag": "li",
+"t": "Invorderingswet 1990: BWBR0004770",
+"l": [
+[
+"BWBR0004770",
+"https://wetten.overheid.nl/BWBR0004770"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit Invorderingswet 1990: BWBR0004772",
+"l": [
+[
+"BWBR0004772",
+"https://wetten.overheid.nl/BWBR0004772"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling Invorderingswet 1990: BWBR0004766",
+"l": [
+[
+"BWBR0004766",
+"https://wetten.overheid.nl/BWBR0004766/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet waardering onroerende zaken - WOZ: BWBR0007119",
+"l": [
+[
+"BWBR0007119",
+"https://wetten.overheid.nl/BWBR0007119"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling uitgezonderde objecten Wet waardering onroerende zaken - WOZ: BWBR0007142",
+"l": [
+[
+"BWBR0007142",
+"https://wetten.overheid.nl/BWBR0007142/2008-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit voorkoming dubbele belasting 2001: BWBR0012095",
+"l": [
+[
+"BWBR0012095",
+"https://wetten.overheid.nl/BWBR0012095"
+]
+]
+},
+{
+"tag": "li",
+"t": "Inkomstenbelasting, eigenwoningrente; betaalpauze voor rente en aflossing eigenwoningschuld: BWBR0045648",
+"l": [
+[
+"BWBR0045648",
+"https://wetten.overheid.nl/BWBR0045648/"
+]
+]
+},
+{
+"tag": "h3",
+"t": "PENSIOENWET",
+"l": [
+[
+"",
+"#h.rl2m3kt1ywl0"
+]
+]
+},
+{
+"tag": "li",
+"t": "Pensioenwet: BWBR0020809",
+"l": [
+[
+"BWBR0020809",
+"https://wetten.overheid.nl/BWBR0020809"
+]
+]
+},
+{
+"tag": "li",
+"t": "Regeling voor berekening bij waarde-overdracht: BWBR007369",
+"l": [
+[
+"BWBR007369",
+"https://wetten.overheid.nl/BWBR0007369/2007-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit uitvoering Pensioenwet en Wet verplichte beroepspensioenregeling: BWBR0020892",
+"l": [
+[
+"BWBR0020892",
+"https://wetten.overheid.nl/BWBR0020892/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Regeling Pensioenwet en Wet verplichte beroepspensioenregeling: BWBR0020917",
+"l": [
+[
+"BWBR0020917",
+"https://wetten.overheid.nl/BWBR0020917/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet verevening pensioenrechten bij scheiding vanaf 2021: BWBR0006641",
+"l": [
+[
+"BWBR0006641",
+"https://wetten.overheid.nl/BWBR0006641/2021-07-10"
+]
+]
+},
+{
+"tag": "li",
+"t": "Regeling vaststelling regels pensioenberekening over deelnemingsjaren voor 1 mei 1995: BWBR0007144",
+"l": [
+[
+"BWBR0007144",
+"https://wetten.overheid.nl/BWBR0007144/2007-01-01"
+]
+]
+},
+{
+"tag": "h3",
+"t": "TOESLAGEN",
+"l": [
+[
+"",
+"#h.6qinlo8q4ra8"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemene wet inkomensafhankelijke regelingen - AWIR: BWBR0018472",
+"l": [
+[
+"BWBR0018472",
+"https://wetten.overheid.nl/BWBR0018472"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsbesluit Algemene wet inkomensafhankelijke regelingen - AWIR: BWBR0018590",
+"l": [
+[
+"BWBR0018590",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0018590"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitvoeringsregeling Algemene wet inkomensafhankelijke regelingen - AWIR: BWBR0019237",
+"l": [
+[
+"BWBR0019237",
+"https://wetten.overheid.nl/BWBR0019237"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet kinderopvang: BWBR0017252",
+"l": [
+[
+"BWBR0017252",
+"https://wetten.overheid.nl/BWBR0017252"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit kinderopvangtoeslag: BWBR0017321",
+"l": [
+[
+"BWBR0017321",
+"https://wetten.overheid.nl/BWBR0017321/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op het kindgebonden budget: BWBR0022751",
+"l": [
+[
+"BWBR0022751",
+"https://wetten.overheid.nl/BWBR0022751"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op de zorgtoeslag: BWBR0018451",
+"l": [
+[
+"BWBR0018451",
+"https://wetten.overheid.nl/BWBR0018451"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet op de huurtoeslag: BWBR0008659",
+"l": [
+[
+"BWBR0008659",
+"https://wetten.overheid.nl/BWBR0008659/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit op de huurtoeslag: BWBR0008763",
+"l": [
+[
+"BWBR0008763",
+"https://wetten.overheid.nl/BWBR0008763/2026-01-01"
+]
+]
+},
+{
+"tag": "h3",
+"t": "SOCIALE ZEKERHEID",
+"l": [
+[
+"",
+"#h.3u8j0m9sdgj2"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet minimumloon en minimumvakantiebijslag: BWBR0002638",
+"l": [
+[
+"BWBR0002638",
+"https://wetten.overheid.nl/BWBR0002638/2026-02-04"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet studiefinanciering: BWBR0011453",
+"l": [
+[
+"BWBR0011453",
+"https://wetten.overheid.nl/BWBR0011453"
+]
+]
+},
+{
+"tag": "li",
+"t": "Werkloosheidswet: BWBR0004045",
+"l": [
+[
+"BWBR0004045",
+"https://wetten.overheid.nl/BWBR0004045"
+]
+]
+},
+{
+"tag": "li",
+"t": "Toeslagenwet: BWBR0004043",
+"l": [
+[
+"BWBR0004043",
+"https://wetten.overheid.nl/BWBR0004043"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet financiering sociale verzekeringen: BWBR0017745",
+"l": [
+[
+"BWBR0017745",
+"https://wetten.overheid.nl/BWBR0017745"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemene Ouderdomswet - AOW: BWBR0002221",
+"l": [
+[
+"BWBR0002221",
+"https://wetten.overheid.nl/BWBR0002221"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemene nabestaandenwet - ANW: BWBR0007795",
+"l": [
+[
+"BWBR0007795",
+"https://wetten.overheid.nl/BWBR0007795"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemene Kinderbijslagwet - AKW: BWBR0002368",
+"l": [
+[
+"BWBR0002368",
+"https://wetten.overheid.nl/BWBR0002368"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit uitvoering kinderbijslag: BWBR0035261",
+"l": [
+[
+"BWBR0035261",
+"https://wetten.overheid.nl/BWBR0035261/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Ziektewet: BWBR0001888",
+"l": [
+[
+"BWBR0001888",
+"https://wetten.overheid.nl/BWBR0001888"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet werk en inkomen naar arbeidsvermogen - WIA: BWBR0019057",
+"l": [
+[
+"BWBR0019057",
+"https://wetten.overheid.nl/BWBR0019057"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet arbeidsongeschiktheidsvoorziening jonggehandicapten - Wajong: BWBR0008657",
+"l": [
+[
+"BWBR0008657",
+"https://wetten.overheid.nl/BWBR0008657"
+]
+]
+},
+{
+"tag": "li",
+"t": "Algemeen inkomensbesluit sociale zekerheidswetten: BWBR0029368",
+"l": [
+[
+"BWBR0029368",
+"https://wetten.overheid.nl/BWBR0029368/2026-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Dagloonbesluit werknemersverzekeringen: BWBR0033486",
+"l": [
+[
+"BWBR0033486",
+"https://wetten.overheid.nl/BWBR0033486"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet inkomensvoorziening oudere werklozen - IOW: BWBR0024394",
+"l": [
+[
+"BWBR0024394",
+"https://wetten.overheid.nl/BWBR0024394/2024-10-11"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet inkomensvoorziening oudere en deels arbeidsongeschikte werklozen - IOAW: BWBR0004044",
+"l": [
+[
+"BWBR0004044",
+"https://wetten.overheid.nl/BWBR0004044"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen - IOAZ : BWBR0004163",
+"l": [
+[
+"BWBR0004163",
+"https://wetten.overheid.nl/BWBR0004163/2026-02-04"
+]
+]
+},
+{
+"tag": "li",
+"t": "Participatiewet: BWBR0015703",
+"l": [
+[
+"BWBR0015703",
+"https://wetten.overheid.nl/BWBR0015703"
+]
+]
+},
+{
+"tag": "li",
+"t": "Zorgverzekeringswet: BWBR0018450",
+"l": [
+[
+"BWBR0018450",
+"https://wetten.overheid.nl/BWBR0018450"
+]
+]
+},
+{
+"tag": "li",
+"t": "Regeling zorgverzekering: BWBR0018715",
+"l": [
+[
+"BWBR0018715",
+"https://wetten.overheid.nl/BWBR0018715"
+]
+]
+},
+{
+"tag": "li",
+"t": "Regeling aanwijzing directeur-grootaandeelhouder 2016: BWBR0036819",
+"l": [
+[
+"BWBR0036819",
+"https://wetten.overheid.nl/BWBR0036819/2016-01-01"
+]
+]
+},
+{
+"tag": "p",
+"t": "BUITENLAND",
+"l": []
+},
+{
+"tag": "li",
+"t": "Boek 10. Internationaal privaatrecht: BWBR0030068",
+"l": [
+[
+"BWBR0030068",
+"https://wetten.overheid.nl/BWBR0030068"
+]
+]
+},
+{
+"tag": "li",
+"t": "Europese Erfrechtverordening - 650/2012 : Link naar EU-tekst of de Nederlandse Uitvoeringswet )",
+"l": [
+[
+"Link naar EU-tekst",
+"https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX:32012R0650"
+],
+[
+"Uitvoeringswet",
+"https://wetten.overheid.nl/BWBR0035741"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit voorkoming dubbele belasting - BES: BWBR0029674",
+"l": [
+[
+"BWBR0029674",
+"https://wetten.overheid.nl/BWBR0029674/2011-03-05/#Hoofdstuk1_Artikel1"
+]
+]
+},
+{
+"tag": "li",
+"t": "Loonheffingen, extraterritoriale werknemers; 30%-regeling: BWBR0033855",
+"l": [
+[
+"BWBR0033855",
+"https://wetten.overheid.nl/BWBR0033855/2013-09-12"
+]
+]
+},
+{
+"tag": "p",
+"t": "OVERGANGSRECHTEN",
+"l": []
+},
+{
+"tag": "li",
+"t": "Wet aanpassing wettelijke gemeenschap van goederen - 2012: BWBR0029955",
+"l": [
+[
+"BWBR0029955",
+"https://wetten.overheid.nl/BWBR0029955"
+]
+]
+},
+{
+"tag": "li",
+"t": "Besluit overgangsrecht transitievergoeding: BWBR0036595",
+"l": [
+[
+"BWBR0036595",
+"https://wetten.overheid.nl/BWBR0036595/2020-01-01"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet beperking gemeenschap van goederen - 2018: BWBR0039474",
+"l": [
+[
+"BWBR0039474",
+"https://wetten.overheid.nl/BWBR0039474"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet herziening partneralimentatie vanaf 2020: BWBR0042499",
+"l": [
+[
+"BWBR0042499",
+"https://wetten.overheid.nl/BWBR0042499/2020-01-01"
+]
+]
+},
+{
+"tag": "h3",
+"t": "Overige info",
+"l": [
+[
+"",
+"#h.siml1kqrnzqh"
+]
+]
+},
+{
+"tag": "li",
+"t": "Verzamelbesluit kapitaalverzekeringen, SEW en BEW: BWBR0050034",
+"l": [
+[
+"BWBR0050034",
+"https://wetten.overheid.nl/BWBR0050034/"
+]
+]
+},
+{
+"tag": "li",
+"t": "Revisierente berekenen; Lees meer->",
+"l": []
+},
+{
+"tag": "li",
+"t": "Aftrek lijfrentepremie berekenen; Lees meer->",
+"l": [
+[
+"Lees meer->",
+"https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/hulpmiddel-lijfrentepremie-2016-en-daarna"
+]
+]
+},
+{
+"tag": "li",
+"t": "Hoeveel moet ik aflossen op mijn annuïteitenlening voor hypotheekrenteaftrek?: Belastingdienst",
+"l": [
+[
+"Belastingdienst",
+"https://www.belastingdienst.nl/wps/wcm/connect/nl/koopwoning/content/hulpmiddel-aflossingsverplichting-annuiteitenlening-berekenen"
+]
+]
+},
+{
+"tag": "li",
+"t": "Jaarruimte berekenen: Belastingdienst",
+"l": [
+[
+"Belastingdienst",
+"https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/hoe-bereken-ik-mijn-jaarruimte"
+]
+]
+},
+{
+"tag": "li",
+"t": "Financieringslast percentages: https://wetten.overheid.nl/BWBR0032503/#Paragraaf4",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf4",
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf4"
+]
+]
+},
+{
+"tag": "li",
+"t": "Overlevingstafel: Deze is te vinden via het CBS",
+"l": [
+[
+"Deze is te vinden via het CBS",
+"https://www.cbs.nl/nl-nl/cijfers/detail/70701ned"
+]
+]
+},
+{
+"tag": "li",
+"t": "Opleiding Hypothecair planner: Lees meer>>",
+"l": [
+[
+"Lees meer>>",
+"https://www.hypothecairplanner.nl/adviseur/lidmaatschap/lid-worden"
+]
+]
+},
+{
+"tag": "li",
+"t": "Masterclasses : Bekijk alle masterclasses",
+"l": [
+[
+"Bekijk alle masterclasses",
+"https://www.hypothecairplanner.nl/adviseur/kenniscentrum/masterclasses"
+]
+]
+},
+{
+"tag": "li",
+"t": "Publicaties: Lees meer>>",
+"l": [
+[
+"Lees meer>>",
+"https://www.hypothecairplanner.nl/adviseur/publicaties"
+]
+]
+},
+{
+"tag": "li",
+"t": "Nieuws: Lees meer>>",
+"l": [
+[
+"Lees meer>>",
+"https://www.hypothecairplanner.nl/adviseur/publicaties/nieuws"
+]
+]
+},
+{
+"tag": "p",
+"t": "Wensen of opmerkingen Mis je zaken of zijn er wensen om zaken toe te voegen, stuur een mail naar info@hypothecairplanner.nl Dank je wel voor je bijdrage.",
+"l": [
+[
+"info@hypothecairplanner.nl",
+"mailto:info@hypothecairplanner.nl"
+]
+]
+},
+{
+"tag": "p",
+"t": "ZOEK IN ALLE WETTEN",
+"l": []
+},
+{
+"tag": "h1",
+"t": "NVHP - Wettenbundel",
+"l": [
+[
+"",
+"#h.dc4yovdksntb"
+]
+]
+},
+{
+"tag": "p",
+"t": "Essentieel naslagwerk voor de financiële sector",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetgeving Financiële Dienstverlening 2026 biedt een compleet en actueel overzicht van de Nederlandse wet- en regelgeving per 1 januari 2026. Dankzij de logische structuur, verhelderende margeteksten en een uitgebreid trefwoordenregister vindt de gebruiker razendsnel de benodigde informatie. Waarom dit boek onmisbaar is:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Actueel: Volledig bijgewerkt naar de stand van zaken op 1 januari 2026.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Gebruiksvriendelijk: Ontworpen voor snelheid en precisie in de dagelijkse praktijk.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Breed inzetbaar: De ideale gids voor hypothecair planners, hypotheekadviseurs, financieel adviseurs, planners en studenten. Ook voor FFP, SEH en NVHP leden.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Voor leden van de NVHP en Hypothecair planners is dit werk een onmisbaar instrument in de dagelijkse adviespraktijk. Het biedt de juridische zekerheid die nodig is om klanten van een hoogwaardig en up-to-date advies te voorzien. Direct bestellen en gratis verzending & thuisbezorgd.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetten bundel bestellen",
+"l": []
+},
+{
+"tag": "p",
+"t": "€35,- extra korting Ontvang € 35,- extra korting en maak gebruik van de voor inschrijving. Stuur een mail naar info@hypothecairplanner.nl met als onderwerp - Wettenbundel Voorinschrijving. Je ontvangt dan van ons een nota met € 35,- extra korting.",
+"l": [
+[
+"info@hypothecairplanner.nl",
+"mailto:info@hypothecairplanner.nl"
+]
+]
+},
+{
+"tag": "h1",
+"t": "Word ook Hypothecair Planner!",
+"l": [
+[
+"",
+"#h.vhyfk0zfddhe"
+]
+]
+},
+{
+"tag": "h3",
+"t": "Klaar voor de volgende stap? Zo word je lid! Wat goed dat je de ambitie hebt om jezelf te kronen tot dé expert in je vakgebied. Het traject naar de titel Erkend Hypothecair Planner (EHP) is een investering in jezelf waar jij (en jouw klant!) direct de vruchten van plukt.",
+"l": [
+[
+"",
+"#h.dpv3q9s2cfaz"
+]
+]
+},
+{
+"tag": "li",
+"t": "DFO Opleidingen – Bekijk de leergang",
+"l": [
+[
+"DFO Opleidingen – Bekijk de leergang",
+"https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Impact Opleidingen – Bekijk de leergang",
+"l": [
+[
+"Impact Opleidingen – Bekijk de leergang",
+"https://www.impact.nu/opleiding/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Lindenhaeghe – Bekijk de leergang",
+"l": [
+[
+"Lindenhaeghe – Bekijk de leergang",
+"https://lindenhaeghe.nl/hypotheken/leergang-hypothecair-planner"
+]
+]
+}
+],
+"fin-afkortingen.html": [
+{
+"tag": "h3",
+"t": "Afkortingen wet- en regelgeving",
+"l": [
+[
+"",
+"#h.f2dtu27kdmch"
+]
+]
+},
+{
+"tag": "li",
+"t": "AKW – Algemene Kinderbijslagwet: https://wetten.overheid.nl/BWBR0002368",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002368",
+"https://wetten.overheid.nl/BWBR0002368"
+]
+]
+},
+{
+"tag": "li",
+"t": "Anw – Algemene nabestaandenwet: https://wetten.overheid.nl/BWBR0007795",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0007795",
+"https://wetten.overheid.nl/BWBR0007795"
+]
+]
+},
+{
+"tag": "li",
+"t": "AOW – Algemene Ouderdomswet: https://wetten.overheid.nl/BWBR0002221",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002221",
+"https://wetten.overheid.nl/BWBR0002221"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aw – Algemene wet bestuursrecht: De basis voor alle procedures tegen de Belastingdienst of het UWV. https://wetten.overheid.nl/BWBR0005537",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0005537",
+"https://wetten.overheid.nl/BWBR0005537"
+]
+]
+},
+{
+"tag": "li",
+"t": "AWIR – Algemene wet inkomensafhankelijke regelingen: https://wetten.overheid.nl/BWBR0018472",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018472",
+"https://wetten.overheid.nl/BWBR0018472"
+]
+]
+},
+{
+"tag": "li",
+"t": "AWR – Algemene wet inzake rijksbelastingen: https://wetten.overheid.nl/BWBR0002320",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002320",
+"https://wetten.overheid.nl/BWBR0002320"
+]
+]
+},
+{
+"tag": "li",
+"t": "BGFOWFT – Besluit gedragstoezicht financiële ondernemingen Wft: https://wetten.overheid.nl/BWBR0020421",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020421",
+"https://wetten.overheid.nl/BWBR0020421"
+]
+]
+},
+{
+"tag": "li",
+"t": "BKO – Besluit kinderopvangtoeslag: https://wetten.overheid.nl/BWBR0017342",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0017342",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0017342"
+]
+]
+},
+{
+"tag": "li",
+"t": "BRV – Wet op belastingen van rechtsverkeer: https://wetten.overheid.nl/BWBR0002740",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002740",
+"https://wetten.overheid.nl/BWBR0002740"
+]
+]
+},
+{
+"tag": "li",
+"t": "BTTKO – Besluit kindertoeslag: https://wetten.overheid.nl/BWBR0023814",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0023814",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0023814"
+]
+]
+},
+{
+"tag": "li",
+"t": "BUK – Besluit uitvoering kinderbijslag: https://wetten.overheid.nl/BWBR0007137",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0007137",
+"https://wetten.overheid.nl/BWBR0007137"
+]
+]
+},
+{
+"tag": "li",
+"t": "BVD2001 – Besluit voorkoming dubbele belasting 2001: https://wetten.overheid.nl/BWBR0012068",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0012068",
+"https://wetten.overheid.nl/BWBR0012068"
+]
+]
+},
+{
+"tag": "li",
+"t": "BW 1 t/m 10 – Burgerlijk Wetboek (Boek 1 t/m 10): https://wetten.overheid.nl/BWBR0002656 (Link naar Boek 1)",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002656",
+"https://wetten.overheid.nl/BWBR0002656"
+]
+]
+},
+{
+"tag": "li",
+"t": "DBWV – Dagloonbesluit werknemersverzekeringen: https://wetten.overheid.nl/BWBR0033519",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0033519",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0033519"
+]
+]
+},
+{
+"tag": "li",
+"t": "HUURTB – Besluit op de huurtoeslag: https://wetten.overheid.nl/BWBR0018449",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018449",
+"https://wetten.overheid.nl/BWBR0018449"
+]
+]
+},
+{
+"tag": "li",
+"t": "HUURTW – Wet op de huurtoeslag: https://wetten.overheid.nl/BWBR0008679",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0008679",
+"https://wetten.overheid.nl/BWBR0008679"
+]
+]
+},
+{
+"tag": "li",
+"t": "IB – Wet inkomstenbelasting 2001: https://wetten.overheid.nl/BWBR0011353",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0011353",
+"https://wetten.overheid.nl/BWBR0011353"
+]
+]
+},
+{
+"tag": "li",
+"t": "IBVVSV – Algemeen inkomensbesluit socialezekerheidswetten: https://wetten.overheid.nl/BWBR0018445",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018445",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0018445"
+]
+]
+},
+{
+"tag": "li",
+"t": "INVW90 – Invorderingswet 1990: https://wetten.overheid.nl/BWBR0004770",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004770",
+"https://wetten.overheid.nl/BWBR0004770"
+]
+]
+},
+{
+"tag": "li",
+"t": "IOAW – Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte werkloze werknemers: https://wetten.overheid.nl/BWBR0004191",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004191",
+"https://wetten.overheid.nl/BWBR0004191"
+]
+]
+},
+{
+"tag": "li",
+"t": "IOAZ – Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen: https://wetten.overheid.nl/BWBR0004163",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004163",
+"https://wetten.overheid.nl/BWBR0004163"
+]
+]
+},
+{
+"tag": "li",
+"t": "IOW – Wet inkomensvoorziening oudere werklozen: https://wetten.overheid.nl/BWBR0024696",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0024696",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0024696"
+]
+]
+},
+{
+"tag": "li",
+"t": "IPW – Invoerings- en aanpassingswet Pensioenwet: https://wetten.overheid.nl/BWBR0020816",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020816",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0020816"
+]
+]
+},
+{
+"tag": "li",
+"t": "IWWETIB01 – Invoeringswet Wet inkomstenbelasting 2001: https://wetten.overheid.nl/BWBR0011354",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0011354",
+"https://wetten.overheid.nl/BWBR0011354"
+]
+]
+},
+{
+"tag": "li",
+"t": "LB – Wet op de loonbelasting 1964: https://wetten.overheid.nl/BWBR0002471",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002471",
+"https://wetten.overheid.nl/BWBR0002471"
+]
+]
+},
+{
+"tag": "li",
+"t": "NATUURSW – Natuurschoonwet 1928: https://wetten.overheid.nl/BWBR0001939",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0001939",
+"https://wetten.overheid.nl/BWBR0001939"
+]
+]
+},
+{
+"tag": "li",
+"t": "Part.W. – Participatiewet: https://wetten.overheid.nl/BWBR0015703",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0015703",
+"https://wetten.overheid.nl/BWBR0015703"
+]
+]
+},
+{
+"tag": "li",
+"t": "PSW – Pensioen- en spaarfondsenwet: https://wetten.overheid.nl/BWBR0002089",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002089",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0002089"
+]
+]
+},
+{
+"tag": "li",
+"t": "PW – Pensioenwet: https://wetten.overheid.nl/BWBR0020809",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020809",
+"https://wetten.overheid.nl/BWBR0020809"
+]
+]
+},
+{
+"tag": "li",
+"t": "RADGA2016 – Regeling aanwijzing directeur-grootaandeelhouder 2016: https://wetten.overheid.nl/BWBR0037349",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0037349",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0037349"
+]
+]
+},
+{
+"tag": "li",
+"t": "RBWOVERDR – Regeling voor berekening in geval van waardeoverdracht: https://wetten.overheid.nl/BWBR0020977",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020977",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0020977"
+]
+]
+},
+{
+"tag": "li",
+"t": "REGW – Registratiewet 1970: https://wetten.overheid.nl/BWBR0002741",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002741",
+"https://wetten.overheid.nl/BWBR0002741"
+]
+]
+},
+{
+"tag": "li",
+"t": "RPWWVBPR – Regeling pensioenwet en Wet verplichte beroepspensioenregeling: https://wetten.overheid.nl/BWBR0020961",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020961",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0020961"
+]
+]
+},
+{
+"tag": "li",
+"t": "RVRPBDJ – Regeling vaststelling regels pensioenberekening voor deelnemingsjaren: https://wetten.overheid.nl/BWBR0020935",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020935",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0020935"
+]
+]
+},
+{
+"tag": "li",
+"t": "RZORGV – Regeling zorgverzekering: https://wetten.overheid.nl/BWBR0018715",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018715",
+"https://wetten.overheid.nl/BWBR0018715"
+]
+]
+},
+{
+"tag": "li",
+"t": "SW – Successiewet 1956: https://wetten.overheid.nl/BWBR0002226",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002226",
+"https://wetten.overheid.nl/BWBR0002226"
+]
+]
+},
+{
+"tag": "li",
+"t": "TIJDHYPOK – Tijdelijke regeling hypothecair krediet: https://wetten.overheid.nl/BWBR0032503",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0032503",
+"https://wetten.overheid.nl/BWBR0032503"
+]
+]
+},
+{
+"tag": "li",
+"t": "TOESLW – Toeslagenwet: https://wetten.overheid.nl/BWBR0004043",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004043",
+"https://wetten.overheid.nl/BWBR0004043"
+]
+]
+},
+{
+"tag": "li",
+"t": "TW – Toeslagenwet: https://wetten.overheid.nl/BWBR0004043",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004043",
+"https://wetten.overheid.nl/BWBR0004043"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBAWIR – Uitvoeringsbesluit Algemene wet inkomensafhankelijke regelingen: https://wetten.overheid.nl/BWBR0018654",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018654",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0018654"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBGVPB71 – Uitvoeringsbeschikking vennootschapsbelasting 1971: https://wetten.overheid.nl/BWBR0002758",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002758",
+"https://wetten.overheid.nl/BWBR0002758"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBIB2001 – Uitvoeringsbesluit inkomstenbelasting 2001: https://wetten.overheid.nl/BWBR0012066",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0012066",
+"https://wetten.overheid.nl/BWBR0012066"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBINVW90 – Uitvoeringsbesluit Invorderingswet 1990: https://wetten.overheid.nl/BWBR0004774",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004774",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0004774"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBLB1965 – Uitvoeringsbesluit loonbelasting 1965: https://wetten.overheid.nl/BWBR0002489",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002489",
+"https://wetten.overheid.nl/BWBR0002489"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBSUCW – Uitvoeringsbesluit Successiewet 1956: https://wetten.overheid.nl/BWBR0002330",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002330",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0002330"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBVPB71 – Uitvoeringsbesluit vennootschapsbelasting 1971: https://wetten.overheid.nl/BWBR0002757",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002757",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0002757"
+]
+]
+},
+{
+"tag": "li",
+"t": "UBWETBRV – Uitvoeringsbesluit belastingen van rechtsverkeer: https://wetten.overheid.nl/BWBR0002755",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002755",
+"https://wetten.overheid.nl/BWBR0002755"
+]
+]
+},
+{
+"tag": "li",
+"t": "URIJ801 – Uitvoeringsregeling inkomstenbelasting 2001: https://wetten.overheid.nl/BWBR0012067",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0012067",
+"https://wetten.overheid.nl/BWBR0012067"
+]
+]
+},
+{
+"tag": "li",
+"t": "URINVW90 – Uitvoeringsregeling Invorderingswet 1990: https://wetten.overheid.nl/BWBR0004775",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004775",
+"https://wetten.overheid.nl/BWBR0004775"
+]
+]
+},
+{
+"tag": "li",
+"t": "URLB2011 – Uitvoeringsregeling loonbelasting 2011: https://wetten.overheid.nl/BWBR0028236",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0028236",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0028236"
+]
+]
+},
+{
+"tag": "li",
+"t": "URSCHEBEL – Uitvoeringsregeling schenk- en erfbelasting: https://wetten.overheid.nl/BWBR0026857",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0026857",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0026857"
+]
+]
+},
+{
+"tag": "li",
+"t": "VPB – Wet op de vennootschapsbelasting 1969: https://wetten.overheid.nl/BWBR0002672",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002672",
+"https://wetten.overheid.nl/BWBR0002672"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wabb – Wet op de arbeidsongeschiktheidsverzekering (WAO): De voorloper van de WIA, nog steeds relevant voor oude gevallen: https://wetten.overheid.nl/BWBR0002524",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002524",
+"https://wetten.overheid.nl/BWBR0002524"
+]
+]
+},
+{
+"tag": "li",
+"t": "WAJONG – Wet werk en arbeidsondersteuning jonggehandicapten: https://wetten.overheid.nl/BWBR0008657",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0008657",
+"https://wetten.overheid.nl/BWBR0008657"
+]
+]
+},
+{
+"tag": "li",
+"t": "WAZO – Wet arbeid en zorg: https://wetten.overheid.nl/BWBR0013008",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0013008",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0013008"
+]
+]
+},
+{
+"tag": "li",
+"t": "WETDIVB65 – Wet op de dividendbelasting 1965: https://wetten.overheid.nl/BWBR0002515",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002515",
+"https://wetten.overheid.nl/BWBR0002515"
+]
+]
+},
+{
+"tag": "li",
+"t": "Wet OB – Wet op de omzetbelasting 1968 (BTW): Onmisbaar voor ondernemers: https://wetten.overheid.nl/BWBR0002629",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0002629",
+"https://wetten.overheid.nl/BWBR0002629"
+]
+]
+},
+{
+"tag": "li",
+"t": "WFSV – Wet financiering sociale verzekeringen: https://wetten.overheid.nl/BWBR0017745",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0017745",
+"https://wetten.overheid.nl/BWBR0017745"
+]
+]
+},
+{
+"tag": "li",
+"t": "WFT – Wet op het financieel toezicht: https://wetten.overheid.nl/BWBR0020368",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0020368",
+"https://wetten.overheid.nl/BWBR0020368"
+]
+]
+},
+{
+"tag": "li",
+"t": "WIA – Wet werk en inkomen naar arbeidsvermogen: https://wetten.overheid.nl/BWBR0019057",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0019057",
+"https://wetten.overheid.nl/BWBR0019057"
+]
+]
+},
+{
+"tag": "li",
+"t": "WKINDBB – Wet op het kindgebonden budget: https://wetten.overheid.nl/BWBR0024399",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0024399",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0024399"
+]
+]
+},
+{
+"tag": "li",
+"t": "WKO – Wet kinderopvang: https://wetten.overheid.nl/BWBR0017017",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0017017",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0017017"
+]
+]
+},
+{
+"tag": "li",
+"t": "WOZ – Wet waardering onroerende zaken: https://wetten.overheid.nl/BWBR0007119",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0007119",
+"https://wetten.overheid.nl/BWBR0007119"
+]
+]
+},
+{
+"tag": "li",
+"t": "WSF2000 – Wet studiefinanciering 2000: https://wetten.overheid.nl/BWBR0011453",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0011453",
+"https://wetten.overheid.nl/BWBR0011453"
+]
+]
+},
+{
+"tag": "li",
+"t": "WvK – Wetboek van Koophandel: https://wetten.overheid.nl/BWBR0001838",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0001838",
+"https://wetten.overheid.nl/BWBR0001838"
+]
+]
+},
+{
+"tag": "li",
+"t": "WVPS – Wet verevening pensioenrechten bij scheiding: https://wetten.overheid.nl/BWBR0006651",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0006651",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0006651"
+]
+]
+},
+{
+"tag": "li",
+"t": "WW – Werkloosheidswet: https://wetten.overheid.nl/BWBR0004045",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0004045",
+"https://wetten.overheid.nl/BWBR0004045"
+]
+]
+},
+{
+"tag": "li",
+"t": "WWFT – Wet ter voorkoming van witwassen en financieren van terrorisme: https://wetten.overheid.nl/BWBR0024281",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0024281",
+"https://wetten.overheid.nl/BWBR0024281"
+]
+]
+},
+{
+"tag": "li",
+"t": "ZVW – Zorgverzekeringswet: https://wetten.overheid.nl/BWBR0018450",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0018450",
+"https://wetten.overheid.nl/BWBR0018450"
+]
+]
+},
+{
+"tag": "li",
+"t": "ZW – Ziektewet: https://wetten.overheid.nl/BWBR0001888",
+"l": [
+[
+"https://wetten.overheid.nl/BWBR0001888",
+"https://wetten.overheid.nl/BWBR0001888"
+]
+]
+},
+{
+"tag": "h1",
+"t": "NVHP - Wettenbundel",
+"l": [
+[
+"",
+"#h.dc4yovdksntb"
+]
+]
+},
+{
+"tag": "p",
+"t": "Essentieel naslagwerk voor de financiële sector",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetgeving Financiële Dienstverlening 2026 biedt een compleet en actueel overzicht van de Nederlandse wet- en regelgeving per 1 januari 2026. Dankzij de logische structuur, verhelderende margeteksten en een uitgebreid trefwoordenregister vindt de gebruiker razendsnel de benodigde informatie. Waarom dit boek onmisbaar is:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Actueel: Volledig bijgewerkt naar de stand van zaken op 1 januari 2026.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Gebruiksvriendelijk: Ontworpen voor snelheid en precisie in de dagelijkse praktijk.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Breed inzetbaar: De ideale gids voor hypothecair planners, hypotheekadviseurs, financieel adviseurs, planners en studenten. Ook voor FFP, SEH en NVHP leden.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Voor leden van de NVHP en Hypothecair planners is dit werk een onmisbaar instrument in de dagelijkse adviespraktijk. Het biedt de juridische zekerheid die nodig is om klanten van een hoogwaardig en up-to-date advies te voorzien. Direct bestellen en gratis verzending & thuisbezorgd.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetten bundel bestellen",
+"l": []
+},
+{
+"tag": "p",
+"t": "€35,- extra korting Ontvang € 35,- extra korting en maak gebruik van de voor inschrijving. Stuur een mail naar info@hypothecairplanner.nl met als onderwerp - Wettenbundel Voorinschrijving. Je ontvangt dan van ons een nota met € 35,- extra korting.",
+"l": [
+[
+"info@hypothecairplanner.nl",
+"mailto:info@hypothecairplanner.nl"
+]
+]
+},
+{
+"tag": "h1",
+"t": "Word ook Hypothecair Planner!",
+"l": [
+[
+"",
+"#h.vhyfk0zfddhe"
+]
+]
+},
+{
+"tag": "h3",
+"t": "Klaar voor de volgende stap? Zo word je lid! Wat goed dat je de ambitie hebt om jezelf te kronen tot dé expert in je vakgebied. Het traject naar de titel Erkend Hypothecair Planner (EHP) is een investering in jezelf waar jij (en jouw klant!) direct de vruchten van plukt.",
+"l": [
+[
+"",
+"#h.dpv3q9s2cfaz"
+]
+]
+},
+{
+"tag": "li",
+"t": "DFO Opleidingen – Bekijk de leergang",
+"l": [
+[
+"DFO Opleidingen – Bekijk de leergang",
+"https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Impact Opleidingen – Bekijk de leergang",
+"l": [
+[
+"Impact Opleidingen – Bekijk de leergang",
+"https://www.impact.nu/opleiding/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Lindenhaeghe – Bekijk de leergang",
+"l": [
+[
+"Lindenhaeghe – Bekijk de leergang",
+"https://lindenhaeghe.nl/hypotheken/leergang-hypothecair-planner"
+]
+]
+}
+],
+"fin-alfabet.html": [
+{
+"tag": "p",
+"t": "Omdat veel van deze woorden in meerdere titels voorkomen, zijn ze gekoppeld aan de meest relevante URL (het BWBR-nummer ) .",
+"l": []
+},
+{
+"tag": "li",
+"t": "arbeidsongeschiktheidsvoorziening - BWBR0008657",
+"l": [
+[
+"BWBR0008657",
+"https://wetten.overheid.nl/BWBR0008657"
+]
+]
+},
+{
+"tag": "li",
+"t": "arbeidsvermogen - BWBR0019057",
+"l": [
+[
+"BWBR0019057",
+"https://wetten.overheid.nl/BWBR0019057"
+]
+]
+},
+{
+"tag": "li",
+"t": "belastingen - BWBR0002740",
+"l": [
+[
+"BWBR0002740",
+"https://wetten.overheid.nl/BWBR0002740"
+]
+]
+},
+{
+"tag": "li",
+"t": "beroepspensioenregeling - BWBR0020892",
+"l": [
+[
+"BWBR0020892",
+"https://wetten.overheid.nl/BWBR0020892"
+]
+]
+},
+{
+"tag": "li",
+"t": "consumentenkrediet - BWBR0004815",
+"l": [
+[
+"BWBR0004815",
+"https://wetten.overheid.nl/BWBR0004815"
+]
+]
+},
+{
+"tag": "li",
+"t": "dagloonbesluit - BWBR0033486",
+"l": [
+[
+"BWBR0033486",
+"https://wetten.overheid.nl/BWBR0033486"
+]
+]
+},
+{
+"tag": "li",
+"t": "deelnemingsjaren - BWBR0007144",
+"l": [
+[
+"BWBR0007144",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0007144"
+]
+]
+},
+{
+"tag": "li",
+"t": "directeur-grootaandeelhouder - BWBR0036819",
+"l": [
+[
+"BWBR0036819",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0036819"
+]
+]
+},
+{
+"tag": "li",
+"t": "dividendbelasting - BWBR0002515",
+"l": [
+[
+"BWBR0002515",
+"https://wetten.overheid.nl/BWBR0002515"
+]
+]
+},
+{
+"tag": "li",
+"t": "erfrechtverordening - EU-tekst 650/2012",
+"l": [
+[
+"EU-tekst 650/2012",
+"https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=celex%3A32012R0650"
+]
+]
+},
+{
+"tag": "li",
+"t": "extraterritoriale - BWBR0033855",
+"l": [
+[
+"BWBR0033855",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0033855"
+]
+]
+},
+{
+"tag": "li",
+"t": "faillissementswet - BWBR0001860",
+"l": [
+[
+"BWBR0001860",
+"https://wetten.overheid.nl/BWBR0001860"
+]
+]
+},
+{
+"tag": "li",
+"t": "familierecht - BWBR0002656",
+"l": [
+[
+"BWBR0002656",
+"https://wetten.overheid.nl/BWBR0002656"
+]
+]
+},
+{
+"tag": "li",
+"t": "FIU Nederland: Fiu-nederland.nl",
+"l": [
+[
+"Fiu-nederland.nl",
+"https://www.fiu-nederland.nl/"
+]
+]
+},
+{
+"tag": "li",
+"t": "gedragstoezicht - BWBR0020421",
+"l": [
+[
+"BWBR0020421",
+"https://wetten.overheid.nl/BWBR0020421"
+]
+]
+},
+{
+"tag": "li",
+"t": "gegevensbescherming - BWBR0040940",
+"l": [
+[
+"BWBR0040940",
+"https://wetten.overheid.nl/BWBR0040940"
+]
+]
+},
+{
+"tag": "li",
+"t": "gemeenschap - BWBR0029955",
+"l": [
+[
+"BWBR0029955",
+"https://wetten.overheid.nl/BWBR0029955"
+]
+]
+},
+{
+"tag": "li",
+"t": "goederen - BWBR0029955",
+"l": [
+[
+"BWBR0029955",
+"https://wetten.overheid.nl/BWBR0029955"
+]
+]
+},
+{
+"tag": "li",
+"t": "grondwet - BWBR0001840",
+"l": [
+[
+"BWBR0001840",
+"https://wetten.overheid.nl/BWBR0001840"
+]
+]
+},
+{
+"tag": "li",
+"t": "huurtoeslag - BWBR0008659",
+"l": [
+[
+"BWBR0008659",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0008659"
+]
+]
+},
+{
+"tag": "li",
+"t": "hypothecair - BWBR0032503",
+"l": [
+[
+"BWBR0032503",
+"https://wetten.overheid.nl/BWBR0032503"
+]
+]
+},
+{
+"tag": "li",
+"t": "inkomensafhankelijke - BWBR0018472",
+"l": [
+[
+"BWBR0018472",
+"https://wetten.overheid.nl/BWBR0018472"
+]
+]
+},
+{
+"tag": "li",
+"t": "inkomensbesluit - BWBR0029368",
+"l": [
+[
+"BWBR0029368",
+"https://wetten.overheid.nl/BWBR0029368"
+]
+]
+},
+{
+"tag": "li",
+"t": "inkomensvoorziening - BWBR0024394",
+"l": [
+[
+"BWBR0024394",
+"https://wetten.overheid.nl/BWBR0024394"
+]
+]
+},
+{
+"tag": "li",
+"t": "inkomstenbelasting - BWBR0011353",
+"l": [
+[
+"BWBR0011353",
+"https://wetten.overheid.nl/BWBR0011353"
+]
+]
+},
+{
+"tag": "li",
+"t": "internationaal - BWBR0030068",
+"l": [
+[
+"BWBR0030068",
+"https://wetten.overheid.nl/BWBR0030068"
+]
+]
+},
+{
+"tag": "li",
+"t": "invoeringswet - BWBR0011354",
+"l": [
+[
+"BWBR0011354",
+"https://wetten.overheid.nl/BWBR0011354"
+]
+]
+},
+{
+"tag": "li",
+"t": "invorderingswet - BWBR0004770",
+"l": [
+[
+"BWBR0004770",
+"https://wetten.overheid.nl/BWBR0004770"
+]
+]
+},
+{
+"tag": "li",
+"t": "jonggehandicapten - BWBR0008657",
+"l": [
+[
+"BWBR0008657",
+"https://wetten.overheid.nl/BWBR0008657"
+]
+]
+},
+{
+"tag": "li",
+"t": "kinderbijslag - BWBR0035261",
+"l": [
+[
+"BWBR0035261",
+"https://wetten.overheid.nl/BWBR0035261"
+]
+]
+},
+{
+"tag": "li",
+"t": "kinderbijslagwet - BWBR0002368",
+"l": [
+[
+"BWBR0002368",
+"https://wetten.overheid.nl/BWBR0002368"
+]
+]
+},
+{
+"tag": "li",
+"t": "kindgebonden - BWBR0022751",
+"l": [
+[
+"BWBR0022751",
+"https://wetten.overheid.nl/BWBR0022751"
+]
+]
+},
+{
+"tag": "li",
+"t": "kinderopvang - BWBR0017252",
+"l": [
+[
+"BWBR0017252",
+"https://wetten.overheid.nl/BWBR0017252"
+]
+]
+},
+{
+"tag": "li",
+"t": "kinderopvangtoeslag - BWBR0017321",
+"l": [
+[
+"BWBR0017321",
+"https://wetten.overheid.nl/BWBR0017321"
+]
+]
+},
+{
+"tag": "li",
+"t": "koophandel - BWBR0001838",
+"l": [
+[
+"BWBR0001838",
+"https://wetten.overheid.nl/BWBR0001838"
+]
+]
+},
+{
+"tag": "li",
+"t": "loonbelasting - BWBR0002471",
+"l": [
+[
+"BWBR0002471",
+"https://wetten.overheid.nl/BWBR0002471"
+]
+]
+},
+{
+"tag": "li",
+"t": "loonheffingen - BWBR0033855",
+"l": [
+[
+"BWBR0033855",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0033855"
+]
+]
+},
+{
+"tag": "li",
+"t": "minimumloon - BWBR0002638",
+"l": [
+[
+"BWBR0002638",
+"https://wetten.overheid.nl/BWBR0002638"
+]
+]
+},
+{
+"tag": "li",
+"t": "minimumvakantiebijslag - BWBR0002638",
+"l": [
+[
+"BWBR0002638",
+"https://wetten.overheid.nl/BWBR0002638"
+]
+]
+},
+{
+"tag": "li",
+"t": "nabestaandenwet - BWBR0007795",
+"l": [
+[
+"BWBR0007795",
+"https://wetten.overheid.nl/BWBR0007795"
+]
+]
+},
+{
+"tag": "li",
+"t": "natuurschoonwet - BWBR0001939",
+"l": [
+[
+"BWBR0001939",
+"https://wetten.overheid.nl/BWBR0001939"
+]
+]
+},
+{
+"tag": "li",
+"t": "natuurlijke - Rechtspraak.nl (WSNP)",
+"l": [
+[
+"Rechtspraak.nl (WSNP)",
+"https://www.rechtspraak.nl/"
+]
+]
+},
+{
+"tag": "li",
+"t": "onroerende - BWBR0007119",
+"l": [
+[
+"BWBR0007119",
+"https://wetten.overheid.nl/BWBR0007119"
+]
+]
+},
+{
+"tag": "li",
+"t": "ondernemingen - BWBR0020421",
+"l": [
+[
+"BWBR0020421",
+"https://wetten.overheid.nl/BWBR0020421"
+]
+]
+},
+{
+"tag": "li",
+"t": "overgangsrecht - BWBR0036595",
+"l": [
+[
+"BWBR0036595",
+"https://wetten.overheid.nl/BWBR0036595"
+]
+]
+},
+{
+"tag": "li",
+"t": "overeenkomsten - BWBR0005290",
+"l": [
+[
+"BWBR0005290",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0005290"
+]
+]
+},
+{
+"tag": "li",
+"t": "ouderdomswet - BWBR0002221",
+"l": [
+[
+"BWBR0002221",
+"https://wetten.overheid.nl/BWBR0002221"
+]
+]
+},
+{
+"tag": "li",
+"t": "partneralimentatie - BWBR0042499",
+"l": [
+[
+"BWBR0042499",
+"https://wetten.overheid.nl/BWBR0042499"
+]
+]
+},
+{
+"tag": "li",
+"t": "participatiewet - BWBR0015703",
+"l": [
+[
+"BWBR0015703",
+"https://wetten.overheid.nl/BWBR0015703"
+]
+]
+},
+{
+"tag": "li",
+"t": "pensioenberekening - BWBR0007144",
+"l": [
+[
+"BWBR0007144",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0007144"
+]
+]
+},
+{
+"tag": "li",
+"t": "pensioenrechten - BWBR0006641",
+"l": [
+[
+"BWBR0006641",
+"https://wetten.overheid.nl/BWBR0006641"
+]
+]
+},
+{
+"tag": "li",
+"t": "pensioenwet - BWBR0020809",
+"l": [
+[
+"BWBR0020809",
+"https://wetten.overheid.nl/BWBR0020809"
+]
+]
+},
+{
+"tag": "li",
+"t": "personenrecht - BWBR0002656",
+"l": [
+[
+"BWBR0002656",
+"https://wetten.overheid.nl/BWBR0002656"
+]
+]
+},
+{
+"tag": "li",
+"t": "privaatrecht - BWBR0030068",
+"l": [
+[
+"BWBR0030068",
+"https://wetten.overheid.nl/BWBR0030068"
+]
+]
+},
+{
+"tag": "li",
+"t": "rechtsherstel - BWBR0047699",
+"l": [
+[
+"BWBR0047699",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0047699"
+]
+]
+},
+{
+"tag": "li",
+"t": "rechtspersonen - BWBR0003045",
+"l": [
+[
+"BWBR0003045",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0003045"
+]
+]
+},
+{
+"tag": "li",
+"t": "rechtsverkeer - BWBR0002740",
+"l": [
+[
+"BWBR0002740",
+"https://wetten.overheid.nl/BWBR0002740"
+]
+]
+},
+{
+"tag": "li",
+"t": "reglement - Kifid Reglement",
+"l": [
+[
+"Kifid Reglement",
+"https://www.kifid.nl/"
+]
+]
+},
+{
+"tag": "li",
+"t": "registratiewet - BWBR0002739",
+"l": [
+[
+"BWBR0002739",
+"https://wetten.overheid.nl/BWBR0002739"
+]
+]
+},
+{
+"tag": "li",
+"t": "rijksbelastingen - BWBR0002320",
+"l": [
+[
+"BWBR0002320",
+"https://wetten.overheid.nl/BWBR0002320"
+]
+]
+},
+{
+"tag": "li",
+"t": "schuldsanering - Rechtspraak.nl (WSNP)",
+"l": [
+[
+"Rechtspraak.nl (WSNP)",
+"https://www.rechtspraak.nl/"
+]
+]
+},
+{
+"tag": "li",
+"t": "studiefinanciering - BWBR0011453",
+"l": [
+[
+"BWBR0011453",
+"https://wetten.overheid.nl/BWBR0011453"
+]
+]
+},
+{
+"tag": "li",
+"t": "successiewet - BWBR0002226",
+"l": [
+[
+"BWBR0002226",
+"https://wetten.overheid.nl/BWBR0002226"
+]
+]
+},
+{
+"tag": "li",
+"t": "terrorisme - BWBR0024281",
+"l": [
+[
+"BWBR0024281",
+"https://wetten.overheid.nl/BWBR0024281"
+]
+]
+},
+{
+"tag": "li",
+"t": "toeslagenwet - BWBR0004043",
+"l": [
+[
+"BWBR0004043",
+"https://wetten.overheid.nl/BWBR0004043"
+]
+]
+},
+{
+"tag": "li",
+"t": "transitievergoeding - BWBR0036595",
+"l": [
+[
+"BWBR0036595",
+"https://wetten.overheid.nl/BWBR0036595"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitgezonderde - BWBR0007142",
+"l": [
+[
+"BWBR0007142",
+"https://wetten.overheid.nl/BWBR0007142"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitspraken - Kifid Register",
+"l": [
+[
+"Kifid Register",
+"https://www.kifid.nl/"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitvoeringsbesluit - BWBR0041193",
+"l": [
+[
+"BWBR0041193",
+"https://wetten.overheid.nl/BWBR0041193"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitvoeringsbeschikking - BWBR0002784",
+"l": [
+[
+"BWBR0002784",
+"https://wetten.overheid.nl/BWBR0002784"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitvoeringsregeling - BWBR0006736",
+"l": [
+[
+"BWBR0006736",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0006736"
+]
+]
+},
+{
+"tag": "li",
+"t": "uitvoeringswet - BWBR0040940",
+"l": [
+[
+"BWBR0040940",
+"https://wetten.overheid.nl/BWBR0040940"
+]
+]
+},
+{
+"tag": "li",
+"t": "vennootschapsbelasting - BWBR0002672",
+"l": [
+[
+"BWBR0002672",
+"https://wetten.overheid.nl/BWBR0002672"
+]
+]
+},
+{
+"tag": "li",
+"t": "verevening - BWBR0006641",
+"l": [
+[
+"BWBR0006641",
+"https://wetten.overheid.nl/BWBR0006641"
+]
+]
+},
+{
+"tag": "li",
+"t": "verplichte - BWBR0020892",
+"l": [
+[
+"BWBR0020892",
+"https://wetten.overheid.nl/BWBR0020892"
+]
+]
+},
+{
+"tag": "li",
+"t": "verbintenissenrecht - BWBR0005289",
+"l": [
+[
+"BWBR0005289",
+"https://wetten.overheid.nl/BWBR0005289"
+]
+]
+},
+{
+"tag": "li",
+"t": "vermogensrecht - BWBR0005291",
+"l": [
+[
+"BWBR0005291",
+"https://wetten.overheid.nl/BWBR0005291"
+]
+]
+},
+{
+"tag": "li",
+"t": "verordening - BWBR0040940",
+"l": [
+[
+"BWBR0040940",
+"https://wetten.overheid.nl/BWBR0040940"
+]
+]
+},
+{
+"tag": "li",
+"t": "verzekeringen - BWBR0017745",
+"l": [
+[
+"BWBR0017745",
+"https://wetten.overheid.nl/BWBR0017745"
+]
+]
+},
+{
+"tag": "li",
+"t": "voorziening - BWBR0024394",
+"l": [
+[
+"BWBR0024394",
+"https://wetten.overheid.nl/BWBR0024394"
+]
+]
+},
+{
+"tag": "li",
+"t": "waardering - BWBR0007119",
+"l": [
+[
+"BWBR0007119",
+"https://wetten.overheid.nl/BWBR0007119"
+]
+]
+},
+{
+"tag": "li",
+"t": "waarde-overdracht - BWBR0007369",
+"l": [
+[
+"BWBR0007369",
+"https://www.google.com/search?q=https://wetten.overheid.nl/BWBR0007369"
+]
+]
+},
+{
+"tag": "li",
+"t": "werkloosheidswet - BWBR0004045",
+"l": [
+[
+"BWBR0004045",
+"https://wetten.overheid.nl/BWBR0004045"
+]
+]
+},
+{
+"tag": "li",
+"t": "werknemersverzekeringen - BWBR0033486",
+"l": [
+[
+"BWBR0033486",
+"https://wetten.overheid.nl/BWBR0033486"
+]
+]
+},
+{
+"tag": "li",
+"t": "witwassen - BWBR0024281",
+"l": [
+[
+"BWBR0024281",
+"https://wetten.overheid.nl/BWBR0024281"
+]
+]
+},
+{
+"tag": "li",
+"t": "zelfstandigen - BWBR0004163",
+"l": [
+[
+"BWBR0004163",
+"https://wetten.overheid.nl/BWBR0004163"
+]
+]
+},
+{
+"tag": "li",
+"t": "ziektewet - BWBR0001888",
+"l": [
+[
+"BWBR0001888",
+"https://wetten.overheid.nl/BWBR0001888"
+]
+]
+},
+{
+"tag": "li",
+"t": "zorgtoeslag - BWBR0018451",
+"l": [
+[
+"BWBR0018451",
+"https://wetten.overheid.nl/BWBR0018451"
+]
+]
+},
+{
+"tag": "li",
+"t": "zorgverzekering - BWBR0018715",
+"l": [
+[
+"BWBR0018715",
+"https://wetten.overheid.nl/BWBR0018715"
+]
+]
+},
+{
+"tag": "li",
+"t": "zorgverzekeringswet - BWBR0018450",
+"l": [
+[
+"BWBR0018450",
+"https://wetten.overheid.nl/BWBR0018450"
+]
+]
+},
+{
+"tag": "h1",
+"t": "NVHP - Wettenbundel",
+"l": [
+[
+"",
+"#h.dc4yovdksntb"
+]
+]
+},
+{
+"tag": "p",
+"t": "Essentieel naslagwerk voor de financiële sector",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetgeving Financiële Dienstverlening 2026 biedt een compleet en actueel overzicht van de Nederlandse wet- en regelgeving per 1 januari 2026. Dankzij de logische structuur, verhelderende margeteksten en een uitgebreid trefwoordenregister vindt de gebruiker razendsnel de benodigde informatie. Waarom dit boek onmisbaar is:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Actueel: Volledig bijgewerkt naar de stand van zaken op 1 januari 2026.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Gebruiksvriendelijk: Ontworpen voor snelheid en precisie in de dagelijkse praktijk.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Breed inzetbaar: De ideale gids voor hypothecair planners, hypotheekadviseurs, financieel adviseurs, planners en studenten. Ook voor FFP, SEH en NVHP leden.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Voor leden van de NVHP en Hypothecair planners is dit werk een onmisbaar instrument in de dagelijkse adviespraktijk. Het biedt de juridische zekerheid die nodig is om klanten van een hoogwaardig en up-to-date advies te voorzien. Direct bestellen en gratis verzending & thuisbezorgd.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetten bundel bestellen",
+"l": []
+},
+{
+"tag": "p",
+"t": "€35,- extra korting Ontvang € 35,- extra korting en maak gebruik van de voor inschrijving. Stuur een mail naar info@hypothecairplanner.nl met als onderwerp - Wettenbundel Voorinschrijving. Je ontvangt dan van ons een nota met € 35,- extra korting.",
+"l": [
+[
+"info@hypothecairplanner.nl",
+"mailto:info@hypothecairplanner.nl"
+]
+]
+},
+{
+"tag": "h1",
+"t": "Word ook Hypothecair Planner!",
+"l": [
+[
+"",
+"#h.vhyfk0zfddhe"
+]
+]
+},
+{
+"tag": "h3",
+"t": "Klaar voor de volgende stap? Zo word je lid! Wat goed dat je de ambitie hebt om jezelf te kronen tot dé expert in je vakgebied. Het traject naar de titel Erkend Hypothecair Planner (EHP) is een investering in jezelf waar jij (en jouw klant!) direct de vruchten van plukt.",
+"l": [
+[
+"",
+"#h.dpv3q9s2cfaz"
+]
+]
+},
+{
+"tag": "li",
+"t": "DFO Opleidingen – Bekijk de leergang",
+"l": [
+[
+"DFO Opleidingen – Bekijk de leergang",
+"https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Impact Opleidingen – Bekijk de leergang",
+"l": [
+[
+"Impact Opleidingen – Bekijk de leergang",
+"https://www.impact.nu/opleiding/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Lindenhaeghe – Bekijk de leergang",
+"l": [
+[
+"Lindenhaeghe – Bekijk de leergang",
+"https://lindenhaeghe.nl/hypotheken/leergang-hypothecair-planner"
+]
+]
+}
+],
+"fin-disclaimer.html": [
+{
+"tag": "h3",
+"t": "Disclaimer voor Wetten voor Financieel Advies",
+"l": [
+[
+"",
+"#h.x3zbiqqmx36p"
+]
+]
+},
+{
+"tag": "p",
+"t": "1. Informatief karakter",
+"l": []
+},
+{
+"tag": "p",
+"t": "De informatie op deze website ( https://www.finrecht.nl ) is uitsluitend bedoeld voor algemene informatieve doeleinden. Hoewel wij streven naar het bieden van actuele en accurate informatie over financiële wet- en regelgeving, kunnen hieraan geen rechten worden ontleend.",
+"l": [
+[
+"https://www.finrecht.nl",
+"https://www.finrecht.nl"
+]
+]
+},
+{
+"tag": "p",
+"t": "2. Geen financieel of juridisch advies",
+"l": []
+},
+{
+"tag": "p",
+"t": "De inhoud van deze website vormt nadrukkelijk geen financieel, juridisch of fiscaal advies. Financiële wetgeving is complex en onderhevig aan frequente wijzigingen. Wij raden u aan om voor specifieke vraagstukken of persoonlijke situaties altijd contact op te nemen met een gecertificeerd financieel adviseur of juridisch expert. Het gebruik van de geboden informatie is volledig voor eigen risico.",
+"l": []
+},
+{
+"tag": "p",
+"t": "3. Beperking van aansprakelijkheid",
+"l": []
+},
+{
+"tag": "p",
+"t": "De eigenaar van deze website aanvaardt geen enkele aansprakelijkheid voor directe of indirecte schade die voortvloeit uit het gebruik van de website, het vertrouwen op de geboden informatie, of eventuele fouten en onvolledigheden in de inhoud. Wij garanderen niet dat de website foutloos of ononderbroken zal functioneren.",
+"l": []
+},
+{
+"tag": "p",
+"t": "4. Externe links",
+"l": []
+},
+{
+"tag": "p",
+"t": "Deze website kan links bevatten naar externe websites (zoals die van de AFM, DNB of de Rijksoverheid). Wij hebben geen controle over de inhoud van deze websites en zijn niet verantwoordelijk voor de nauwkeurigheid of kwaliteit van de daar geboden informatie.",
+"l": []
+},
+{
+"tag": "p",
+"t": "5. Intellectueel eigendom",
+"l": []
+},
+{
+"tag": "p",
+"t": "Alle rechten met betrekking tot de inhoud van deze website (waaronder teksten en logo's) liggen bij de maker, tenzij anders vermeld. Overname van informatie is enkel toegestaan met bronvermelding en na schriftelijke toestemming.",
+"l": []
+},
+{
+"tag": "p",
+"t": "6. Wijzigingen",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wij behouden ons het recht voor om de inhoud van deze website en deze disclaimer op elk gewenst moment aan te passen zonder voorafgaande kennisgeving.",
+"l": []
+},
+{
+"tag": "h1",
+"t": "NVHP - Wettenbundel",
+"l": [
+[
+"",
+"#h.dc4yovdksntb"
+]
+]
+},
+{
+"tag": "p",
+"t": "Essentieel naslagwerk voor de financiële sector",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetgeving Financiële Dienstverlening 2026 biedt een compleet en actueel overzicht van de Nederlandse wet- en regelgeving per 1 januari 2026. Dankzij de logische structuur, verhelderende margeteksten en een uitgebreid trefwoordenregister vindt de gebruiker razendsnel de benodigde informatie. Waarom dit boek onmisbaar is:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Actueel: Volledig bijgewerkt naar de stand van zaken op 1 januari 2026.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Gebruiksvriendelijk: Ontworpen voor snelheid en precisie in de dagelijkse praktijk.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Breed inzetbaar: De ideale gids voor hypothecair planners, hypotheekadviseurs, financieel adviseurs, planners en studenten. Ook voor FFP, SEH en NVHP leden.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Voor leden van de NVHP en Hypothecair planners is dit werk een onmisbaar instrument in de dagelijkse adviespraktijk. Het biedt de juridische zekerheid die nodig is om klanten van een hoogwaardig en up-to-date advies te voorzien. Direct bestellen en gratis verzending & thuisbezorgd.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Wetten bundel bestellen",
+"l": []
+},
+{
+"tag": "p",
+"t": "€35,- extra korting Ontvang € 35,- extra korting en maak gebruik van de voor inschrijving. Stuur een mail naar info@hypothecairplanner.nl met als onderwerp - Wettenbundel Voorinschrijving. Je ontvangt dan van ons een nota met € 35,- extra korting.",
+"l": [
+[
+"info@hypothecairplanner.nl",
+"mailto:info@hypothecairplanner.nl"
+]
+]
+},
+{
+"tag": "h1",
+"t": "Word ook Hypothecair Planner!",
+"l": [
+[
+"",
+"#h.vhyfk0zfddhe"
+]
+]
+},
+{
+"tag": "h3",
+"t": "Klaar voor de volgende stap? Zo word je lid! Wat goed dat je de ambitie hebt om jezelf te kronen tot dé expert in je vakgebied. Het traject naar de titel Erkend Hypothecair Planner (EHP) is een investering in jezelf waar jij (en jouw klant!) direct de vruchten van plukt.",
+"l": [
+[
+"",
+"#h.dpv3q9s2cfaz"
+]
+]
+},
+{
+"tag": "li",
+"t": "DFO Opleidingen – Bekijk de leergang",
+"l": [
+[
+"DFO Opleidingen – Bekijk de leergang",
+"https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Impact Opleidingen – Bekijk de leergang",
+"l": [
+[
+"Impact Opleidingen – Bekijk de leergang",
+"https://www.impact.nu/opleiding/leergang-hypothecair-planner"
+]
+]
+},
+{
+"tag": "li",
+"t": "Lindenhaeghe – Bekijk de leergang",
+"l": [
+[
+"Lindenhaeghe – Bekijk de leergang",
+"https://lindenhaeghe.nl/hypotheken/leergang-hypothecair-planner"
+]
+]
+}
+],
+"trhk-p.html": [
+{
+"tag": "p",
+"t": "De afkorting TRHK staat voor Tijdelijke regeling hypothecair krediet . Deze regeling gaat over de regels die gelden voor het verstrekken van hypotheken in Nederland. Het doel is om te voorkomen dat consumenten te veel lenen in verhouding tot hun inkomen en de waarde van hun woning (overkreditering). De belangrijkste onderdelen van de regeling zijn:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Inkomenscriteria (LTI - Loan to Income): Hoeveel mag iemand lenen op basis van zijn of haar inkomen? De regeling bepaalt wat er precies onder \"toetsinkomen\" valt en stelt financieringslastpercentages vast (hoe groot deel van het inkomen mag naar woonlasten gaan).",
+"l": []
+},
+{
+"tag": "li",
+"t": "Woningwaarde (LTV - Loan to Value): De regeling bepaalt hoeveel er maximaal geleend mag worden ten opzichte van de waarde van de woning (momenteel 100%).",
+"l": []
+},
+{
+"tag": "li",
+"t": "Uitzonderingen: Er staan regels in over situaties waarin van de standaardnormen mag worden afgeweken, bijvoorbeeld voor energiebesparende voorzieningen (verduurzaming), voor senioren, of bij restschulden.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Studieschulden: Hoe zwaar een studieschuld meetelt bij de berekening van de maximale hypotheek.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Kort gezegd is dit de wetgeving die de \"leennormen\" bevat die banken en adviseurs moeten gebruiken bij het berekenen van jouw maximale hypotheek.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Bekijk de TRHK wet",
+"l": []
+},
+{
+"tag": "p",
+"t": "De Tijdelijke Regeling Hypothecair Krediet (TRHK) heeft 4 hoofdstukken. De regeling is als volgt opgebouwd:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Inleidende bepalingen: Hierin staan de definities, zoals wat er onder 'toetsinkomen' of 'energiebesparende voorzieningen' wordt verstaan.",
+"l": [
+[
+"Inleidende bepalingen:",
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf1"
+]
+]
+},
+{
+"tag": "li",
+"t": "Vaststelling inkomenscriteria: De regels over hoe het inkomen moet worden getoetst en de maximale financieringslast - de 'Loan-to-Income' of LTI-limiet.",
+"l": [
+[
+"Vaststelling inkomenscriteria:",
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf2"
+]
+]
+},
+{
+"tag": "li",
+"t": "Maximale hypothecair krediet in verhouding tot de waarde van de woning: De regels over hoeveel je mag lenen ten opzichte van de woningwaarde - de 'Loan-to-Value' of LTV-limiet",
+"l": [
+[
+"Maximale hypothecair krediet in verhouding tot de waarde van de woning:",
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf3"
+]
+]
+},
+{
+"tag": "li",
+"t": "Slotbepalingen: Technische bepalingen over de inwerkingtreding en citeertitel van de regeling",
+"l": [
+[
+"Slotbepalingen:",
+"https://wetten.overheid.nl/BWBR0032503/#Paragraaf4"
+]
+]
+},
+{
+"tag": "p",
+"t": "Daarnaast bevat de regeling een belangrijke bijlage met tabellen:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Bijlage 1: Financieringslastpercentages",
+"l": [
+[
+"Bijlage 1:",
+"https://wetten.overheid.nl/BWBR0032503/#Bijlage1"
+]
+]
+},
+{
+"tag": "p",
+"t": "Bekijk de gehele TRHK",
+"l": []
+},
+{
+"tag": "p",
+"t": "Bekijk al het financiële recht",
+"l": []
+},
+{
+"tag": "h2",
+"t": "TRHK ondersteuning",
+"l": [
+[
+"",
+"#h.4um5q0ds7dbr"
+]
+]
+},
+{
+"tag": "p",
+"t": "www.impact.nu",
+"l": [
+[
+"www.impact.nu",
+"http://www.impact.nu"
+]
+]
+},
+{
+"tag": "h2",
+"t": "Hypothecairplanner",
+"l": [
+[
+"",
+"#h.20wwokrjwxjb"
+]
+]
+},
+{
+"tag": "p",
+"t": "www.hypothecairplanner.nl",
+"l": [
+[
+"www.hypothecairplanner.nl",
+"https://www.hypothecairplanner.nl/adviseur/lidmaatschap"
+]
+]
+},
+{
+"tag": "h2",
+"t": "Fastlane Hypotheekadvies",
+"l": [
+[
+"",
+"#h.90m26zrtehma"
+]
+]
+},
+{
+"tag": "p",
+"t": "Fastlane hypotheekadvies software",
+"l": [
+[
+"Fastlane hypotheekadvies software",
+"https://fastlane.hypotheekbond.nl/"
+]
+]
+},
+{
+"tag": "h2",
+"t": "DRAAGPLICHT",
+"l": [
+[
+"",
+"#h.b07zp65d5jbr"
+]
+]
+},
+{
+"tag": "p",
+"t": "www. draagplicht .nl",
+"l": [
+[
+"www. draagplicht .nl",
+"https://www.www.draagplicht.nl"
+]
+]
+},
+{
+"tag": "h2",
+"t": "RekenTOOLS",
+"l": [
+[
+"",
+"#h.i5jllkau25hc"
+]
+]
+},
+{
+"tag": "p",
+"t": "www.ad viseurstools .nl",
+"l": [
+[
+"www.ad viseurstools .nl",
+"https://www.adviseurstools.nl"
+]
+]
+},
+{
+"tag": "h2",
+"t": "BLINQX PARTNERS",
+"l": [
+[
+"",
+"#h.lr4t2ynln1k"
+]
+]
+},
+{
+"tag": "p",
+"t": "verzekeringhypotheek.blinqx.tech/partners/",
+"l": [
+[
+"verzekeringhypotheek.blinqx.tech/partners/",
+"https://verzekeringhypotheek.blinqx.tech/partners/"
+]
+]
+}
+],
+"bgfo-p.html": [
+{
+"tag": "p",
+"t": "De afkorting BGFO staat voor het Besluit Gedragstoezicht financiële ondernemingen Wft . Dit is een belangrijk Nederlands besluit dat is gekoppeld aan de Wet op het financieel toezicht (Wft).",
+"l": []
+},
+{
+"tag": "p",
+"t": "Het BGFO bevat gedetailleerde regels over hoe financiële ondernemingen (zoals banken, verzekeraars, beleggingsondernemingen en financieel dienstverleners) zich moeten gedragen ten opzichte van hun klanten en de financiële markten. Het hoofddoel van deze wetgeving is de bescherming van de consument en het borgen van het vertrouwen in de financiële sector.",
+"l": []
+},
+{
+"tag": "p",
+"t": "In het besluit staan onder andere uitgebreide regels en eisen over:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Vakbekwaamheid en betrouwbaarheid: Medewerkers in de financiële sector (met name degenen met klantcontact of in leidinggevende posities) moeten de juiste diploma's hebben en integer handelen.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Informatieverstrekking: Hoe en welke informatie ondernemingen aan consumenten moeten verstrekken vóór en tijdens het afsluiten van een financieel product (transparantie over kosten, risico's en voorwaarden).",
+"l": []
+},
+{
+"tag": "li",
+"t": "Zorgvuldige dienstverlening: Regels omtrent het handelen in het belang van de klant en het voorkomen van belangenverstrengeling.",
+"l": []
+},
+{
+"tag": "li",
+"t": "B eheerste en integere bedrijfsvoering : Interne procedures die ervoor moeten zorgen dat de onderneming risico's goed beheert, zich aan de wet houdt en fraude of witwassen tegengaat.",
+"l": []
+},
+{
+"tag": "li",
+"t": "Klachtenafhandeling: Hoe financiële instellingen moeten omgaan met klachten van consumenten en de verplichte aansluiting bij een geschilleninstantie (zoals het Kifid).",
+"l": []
+},
+{
+"tag": "p",
+"t": "Kortom: het BGFO is het boek dat de gedragsregels voor de financiële dienstverlening vormgeeft, zodat consumenten deskundig en eerlijk worden geholpen.",
+"l": []
+},
+{
+"tag": "p",
+"t": "Bekijk de BGFO wet",
+"l": []
+},
+{
+"tag": "p",
+"t": "Het BGFO heeft 15 hoofdstukken:",
+"l": []
+},
+{
+"tag": "li",
+"t": "Inleidende bepalingen",
+"l": [
+[
+"Inleidende bepalingen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk1"
+]
+]
+},
+{
+"tag": "li",
+"t": "Vakbekwaamheid van medewerkers",
+"l": [
+[
+"Vakbekwaamheid van medewerkers",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk2"
+]
+]
+},
+{
+"tag": "li",
+"t": "Betrouwbaarheid",
+"l": [
+[
+"Betrouwbaarheid",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk3"
+]
+]
+},
+{
+"tag": "li",
+"t": "Integere uitoefening van het bedrijf",
+"l": [
+[
+"Integere uitoefening van het bedrijf",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk4"
+]
+]
+},
+{
+"tag": "li",
+"t": "B eheerste uitoefening van het bedrijf",
+"l": [
+[
+"eheerste uitoefening van het bedrijf",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk5"
+]
+]
+},
+{
+"tag": "li",
+"t": "Uitbesteden van werkzaamheden",
+"l": [
+[
+"Uitbesteden van werkzaamheden",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk6"
+]
+]
+},
+{
+"tag": "li",
+"t": "Klachtenafhandeling",
+"l": [
+[
+"Klachtenafhandeling",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk7"
+]
+]
+},
+{
+"tag": "li",
+"t": "Zorgvuldige dienstverlening",
+"l": [
+[
+"Zorgvuldige dienstverlening",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk8"
+]
+]
+},
+{
+"tag": "li",
+"t": "Meldingsplichten",
+"l": [
+[
+"Meldingsplichten",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk9"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende aanbieden",
+"l": [
+[
+"Aanvullende regels betreffende aanbieden",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk10"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende bemiddelen",
+"l": [
+[
+"Aanvullende regels betreffende bemiddelen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk11"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende herverzekeringsbemiddelen",
+"l": [
+[
+"Aanvullende regels betreffende herverzekeringsbemiddelen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk12"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende afwikkelondernemingen",
+"l": [
+[
+"Aanvullende regels betreffende afwikkelondernemingen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk13"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende optreden als clearinginstelling",
+"l": [
+[
+"Aanvullende regels betreffende optreden als clearinginstelling",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk14"
+]
+]
+},
+{
+"tag": "li",
+"t": "Aanvullende regels betreffende verlenen van beleggingsdiensten Premiepensioeninstellingen",
+"l": [
+[
+"Aanvullende regels betreffende verlenen van beleggingsdiensten",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk15"
+],
+[
+"Premiepensioeninstellingen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk15"
+]
+]
+},
+{
+"tag": "li",
+"t": "Premiepensioeninstellingen",
+"l": [
+[
+"Premiepensioeninstellingen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk15"
+]
+]
+},
+{
+"tag": "li",
+"t": "Slotbepalingen",
+"l": [
+[
+"Slotbepalingen",
+"https://wetten.overheid.nl/BWBR0020421/#Hoofdstuk16"
+]
+]
+},
+{
+"tag": "p",
+"t": "Bekijk de gehele BGFO",
+"l": []
+},
+{
+"tag": "p",
+"t": "Bekijk al het financiële recht",
+"l": []
+},
+{
+"tag": "h2",
+"t": "BGFO ondersteuning",
+"l": [
+[
+"",
+"#h.4um5q0ds7dbr"
+]
+]
+},
+{
+"tag": "p",
+"t": "www.dfobv.nl",
+"l": []
+},
+{
+"tag": "h2",
+"t": "Hypothecairplanner",
+"l": [
+[
+"",
+"#h.20wwokrjwxjb"
+]
+]
+},
+{
+"tag": "p",
+"t": "www.hypothecairplanner.nl",
+"l": [
+[
+"www.hypothecairplanner.nl",
+"https://www.hypothecairplanner.nl/adviseur/lidmaatschap"
+]
+]
+},
+{
+"tag": "h2",
+"t": "Fastlane Hypotheekadvies",
+"l": [
+[
+"",
+"#h.90m26zrtehma"
+]
+]
+},
+{
+"tag": "p",
+"t": "Fastlane hypotheekadvies software",
+"l": [
+[
+"Fastlane hypotheekadvies software",
+"https://fastlane.hypotheekbond.nl/"
+]
+]
+}
+]
+}
