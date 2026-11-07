@@ -23,10 +23,7 @@ const SOURCES = [
   { naam: 'NVB', type: 'html', url: 'https://www.nvb.nl/nieuws-en-verhalen', pat: /\/nieuws-en-verhalen\/[a-z0-9-]{8,}$/, filter: true, home: 'https://www.nvb.nl/' },
   { naam: 'SIVI', type: 'html', url: 'https://www.sivi.org/actueel/', pat: /\/actueel\/[a-z0-9-]{6,}\/?$/, filter: false, home: 'https://www.sivi.org/' },
   { naam: 'NHG', type: 'html', url: 'https://www.nhg.nl/nhg-actueel/', pat: /\/nhg-actueel\/[a-z0-9-]{6,}\/?$/, filter: false, home: 'https://www.nhg.nl/' },
-  { naam: 'Rijksoverheid', type: 'rss', url: 'https://feeds.rijksoverheid.nl/onderwerpen/huis-kopen/nieuws.rss', filter: false, home: 'https://www.rijksoverheid.nl/' },
-  { naam: 'Rijksoverheid', type: 'rss', url: 'https://feeds.rijksoverheid.nl/onderwerpen/hypotheek/nieuws.rss', filter: false, home: 'https://www.rijksoverheid.nl/' },
-  { naam: 'Rijksoverheid', type: 'rss', url: 'https://feeds.rijksoverheid.nl/onderwerpen/verzekeringen/nieuws.rss', filter: false, home: 'https://www.rijksoverheid.nl/' },
-  { naam: 'Rijksoverheid', type: 'rss', url: 'https://feeds.rijksoverheid.nl/onderwerpen/financiele-sector/nieuws.rss', filter: true, home: 'https://www.rijksoverheid.nl/' },
+  { naam: 'Rijksoverheid', type: 'html', url: 'https://www.rijksoverheid.nl/actueel/nieuws', pat: /\/actueel\/nieuws\/20\d\d\/\d\d\/\d\d\/[a-z0-9-]{6,}$/, filter: true, prefilter: true, home: 'https://www.rijksoverheid.nl/' },
 ];
 
 const MAANDEN = { januari: 1, februari: 2, maart: 3, april: 4, mei: 5, juni: 6, juli: 7, augustus: 8, september: 9, oktober: 10, november: 11, december: 12,
@@ -138,7 +135,7 @@ function parseRss(xml) {
         for (const [t, u] of links) {
           if (!src.pat.test(u) || seen.has(u)) continue;
           seen.add(u);
-          found.push({ t: t.length > 15 ? t.replace(/^(nieuws|persbericht|blog)\s+/i, '').replace(/^\d{1,2}\s+\w+\s+20\d\d\s+/, '') : '', u, d: '', x: '' });
+          found.push({ t: t.length > 15 ? t.split('\n')[0].replace(/^(nieuws|persbericht|blog)\s+/i, '').replace(/^\d{1,2}\s+\w+\s+20\d\d\s+/, '') : '', u, d: '', x: '' });
         }
         found = found.slice(0, 15);
       }
@@ -147,6 +144,7 @@ function parseRss(xml) {
         if (!it.u) continue;
         if (byUrl.has(it.u)) continue;
         if (it.d && it.d < cutoffEarly) continue;
+        if (src.prefilter && it.t && !KW.test(it.t)) continue;  // brede bron: eerst op titel filteren
         it.html = src.type === 'html';
         if (it.html || !it.x || !it.d || /is the central bank of the European Union/.test(it.x)) it = await enrich(it);
         delete it.html;
