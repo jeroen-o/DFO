@@ -199,6 +199,8 @@ def clean(raw):
         elif n == "video":
             done.add(id(el))
             src = (el.find("source") or {}).get("src") if el.find("source") else el.get("src")
+            if not src and el.find("a", href=True):
+                src = el.find("a", href=True)["href"]
             if src:
                 src = rewrite(src.split("?")[0])
                 if src.startswith("assets/"):
@@ -256,7 +258,7 @@ def build_dfobv(ctx):
             continue
         title = u(p["title"]["rendered"]) or slug.replace("-", " ").capitalize()
         body_html = clean(p["content"]["rendered"])
-        if not text_of(body_html) and "<img" not in body_html and "<a" not in body_html:
+        if not text_of(body_html) and not re.search(r"<(img|a|video|iframe)\b", body_html):
             continue
         body = hero(E(title), "", crumbs=["www.dfobv.nl", E(title)])
         body += f'<section><div class="wrap"><div class="prose wp">{body_html}</div>' \
@@ -351,7 +353,7 @@ document.getElementById('aq').oninput=r;r();
 <div class="btns"><a class="btn btn-primary arrow" href="{E(p["permalink"])}" rel="noopener">Bestellen in de webshop</a></div>
 <p class="fine" style="font-size:.8rem;color:var(--muted)">Artikelnummer {E(p.get("sku",""))}. Bestellen en betalen gaat via de webshop op dfobv.nl.</p></div>
 </div></section>
-{f'<section class="alt"><div class="wrap"><div class="prose wp"><h2>Omschrijving</h2>{desc}</div></div></section>' if text_of(desc) else ''}'''
+{f'<section class="alt"><div class="wrap"><div class="prose wp"><h2>Omschrijving</h2>{desc}</div></div></section>' if (text_of(desc) or '<video' in desc) else ''}'''
         page(f"product-{slug}.html", f"{name} – Webshop Bureau DFO", (text_of(p.get("short_description", "")) or name)[:155], body)
     used = {}
     for x in prods:
