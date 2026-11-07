@@ -1,0 +1,1123 @@
+[
+  {
+    "term": "Aanvullende inkomensvoorziening ouderen",
+    "afk": "AIO",
+    "def": "Bijstandsuitkering voor mensen die de AOW-leeftijd hebben bereikt en door een onvolledige AOW een inkomen onder het sociaal minimum hebben. De AIO wordt uitgevoerd door de SVB en is afhankelijk van inkomen en vermogen.",
+    "zie": [
+      "Algemene Ouderdomswet",
+      "AOW-leeftijd",
+      "Eerste pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Afkoop klein pensioen",
+    "afk": "",
+    "def": "Het eenmalig uitbetalen van een ouderdomspensioen waarvan de jaarlijkse uitkering onder de wettelijke afkoopgrens ligt. De afkoopgrens wordt jaarlijks vastgesteld. Sinds 2019 wordt een klein pensioen bij uitdiensttreding in beginsel automatisch overgedragen naar de nieuwe uitvoerder, en mag afkoop pas op of na de pensioeningangsdatum met instemming van de deelnemer plaatsvinden. Zeer kleine aanspraken kunnen vervallen.",
+    "zie": [
+      "Waardeoverdracht",
+      "Pensioenwet",
+      "Ouderdomspensioen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Algemene nabestaandenwet",
+    "afk": "Anw",
+    "def": "Volksverzekering die een uitkering geeft aan nabestaanden van een overleden verzekerde. Recht bestaat alleen onder voorwaarden, zoals de zorg voor een kind jonger dan 18 jaar, arbeidsongeschiktheid van ten minste 45% of geboorte vóór 1950. De uitkering is inkomensafhankelijk en wordt uitgevoerd door de SVB.",
+    "zie": [
+      "Anw-hiaat",
+      "Eerste pijler",
+      "Nabestaandenpensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Algemene Ouderdomswet",
+    "afk": "AOW",
+    "def": "Volksverzekering die een basispensioen verstrekt vanaf de AOW-leeftijd. Wie in Nederland woont of werkt, bouwt per verzekerd jaar 2% AOW op over de 50 jaar voorafgaand aan de AOW-leeftijd. De hoogte van de uitkering hangt af van de leefsituatie (alleenstaand of samenwonend) en wordt gefinancierd volgens het omslagstelsel.",
+    "zie": [
+      "AOW-leeftijd",
+      "Eerste pijler",
+      "AOW-gat",
+      "Aanvullende inkomensvoorziening ouderen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Anw-hiaat",
+    "afk": "",
+    "def": "Het tekort aan nabestaandeninkomen dat ontstaat doordat een nabestaande geen of een beperkte Anw-uitkering ontvangt. Dit tekort kan worden verzekerd met een Anw-hiaatverzekering, die vaak via de pensioenuitvoerder of een verzekeraar wordt aangeboden.",
+    "zie": [
+      "Algemene nabestaandenwet",
+      "Nabestaandenpensioen",
+      "Overlijdensrisicoverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "AOW-gat",
+    "afk": "",
+    "def": "Inkomensgat dat ontstaat wanneer iemand eerder stopt met werken of het aanvullend pensioen eerder laat ingaan dan de AOW-leeftijd, of wanneer de AOW-opbouw onvolledig is. Het gat kan worden overbrugd met een overbruggingspensioen, lijfrente of eigen vermogen.",
+    "zie": [
+      "AOW-leeftijd",
+      "Overbruggingspensioen",
+      "Vervroegen pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "AOW-leeftijd",
+    "afk": "",
+    "def": "De leeftijd waarop het recht op AOW ingaat. De AOW-leeftijd is gekoppeld aan de ontwikkeling van de levensverwachting en wordt telkens vijf jaar vooruit vastgesteld. In 2024 tot en met 2027 bedraagt de AOW-leeftijd 67 jaar; voor latere jaren kan deze stijgen.",
+    "zie": [
+      "Algemene Ouderdomswet",
+      "Pensioenrichtleeftijd",
+      "AOW-gat"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Banksparen",
+    "afk": "",
+    "def": "Fiscaal gefacilieerde vorm van oudedagsvoorziening in de derde pijler via een geblokkeerde lijfrentespaarrekening of lijfrentebeleggingsrecht bij een bank of beleggingsinstelling. De inleg is binnen de jaarruimte of reserveringsruimte aftrekbaar en het tegoed is vrijgesteld in box 3; de latere uitkeringen zijn belast in box 1.",
+    "zie": [
+      "Lijfrenterekening",
+      "Lijfrente",
+      "Jaarruimte",
+      "Derde pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bedrag ineens",
+    "afk": "",
+    "def": "Wettelijke mogelijkheid om op de pensioeningangsdatum maximaal 10% van de waarde van het ouderdomspensioen ineens op te nemen, met een navenant lagere periodieke uitkering daarna. De invoering is meerdere keren uitgesteld en er bestaan politieke voornemens om de regeling te schrappen; de actuele status moet daarom per geval worden nagegaan.",
+    "zie": [
+      "Ouderdomspensioen",
+      "Pensioenleeftijd",
+      "Pensioenwet"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Bedrijfstakpensioenfonds",
+    "afk": "Bpf",
+    "def": "Pensioenfonds dat de pensioenregeling uitvoert voor een hele bedrijfstak, zoals de bouw, de zorg of het metaal. Als de overheid deelname verplicht heeft gesteld, moeten werkgevers in die bedrijfstak bij het fonds aansluiten, tenzij een vrijstelling geldt.",
+    "zie": [
+      "Pensioenfonds",
+      "Verplichtstelling",
+      "Wet verplichte deelneming in een bedrijfstakpensioenfonds 2000"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beleidsdekkingsgraad",
+    "afk": "",
+    "def": "Het gemiddelde van de actuele dekkingsgraden van een pensioenfonds over de afgelopen twaalf maanden. Onder het financieel toetsingskader is de beleidsdekkingsgraad bepalend voor besluiten over toeslagverlening, herstelplannen en eventuele kortingen.",
+    "zie": [
+      "Dekkingsgraad",
+      "Herstelplan",
+      "Toeslagverlening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bijzonder partnerpensioen",
+    "afk": "",
+    "def": "Het deel van het partnerpensioen dat bij een scheiding wettelijk toekomt aan de ex-partner. Het betreft het partnerpensioen dat tot het moment van scheiding is opgebouwd en wordt uitgekeerd als de deelnemer overlijdt.",
+    "zie": [
+      "Partnerpensioen",
+      "Wet pensioenverdeling bij scheiding 2022",
+      "Pensioenverevening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Compensatie",
+    "afk": "",
+    "def": "Aanvullende pensioenaanspraak of extra premie die deelnemers kunnen krijgen bij de overgang van de doorsneesystematiek naar een regeling met een vlakke premie en degressieve opbouw onder de Wtp. Compensatie is bedoeld om het nadeel voor met name middelbare leeftijdsgroepen te beperken; de wijze van compenseren wordt vastgelegd in het transitieplan.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Vlakke premie",
+      "Degressieve opbouw",
+      "Transitieplan"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Conversie",
+    "afk": "",
+    "def": "Methode van pensioenverdeling bij scheiding waarbij het tijdens het huwelijk of partnerschap opgebouwde ouderdomspensioen wordt omgezet in een eigen, zelfstandig pensioenrecht voor de ex-partner. Onder de Wet pensioenverdeling bij scheiding 2022 is conversie de standaardmethode; het recht van de ex-partner is dan niet meer afhankelijk van het leven van de deelnemer.",
+    "zie": [
+      "Wet pensioenverdeling bij scheiding 2022",
+      "Pensioenverevening",
+      "Bijzonder partnerpensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Degressieve opbouw",
+    "afk": "",
+    "def": "Opbouwsystematiek waarbij deelnemers bij een gelijke (vlakke) premie op jonge leeftijd meer pensioen per jaar opbouwen dan op hogere leeftijd, omdat hun inleg langer kan renderen. Onder de Wtp vervangt degressieve opbouw de doorsneesystematiek, waarin iedereen ongeacht leeftijd hetzelfde opbouwpercentage had tegen een gelijke doorsneepremie. De overgang kan nadeel opleveren voor middelbare leeftijdsgroepen, waarvoor compensatie mogelijk is.",
+    "zie": [
+      "Vlakke premie",
+      "Compensatie",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Dekkingsgraad",
+    "afk": "",
+    "def": "Verhouding tussen het vermogen van een pensioenfonds en de contante waarde van zijn pensioenverplichtingen, uitgedrukt als percentage. Een dekkingsgraad van 100% betekent dat er precies genoeg vermogen is om de verplichtingen te dekken. In nieuwe Wtp-regelingen verliest de dekkingsgraad zijn sturende rol, omdat het vermogen dan aan deelnemers wordt toegedeeld.",
+    "zie": [
+      "Beleidsdekkingsgraad",
+      "Toeslagverlening",
+      "Korten",
+      "Pensioenfonds"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Derde pijler",
+    "afk": "",
+    "def": "Het deel van de oudedagsvoorziening dat iemand individueel en vrijwillig regelt, zoals lijfrenteverzekeringen, lijfrenterekeningen en lijfrentebeleggingsrechten. De derde pijler is vooral van belang voor zelfstandigen en voor werknemers met een pensioentekort.",
+    "zie": [
+      "Drie pijlers",
+      "Lijfrente",
+      "Jaarruimte",
+      "Banksparen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "DGA-pensioen",
+    "afk": "",
+    "def": "Pensioenvoorziening voor een directeur-grootaandeelhouder. Een dga is meestal geen werknemer in de zin van de Pensioenwet en valt veelal buiten een verplichtgesteld bedrijfstakpensioenfonds. Sinds de afschaffing van pensioen in eigen beheer bouwt een dga doorgaans pensioen op via een verzekerde regeling, lijfrente of andere vormen van vermogensopbouw.",
+    "zie": [
+      "Pensioen in eigen beheer",
+      "Oudedagsverplichting",
+      "Lijfrente",
+      "Verzekerd pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Drie pijlers",
+    "afk": "",
+    "def": "Indeling van het Nederlandse pensioenstelsel in drie lagen: de eerste pijler (AOW, collectief via de overheid), de tweede pijler (aanvullend pensioen via de werkgever) en de derde pijler (individuele, vrijwillige voorzieningen). Samen bepalen zij het totale oudedagsinkomen.",
+    "zie": [
+      "Eerste pijler",
+      "Tweede pijler",
+      "Derde pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eerste pijler",
+    "afk": "",
+    "def": "Het wettelijke basispensioen en de nabestaandenvoorziening van de overheid: de AOW en de Anw. Deze volksverzekeringen worden betaald via premies volksverzekeringen en uitgevoerd door de SVB.",
+    "zie": [
+      "Drie pijlers",
+      "Algemene Ouderdomswet",
+      "Algemene nabestaandenwet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eindloonregeling",
+    "afk": "",
+    "def": "Uitkeringsregeling waarbij het pensioen wordt gebaseerd op het laatstverdiende salaris vóór pensionering. Bij salarisstijgingen worden alle voorgaande dienstjaren opnieuw op het nieuwe salaris berekend (backservice), wat de regeling kostbaar maakt. Eindloonregelingen komen nauwelijks meer voor en zijn onder de Wtp niet langer toegestaan voor nieuwe opbouw.",
+    "zie": [
+      "Uitkeringsregeling",
+      "Middelloonregeling",
+      "Witteveenkader"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Excedentregeling",
+    "afk": "",
+    "def": "Pensioenregeling die alleen pensioen opbouwt over het deel van het salaris dat boven een bepaald bedrag ligt, bijvoorbeeld boven het maximumsalaris van een verplichtgesteld bedrijfstakpensioenfonds. Een excedentregeling vult zo de basisregeling aan voor hogere inkomens.",
+    "zie": [
+      "Pensioengevend salaris",
+      "Bedrijfstakpensioenfonds",
+      "Fiscaal maximum pensioengevend inkomen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Factor A",
+    "afk": "",
+    "def": "Fiscale maatstaf voor de pensioenaangroei in de tweede pijler in een kalenderjaar. De pensioenuitvoerder vermeldt de factor A op het pensioenoverzicht. Factor A wordt gebruikt bij de berekening van de jaarruimte voor lijfrentepremies.",
+    "zie": [
+      "Jaarruimte",
+      "Reserveringsruimte",
+      "Uniform pensioenoverzicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Fiscaal maximum pensioengevend inkomen",
+    "afk": "",
+    "def": "Het maximale jaarsalaris waarover fiscaal gefacilieerd pensioen in de tweede pijler mag worden opgebouwd. Het bedrag wordt jaarlijks geïndexeerd. Over het salarisdeel daarboven kan alleen netto worden gespaard, bijvoorbeeld via nettopensioen of nettolijfrente.",
+    "zie": [
+      "Witteveenkader",
+      "Nettopensioen",
+      "Nettolijfrente",
+      "Pensioengevend salaris"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Flexibele premieregeling",
+    "afk": "",
+    "def": "Premieregeling onder de Wtp waarin elke deelnemer een individueel pensioenvermogen opbouwt en zelf (binnen grenzen) het beleggingsrisico draagt. Bij pensionering kan worden gekozen voor een vaste of variabele uitkering. Uitvoerders kunnen een risicodelingsreserve aanhouden voor collectieve risicodeling.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Solidaire premieregeling",
+      "Risicodelingsreserve",
+      "Variabele pensioenuitkering"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Franchise",
+    "afk": "",
+    "def": "Het deel van het salaris waarover geen pensioen wordt opgebouwd, omdat daarvoor al AOW wordt ontvangen. De pensioengrondslag is het pensioengevend salaris minus de franchise. De fiscale regels schrijven een minimale franchise voor, die jaarlijks wordt vastgesteld.",
+    "zie": [
+      "Pensioengrondslag",
+      "Pensioengevend salaris",
+      "Algemene Ouderdomswet"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Herstelplan",
+    "afk": "",
+    "def": "Plan dat een pensioenfonds onder het financieel toetsingskader bij De Nederlandsche Bank moet indienen als de beleidsdekkingsgraad onder het vereist eigen vermogen ligt. In het plan staat hoe het fonds binnen een bepaalde termijn weer voldoende buffers opbouwt, eventueel met korten als laatste middel.",
+    "zie": [
+      "Beleidsdekkingsgraad",
+      "Korten",
+      "Dekkingsgraad"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Hoog-laagconstructie",
+    "afk": "",
+    "def": "Keuzemogelijkheid om het ouderdomspensioen of een lijfrente de eerste jaren hoger en daarna lager te laten uitkeren. Fiscaal geldt een maximale verhouding van 100:75 tussen de hoge en de lage uitkering. De constructie wordt vaak gebruikt om de periode tot de AOW-leeftijd te overbruggen of in de eerste pensioenjaren meer te besteden.",
+    "zie": [
+      "Ouderdomspensioen",
+      "Lijfrente",
+      "AOW-gat"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Indexatie",
+    "afk": "",
+    "def": "Het aanpassen van pensioenaanspraken of -uitkeringen aan de loon- of prijsontwikkeling om de koopkracht te behouden. Binnen pensioenfondsen wordt dit meestal toeslagverlening genoemd en is het vaak voorwaardelijk, afhankelijk van de financiële positie van het fonds.",
+    "zie": [
+      "Toeslagverlening",
+      "Dekkingsgraad",
+      "Korten"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Invaren",
+    "afk": "",
+    "def": "Het omzetten van bestaande, onder de oude regels opgebouwde pensioenaanspraken en -rechten naar de nieuwe pensioenregeling onder de Wtp. Bij invaren wordt de waarde van de oude aanspraken omgerekend naar een persoonlijk pensioenvermogen of een aandeel in het collectieve vermogen. Of wordt ingevaren, besluiten sociale partners en de pensioenuitvoerder.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Transitieperiode",
+      "Transitieplan"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Jaarruimte",
+    "afk": "",
+    "def": "Het bedrag dat iemand in een kalenderjaar fiscaal aftrekbaar mag inleggen voor een lijfrente of bancair lijfrenteproduct. De jaarruimte wordt berekend aan de hand van het inkomen van het voorgaande jaar, verminderd met de pensioenaangroei (factor A) in de tweede pijler. Niet-benutte jaarruimte kan later als reserveringsruimte worden ingehaald.",
+    "zie": [
+      "Reserveringsruimte",
+      "Factor A",
+      "Lijfrente",
+      "Pensioengat"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Korten",
+    "afk": "",
+    "def": "Het verlagen van pensioenaanspraken en -uitkeringen door een pensioenfonds wanneer het vermogen onvoldoende is om aan de verplichtingen te voldoen. Korten is onder het financieel toetsingskader een laatste redmiddel in een herstelplan. In Wtp-regelingen vertalen financiële schokken zich direct in hogere of lagere pensioenen.",
+    "zie": [
+      "Herstelplan",
+      "Dekkingsgraad",
+      "Beleidsdekkingsgraad"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Lifecycle",
+    "afk": "",
+    "def": "Beleggingssystematiek in premieregelingen waarbij het beleggingsrisico automatisch wordt afgebouwd naarmate de pensioendatum nadert. Jonge deelnemers beleggen relatief risicovol; oudere deelnemers relatief defensief.",
+    "zie": [
+      "Premieregeling",
+      "Flexibele premieregeling",
+      "Variabele pensioenuitkering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Lijfrente",
+    "afk": "",
+    "def": "Reeks periodieke uitkeringen die afhankelijk is van het leven van een of meer personen, of tijdelijk wordt uitgekeerd. Fiscaal is lijfrente een derde-pijlerproduct waarvan de premie of inleg binnen de jaarruimte of reserveringsruimte aftrekbaar is en de uitkeringen in box 1 worden belast. Lijfrente wordt vaak gebruikt om een pensioentekort aan te vullen.",
+    "zie": [
+      "Derde pijler",
+      "Jaarruimte",
+      "Lijfrenteverzekering",
+      "Lijfrenterekening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Lijfrenterekening",
+    "afk": "",
+    "def": "Geblokkeerde spaarrekening (lijfrentespaarrekening) of beleggingsrekening (lijfrentebeleggingsrecht) bij een bank of beleggingsinstelling, bedoeld voor de opbouw van een aanvulling op het pensioen. Het opgebouwde tegoed moet worden gebruikt voor periodieke uitkeringen; voortijdige afkoop is fiscaal belast en kan tot revisierente leiden.",
+    "zie": [
+      "Banksparen",
+      "Lijfrente",
+      "Lijfrenteverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Lijfrenteverzekering",
+    "afk": "",
+    "def": "Verzekering bij een levensverzekeraar waarmee een kapitaal wordt opgebouwd en/of een periodieke lijfrente-uitkering wordt aangekocht. Binnen de fiscale grenzen is de premie aftrekbaar; de uitkeringen zijn belast in box 1. Een lijfrenteverzekering kan levenslang of tijdelijk uitkeren.",
+    "zie": [
+      "Lijfrente",
+      "Lijfrenterekening",
+      "Uitkeringsfase"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Middelloonregeling",
+    "afk": "",
+    "def": "Uitkeringsregeling waarbij elk dienstjaar een vast percentage van het pensioengevend salaris in dat jaar (minus de franchise) als pensioen wordt opgebouwd. Het pensioen is daardoor gebaseerd op het gemiddelde salaris over de loopbaan. Onder de Wtp is nieuwe opbouw in een uitkeringsregeling na de transitieperiode niet meer toegestaan.",
+    "zie": [
+      "Uitkeringsregeling",
+      "Opbouwpercentage",
+      "Eindloonregeling",
+      "Witteveenkader"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Mijnpensioenoverzicht.nl",
+    "afk": "",
+    "def": "Website van het Pensioenregister waar iedereen na inloggen met DigiD een overzicht krijgt van de eigen AOW en het opgebouwde aanvullend pensioen bij Nederlandse pensioenuitvoerders. Lijfrenten en bancaire producten uit de derde pijler zijn er niet in opgenomen.",
+    "zie": [
+      "Pensioenregister",
+      "Uniform pensioenoverzicht",
+      "Pensioencommunicatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nabestaandenpensioen",
+    "afk": "",
+    "def": "Verzamelnaam voor pensioenuitkeringen aan nabestaanden na het overlijden van een (gewezen) deelnemer of gepensioneerde, zoals partnerpensioen en wezenpensioen. De dekking kan op opbouwbasis of op risicobasis zijn geregeld.",
+    "zie": [
+      "Partnerpensioen",
+      "Wezenpensioen",
+      "Nabestaandenpensioen op risicobasis",
+      "Anw-hiaat"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nabestaandenpensioen op risicobasis",
+    "afk": "",
+    "def": "Nabestaandenpensioen dat alleen tot uitkering komt als de deelnemer overlijdt tijdens het deelnemerschap (of een beperkte periode daarna). Na beëindiging van het dienstverband vervalt de dekking in principe, tenzij deze wordt voortgezet. Onder de Wtp is een partnerpensioen op risicobasis vóór de pensioendatum de standaard.",
+    "zie": [
+      "Nabestaandenpensioen",
+      "Partnerpensioen",
+      "Overlijdensrisicoverzekering"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Nettolijfrente",
+    "afk": "",
+    "def": "Vrijwillige lijfrentevoorziening voor het inkomensdeel boven het fiscaal maximum pensioengevend inkomen. De inleg is niet aftrekbaar, maar het opgebouwde vermogen is vrijgesteld in box 3 en de uitkeringen zijn onbelast.",
+    "zie": [
+      "Nettopensioen",
+      "Fiscaal maximum pensioengevend inkomen",
+      "Lijfrente"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nettopensioen",
+    "afk": "",
+    "def": "Vrijwillige pensioenregeling in de tweede pijler voor werknemers met een salaris boven het fiscaal maximum pensioengevend inkomen. De premie wordt uit het nettoloon betaald en is niet aftrekbaar; het opgebouwde vermogen is vrijgesteld in box 3 en de uitkeringen zijn niet belast.",
+    "zie": [
+      "Fiscaal maximum pensioengevend inkomen",
+      "Nettolijfrente",
+      "Tweede pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Ondernemingspensioenfonds",
+    "afk": "Opf",
+    "def": "Pensioenfonds dat de pensioenregeling uitvoert voor één onderneming of concern. Het bestuur bestaat doorgaans uit vertegenwoordigers van werkgever, werknemers en gepensioneerden, eventueel aangevuld met onafhankelijke bestuurders.",
+    "zie": [
+      "Pensioenfonds",
+      "Bedrijfstakpensioenfonds",
+      "Pensioenuitvoerder"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opbouwfase",
+    "afk": "",
+    "def": "De periode waarin pensioen of lijfrentevermogen wordt opgebouwd door premiebetaling of inleg, tot aan de ingangsdatum van de uitkeringen. In premieregelingen wordt in deze fase belegd voor rekening en risico van de deelnemer.",
+    "zie": [
+      "Uitkeringsfase",
+      "Premieregeling",
+      "Lijfrente"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opbouwpercentage",
+    "afk": "",
+    "def": "Het percentage van de pensioengrondslag dat in een uitkeringsregeling per dienstjaar als pensioen wordt opgebouwd. Het Witteveenkader stelt een fiscaal maximum: sinds 2015 is dat 1,875% per jaar in een middelloonregeling en 1,657% in een eindloonregeling.",
+    "zie": [
+      "Middelloonregeling",
+      "Witteveenkader",
+      "Pensioengrondslag",
+      "Uitkeringsregeling"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Oudedagsverplichting",
+    "afk": "ODV",
+    "def": "Verplichting die een dga bij de afschaffing van pensioen in eigen beheer kon laten ontstaan door het opgebouwde pensioen fiscaal geruisloos om te zetten. De ODV blijft in de eigen bv, er vindt geen nieuwe opbouw meer plaats en de uitkering moet uiterlijk ingaan rond de AOW-leeftijd. De ODV kan worden ondergebracht bij een verzekeraar of bank.",
+    "zie": [
+      "Pensioen in eigen beheer",
+      "Wet uitfasering pensioen in eigen beheer",
+      "DGA-pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Ouderdomspensioen",
+    "afk": "",
+    "def": "Levenslange periodieke uitkering die ingaat op de pensioeningangsdatum en bedoeld is als inkomen na het einde van de loopbaan. Het ouderdomspensioen uit de tweede pijler komt bovenop de AOW.",
+    "zie": [
+      "Pensioenleeftijd",
+      "Partnerpensioen",
+      "Algemene Ouderdomswet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Overbruggingspensioen",
+    "afk": "",
+    "def": "Tijdelijke pensioenuitkering die de periode tussen de pensioeningangsdatum en de AOW-leeftijd overbrugt. Het overbruggingspensioen stopt zodra de AOW ingaat en wordt meestal gefinancierd uit (een deel van) het ouderdomspensioen.",
+    "zie": [
+      "AOW-gat",
+      "Vervroegen pensioen",
+      "Hoog-laagconstructie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Overlijdensrisicoverzekering",
+    "afk": "ORV",
+    "def": "Verzekering die een vooraf vastgesteld bedrag uitkeert als de verzekerde binnen de looptijd overlijdt. Binnen de pensioencontext wordt een ORV gebruikt om tekorten in het nabestaandeninkomen op te vangen, bijvoorbeeld als het partnerpensioen alleen op risicobasis is verzekerd of vervalt bij ontslag.",
+    "zie": [
+      "Anw-hiaat",
+      "Nabestaandenpensioen op risicobasis",
+      "Partnerpensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Partnerpensioen",
+    "afk": "PP",
+    "def": "Pensioenuitkering aan de partner van een overleden deelnemer, gewezen deelnemer of gepensioneerde. Het partnerpensioen kan op opbouwbasis of op risicobasis zijn verzekerd. Onder de Wtp wordt het partnerpensioen bij overlijden vóór de pensioendatum gebaseerd op een percentage van het salaris en verzekerd op risicobasis.",
+    "zie": [
+      "Nabestaandenpensioen",
+      "Nabestaandenpensioen op risicobasis",
+      "Uitruil",
+      "Bijzonder partnerpensioen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Pensioen 1-2-3",
+    "afk": "",
+    "def": "Gestandaardiseerde, gelaagde manier waarop pensioenuitvoerders informatie over de pensioenregeling aan (nieuwe) deelnemers geven. Laag 1 bevat de kern op één pagina, laag 2 verdieping en laag 3 alle details en reglementen. Pensioen 1-2-3 is ingevoerd op grond van de Wet pensioencommunicatie.",
+    "zie": [
+      "Pensioencommunicatie",
+      "Uniform pensioenoverzicht",
+      "Pensioenreglement"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioen in eigen beheer",
+    "afk": "PEB",
+    "def": "Pensioen dat een dga in de eigen bv opbouwde, waarbij de bv zelf als pensioenuitvoerder fungeerde. Met de Wet uitfasering pensioen in eigen beheer is nieuwe opbouw sinds 1 april 2017 niet meer mogelijk. Bestaande aanspraken konden worden afgekocht, omgezet in een oudedagsverplichting of premievrij worden gemaakt.",
+    "zie": [
+      "Wet uitfasering pensioen in eigen beheer",
+      "Oudedagsverplichting",
+      "DGA-pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioencommunicatie",
+    "afk": "",
+    "def": "Het geheel van wettelijke verplichtingen en praktijken rond het informeren van deelnemers over hun pensioen. De Pensioenwet schrijft onder meer voor dat informatie correct, duidelijk en evenwichtig is, en kent vaste instrumenten zoals het UPO, Pensioen 1-2-3 en het Pensioenregister.",
+    "zie": [
+      "Pensioen 1-2-3",
+      "Uniform pensioenoverzicht",
+      "Pensioenregister",
+      "Pensioenwet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenfonds",
+    "afk": "",
+    "def": "Stichting die zonder winstoogmerk pensioenregelingen uitvoert voor één of meer werkgevers of een beroepsgroep. Een pensioenfonds belegt de premies, staat onder toezicht van DNB en AFM en mag geen andere activiteiten uitvoeren dan pensioen. Er zijn bedrijfstakpensioenfondsen, ondernemingspensioenfondsen, beroepspensioenfondsen en algemene pensioenfondsen.",
+    "zie": [
+      "Bedrijfstakpensioenfonds",
+      "Ondernemingspensioenfonds",
+      "Pensioenuitvoerder",
+      "Dekkingsgraad"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioengat",
+    "afk": "",
+    "def": "Verschil tussen het gewenste inkomen na pensionering en het verwachte inkomen uit AOW en aanvullend pensioen. Een pensioengat kan ontstaan door onder meer deeltijdwerk, periodes als zelfstandige, scheiding of het ontbreken van een pensioenregeling, en kan worden aangevuld via bijvoorbeeld lijfrente.",
+    "zie": [
+      "Jaarruimte",
+      "Lijfrente",
+      "Derde pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioengevend salaris",
+    "afk": "",
+    "def": "Het deel van het loon waarover pensioen wordt opgebouwd, zoals omschreven in het pensioenreglement. Vaak gaat het om het vaste salaris, eventueel met vakantiegeld, een dertiende maand of vaste toeslagen. Fiscaal is het pensioengevend salaris begrensd door het fiscaal maximum.",
+    "zie": [
+      "Pensioengrondslag",
+      "Franchise",
+      "Fiscaal maximum pensioengevend inkomen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioengrondslag",
+    "afk": "",
+    "def": "Het bedrag waarover jaarlijks daadwerkelijk pensioen wordt opgebouwd of premie wordt berekend: het pensioengevend salaris verminderd met de franchise. In zowel premie- als uitkeringsregelingen is de pensioengrondslag de basis voor de berekening van premie of opbouw.",
+    "zie": [
+      "Pensioengevend salaris",
+      "Franchise",
+      "Opbouwpercentage"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenleeftijd",
+    "afk": "",
+    "def": "De leeftijd waarop het ouderdomspensioen volgens het pensioenreglement ingaat. Deze leeftijd kan afwijken van de AOW-leeftijd en van de fiscale pensioenrichtleeftijd. Deelnemers kunnen de ingangsdatum binnen de regels vaak vervroegen of uitstellen.",
+    "zie": [
+      "Pensioenrichtleeftijd",
+      "Vervroegen pensioen",
+      "Uitstellen pensioen",
+      "AOW-leeftijd"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenovereenkomst",
+    "afk": "",
+    "def": "Afspraak tussen werkgever en werknemer over pensioen, als onderdeel van de arbeidsvoorwaarden. De werkgever moet deze overeenkomst op grond van de Pensioenwet onderbrengen bij een pensioenuitvoerder (pensioenfonds, verzekeraar of PPI).",
+    "zie": [
+      "Pensioenwet",
+      "Pensioenreglement",
+      "Pensioenuitvoerder"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenregister",
+    "afk": "",
+    "def": "Landelijke database met de pensioengegevens van alle deelnemers aan Nederlandse pensioenregelingen en de AOW, beheerd door de gezamenlijke pensioenuitvoerders en de SVB. Het register is voor deelnemers toegankelijk via mijnpensioenoverzicht.nl.",
+    "zie": [
+      "Mijnpensioenoverzicht.nl",
+      "Uniform pensioenoverzicht",
+      "Pensioencommunicatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenreglement",
+    "afk": "",
+    "def": "Document waarin de pensioenuitvoerder de inhoud van de pensioenregeling vastlegt, zoals de pensioenleeftijd, de pensioengrondslag, de premie of opbouw en de keuzemogelijkheden. Het reglement is de uitwerking van de pensioenovereenkomst.",
+    "zie": [
+      "Pensioenovereenkomst",
+      "Pensioenuitvoerder",
+      "Pensioen 1-2-3"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenrichtleeftijd",
+    "afk": "",
+    "def": "De fiscale leeftijd die als uitgangspunt dient voor de maximale pensioenopbouw binnen het Witteveenkader. De pensioenrichtleeftijd is gekoppeld aan de ontwikkeling van de AOW-leeftijd en wordt periodiek aangepast.",
+    "zie": [
+      "Witteveenkader",
+      "AOW-leeftijd",
+      "Pensioenleeftijd"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Pensioenuitvoerder",
+    "afk": "",
+    "def": "Instelling die een pensioenregeling uitvoert: een pensioenfonds, een verzekeraar of een premiepensioeninstelling (PPI). De Pensioenwet verplicht werkgevers om de pensioenovereenkomst bij een van deze uitvoerders onder te brengen.",
+    "zie": [
+      "Pensioenfonds",
+      "Verzekerd pensioen",
+      "Premiepensioeninstelling",
+      "Pensioenovereenkomst"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenverevening",
+    "afk": "",
+    "def": "Verdeling van het tijdens het huwelijk of geregistreerd partnerschap opgebouwde ouderdomspensioen bij scheiding, waarbij de ex-partner recht krijgt op een deel van de uitkeringen. Voor scheidingen vóór 1 juli 2022 geldt de Wet verevening pensioenrechten bij scheiding; voor latere scheidingen de Wet pensioenverdeling bij scheiding 2022.",
+    "zie": [
+      "Wet verevening pensioenrechten bij scheiding",
+      "Wet pensioenverdeling bij scheiding 2022",
+      "Conversie",
+      "Bijzonder partnerpensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pensioenwet",
+    "afk": "PW",
+    "def": "Wet uit 2007 die de rechten en plichten regelt van werkgevers, werknemers en pensioenuitvoerders met betrekking tot aanvullend pensioen. De wet bevat onder meer de uitvoeringsplicht, regels voor waardeoverdracht, pensioencommunicatie en financiële eisen aan pensioenfondsen. De Wtp is grotendeels via wijziging van de Pensioenwet doorgevoerd.",
+    "zie": [
+      "Pensioenovereenkomst",
+      "Pensioenuitvoerder",
+      "Wet toekomst pensioenen",
+      "Pensioencommunicatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premiepensioeninstelling",
+    "afk": "PPI",
+    "def": "Pensioenuitvoerder die uitsluitend premieregelingen mag uitvoeren en zelf geen biometrische risico's (zoals overlijden of arbeidsongeschiktheid) mag dragen. Een PPI beheert en belegt de premies; risicodekkingen worden herverzekerd bij een verzekeraar.",
+    "zie": [
+      "Pensioenuitvoerder",
+      "Premieregeling",
+      "Verzekerd pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premieregeling",
+    "afk": "DC",
+    "def": "Pensioenregeling waarbij de hoogte van de premie vastligt en de hoogte van het uiteindelijke pensioen afhangt van de beleggingsrendementen en de inkooptarieven op de pensioendatum. De deelnemer draagt het beleggingsrisico. Onder de Wtp worden alle nieuwe regelingen premieregelingen (solidair of flexibel).",
+    "zie": [
+      "Uitkeringsregeling",
+      "Flexibele premieregeling",
+      "Solidaire premieregeling",
+      "Premiestaffel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premiestaffel",
+    "afk": "",
+    "def": "Tabel met leeftijdsafhankelijke premiepercentages in een (oude) premieregeling, waarbij de premie stijgt met de leeftijd. Onder de Wtp worden nieuwe premieregelingen ingericht met een leeftijdsonafhankelijke (vlakke) premie; bestaande deelnemers kunnen onder overgangsrecht vallen.",
+    "zie": [
+      "Premieregeling",
+      "Vlakke premie",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Premievrije aanspraak",
+    "afk": "",
+    "def": "Pensioenaanspraak die blijft staan bij de pensioenuitvoerder nadat de deelname is beëindigd, bijvoorbeeld bij uitdiensttreding. De gewezen deelnemer wordt ook wel slaper genoemd. Er wordt geen premie meer betaald en geen nieuw pensioen opgebouwd, maar de aanspraak kan wel delen in toeslagen of rendement.",
+    "zie": [
+      "Waardeoverdracht",
+      "Toeslagverlening",
+      "Uniform pensioenoverzicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premievrijstelling bij arbeidsongeschiktheid",
+    "afk": "PVI",
+    "def": "Voorziening waarbij de pensioenopbouw (deels) wordt voortgezet zonder premiebetaling als de deelnemer arbeidsongeschikt wordt. De mate van premievrijstelling hangt doorgaans af van het arbeidsongeschiktheidspercentage volgens de WIA.",
+    "zie": [
+      "Ouderdomspensioen",
+      "Partnerpensioen",
+      "Pensioenreglement"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Regeling vervroegd uittreden",
+    "afk": "RVU",
+    "def": "Regeling waarbij een werkgever een werknemer financieel ondersteunt om eerder te stoppen met werken. Over RVU-uitkeringen is in beginsel een fiscale strafheffing voor de werkgever verschuldigd; voor uitkeringen onder een drempelbedrag in de periode vóór de AOW-leeftijd geldt (tijdelijk) een vrijstelling. De voorwaarden van deze vrijstelling zijn aan wijziging onderhevig.",
+    "zie": [
+      "AOW-gat",
+      "Vervroegen pensioen",
+      "AOW-leeftijd"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Reserveringsruimte",
+    "afk": "",
+    "def": "Niet-benutte jaarruimte uit voorgaande jaren die alsnog fiscaal aftrekbaar voor lijfrente kan worden ingezet. Het aantal jaren dat kan worden teruggekeken en het maximaal aftrekbare bedrag per jaar zijn wettelijk begrensd.",
+    "zie": [
+      "Jaarruimte",
+      "Lijfrente",
+      "Factor A"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Risicodelingsreserve",
+    "afk": "",
+    "def": "Collectieve reserve die een pensioenuitvoerder in een flexibele premieregeling onder de Wtp kan aanhouden om risico's tussen deelnemers en generaties te delen, bijvoorbeeld om schokken in uitkeringen te dempen. De reserve wordt gevuld uit premie of rendement en is wettelijk begrensd.",
+    "zie": [
+      "Flexibele premieregeling",
+      "Solidariteitsreserve",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Shoprecht",
+    "afk": "",
+    "def": "Het recht van een deelnemer in een premieregeling om op de pensioendatum het opgebouwde kapitaal te gebruiken voor de aankoop van een pensioenuitkering bij een andere uitvoerder dan de eigen pensioenuitvoerder. Zo kan de deelnemer tarieven en voorwaarden van verschillende aanbieders vergelijken.",
+    "zie": [
+      "Premieregeling",
+      "Vaste pensioenuitkering",
+      "Variabele pensioenuitkering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Solidaire premieregeling",
+    "afk": "SPR",
+    "def": "Premieregeling onder de Wtp waarin het pensioenvermogen collectief wordt belegd en het rendement via vooraf vastgelegde toedelingsregels aan leeftijdsgroepen wordt toegerekend. Deelnemers hebben een persoonlijk pensioenvermogen, maar risico's worden gedeeld, onder meer via een solidariteitsreserve. Uitkeringen zijn variabel.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Flexibele premieregeling",
+      "Solidariteitsreserve",
+      "Invaren"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Solidariteitsreserve",
+    "afk": "",
+    "def": "Verplichte collectieve reserve in de solidaire premieregeling onder de Wtp, bedoeld om tegenvallers op te vangen en uitkeringen te stabiliseren. De reserve wordt gevuld uit premie of overrendement en mag een wettelijk maximum niet overschrijden.",
+    "zie": [
+      "Solidaire premieregeling",
+      "Risicodelingsreserve",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Toeslagverlening",
+    "afk": "",
+    "def": "Het verhogen van pensioenaanspraken en -uitkeringen door een pensioenfonds om de koopkracht (deels) te behouden, gekoppeld aan loon- of prijsstijgingen. Bij de meeste fondsen is toeslagverlening voorwaardelijk en afhankelijk van de beleidsdekkingsgraad.",
+    "zie": [
+      "Indexatie",
+      "Beleidsdekkingsgraad",
+      "Dekkingsgraad"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Transitieperiode",
+    "afk": "",
+    "def": "De overgangsperiode waarin bestaande pensioenregelingen moeten worden aangepast aan de Wet toekomst pensioenen. De Wtp is op 1 juli 2023 in werking getreden en de transitieperiode loopt tot 1 januari 2028. Pensioenuitvoerders stappen gefaseerd over; een deel is al overgegaan, een ander deel volgt later in de periode.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Transitieplan",
+      "Invaren"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Transitieplan",
+    "afk": "",
+    "def": "Plan dat sociale partners opstellen voor de overgang naar een nieuwe pensioenregeling onder de Wtp. Het bevat onder meer de keuze voor het nieuwe contract, het besluit over invaren, eventuele compensatie en de evenwichtigheid van de overstap voor verschillende groepen deelnemers.",
+    "zie": [
+      "Wet toekomst pensioenen",
+      "Transitieperiode",
+      "Compensatie",
+      "Invaren"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Tweede pijler",
+    "afk": "",
+    "def": "Aanvullend pensioen dat via de werkgever wordt opgebouwd, bijvoorbeeld bij een pensioenfonds, verzekeraar of PPI. Deelname is vaak verplicht via een cao of verplichtstelling, maar werkgevers zijn niet in alle gevallen wettelijk verplicht een pensioenregeling aan te bieden.",
+    "zie": [
+      "Drie pijlers",
+      "Pensioenuitvoerder",
+      "Verplichtstelling",
+      "Pensioenovereenkomst"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitkeringsfase",
+    "afk": "",
+    "def": "De periode waarin een pensioen of lijfrente daadwerkelijk wordt uitgekeerd. In de uitkeringsfase kan de uitkering vast of variabel zijn; bij lijfrente kan deze levenslang of tijdelijk zijn, binnen de fiscale regels.",
+    "zie": [
+      "Opbouwfase",
+      "Vaste pensioenuitkering",
+      "Variabele pensioenuitkering",
+      "Lijfrente"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitkeringsregeling",
+    "afk": "DB",
+    "def": "Pensioenregeling waarbij de hoogte van het pensioen vooraf is toegezegd, meestal als middelloon- of eindloonregeling. De premie wordt afgestemd op de toegezegde uitkering. Onder de Wtp mogen na de transitieperiode geen nieuwe aanspraken meer in een uitkeringsregeling worden opgebouwd.",
+    "zie": [
+      "Middelloonregeling",
+      "Eindloonregeling",
+      "Premieregeling",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Uitruil",
+    "afk": "",
+    "def": "Het omzetten van (een deel van) het ouderdomspensioen in een hoger partnerpensioen, of omgekeerd. Uitruil vindt meestal plaats op de pensioeningangsdatum of bij beëindiging van het dienstverband, op basis van actuariële factoren en binnen fiscale grenzen.",
+    "zie": [
+      "Ouderdomspensioen",
+      "Partnerpensioen",
+      "Hoog-laagconstructie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitstellen pensioen",
+    "afk": "",
+    "def": "Het later laten ingaan van het ouderdomspensioen dan de reglementaire pensioenleeftijd, waardoor de uitkering hoger wordt. Fiscaal moet het pensioen uiterlijk ingaan binnen een bepaalde termijn na de AOW-leeftijd. De AOW zelf kan niet worden uitgesteld.",
+    "zie": [
+      "Pensioenleeftijd",
+      "Vervroegen pensioen",
+      "AOW-leeftijd"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uniform pensioenoverzicht",
+    "afk": "UPO",
+    "def": "Gestandaardiseerd overzicht dat pensioenuitvoerders aan deelnemers verstrekken met informatie over opgebouwd en te bereiken pensioen, nabestaandenpensioen en risico's. Actieve deelnemers en gepensioneerden ontvangen het jaarlijks, gewezen deelnemers ten minste eens in de vijf jaar.",
+    "zie": [
+      "Pensioencommunicatie",
+      "Mijnpensioenoverzicht.nl",
+      "Factor A"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Variabele pensioenuitkering",
+    "afk": "",
+    "def": "Pensioenuitkering waarvan de hoogte meebeweegt met beleggingsrendementen en, afhankelijk van de regeling, met ontwikkelingen in levensverwachting. Sinds de Wet verbeterde premieregeling (2016) mag het kapitaal uit een premieregeling na de pensioendatum blijven beleggen. In Wtp-regelingen zijn variabele uitkeringen de norm.",
+    "zie": [
+      "Vaste pensioenuitkering",
+      "Flexibele premieregeling",
+      "Solidaire premieregeling",
+      "Shoprecht"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Vaste pensioenuitkering",
+    "afk": "",
+    "def": "Pensioenuitkering waarvan de hoogte vanaf de pensioendatum gegarandeerd vastligt, doordat het kapitaal wordt omgezet in een levenslange uitkering tegen het dan geldende tarief. De uitkering is niet onderhevig aan beleggingsrisico, maar verliest zonder indexatie aan koopkracht.",
+    "zie": [
+      "Variabele pensioenuitkering",
+      "Shoprecht",
+      "Uitkeringsfase"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verplichtstelling",
+    "afk": "",
+    "def": "Besluit van de minister van Sociale Zaken en Werkgelegenheid op verzoek van sociale partners, waarmee deelname aan een bedrijfstakpensioenfonds verplicht wordt voor alle werkgevers en werknemers in een bedrijfstak. Werkgevers kunnen onder voorwaarden vrijstelling krijgen.",
+    "zie": [
+      "Bedrijfstakpensioenfonds",
+      "Wet verplichte deelneming in een bedrijfstakpensioenfonds 2000",
+      "Tweede pijler"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vervroegen pensioen",
+    "afk": "",
+    "def": "Het eerder laten ingaan van het ouderdomspensioen dan de reglementaire pensioenleeftijd. Omdat het pensioen dan langer moet worden uitbetaald en minder lang is opgebouwd, wordt de uitkering lager. Bij vervroeging vóór de AOW-leeftijd ontstaat een AOW-gat.",
+    "zie": [
+      "Pensioenleeftijd",
+      "AOW-gat",
+      "Uitstellen pensioen",
+      "Overbruggingspensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzekerd pensioen",
+    "afk": "",
+    "def": "Pensioenregeling die door de werkgever is ondergebracht bij een levensverzekeraar. De verzekeraar voert de regeling uit op basis van een uitvoeringsovereenkomst en kan, afhankelijk van het contract, garanties bieden op aanspraken of uitkeringen.",
+    "zie": [
+      "Pensioenuitvoerder",
+      "Premiepensioeninstelling",
+      "Pensioenfonds"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vlakke premie",
+    "afk": "",
+    "def": "Leeftijdsonafhankelijke premie: voor alle deelnemers in een regeling geldt hetzelfde premiepercentage van de pensioengrondslag. Onder de Wtp is een vlakke premie verplicht voor nieuwe pensioenregelingen, waarbij voor bestaande premieregelingen met een oplopende staffel overgangsrecht kan gelden.",
+    "zie": [
+      "Degressieve opbouw",
+      "Premiestaffel",
+      "Compensatie",
+      "Wet toekomst pensioenen"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Waardeoverdracht",
+    "afk": "",
+    "def": "Het overbrengen van de waarde van opgebouwde pensioenaanspraken van de oude naar de nieuwe pensioenuitvoerder, bijvoorbeeld bij verandering van baan. Een deelnemer heeft recht op waardeoverdracht, tenzij uitzonderingen gelden, zoals bij een onvoldoende dekkingsgraad van een betrokken fonds. Kleine pensioenen worden in beginsel automatisch overgedragen.",
+    "zie": [
+      "Afkoop klein pensioen",
+      "Premievrije aanspraak",
+      "Pensioenwet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet pensioenverdeling bij scheiding 2022",
+    "afk": "Wpvs 2022",
+    "def": "Wet die per 1 juli 2022 de verdeling van pensioen bij scheiding regelt voor scheidingen vanaf die datum. Conversie is de standaardmethode: het tijdens het huwelijk of partnerschap opgebouwde ouderdomspensioen wordt omgezet in een eigen recht voor de ex-partner. De scheiding moet binnen een wettelijke termijn bij de pensioenuitvoerder worden gemeld.",
+    "zie": [
+      "Conversie",
+      "Pensioenverevening",
+      "Wet verevening pensioenrechten bij scheiding",
+      "Bijzonder partnerpensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet toekomst pensioenen",
+    "afk": "Wtp",
+    "def": "Wet die het aanvullende pensioenstelsel hervormt en op 1 juli 2023 in werking is getreden. Uitkeringsregelingen maken plaats voor premieregelingen (de solidaire of de flexibele premieregeling), met een leeftijdsonafhankelijke premie en persoonlijke pensioenvermogens. Bestaande regelingen moeten uiterlijk 1 januari 2028 zijn overgezet; pensioenuitvoerders doen dit gefaseerd en de uitwerking is nog in beweging.",
+    "zie": [
+      "Transitieperiode",
+      "Solidaire premieregeling",
+      "Flexibele premieregeling",
+      "Invaren"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Wet uitfasering pensioen in eigen beheer",
+    "afk": "",
+    "def": "Wet die per 1 april 2017 nieuwe opbouw van pensioen in eigen beheer voor dga's onmogelijk maakte. De wet bood de keuze tussen premievrij maken van de aanspraken, tijdelijke fiscaal gefacilieerde afkoop of omzetting in een oudedagsverplichting.",
+    "zie": [
+      "Pensioen in eigen beheer",
+      "Oudedagsverplichting",
+      "DGA-pensioen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet verevening pensioenrechten bij scheiding",
+    "afk": "Wvps",
+    "def": "Wet uit 1995 die de verdeling van ouderdomspensioen bij scheiding regelt voor scheidingen vóór 1 juli 2022. De standaard is verevening: de ex-partner krijgt recht op de helft van het tijdens het huwelijk opgebouwde ouderdomspensioen, uit te keren zolang beide ex-partners leven. Partijen konden ook conversie afspreken.",
+    "zie": [
+      "Pensioenverevening",
+      "Wet pensioenverdeling bij scheiding 2022",
+      "Conversie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet verplichte deelneming in een bedrijfstakpensioenfonds 2000",
+    "afk": "Wet Bpf 2000",
+    "def": "Wet die regelt dat de minister van SZW deelname aan een bedrijfstakpensioenfonds verplicht kan stellen voor een bedrijfstak. De wet bevat ook regels over vrijstelling van de verplichtstelling en over de taken van verplichtgestelde fondsen.",
+    "zie": [
+      "Verplichtstelling",
+      "Bedrijfstakpensioenfonds",
+      "Pensioenwet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wezenpensioen",
+    "afk": "",
+    "def": "Pensioenuitkering aan de kinderen van een overleden deelnemer of gepensioneerde. Het wezenpensioen loopt tot een in het reglement bepaalde leeftijd, die vaak hoger ligt voor kinderen die studeren of arbeidsongeschikt zijn.",
+    "zie": [
+      "Nabestaandenpensioen",
+      "Partnerpensioen",
+      "Pensioenreglement"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Witteveenkader",
+    "afk": "",
+    "def": "Het fiscale kader in de Wet op de loonbelasting 1964 dat bepaalt binnen welke grenzen pensioenopbouw in de tweede pijler fiscaal is gefacilieerd. Het kader begrenst onder meer het opbouwpercentage, het pensioengevend inkomen (fiscaal maximum) en de pensioenrichtleeftijd. Met de Wtp is voor premieregelingen een leeftijdsonafhankelijke maximale premiegrens ingevoerd.",
+    "zie": [
+      "Opbouwpercentage",
+      "Fiscaal maximum pensioengevend inkomen",
+      "Pensioenrichtleeftijd",
+      "Factor A"
+    ],
+    "volatiel": true
+  }
+]

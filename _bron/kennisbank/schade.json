@@ -1,0 +1,1077 @@
+[
+  {
+    "term": "Aanschafwaarderegeling",
+    "afk": "",
+    "def": "Regeling in vooral auto- en inboedelpolissen waarbij bij totaalverlies de aanschafwaarde wordt vergoed in plaats van de dagwaarde, gedurende een in de voorwaarden bepaalde periode na aankoop. Deze regeling komt vaak voor bij gebruikt gekochte auto's. De duur en voorwaarden verschillen per verzekeraar.",
+    "zie": [
+      "Nieuwwaarderegeling",
+      "Dagwaarde",
+      "Allriskautoverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Aansprakelijkheidsverzekering voor bedrijven",
+    "afk": "AVB",
+    "def": "Zakelijke verzekering die de wettelijke aansprakelijkheid van een onderneming en haar medewerkers dekt voor schade aan personen en zaken van derden. Vaak bestaat de polis uit rubrieken zoals bedrijfsaansprakelijkheid, productaansprakelijkheid en werkgeversaansprakelijkheid. Schade aan het geleverde product of werk zelf en zuivere vermogensschade zijn doorgaans uitgesloten of beperkt meeverzekerd.",
+    "zie": [
+      "Productaansprakelijkheid",
+      "Werkgeversaansprakelijkheid",
+      "Beroepsaansprakelijkheidsverzekering",
+      "Aansprakelijkheidsverzekering voor particulieren"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Aansprakelijkheidsverzekering voor particulieren",
+    "afk": "AVP",
+    "def": "Verzekering die de wettelijke aansprakelijkheid van een particulier en zijn gezinsleden dekt voor schade die zij aan personen of zaken van derden toebrengen. Hieronder valt ook de aansprakelijkheid voor kinderen en huisdieren (risicoaansprakelijkheid). Opzettelijk veroorzaakte schade, schade met motorrijtuigen en schade aan zaken die men onder zich heeft (opzicht) zijn doorgaans uitgesloten of beperkt gedekt.",
+    "zie": [
+      "Opzet",
+      "Rechtstreeks vorderingsrecht",
+      "Aansprakelijkheidsverzekering voor bedrijven"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Allriskautoverzekering",
+    "afk": "",
+    "def": "Autoverzekering die naast WA en beperkt casco ook schade aan het eigen voertuig dekt door eigen schuld, zoals een aanrijding, slippen of vandalisme. Wordt ook volledig casco genoemd. Een schadeclaim op deze dekking leidt doorgaans tot terugval op de bonus-malusladder.",
+    "zie": [
+      "Beperkt casco",
+      "WA-verzekering motorrijtuigen",
+      "Bonus-malusregeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Allriskdekking",
+    "afk": "",
+    "def": "Ruimste dekkingsvorm bij zaakverzekeringen, waarbij in beginsel alle plotselinge en onvoorziene schade is gedekt, tenzij deze uitdrukkelijk is uitgesloten. De bewijslast ligt daardoor anders dan bij een opsomming van gedekte gebeurtenissen: de verzekeraar moet aantonen dat een uitsluiting van toepassing is. Bij woonverzekeringen wordt de term soms gelijkgesteld aan extra uitgebreide dekking.",
+    "zie": [
+      "Extra uitgebreide dekking",
+      "Uitgebreide dekking",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Annuleringsverzekering",
+    "afk": "",
+    "def": "Verzekering die kosten vergoedt wanneer een geboekte reis of accommodatie moet worden geannuleerd of afgebroken door een in de voorwaarden genoemde reden, zoals ernstige ziekte of overlijden van de verzekerde of een familielid. De vergoeding is beperkt tot het verzekerde bedrag. De verzekering moet doorgaans binnen korte tijd na boeking worden afgesloten.",
+    "zie": [
+      "Reisverzekering",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Assurantiebelasting",
+    "afk": "",
+    "def": "Belasting die wordt geheven over de premie van in Nederland gesloten schadeverzekeringen, ingehouden door de verzekeraar en afgedragen aan de Belastingdienst. Het tarief bedraagt sinds 2013 21%. Sommige verzekeringen zijn vrijgesteld, waaronder levensverzekeringen en de zorgverzekering.",
+    "zie": [
+      "Premie",
+      "Schadeverzekering"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Assurantietussenpersoon",
+    "afk": "",
+    "def": "Onderneming die bemiddelt in of adviseert over verzekeringen tussen klant en verzekeraar. Voor deze activiteiten is een vergunning van de AFM op grond van de Wet op het financieel toezicht (Wft) nodig. De tussenpersoon heeft een zorgplicht jegens zijn klant.",
+    "zie": [
+      "Zorgplicht",
+      "Gevolmachtigd agent",
+      "Provisietransparantie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Atoomkernreactie",
+    "afk": "",
+    "def": "Standaarduitsluiting in schadeverzekeringen voor schade door of in verband met een atoomkernreactie, zoals kernsplitsing, kernfusie of radioactiviteit. De aansprakelijkheid voor kernongevallen is in Nederland apart geregeld bij wet. Schade door radioactieve stoffen die voor vreedzame doeleinden worden gebruikt (bijvoorbeeld medisch) kan volgens de voorwaarden wel gedekt zijn.",
+    "zie": [
+      "Uitsluiting",
+      "Molest"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bedrijfsschadeverzekering",
+    "afk": "",
+    "def": "Zakelijke verzekering die het financiële verlies dekt dat een onderneming lijdt doordat het bedrijf na een gedekte materiële schade (bijvoorbeeld brand) stil komt te liggen of minder kan draaien. Vergoed worden doorgaans gederfde brutowinst of doorlopende vaste lasten en extra kosten, gedurende een vastgestelde uitkeringstermijn. Het verzekerd bedrag moet aansluiten op de werkelijke bedrijfscijfers om onderverzekering te voorkomen.",
+    "zie": [
+      "Onderverzekering",
+      "Verzekerd bedrag",
+      "Brand"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beperkt casco",
+    "afk": "",
+    "def": "Uitbreiding van de WA-autoverzekering met dekking voor schade aan het eigen voertuig door van buiten komende gebeurtenissen buiten eigen schuld, zoals diefstal, brand, storm, hagel, ruitschade en aanrijding met loslopende dieren. Schade door een eigen aanrijding valt hier niet onder. Een claim op beperkt casco heeft meestal geen invloed op de no-claimkorting.",
+    "zie": [
+      "WA-verzekering motorrijtuigen",
+      "Allriskautoverzekering",
+      "No-claimkorting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bereddingskosten",
+    "afk": "",
+    "def": "Kosten die de verzekerde maakt om bij of na een onmiddellijk dreigend gevaar schade te voorkomen of te beperken, zoals het afdekken van een stormschade. Op grond van art. 7:957 BW komen redelijke bereddingskosten voor rekening van de verzekeraar, ook boven het verzekerd bedrag. De verzekerde is bovendien verplicht naar vermogen schade te voorkomen en te beperken.",
+    "zie": [
+      "Onzeker voorval",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beroepsaansprakelijkheidsverzekering",
+    "afk": "BAV",
+    "def": "Verzekering voor beroepsbeoefenaren, zoals adviseurs, accountants en architecten, die aansprakelijkheid dekt voor schade door beroepsfouten. Het gaat vooral om zuivere vermogensschade bij de opdrachtgever, die onder een AVB doorgaans niet is gedekt. Voor sommige beroepen, waaronder financieel dienstverleners, is een dergelijke verzekering wettelijk of door de beroepsorganisatie verplicht.",
+    "zie": [
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Claims-madedekking",
+      "Uitloopdekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bestuurdersaansprakelijkheidsverzekering",
+    "afk": "D&O",
+    "def": "Verzekering die bestuurders en commissarissen dekt voor persoonlijke aansprakelijkheid wegens onbehoorlijk bestuur of toezicht, bijvoorbeeld op grond van art. 2:9 BW of bij faillissement. Gedekt zijn doorgaans schadevergoeding en verweerkosten. De polis wordt meestal door de rechtspersoon afgesloten en is vrijwel altijd op claims-madebasis.",
+    "zie": [
+      "Claims-madedekking",
+      "Beroepsaansprakelijkheidsverzekering",
+      "Uitloopdekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Bonus-malusregeling",
+    "afk": "",
+    "def": "Systeem bij autoverzekeringen waarbij de premiekorting afhangt van het aantal schadevrije jaren, weergegeven op een trede van een ladder. Elk schadevrij jaar levert een hogere trede op; een schadeclaim waarvoor de verzekeraar uitkeert leidt tot terugval van meerdere treden. De ladder en kortingspercentages verschillen per verzekeraar.",
+    "zie": [
+      "No-claimkorting",
+      "Schadevrije jaren",
+      "Roy-data"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Brand",
+    "afk": "",
+    "def": "In schadeverzekeringen gangbaar gedefinieerd als een door verbranding veroorzaakt vuur buiten een haard, dat zich op eigen kracht kan uitbreiden. Zengen, smelten, verkolen en broeien vallen daardoor in beginsel niet onder het begrip, evenals kortsluiting zonder vuur. Brand is een basisgevaar onder vrijwel elke opstal-, inboedel- en bedrijfsverzekering.",
+    "zie": [
+      "Opstalverzekering",
+      "Inboedelverzekering",
+      "Uitgebreide dekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Buitengerechtelijke kosten",
+    "afk": "",
+    "def": "Kosten die worden gemaakt om schade of een vordering buiten de rechter om te verhalen, zoals kosten van een belangenbehartiger of incassokosten. Bij aansprakelijkheidsschade kunnen redelijke buitengerechtelijke kosten onderdeel zijn van de te vergoeden schade. Voor incassokosten bij consumentenvorderingen geldt een wettelijke staffel.",
+    "zie": [
+      "Rechtsbijstandverzekering",
+      "Regres"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "CAR-verzekering",
+    "afk": "CAR",
+    "def": "Construction All Risks-verzekering die schade dekt aan een bouwwerk in uitvoering, inclusief materialen, en vaak ook aansprakelijkheid tijdens de bouw. De polis is meestal opgebouwd uit rubrieken zoals het werk, aansprakelijkheid en eigendommen van de opdrachtgever. Zowel opdrachtgever als aannemers en onderaannemers kunnen als verzekerden zijn opgenomen.",
+    "zie": [
+      "Allriskdekking",
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Eigen gebrek"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "CIS-registratie",
+    "afk": "CIS",
+    "def": "Registratie in het Centraal Informatie Systeem van de Stichting CIS, waarin verzekeraars gegevens over schades, voertuigen en verzekerden delen. Daarnaast bestaat een fraudesignaleringsregister waarin personen na vastgestelde fraude kunnen worden opgenomen, met gevolgen voor het afsluiten van nieuwe verzekeringen. Registratie gebeurt volgens het Protocol Incidentenwaarschuwingssysteem Financiële Instellingen; betrokkenen hebben inzage- en correctierecht.",
+    "zie": [
+      "Verzwijging",
+      "Verbond van Verzekeraars",
+      "Mededelingsplicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Claims-madedekking",
+    "afk": "",
+    "def": "Dekkingsbasis waarbij een schade alleen onder de polis valt als de aanspraak tijdens de looptijd van de verzekering bij de verzekerde wordt ingesteld en bij de verzekeraar wordt gemeld. Het moment van het schadeveroorzakende handelen is dan minder bepalend. Deze basis is gebruikelijk bij beroeps- en bestuurdersaansprakelijkheid.",
+    "zie": [
+      "Loss-occurrencedekking",
+      "Uitloopdekking",
+      "Beroepsaansprakelijkheidsverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Clausule",
+    "afk": "",
+    "def": "Specifieke bepaling in of bij een polis die de algemene of bijzondere voorwaarden aanvult, wijzigt of beperkt. Voorbeelden zijn een preventieclausule (verplichte beveiliging) of een terrorismeclausule. Bij strijdigheid gaan bijzondere bepalingen en clausules doorgaans voor op de algemene voorwaarden.",
+    "zie": [
+      "Polisvoorwaarden",
+      "Polis",
+      "Terrorismeclausule"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Contra-expertise",
+    "afk": "",
+    "def": "Schadevaststelling door een expert die de verzekerde zelf inschakelt naast de expert van de verzekeraar. Beide experts stellen de schade samen vast; bij verschil van mening kan een derde expert bindend beslissen. De kosten van de contra-expert worden in veel polissen vergoed, soms tot de hoogte van de kosten van de expert van de verzekeraar.",
+    "zie": [
+      "Expert",
+      "Schadeverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Cyberverzekering",
+    "afk": "",
+    "def": "Zakelijke verzekering voor schade door cyberincidenten, zoals hacks, ransomware en datalekken. Dekking omvat meestal eigen schade (herstelkosten, bedrijfsschade, incidentrespons) en aansprakelijkheid jegens derden, bijvoorbeeld bij een datalek. Verzekeraars stellen vaak minimale beveiligingseisen als voorwaarde voor dekking.",
+    "zie": [
+      "Bedrijfsschadeverzekering",
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Clausule"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Dagwaarde",
+    "afk": "",
+    "def": "De nieuwwaarde van een zaak verminderd met een bedrag wegens waardevermindering door ouderdom en slijtage, direct voor het schadevoorval. Vergoeding op dagwaarde is gebruikelijk bij oudere zaken of wanneer de voorwaarden dat bepalen. De dagwaarde is iets anders dan de marktwaarde, al liggen ze bij voertuigen vaak dicht bij elkaar.",
+    "zie": [
+      "Nieuwwaarde",
+      "Vervangingswaarde",
+      "Marktwaarde"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Dekking",
+    "afk": "",
+    "def": "Het geheel van risico's, gebeurtenissen en schadesoorten waarvoor een verzekering bescherming biedt, binnen de grenzen van de polis en voorwaarden. De dekking wordt bepaald door de omschrijving van het verzekerde, de gedekte gebeurtenissen, de uitsluitingen en de verzekerde bedragen. Of een concrete schade gedekt is, volgt uit uitleg van de polis.",
+    "zie": [
+      "Polisvoorwaarden",
+      "Uitsluiting",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eigen gebrek",
+    "afk": "",
+    "def": "Een minder goede eigenschap van de verzekerde zaak die er volgens de aard van de zaak niet in behoort te zijn, zoals een materiaal- of constructiefout. Volgens art. 7:951 BW vergoedt de verzekeraar geen schade die door een eigen gebrek is ontstaan, tenzij anders is overeengekomen. Gevolgschade, zoals brand door een defect apparaat, is vaak wel meeverzekerd.",
+    "zie": [
+      "Uitsluiting",
+      "Allriskdekking",
+      "Onzeker voorval"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eigen risico",
+    "afk": "",
+    "def": "Het deel van een schade dat voor rekening van de verzekerde blijft. Het kan verplicht zijn (vastgesteld door de verzekeraar) of vrijwillig gekozen in ruil voor een lagere premie. Het eigen risico wordt per gebeurtenis in mindering gebracht op de uitkering.",
+    "zie": [
+      "Franchise",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Expert",
+    "afk": "",
+    "def": "Onafhankelijk deskundige die namens de verzekeraar (of verzekerde) de oorzaak en omvang van een schade vaststelt. Experts zijn vaak geregistreerd bij het Nederlands Instituut van Register Experts (NIVRE). Het expertiserapport vormt de basis voor de schaderegeling, maar bindt de verzekerde niet automatisch.",
+    "zie": [
+      "Contra-expertise",
+      "Taxatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Extra uitgebreide dekking",
+    "afk": "",
+    "def": "Dekkingsvorm bij opstal- en inboedelverzekeringen die naast de gebeurtenissen van de uitgebreide dekking ook andere plotselinge en onvoorziene schade dekt, zoals het per ongeluk laten vallen van een televisie. Uitsluitingen zoals eigen gebrek, slijtage en opzet blijven van toepassing. De term wordt in de markt vaak gelijkgesteld aan allriskdekking.",
+    "zie": [
+      "Uitgebreide dekking",
+      "Allriskdekking",
+      "Inboedelverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Franchise",
+    "afk": "",
+    "def": "Drempelbedrag waaronder schade niet wordt vergoed, maar waarboven de schade volledig wordt vergoed. Dit verschilt van een eigen risico, dat altijd in mindering wordt gebracht. Franchises komen onder meer voor bij transport- en reisverzekeringen.",
+    "zie": [
+      "Eigen risico",
+      "Goederentransportverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Garantie tegen onderverzekering",
+    "afk": "",
+    "def": "Toezegging van de verzekeraar dat bij schade geen beroep op onderverzekering wordt gedaan, mits aan bepaalde voorwaarden is voldaan. Bij opstal en inboedel geldt dit meestal als het verzekerd bedrag is vastgesteld met een waardemeter of taxatie en jaarlijks wordt geïndexeerd. Verbouwingen of uitbreidingen moeten tijdig worden doorgegeven om de garantie te behouden.",
+    "zie": [
+      "Onderverzekering",
+      "Inboedelwaardemeter",
+      "Taxatie",
+      "Indexering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Gevolmachtigd agent",
+    "afk": "",
+    "def": "Intermediair die door een of meer verzekeraars (volmachtgevers) is gemachtigd om namens hen risico's te accepteren, polissen op te maken, premie te innen en vaak ook schaden af te handelen. De gevolmachtigd agent handelt binnen de grenzen van de volmacht en blijft daarbij onder verantwoordelijkheid van de verzekeraar. Brancheorganisatie is de NVGA.",
+    "zie": [
+      "Volmacht",
+      "Assurantietussenpersoon"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Glasverzekering",
+    "afk": "",
+    "def": "Verzekering voor breuk van ruiten en ander vast glas in een woning of bedrijfspand. Vaak is glas meeverzekerd via de opstalverzekering of kan het als aparte dekking worden afgesloten, bijvoorbeeld door huurders. Gebruikelijke uitsluitingen betreffen onder meer glas in kassen en schade tijdens verbouwing.",
+    "zie": [
+      "Opstalverzekering",
+      "Uitgebreide dekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Goederentransportverzekering",
+    "afk": "",
+    "def": "Verzekering die schade aan of verlies van goederen tijdens vervoer dekt, over de weg, per spoor, door de lucht of over water. Omdat de aansprakelijkheid van vervoerders wettelijk of verdragsmatig vaak beperkt is (bijvoorbeeld onder het CMR-verdrag bij internationaal wegvervoer), dekt deze verzekering het risico van de belanghebbende bij de lading zelf. Dekking kan op basis van allrisk of beperkte voorwaarden.",
+    "zie": [
+      "Franchise",
+      "Allriskdekking",
+      "Regres"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Groene kaart",
+    "afk": "",
+    "def": "Internationaal verzekeringsbewijs dat aantoont dat een motorrijtuig voldoet aan de wettelijke WA-verzekeringsplicht. In de praktijk wordt het document steeds vaker internationaal verzekeringsbewijs genoemd. Het bewijs is vooral van belang bij reizen naar landen buiten de EER die bij het groenekaartsysteem zijn aangesloten.",
+    "zie": [
+      "WAM",
+      "WA-verzekering motorrijtuigen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Herbouwwaarde",
+    "afk": "",
+    "def": "Het bedrag dat nodig is om een opstal direct na een schade op dezelfde plaats en met dezelfde bestemming te herbouwen, inclusief bijkomende kosten. De herbouwwaarde staat los van de marktwaarde of WOZ-waarde en is de gebruikelijke basis voor het verzekerd bedrag bij opstalverzekeringen. Zij wordt vaak vastgesteld met een herbouwwaardemeter of taxatie.",
+    "zie": [
+      "Opstalverzekering",
+      "Taxatie",
+      "Garantie tegen onderverzekering",
+      "Marktwaarde"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Herstelgarantie",
+    "afk": "",
+    "def": "Garantie op de kwaliteit van herstelwerkzaamheden na een schade, meestal verleend door een herstelbedrijf dat bij de verzekeraar of een herstelnetwerk is aangesloten. Bij gebreken in het herstel kan de verzekerde zich tot het herstelbedrijf of de verzekeraar wenden. Bij gebruik van zo'n bedrijf geldt soms een lager eigen risico of directe afrekening met de verzekeraar.",
+    "zie": [
+      "Eigen risico",
+      "Allriskautoverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Inboedelverzekering",
+    "afk": "",
+    "def": "Verzekering voor de roerende zaken die tot een particuliere huishouding behoren, zoals meubels, kleding en apparatuur. Voor bepaalde categorieën, zoals sieraden, audiovisuele apparatuur en geld, gelden vaak maximale vergoedingen. Schade wordt meestal vergoed op basis van nieuwwaarde, behalve in de situaties waarin de voorwaarden dagwaarde voorschrijven.",
+    "zie": [
+      "Inboedelwaardemeter",
+      "Nieuwwaarde",
+      "Opstalverzekering",
+      "Extra uitgebreide dekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Inboedelwaardemeter",
+    "afk": "",
+    "def": "Rekenhulp van een verzekeraar waarmee op basis van kenmerken zoals inkomen, leeftijd en gezinssamenstelling de waarde van de inboedel wordt geschat. Wanneer het verzekerd bedrag hiermee is vastgesteld, biedt de verzekeraar meestal garantie tegen onderverzekering. Bijzondere bezittingen kunnen apart moeten worden opgegeven.",
+    "zie": [
+      "Inboedelverzekering",
+      "Garantie tegen onderverzekering",
+      "Onderverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Indemniteitsbeginsel",
+    "afk": "",
+    "def": "Grondbeginsel van schadeverzekering dat de verzekerde door de uitkering niet in een betere financiële positie mag komen dan vóór de schade. Het beginsel verklaart onder meer de regels over oververzekering, samenloop en subrogatie. Afwijkingen zijn mogelijk, bijvoorbeeld bij vergoeding op nieuwwaarde.",
+    "zie": [
+      "Oververzekering",
+      "Samenloop",
+      "Subrogatie",
+      "Schadeverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Indexering",
+    "afk": "",
+    "def": "Jaarlijkse automatische aanpassing van het verzekerd bedrag (en daarmee de premie) aan prijsontwikkelingen, bijvoorbeeld op basis van een bouwkostenindex of een consumentenprijsindex. Indexering helpt onderverzekering voorkomen. Bij opstal- en inboedelpolissen is zij vaak een voorwaarde voor garantie tegen onderverzekering.",
+    "zie": [
+      "Garantie tegen onderverzekering",
+      "Onderverzekering",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kifid",
+    "afk": "Kifid",
+    "def": "Klachteninstituut Financiële Dienstverlening: onafhankelijke geschilleninstantie voor klachten van met name consumenten over financiële dienstverleners, waaronder verzekeraars en adviseurs. Een klacht moet eerst bij de dienstverlener zelf zijn ingediend. De uitspraak van de geschillencommissie kan bindend of niet-bindend zijn, afhankelijk van wat partijen zijn overeengekomen.",
+    "zie": [
+      "Verbond van Verzekeraars",
+      "Zorgplicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Loss-occurrencedekking",
+    "afk": "",
+    "def": "Dekkingsbasis waarbij bepalend is of de schade is ontstaan of het schadeveroorzakende voorval heeft plaatsgevonden tijdens de looptijd van de verzekering, ook als de aanspraak pas later wordt ingesteld. Deze basis is gangbaar bij de AVP en bij veel AVB-polissen. Bij langdurige of sluipende schade kan onduidelijk zijn op welk moment de schade is ontstaan.",
+    "zie": [
+      "Claims-madedekking",
+      "Aansprakelijkheidsverzekering voor particulieren",
+      "Aansprakelijkheidsverzekering voor bedrijven"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Marktwaarde",
+    "afk": "",
+    "def": "De prijs die bij verkoop van een zaak in het economisch verkeer redelijkerwijs kan worden verkregen. Bij woningen is de marktwaarde iets anders dan de herbouwwaarde, omdat onder meer de grondwaarde en de locatie meetellen. Bij voertuigen wordt totaalverlies vaak vergoed op basis van de marktwaarde vlak voor de schade.",
+    "zie": [
+      "Herbouwwaarde",
+      "Dagwaarde",
+      "Vervangingswaarde"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Mededelingsplicht",
+    "afk": "",
+    "def": "Wettelijke plicht van de verzekeringnemer om vóór het sluiten van de verzekering alle feiten mee te delen die hij kent of behoort te kennen en waarvan hij weet of moet begrijpen dat zij voor de beslissing van de verzekeraar van belang kunnen zijn (art. 7:928 BW). Bij een vragenlijst beperkt de plicht zich in beginsel tot de gestelde vragen. Schending wordt aangeduid als verzwijging.",
+    "zie": [
+      "Verzwijging",
+      "CIS-registratie",
+      "Onzeker voorval"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Meldingsplicht",
+    "afk": "",
+    "def": "Verplichting van de verzekerde om een schadevoorval zo spoedig als redelijkerwijs mogelijk aan de verzekeraar te melden en de benodigde informatie te verstrekken (art. 7:941 BW). Bij niet-nakoming kan de verzekeraar de uitkering verminderen met de schade die hij daardoor lijdt. Alleen als de verzekeraar in een redelijk belang is geschaad, kan een volledig verval van recht worden ingeroepen, mits dat in de voorwaarden is bedongen.",
+    "zie": [
+      "Verjaring",
+      "Expert",
+      "Onzeker voorval"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Milieuschadeverzekering",
+    "afk": "MSV",
+    "def": "Zakelijke verzekering die de kosten dekt van sanering en herstel bij een plotselinge en onzekere verontreiniging van bodem of water op of vanaf de eigen locatie, ongeacht aansprakelijkheid. Ook bedrijfsschade en kosten van derden-locaties kunnen zijn meeverzekerd. De MSV vult de AVB aan, waarin milieuaantasting vaak beperkt of uitgesloten is.",
+    "zie": [
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Molest",
+    "afk": "",
+    "def": "Standaarduitsluiting voor schade door gewapend conflict, burgeroorlog, opstand, binnenlandse onlusten, oproer en muiterij. Deze zes vormen zijn gedefinieerd in een door het Verbond van Verzekeraars bij de rechtbank gedeponeerde tekst waarnaar polisvoorwaarden verwijzen. Terrorisme valt niet onder molest maar heeft een eigen regeling via de NHT.",
+    "zie": [
+      "Uitsluiting",
+      "Terrorismeclausule",
+      "Atoomkernreactie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nederlandse Herverzekeringsmaatschappij voor Terrorismeschaden",
+    "afk": "NHT",
+    "def": "Herverzekeraar die door verzekeraars en de Staat is opgericht om het terrorismerisico in Nederland herverzekerbaar te maken. Verzekeraars dekken terrorismeschade via de NHT tot een jaarlijks maximum per kalenderjaar voor alle aangesloten verzekeraars samen. De wijze en omvang van uitkering zijn vastgelegd in het Protocol afwikkeling claims van de NHT.",
+    "zie": [
+      "Terrorismeclausule",
+      "Molest"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nieuwwaarde",
+    "afk": "",
+    "def": "Het bedrag dat nodig is om een zaak direct na de schade te vervangen door een nieuwe zaak van dezelfde soort en kwaliteit. Nieuwwaarde is de gebruikelijke vergoedingsbasis bij inboedelverzekeringen. Voor zaken die sterk in waarde zijn verminderd of aan het gebruik zijn onttrokken, vergoeden polissen vaak de dagwaarde.",
+    "zie": [
+      "Dagwaarde",
+      "Vervangingswaarde",
+      "Nieuwwaarderegeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nieuwwaarderegeling",
+    "afk": "",
+    "def": "Regeling in autoverzekeringen (allrisk of beperkt casco) waarbij bij totaalverlies of diefstal van een nieuw gekochte auto gedurende een in de voorwaarden bepaalde periode de nieuwwaarde wordt vergoed. Na die periode geldt vaak een afnemende vergoeding of de dagwaarde. Voorwaarden zoals eerste eigenaar en maximale cataloguswaarde verschillen per verzekeraar.",
+    "zie": [
+      "Aanschafwaarderegeling",
+      "Nieuwwaarde",
+      "Allriskautoverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "No-claimkorting",
+    "afk": "",
+    "def": "Premiekorting op de autoverzekering die wordt opgebouwd door jaren zonder schadeclaims waarvoor de verzekeraar heeft uitgekeerd. De korting is gekoppeld aan de trede op de bonus-malusladder. Schadevrije jaren zijn bij overstap naar een andere verzekeraar meestal mee te nemen via de centrale registratie.",
+    "zie": [
+      "Bonus-malusregeling",
+      "Schadevrije jaren",
+      "Roy-data"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Onderverzekering",
+    "afk": "",
+    "def": "Situatie waarin het verzekerd bedrag lager is dan de werkelijke waarde van het verzekerde belang op het moment van de schade. De verzekeraar vergoedt de schade dan in beginsel naar evenredigheid van verzekerd bedrag en werkelijke waarde (evenredigheidsregel), ook bij gedeeltelijke schade. Dit gevolg kan worden voorkomen door een garantie tegen onderverzekering of een verzekering op eerste risico.",
+    "zie": [
+      "Garantie tegen onderverzekering",
+      "Oververzekering",
+      "Verzekerd bedrag",
+      "Indexering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Oneigenlijke samenloop",
+    "afk": "",
+    "def": "Situatie waarin een schade niet alleen door een schadeverzekering is gedekt, maar ook (deels) wordt vergoed door een andere bron die geen schadeverzekering is, zoals een wettelijke voorziening, een garantie of een aansprakelijke derde. De wettelijke samenloopregeling is dan niet van toepassing. De verhouding wordt doorgaans geregeld via polisbepalingen en subrogatie.",
+    "zie": [
+      "Samenloop",
+      "Subrogatie",
+      "Regres"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Onzeker voorval",
+    "afk": "",
+    "def": "Vereiste voor een geldige verzekering: bij het sluiten moet voor partijen onzeker zijn dat er schade is ontstaan of zal ontstaan (art. 7:925 BW). Is die onzekerheid er niet, dan ontstaat geen recht op uitkering. De verzekering kan wel gedeeltelijk geldig blijven, bijvoorbeeld voor andere schades.",
+    "zie": [
+      "Mededelingsplicht",
+      "Eigen gebrek",
+      "Schadeverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opstalverzekering",
+    "afk": "",
+    "def": "Verzekering voor schade aan een gebouw, inclusief vaste onderdelen zoals de keuken, cv-installatie en vaste vloerbedekking volgens de voorwaarden. De verzekering is bedoeld voor eigenaren van een woning of bedrijfspand; vaak eist de hypotheekverstrekker haar. Het verzekerd bedrag is meestal gebaseerd op de herbouwwaarde.",
+    "zie": [
+      "Herbouwwaarde",
+      "Inboedelverzekering",
+      "Uitgebreide dekking",
+      "Glasverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opzegging",
+    "afk": "",
+    "def": "Beëindiging van een verzekering door verzekeringnemer of verzekeraar. Een consument kan een schadeverzekering na de eerste contractperiode op elk moment opzeggen met een opzegtermijn van ten hoogste één maand. De verzekeraar kan opzeggen in de gevallen die de wet en de polisvoorwaarden toestaan, bijvoorbeeld bij premieverzuim of na een schadeclaim, voor zover bedongen.",
+    "zie": [
+      "Stilzwijgende verlenging",
+      "Premierestitutie",
+      "Premieverzuim"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opzet",
+    "afk": "",
+    "def": "Uitsluitingsgrond voor schade die de verzekerde met opzet of door roekeloosheid heeft veroorzaakt (art. 7:952 BW, voor zover het gaat om eigen schade). In aansprakelijkheidspolissen wordt opzet nader omschreven, vaak inclusief schade als redelijkerwijs te verwachten gevolg van het handelen. Opzet van de één kan in sommige polissen ook medeverzekerden uitsluiten.",
+    "zie": [
+      "Uitsluiting",
+      "Aansprakelijkheidsverzekering voor particulieren"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Overstroming",
+    "afk": "",
+    "def": "Het bezwijken of overlopen van dijken, kades of andere waterkeringen. Overstroming door primaire waterkeringen (zoals rivier- en zeedijken) is in particuliere woonverzekeringen doorgaans uitgesloten; veel verzekeraars dekken inmiddels wel overstroming door regionale, niet-primaire waterkeringen. Overstroming is te onderscheiden van neerslag die via het dak of maaiveld de woning binnendringt.",
+    "zie": [
+      "Uitsluiting",
+      "Opstalverzekering",
+      "Uitgebreide dekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Oververzekering",
+    "afk": "",
+    "def": "Situatie waarin het verzekerd bedrag hoger is dan de werkelijke waarde van het verzekerde belang. De verzekerde krijgt bij schade niet meer vergoed dan de werkelijke schade, zodat het meerdere aan premie in feite zonder nut wordt betaald. Bij schadeverzekeringen volgt dit uit het indemniteitsbeginsel.",
+    "zie": [
+      "Onderverzekering",
+      "Indemniteitsbeginsel",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Polis",
+    "afk": "",
+    "def": "Akte waarin de verzekeringsovereenkomst wordt vastgelegd, met onder meer verzekeringnemer, verzekerde zaken of belangen, verzekerde bedragen, premie en looptijd. Het polisblad verwijst naar de algemene en bijzondere voorwaarden en eventuele clausules. De verzekeraar is verplicht een polis af te geven.",
+    "zie": [
+      "Polisvoorwaarden",
+      "Clausule",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Polisvoorwaarden",
+    "afk": "",
+    "def": "Het geheel van algemene en bijzondere voorwaarden dat de rechten en plichten van verzekeraar en verzekerde bij een verzekering regelt. De voorwaarden bevatten onder meer begripsomschrijvingen, dekking, uitsluitingen, verplichtingen bij schade en regels over beëindiging. Onduidelijke bepalingen worden bij consumenten in hun voordeel uitgelegd.",
+    "zie": [
+      "Polis",
+      "Clausule",
+      "Uitsluiting",
+      "Dekking"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premie",
+    "afk": "",
+    "def": "De prijs die de verzekeringnemer betaalt voor de verzekeringsdekking, meestal per maand, kwartaal of jaar. De premie wordt bepaald door het risico, het verzekerd bedrag, het eigen risico en eventuele kortingen. Over de premie is in de regel assurantiebelasting verschuldigd, en vaak worden ook poliskosten in rekening gebracht.",
+    "zie": [
+      "Assurantiebelasting",
+      "Eigen risico",
+      "Premierestitutie",
+      "Premieverzuim"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premierestitutie",
+    "afk": "",
+    "def": "Terugbetaling van vooruitbetaalde premie over de periode na tussentijdse beëindiging van een verzekering. De restitutie gebeurt in de regel naar tijdsevenredigheid. Bij beëindiging wegens opzet de verzekeraar te misleiden kan de polis restitutie uitsluiten.",
+    "zie": [
+      "Premie",
+      "Opzegging",
+      "Verzwijging"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premieverzuim",
+    "afk": "",
+    "def": "Situatie waarin de verzekeringnemer de premie niet tijdig betaalt. Bij een vervolgpremie mag de verzekeraar de dekking pas schorsen na een aanmaning waarin een termijn van ten minste veertien dagen wordt gesteld (art. 7:934 BW). Na betaling van de achterstallige premie herleeft de dekking voor toekomstige schades.",
+    "zie": [
+      "Premie",
+      "Opzegging"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Productaansprakelijkheid",
+    "afk": "",
+    "def": "Risicoaansprakelijkheid van de producent voor schade veroorzaakt door een gebrek in zijn product (art. 6:185 BW e.v.). Ook importeurs in de EER en in bepaalde gevallen leveranciers kunnen aansprakelijk zijn. Dit risico wordt doorgaans gedekt via een rubriek in de AVB; terugroepkosten zijn daarbij meestal uitgesloten.",
+    "zie": [
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Prolongatie",
+    "afk": "",
+    "def": "Verlenging van een verzekering voor een nieuwe contractperiode, meestal op de jaarlijkse premievervaldatum. Bij prolongatie kan de verzekeraar premie en voorwaarden aanpassen, met de daarvoor geldende informatieplicht. Prolongatie gebeurt in de praktijk vrijwel altijd stilzwijgend.",
+    "zie": [
+      "Stilzwijgende verlenging",
+      "Premie",
+      "Opzegging"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Provisietransparantie",
+    "afk": "",
+    "def": "Verplichting van een adviseur of bemiddelaar om de klant inzicht te geven in de vergoeding die hij voor zijn dienstverlening ontvangt, bijvoorbeeld provisie van de verzekeraar. Voor de meeste schadeverzekeringen geldt geen provisieverbod zoals bij complexe producten, maar wel informatieverplichtingen over aard en hoogte van de beloning. De precieze reikwijdte en ingangsdata van deze verplichtingen zijn in de Wft-regelgeving vastgelegd en wijzigen periodiek.",
+    "zie": [
+      "Assurantietussenpersoon",
+      "Zorgplicht"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Rechtsbijstandverzekering",
+    "afk": "",
+    "def": "Verzekering die juridische hulp vergoedt of verleent bij een conflict, bijvoorbeeld op het gebied van verkeer, wonen, werk of consumentenzaken. De hulp wordt meestal geboden door een eigen juridische dienst of een onafhankelijke stichting. Vaak gelden een wachttijd, een minimaal belang en een maximum voor externe kosten.",
+    "zie": [
+      "Vrije advocaatkeuze",
+      "Wachttijd",
+      "Buitengerechtelijke kosten"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Rechtstreeks vorderingsrecht",
+    "afk": "",
+    "def": "Recht van een benadeelde om zijn schadevordering rechtstreeks bij de aansprakelijkheidsverzekeraar van de veroorzaker in te dienen. Bij verzekeringen tegen aansprakelijkheid voor letsel en overlijden is dit geregeld in art. 7:954 BW. Voor motorrijtuigen geeft de WAM de benadeelde een eigen recht tegen de verzekeraar, ook voor zaakschade.",
+    "zie": [
+      "WAM",
+      "Aansprakelijkheidsverzekering voor particulieren"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Regres",
+    "afk": "",
+    "def": "Het verhalen van een uitgekeerde schade door de verzekeraar op een derde die voor de schade aansprakelijk is. Regres is mogelijk doordat de vordering van de verzekerde door subrogatie op de verzekeraar overgaat. Verzekeraars hebben onderling afspraken gemaakt die regres in bepaalde situaties beperken.",
+    "zie": [
+      "Subrogatie",
+      "Oneigenlijke samenloop",
+      "Verbond van Verzekeraars"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Reisverzekering",
+    "afk": "",
+    "def": "Verzekering die tijdens reizen dekking biedt voor onder meer bagage, buitengewone kosten (zoals repatriëring en extra verblijfskosten), hulpverlening en eventueel medische kosten en ongevallen. Medische kosten in het buitenland worden primair door de zorgverzekering vergoed, waarbij de reisverzekering aanvullend kan zijn. Er bestaan doorlopende en kortlopende varianten.",
+    "zie": [
+      "Annuleringsverzekering",
+      "Samenloop",
+      "Dagwaarde"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Roy-data",
+    "afk": "",
+    "def": "Centrale registratie van schadevrije jaren bij motorrijtuigverzekeringen, die door verzekeraars wordt gebruikt bij overstap van verzekeringnemers. Verzekeraars melden bij beëindiging het aantal opgebouwde schadevrije jaren aan, zodat de nieuwe verzekeraar dit kan raadplegen. Hierdoor is een papieren royementsverklaring in de regel niet meer nodig.",
+    "zie": [
+      "Schadevrije jaren",
+      "No-claimkorting",
+      "Bonus-malusregeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Samenloop",
+    "afk": "",
+    "def": "Situatie waarin dezelfde schade onder meer dan één schadeverzekering is gedekt. Op grond van art. 7:961 BW kan de verzekerde kiezen welke verzekeraar hij aanspreekt, waarna verzekeraars de schade onderling naar evenredigheid verdelen. Veel polissen bevatten een samenloopclausule die de dekking secundair maakt, wat de verdeling in de praktijk beïnvloedt.",
+    "zie": [
+      "Oneigenlijke samenloop",
+      "Indemniteitsbeginsel",
+      "Subrogatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Schadeverzekering",
+    "afk": "",
+    "def": "Verzekering die strekt tot vergoeding van vermogensschade die de verzekerde zou kunnen lijden. Zij is wettelijk geregeld in titel 7.17 BW, afdeling 2. Tegenover de schadeverzekering staat de sommenverzekering, die een vooraf bepaald bedrag uitkeert.",
+    "zie": [
+      "Sommenverzekering",
+      "Indemniteitsbeginsel",
+      "Onzeker voorval"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Schadevrije jaren",
+    "afk": "",
+    "def": "Het aantal verzekeringsjaren waarin geen schade is geclaimd waarvoor de motorrijtuigverzekeraar heeft uitgekeerd. Het aantal bepaalt de trede op de bonus-malusladder en daarmee de no-claimkorting. Bij een claim vervalt een deel van de opgebouwde jaren volgens de regeling van de verzekeraar.",
+    "zie": [
+      "Bonus-malusregeling",
+      "No-claimkorting",
+      "Roy-data"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Sommenverzekering",
+    "afk": "",
+    "def": "Verzekering die bij een bepaalde gebeurtenis een vooraf vastgesteld bedrag uitkeert, ongeacht de werkelijke schade. Voorbeelden zijn een ongevallenverzekering met een vaste uitkering bij overlijden of blijvende invaliditeit. De regels over samenloop en subrogatie bij schadeverzekeringen gelden niet voor sommenverzekeringen.",
+    "zie": [
+      "Schadeverzekering",
+      "Samenloop",
+      "Subrogatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Stilzwijgende verlenging",
+    "afk": "",
+    "def": "Automatische verlenging van een verzekering na afloop van de contractperiode als niet tijdig is opgezegd. Na stilzwijgende verlenging van een consumentenverzekering geldt een verlenging voor onbepaalde tijd, die de consument op elk moment kan opzeggen met een opzegtermijn van ten hoogste één maand. Voor zakelijke verzekeringen gelden de afspraken in de polisvoorwaarden.",
+    "zie": [
+      "Opzegging",
+      "Prolongatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Storm",
+    "afk": "",
+    "def": "In polisvoorwaarden gangbaar gedefinieerd als wind met een snelheid van ten minste 14 meter per seconde (windkracht 7). Storm is een gedekte gebeurtenis bij vrijwel alle opstal- en inboedelverzekeringen met uitgebreide dekking. Bij twijfel worden meetgegevens van het KNMI gebruikt om vast te stellen of er sprake was van storm.",
+    "zie": [
+      "Uitgebreide dekking",
+      "Opstalverzekering",
+      "Bereddingskosten"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Subrogatie",
+    "afk": "",
+    "def": "Wettelijke overgang van de rechten van de verzekerde op derden naar de verzekeraar, voor zover de verzekeraar de schade heeft vergoed (art. 7:962 BW). Daardoor kan de verzekeraar de uitgekeerde schade verhalen op een aansprakelijke derde. De verzekerde mag niets doen dat dit verhaalsrecht benadeelt.",
+    "zie": [
+      "Regres",
+      "Samenloop",
+      "Indemniteitsbeginsel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Taxatie",
+    "afk": "",
+    "def": "Waardebepaling van een zaak, zoals een gebouw, kunstwerk of sieraden, door een deskundige taxateur vóór het ontstaan van een schade. Een geldig taxatierapport kan bij schade als basis voor de vergoeding dienen en biedt vaak garantie tegen onderverzekering. Taxatierapporten hebben volgens de polisvoorwaarden meestal een beperkte geldigheidsduur.",
+    "zie": [
+      "Garantie tegen onderverzekering",
+      "Herbouwwaarde",
+      "Expert"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Terrorismeclausule",
+    "afk": "",
+    "def": "Clausule die bepaalt dat schade door terrorisme, kwaadwillige besmetting en preventieve maatregelen slechts gedekt is tot het bedrag dat de verzekeraar daarvoor van de NHT ontvangt. De clausule is door het Verbond van Verzekeraars als standaardtekst gedeponeerd en wordt in de meeste Nederlandse schadepolissen opgenomen. Uitkering verloopt volgens het Protocol afwikkeling claims van de NHT.",
+    "zie": [
+      "Nederlandse Herverzekeringsmaatschappij voor Terrorismeschaden",
+      "Molest",
+      "Clausule"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitgebreide dekking",
+    "afk": "",
+    "def": "Dekkingsvorm bij opstal- en inboedelverzekeringen waarbij schade door een limitatief opgesomde reeks gebeurtenissen is gedekt, zoals brand, ontploffing, blikseminslag, storm, inbraak, waterschade, neerslag en vandalisme. Schade door andere oorzaken valt buiten deze dekking. Wie ook schade door bijvoorbeeld onhandigheid gedekt wil hebben, kiest een extra uitgebreide dekking.",
+    "zie": [
+      "Extra uitgebreide dekking",
+      "Brand",
+      "Storm",
+      "Opstalverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitloopdekking",
+    "afk": "",
+    "def": "Uitbreiding van een claims-madepolis waarbij ook aanspraken worden gedekt die na beëindiging van de verzekering worden ingesteld, mits zij betrekking hebben op handelen tijdens de looptijd. De uitlooptermijn is in de voorwaarden beperkt. Uitloopdekking is van belang bij beëindiging van een onderneming of beroepspraktijk.",
+    "zie": [
+      "Claims-madedekking",
+      "Beroepsaansprakelijkheidsverzekering",
+      "Bestuurdersaansprakelijkheidsverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitsluiting",
+    "afk": "",
+    "def": "Bepaling in de polisvoorwaarden die bepaalde oorzaken, schaden of omstandigheden buiten de dekking plaatst. Voorbeelden van algemene uitsluitingen zijn molest, atoomkernreactie, opzet en eigen gebrek. De verzekeraar draagt in beginsel de bewijslast dat een uitsluiting van toepassing is.",
+    "zie": [
+      "Molest",
+      "Atoomkernreactie",
+      "Opzet",
+      "Polisvoorwaarden"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verbond van Verzekeraars",
+    "afk": "",
+    "def": "Brancheorganisatie van verzekeraars die in Nederland actief zijn. Het Verbond behartigt de belangen van de sector, stelt zelfreguleringscodes en gedragscodes op en deponeert standaardteksten zoals de molest- en terrorismeclausules. Het Verbond is geen toezichthouder; toezicht ligt bij AFM en DNB.",
+    "zie": [
+      "Molest",
+      "Terrorismeclausule",
+      "Kifid",
+      "CIS-registratie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verjaring",
+    "afk": "",
+    "def": "Het vervallen van de mogelijkheid om een vordering tot uitkering geldend te maken na verloop van een wettelijke termijn. Een rechtsvordering tegen de verzekeraar tot uitkering verjaart door verloop van drie jaren na de dag waarop de verzekerde bekend is geworden met de opeisbaarheid ervan (art. 7:942 BW). De verjaring kan worden gestuit, onder meer door een schriftelijke aanspraak op uitkering.",
+    "zie": [
+      "Meldingsplicht",
+      "Kifid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vervangingswaarde",
+    "afk": "",
+    "def": "Het bedrag dat nodig is om een verloren gegane of beschadigde zaak te vervangen door een gelijkwaardige zaak, rekening houdend met ouderdom en staat. Deze waarde wordt vooral gebruikt bij zaken waarvoor geen nieuwe gelijke zaak verkrijgbaar is, zoals bij bedrijfsuitrusting of voertuigen. De term wordt in de markt niet overal eenduidig gebruikt en volgt uit de voorwaarden.",
+    "zie": [
+      "Dagwaarde",
+      "Nieuwwaarde",
+      "Marktwaarde"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzekerd bedrag",
+    "afk": "",
+    "def": "Het bedrag tot waartoe de verzekeraar ten hoogste uitkeert per gebeurtenis of per verzekeringsjaar, zoals vermeld op het polisblad. Bij zaakverzekeringen behoort het verzekerd bedrag aan te sluiten op de waarde van het verzekerde belang. Bereddingskosten en bepaalde andere kosten worden wettelijk of volgens de voorwaarden boven het verzekerd bedrag vergoed.",
+    "zie": [
+      "Onderverzekering",
+      "Oververzekering",
+      "Verzekerd belang"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzekerd belang",
+    "afk": "",
+    "def": "Het financiële belang dat de verzekerde heeft bij het behoud van de verzekerde zaak of het uitblijven van de verzekerde gebeurtenis. Bij een schadeverzekering is een verzekerd belang vereist: zonder belang is er geen schade en dus geen recht op uitkering. De waarde van het belang is de maatstaf voor onder- en oververzekering.",
+    "zie": [
+      "Verzekerd bedrag",
+      "Schadeverzekering",
+      "Onderverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzwijging",
+    "afk": "",
+    "def": "Schending van de mededelingsplicht doordat de verzekeringnemer vóór het sluiten van de verzekering relevante feiten niet of onjuist heeft meegedeeld. De gevolgen zijn geregeld in art. 7:929 en 7:930 BW; de verzekeraar moet zich binnen twee maanden na ontdekking op de verzwijging beroepen. De uitkering wordt in beginsel naar evenredigheid verminderd; bij opzet tot misleiding vervalt het recht op uitkering en kan de verzekeraar opzeggen.",
+    "zie": [
+      "Mededelingsplicht",
+      "CIS-registratie",
+      "Premierestitutie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Volmacht",
+    "afk": "",
+    "def": "Bevoegdheid die een verzekeraar (volmachtgever) aan een gevolmachtigd agent verleent om namens de verzekeraar verzekeringen te sluiten, te beheren en vaak schaden af te handelen. De volmachtovereenkomst bepaalt de grenzen, zoals acceptatierichtlijnen en schadelimieten. Tegenover de klant is de verzekeraar gebonden aan wat de gevolmachtigde binnen de volmacht doet.",
+    "zie": [
+      "Gevolmachtigd agent",
+      "Assurantietussenpersoon"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vrije advocaatkeuze",
+    "afk": "",
+    "def": "Recht van de verzekerde onder een rechtsbijstandverzekering om zelf een advocaat of andere rechtshulpverlener te kiezen wanneer een gerechtelijke of administratieve procedure nodig is. Dit recht volgt uit Europese regelgeving en is door het Hof van Justitie van de EU ruim uitgelegd. De verzekeraar mag wel een maximum stellen aan de vergoeding van externe kosten.",
+    "zie": [
+      "Rechtsbijstandverzekering",
+      "Buitengerechtelijke kosten"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WA-verzekering motorrijtuigen",
+    "afk": "WA",
+    "def": "Verplichte verzekering die de wettelijke aansprakelijkheid dekt voor schade die met een motorrijtuig aan anderen wordt toegebracht. De verplichting volgt uit de WAM en geldt voor de houder van het kenteken, ook als het voertuig stilstaat. Schade aan het eigen voertuig valt niet onder deze dekking.",
+    "zie": [
+      "WAM",
+      "Beperkt casco",
+      "Allriskautoverzekering",
+      "Waarborgfonds Motorverkeer"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Waarborgfonds Motorverkeer",
+    "afk": "",
+    "def": "Fonds dat schade vergoedt aan slachtoffers van verkeersongevallen waarbij de veroorzaker onbekend is, niet verzekerd is of de verzekeraar insolvent is. Het fonds vloeit voort uit de WAM en wordt gefinancierd door de motorrijtuigverzekeraars. Bij een onbekende veroorzaker gelden beperkingen voor de vergoeding van zaakschade.",
+    "zie": [
+      "WAM",
+      "WA-verzekering motorrijtuigen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wachttijd",
+    "afk": "",
+    "def": "Periode na ingang van een verzekering waarin nog geen recht op dekking bestaat voor bepaalde gebeurtenissen. Wachttijden komen onder meer voor bij rechtsbijstandverzekeringen, om te voorkomen dat iemand zich verzekert als een conflict al dreigt. De lengte verschilt per verzekeraar en per rechtsgebied.",
+    "zie": [
+      "Rechtsbijstandverzekering",
+      "Onzeker voorval"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WAM",
+    "afk": "WAM",
+    "def": "Wet aansprakelijkheidsverzekering motorrijtuigen: wet die iedere houder van een motorrijtuig verplicht een verzekering tegen wettelijke aansprakelijkheid af te sluiten. De wet geeft benadeelden een eigen recht tegen de verzekeraar en regelt het Waarborgfonds Motorverkeer. Rijden zonder geldige WA-verzekering is strafbaar.",
+    "zie": [
+      "WA-verzekering motorrijtuigen",
+      "Waarborgfonds Motorverkeer",
+      "Rechtstreeks vorderingsrecht",
+      "Groene kaart"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Werkgeversaansprakelijkheid",
+    "afk": "",
+    "def": "Aansprakelijkheid van de werkgever voor schade die een werknemer lijdt in de uitoefening van zijn werkzaamheden, als de werkgever zijn zorgplicht niet is nagekomen (art. 7:658 BW). Daarnaast kan de werkgever op grond van goed werkgeverschap gehouden zijn een behoorlijke verzekering te bieden, bijvoorbeeld voor verkeersongevallen tijdens werk. Dit risico wordt verzekerd via de AVB en een aparte werkgeversaansprakelijkheidsverzekering voor motorrijtuigen.",
+    "zie": [
+      "Aansprakelijkheidsverzekering voor bedrijven",
+      "Zorgplicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Zorgplicht",
+    "afk": "",
+    "def": "Verplichting van financieel dienstverleners om bij hun dienstverlening zorgvuldig de belangen van de klant te behartigen (onder meer art. 4:24a Wft en algemene zorgplicht uit het BW). Voor adviseurs omvat dit onder meer passend advies op basis van de klantsituatie en het tijdig wijzen op risico's zoals onderverzekering. In het arbeidsrecht heeft zorgplicht een eigen betekenis bij werkgeversaansprakelijkheid.",
+    "zie": [
+      "Assurantietussenpersoon",
+      "Kifid",
+      "Werkgeversaansprakelijkheid"
+    ],
+    "volatiel": false
+  }
+]

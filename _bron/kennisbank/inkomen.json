@@ -1,0 +1,993 @@
+[
+  {
+    "term": "Anw",
+    "afk": "Anw",
+    "def": "De Algemene nabestaandenwet is een volksverzekering die een uitkering kan geven aan nabestaanden na het overlijden van een partner of ouder. Recht op een nabestaandenuitkering bestaat alleen onder voorwaarden, zoals de zorg voor een kind jonger dan 18 jaar of zelf ten minste 45% arbeidsongeschikt zijn. De uitkering is inkomensafhankelijk en eindigt uiterlijk bij het bereiken van de AOW-leeftijd.",
+    "zie": [
+      "Sociaal zekerheidsstelsel",
+      "Toeslagenwet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsdeskundige",
+    "afk": "",
+    "def": "Deskundige die beoordeelt welke werkzaamheden iemand met zijn medische beperkingen nog kan verrichten en wat hij daarmee kan verdienen. Bij het UWV stelt de arbeidsdeskundige op basis van de beperkingen van de verzekeringsarts de resterende verdiencapaciteit en het arbeidsongeschiktheidspercentage vast. Ook verzekeraars en arbodiensten zetten arbeidsdeskundigen in, bijvoorbeeld bij claimbeoordeling of re-integratie.",
+    "zie": [
+      "Verzekeringsarts",
+      "Claimbeoordeling",
+      "Verdiencapaciteit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsongeschiktheid",
+    "afk": "",
+    "def": "Situatie waarin iemand door ziekte, gebrek of ongeval geheel of gedeeltelijk niet in staat is zijn werk te doen of inkomen te verwerven. Wat precies onder arbeidsongeschiktheid valt, hangt af van het gehanteerde criterium: in de WIA is dat verlies aan verdiencapaciteit, in een AOV vaak het niet meer kunnen uitoefenen van het eigen beroep of van passende of gangbare arbeid.",
+    "zie": [
+      "Arbeidsongeschiktheidscriterium",
+      "Arbeidsongeschiktheidspercentage",
+      "WIA"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsongeschiktheidscriterium",
+    "afk": "",
+    "def": "De maatstaf waarmee wordt bepaald of en in welke mate iemand arbeidsongeschikt is. Bij een AOV worden doorgaans drie criteria onderscheiden: beroepsarbeidsongeschiktheid, passende arbeid en gangbare arbeid. Het criterium bepaalt in belangrijke mate de omvang van de dekking en de hoogte van de premie.",
+    "zie": [
+      "Beroepsarbeidsongeschiktheid",
+      "Passende arbeid",
+      "Gangbare arbeid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsongeschiktheidsklasse",
+    "afk": "",
+    "def": "Indeling van het arbeidsongeschiktheidspercentage in klassen, die bepaalt hoe hoog een uitkering is. In de WIA bepaalt de klasse bijvoorbeeld de hoogte van de WGA-vervolguitkering. Ook particuliere AOV-polissen werken vaak met klassen in de uitkeringstabel.",
+    "zie": [
+      "Arbeidsongeschiktheidspercentage",
+      "WGA-vervolguitkering",
+      "Uitkeringstabel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsongeschiktheidspercentage",
+    "afk": "",
+    "def": "Percentage dat de mate van arbeidsongeschiktheid uitdrukt. In de WIA wordt het berekend als het verlies aan verdiencapaciteit: het verschil tussen het maatmaninkomen en de resterende verdiencapaciteit, gedeeld door het maatmaninkomen. Bij een particuliere AOV wordt het percentage vastgesteld volgens het in de polis opgenomen arbeidsongeschiktheidscriterium.",
+    "zie": [
+      "Maatmaninkomen",
+      "Verdiencapaciteit",
+      "Uitkeringstabel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbeidsongeschiktheidsverzekering",
+    "afk": "AOV",
+    "def": "Particuliere verzekering die een periodieke uitkering geeft als de verzekerde door ziekte of ongeval arbeidsongeschikt raakt. De AOV wordt vooral afgesloten door zelfstandig ondernemers, die niet onder de wettelijke werknemersverzekeringen vallen. Belangrijke kenmerken zijn het arbeidsongeschiktheidscriterium, het verzekerd bedrag, de wachttijd en de eindleeftijd.",
+    "zie": [
+      "Arbeidsongeschiktheidscriterium",
+      "Verzekerd bedrag",
+      "Wachttijd",
+      "Eindleeftijd"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Arbodienst",
+    "afk": "",
+    "def": "Organisatie die werkgevers ondersteunt bij verzuimbegeleiding, re-integratie en arbeidsomstandigheden. Werkgevers zijn op grond van de Arbeidsomstandighedenwet verplicht zich te laten bijstaan door een bedrijfsarts, via een arbodienst of een rechtstreeks gecontracteerde bedrijfsarts (maatwerkregeling). De arbodienst adviseert, maar de werkgever blijft verantwoordelijk voor de re-integratie.",
+    "zie": [
+      "Bedrijfsarts",
+      "Verzuimbegeleiding",
+      "Wet verbetering poortwachter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Basisverzekering Arbeidsongeschiktheid Zelfstandigen",
+    "afk": "BAZ",
+    "def": "Voorgenomen wettelijke, verplichte arbeidsongeschiktheidsverzekering voor zelfstandigen zonder personeel en andere zelfstandigen. Volgens de plannen gaat het om een basisdekking met een uitkering rond het niveau van het minimumloon en een wachttijd van één jaar, waarbij aanvullend particulier verzekeren mogelijk blijft. Het wetsvoorstel en de invoeringsdatum zijn afhankelijk van politieke besluitvorming; de regering noemde eerder 2030 als beoogd invoeringsjaar.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Ondernemersrisico",
+      "Sociaal zekerheidsstelsel"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Bedrijfsarts",
+    "afk": "",
+    "def": "Arts die werkgevers en werknemers adviseert over ziekte, belastbaarheid en werkhervatting. De bedrijfsarts beoordeelt de beperkingen en mogelijkheden van een zieke werknemer en stelt binnen de Wet verbetering poortwachter onder meer de probleemanalyse op. Hij is gebonden aan het medisch beroepsgeheim en deelt met de werkgever alleen informatie over beperkingen en mogelijkheden, niet over de diagnose.",
+    "zie": [
+      "Arbodienst",
+      "Probleemanalyse",
+      "Wet verbetering poortwachter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Belasting op AOV-uitkering",
+    "afk": "",
+    "def": "Uitkeringen uit een particuliere arbeidsongeschiktheidsverzekering waarvan de premie aftrekbaar was, zijn belast in box 1 van de inkomstenbelasting. Bij het bepalen van het benodigde verzekerd bedrag wordt daarom doorgaans uitgegaan van een bruto-uitkering. Uitkeringen uit de werknemersverzekeringen, zoals WIA en Ziektewet, zijn eveneens belast als inkomen.",
+    "zie": [
+      "Premieaftrek AOV",
+      "Verzekerd bedrag",
+      "Arbeidsongeschiktheidsverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beroepsarbeidsongeschiktheid",
+    "afk": "",
+    "def": "Arbeidsongeschiktheidscriterium waarbij wordt beoordeeld in hoeverre de verzekerde zijn eigen beroep, zoals omschreven in de polis, nog kan uitoefenen. Andere werkzaamheden die hij nog wel zou kunnen doen, tellen niet mee. Het is het ruimste criterium en leidt doorgaans tot de hoogste premie.",
+    "zie": [
+      "Eigen-beroepsdekking",
+      "Passende arbeid",
+      "Gangbare arbeid",
+      "Arbeidsongeschiktheidscriterium"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beroepsklasse",
+    "afk": "",
+    "def": "Indeling van beroepen door een verzekeraar naar het risico op arbeidsongeschiktheid. De beroepsklasse is een belangrijke factor voor de premie van een AOV: beroepen met zwaar lichamelijk werk vallen doorgaans in een hogere risicoklasse dan kantoorberoepen. Iedere verzekeraar hanteert een eigen indeling.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Betalingsbeschermer",
+    "afk": "",
+    "def": "Verzekering die is gekoppeld aan een consumptief krediet en de maandtermijnen (gedeeltelijk) overneemt bij arbeidsongeschiktheid, onvrijwillige werkloosheid of overlijden. De dekking en uitkeringsduur zijn doorgaans beperkt. De betalingsbeschermer valt sinds 1 januari 2013 onder het provisieverbod.",
+    "zie": [
+      "Woonlastenverzekering",
+      "Werkloosheidsverzekering",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Broodfonds",
+    "afk": "",
+    "def": "Collectief van zelfstandig ondernemers die elkaar bij langdurige ziekte onderling financieel ondersteunen met schenkingen. Deelnemers storten maandelijks een bedrag op een eigen rekening; bij ziekte ontvangt een deelnemer schenkingen van de andere leden, doorgaans voor een beperkte periode. Een broodfonds is geen verzekering: er is geen verzekeraar en geen afdwingbaar recht op uitkering.",
+    "zie": [
+      "Schenkkring",
+      "Crowdsurance",
+      "Arbeidsongeschiktheidsverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Claimbeoordeling",
+    "afk": "",
+    "def": "Beoordeling van een aanvraag voor een arbeidsongeschiktheidsuitkering. Bij het UWV beoordeelt een verzekeringsarts de medische beperkingen, vastgelegd in een Functionele Mogelijkhedenlijst, waarna een arbeidsdeskundige de resterende verdiencapaciteit bepaalt. Particuliere verzekeraars beoordelen een claim aan de hand van de polisvoorwaarden en het daarin opgenomen arbeidsongeschiktheidscriterium.",
+    "zie": [
+      "Verzekeringsarts",
+      "Arbeidsdeskundige",
+      "Functionele Mogelijkhedenlijst",
+      "UWV"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Collectieve inkomensverzekering",
+    "afk": "",
+    "def": "Inkomensverzekering die een werkgever of een vereniging afsluit voor een groep verzekerden, zoals een WGA-hiaatverzekering, WIA-excedentverzekering of een collectieve AOV. De werkgever kan de premie geheel of gedeeltelijk betalen of inhouden op het loon. Collectieve contracten kennen vaak ruimere acceptatievoorwaarden dan individuele verzekeringen.",
+    "zie": [
+      "WGA-hiaat",
+      "WIA-excedent",
+      "Verzuimverzekering",
+      "Medische acceptatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Crowdsurance",
+    "afk": "",
+    "def": "Vorm van risicodeling waarbij een groep deelnemers, vaak via een online platform, onderling een fonds vormt voor een bepaald risico, zoals arbeidsongeschiktheid. Afhankelijk van de opzet is er sprake van schenkingen, een onderlinge waarborgmaatschappij of een combinatie met een verzekeraar die grote schades herverzekert. De rechten van deelnemers hangen sterk af van de concrete opzet.",
+    "zie": [
+      "Broodfonds",
+      "Schenkkring"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Dagloon",
+    "afk": "",
+    "def": "Het loon per dag dat het UWV als grondslag gebruikt voor de berekening van een uitkering op grond van de Ziektewet, de WW of de WIA. Het dagloon wordt afgeleid van het sociale-verzekeringsloon in een referteperiode voorafgaand aan het intreden van het risico. Het dagloon is begrensd tot het maximum dagloon.",
+    "zie": [
+      "Maximum dagloon",
+      "WW",
+      "WIA",
+      "Ziektewet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eigen-beroepsdekking",
+    "afk": "",
+    "def": "Dekking van een AOV waarbij de verzekerde arbeidsongeschikt is als hij zijn eigen beroep niet meer kan uitoefenen, ongeacht of hij ander werk zou kunnen doen. De eigen-beroepsdekking is gebaseerd op het criterium beroepsarbeidsongeschiktheid. Sommige verzekeraars beperken de eigen-beroepsdekking in duur, waarna wordt overgegaan op passende of gangbare arbeid.",
+    "zie": [
+      "Beroepsarbeidsongeschiktheid",
+      "Passende arbeid",
+      "Gangbare arbeid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Eindleeftijd",
+    "afk": "",
+    "def": "De leeftijd waarop de dekking van een inkomensverzekering eindigt en uitkeringen uiterlijk stoppen. Bij een AOV kan de eindleeftijd vaak worden gekozen, bijvoorbeeld gelijk aan de AOW-leeftijd of een lagere leeftijd. Een lagere eindleeftijd verlaagt de premie maar laat een inkomensgat tot de AOW-leeftijd open.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Uitkeringsduur",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Functionele Mogelijkhedenlijst",
+    "afk": "FML",
+    "def": "Gestandaardiseerde lijst waarin de verzekeringsarts van het UWV vastlegt welke beperkingen en mogelijkheden iemand heeft, bijvoorbeeld op het gebied van persoonlijk en sociaal functioneren, tillen of werktijden. De arbeidsdeskundige gebruikt de FML om passende functies te selecteren en de resterende verdiencapaciteit te bepalen.",
+    "zie": [
+      "Claimbeoordeling",
+      "Verzekeringsarts",
+      "Arbeidsdeskundige"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Gangbare arbeid",
+    "afk": "",
+    "def": "Arbeidsongeschiktheidscriterium waarbij wordt beoordeeld of de verzekerde nog algemeen geaccepteerde arbeid kan verrichten, ongeacht opleiding, ervaring of eerder beroep. Het is het meest beperkte criterium en leidt doorgaans tot de laagste premie. Het criterium komt overeen met de benadering in de WIA, waar alle arbeid meetelt die iemand met zijn beperkingen nog kan verrichten.",
+    "zie": [
+      "Passende arbeid",
+      "Beroepsarbeidsongeschiktheid",
+      "Arbeidsongeschiktheidscriterium"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Gelijkblijvende premie",
+    "afk": "",
+    "def": "Premiesysteem waarbij de premie voor een AOV gedurende de looptijd in principe gelijk blijft, los van de leeftijd van de verzekerde. In de beginjaren is de premie daardoor hoger dan bij een stijgende premie, in latere jaren lager. Aanpassingen kunnen nog plaatsvinden door indexatie, wijziging van het verzekerd bedrag of een algemene premieherziening door de verzekeraar.",
+    "zie": [
+      "Stijgende premie",
+      "Premie",
+      "Indexatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Gezondheidsverklaring",
+    "afk": "",
+    "def": "Vragenlijst over de gezondheid die een aanvrager invult bij het afsluiten van een inkomensverzekering. De verzekeraar gebruikt de antwoorden voor de medische acceptatie en kan op basis daarvan aanvullende medische informatie of een keuring vragen. Op de gezondheidsverklaring rust de wettelijke mededelingsplicht.",
+    "zie": [
+      "Mededelingsplicht",
+      "Medische acceptatie",
+      "Medische keuring"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Indexatie",
+    "afk": "",
+    "def": "Jaarlijkse aanpassing van het verzekerd bedrag of de uitkering aan de ontwikkeling van prijzen of lonen, om waardeverlies door inflatie te beperken. Bij een AOV wordt onderscheid gemaakt tussen indexatie tijdens de looptijd vóór arbeidsongeschiktheid (klimindexatie) en indexatie van een lopende uitkering (na-indexatie). Indexatie leidt tot een hogere premie.",
+    "zie": [
+      "Klimindexatie",
+      "Na-indexatie",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Inkomensgarantie",
+    "afk": "",
+    "def": "Aanduiding voor een regeling of verzekering die bij arbeidsongeschiktheid een vooraf vastgesteld percentage van het oorspronkelijke inkomen waarborgt, ongeacht de hoogte van de wettelijke uitkering. In collectieve contracten vult een verzekeraar de WIA-uitkering dan aan tot het afgesproken niveau. De precieze inhoud verschilt per verzekeraar en contract.",
+    "zie": [
+      "Collectieve inkomensverzekering",
+      "WGA-hiaat",
+      "WIA-excedent"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "IVA",
+    "afk": "IVA",
+    "def": "De Inkomensvoorziening volledig arbeidsongeschikten is het onderdeel van de WIA voor werknemers die volledig en duurzaam arbeidsongeschikt zijn. De uitkering bedraagt 75% van het (gemaximeerde) dagloon en loopt in beginsel tot de AOW-leeftijd. Duurzaam betekent dat er geen of slechts een geringe kans op herstel is.",
+    "zie": [
+      "WIA",
+      "WGA",
+      "Dagloon"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Klimindexatie",
+    "afk": "",
+    "def": "Indexatie waarbij het verzekerd bedrag van een AOV vóór het ontstaan van arbeidsongeschiktheid jaarlijks met een vast percentage of volgens een index wordt verhoogd. Zo blijft de dekking beter afgestemd op een stijgend inkomen of prijspeil. Over het verhoogde bedrag wordt doorgaans geen nieuwe medische acceptatie gevraagd.",
+    "zie": [
+      "Indexatie",
+      "Na-indexatie",
+      "Verzekerd bedrag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kortdurende AOV",
+    "afk": "",
+    "def": "Arbeidsongeschiktheidsverzekering met een beperkte uitkeringsduur per arbeidsongeschiktheidsgeval, bijvoorbeeld enkele jaren, in plaats van uitkering tot de eindleeftijd. De premie is daardoor lager, maar bij langdurige arbeidsongeschiktheid stopt de uitkering na afloop van de termijn. Deze vorm wordt soms aangeboden als instapproduct voor zelfstandigen.",
+    "zie": [
+      "Uitkeringsduur",
+      "Arbeidsongeschiktheidsverzekering",
+      "ZZP-pakket"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Loondoorbetaling bij ziekte",
+    "afk": "",
+    "def": "Wettelijke verplichting van de werkgever om bij ziekte van een werknemer gedurende maximaal 104 weken ten minste 70% van het loon door te betalen, in het eerste jaar ten minste het wettelijk minimumloon (artikel 7:629 BW). Het door te betalen loon is gemaximeerd op 70% van het maximum dagloon, maar cao's of arbeidsovereenkomsten bepalen vaak een hogere doorbetaling. Werkgevers kunnen dit risico verzekeren met een verzuimverzekering.",
+    "zie": [
+      "Verzuimverzekering",
+      "Wet verbetering poortwachter",
+      "Loonsanctie",
+      "Maximum dagloon"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Loonsanctie",
+    "afk": "",
+    "def": "Maatregel waarbij het UWV de periode van loondoorbetaling bij ziekte met maximaal 52 weken verlengt, omdat de werkgever onvoldoende re-integratie-inspanningen heeft verricht. Het UWV stelt dit vast bij de beoordeling van het re-integratieverslag bij de WIA-aanvraag. De werkgever kan de sanctie eerder laten beëindigen door de tekortkoming te herstellen.",
+    "zie": [
+      "Loondoorbetaling bij ziekte",
+      "Re-integratieverslag",
+      "Wet verbetering poortwachter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Maatmaninkomen",
+    "afk": "",
+    "def": "Het inkomen dat een werknemer zonder arbeidsongeschiktheid zou hebben verdiend, gebaseerd op het loon in het werk dat hij deed. Het maatmaninkomen is in de WIA het vergelijkingspunt voor het bepalen van het arbeidsongeschiktheidspercentage. Het wordt afgezet tegen de resterende verdiencapaciteit.",
+    "zie": [
+      "Arbeidsongeschiktheidspercentage",
+      "Verdiencapaciteit",
+      "WIA"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Maximum dagloon",
+    "afk": "",
+    "def": "Het wettelijk vastgestelde maximumbedrag waarover het UWV uitkeringen op grond van de WW, Ziektewet en WIA berekent. Het bedrag wordt halfjaarlijks of jaarlijks aangepast en geldt ook als maximum voor de premieheffing van werknemersverzekeringen. Het inkomensdeel boven het maximum dagloon is niet wettelijk verzekerd en kan worden afgedekt met een WIA-excedentverzekering.",
+    "zie": [
+      "Dagloon",
+      "WIA-excedent",
+      "Loondoorbetaling bij ziekte"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Mededelingsplicht",
+    "afk": "",
+    "def": "Wettelijke verplichting van een aanvrager om vóór het sluiten van de verzekering alle feiten mee te delen die hij kent of behoort te kennen en die van belang zijn voor de beslissing van de verzekeraar (artikel 7:928 BW). Bij schending kan de verzekeraar onder voorwaarden de uitkering beperken of weigeren, of bij opzet tot misleiding de verzekering opzeggen. De verzekeraar moet zelf duidelijke vragen stellen; voor niet-gevraagde feiten geldt de plicht in beginsel niet.",
+    "zie": [
+      "Gezondheidsverklaring",
+      "Medische acceptatie",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Medisch objectiveerbare stoornis",
+    "afk": "",
+    "def": "Voorwaarde in veel AOV-polissen dat arbeidsongeschiktheid het gevolg moet zijn van ziekte of ongeval waarbij objectief medisch vast te stellen stoornissen aanwezig zijn. De verzekeraar beoordeelt dit aan de hand van medische informatie, vaak via een medisch adviseur. Bij klachten zonder duidelijke medische oorzaak kan dit tot discussie over het recht op uitkering leiden.",
+    "zie": [
+      "Arbeidsongeschiktheid",
+      "Claimbeoordeling",
+      "Arbeidsongeschiktheidsverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Medische acceptatie",
+    "afk": "",
+    "def": "Beoordeling door de verzekeraar van de gezondheid van een aanvrager voordat een inkomensverzekering wordt gesloten. Op basis van de gezondheidsverklaring en eventueel aanvullende informatie of een keuring kan de verzekeraar accepteren, accepteren met een uitsluiting of premieopslag, of weigeren. Bij collectieve contracten geldt soms een vereenvoudigde of geen medische acceptatie.",
+    "zie": [
+      "Gezondheidsverklaring",
+      "Medische keuring",
+      "Uitsluiting",
+      "Premieopslag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Medische keuring",
+    "afk": "",
+    "def": "Onderzoek door een arts in opdracht van de verzekeraar om de gezondheid van een aanvrager vast te stellen, bijvoorbeeld bij een hoog verzekerd bedrag of bij bijzonderheden in de gezondheidsverklaring. De uitslag maakt deel uit van de medische acceptatie. Voor medische keuringen gelden regels uit de Wet op de medische keuringen en het Protocol Verzekeringskeuringen.",
+    "zie": [
+      "Medische acceptatie",
+      "Gezondheidsverklaring"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Na-indexatie",
+    "afk": "",
+    "def": "Indexatie van een lopende AOV-uitkering tijdens arbeidsongeschiktheid, met een vast percentage of volgens een index. Zo behoudt de uitkering bij langdurige arbeidsongeschiktheid beter haar koopkracht. Na-indexatie is meestal een optionele dekking tegen extra premie.",
+    "zie": [
+      "Indexatie",
+      "Klimindexatie",
+      "Uitkeringsduur"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "No-riskpolis",
+    "afk": "",
+    "def": "Wettelijke regeling waarbij het UWV een Ziektewet-uitkering betaalt aan de werkgever als een werknemer met een arbeidsbeperking, bijvoorbeeld iemand uit het doelgroepregister of met een WIA-uitkering, ziek wordt. De regeling verlaagt het risico van de werkgever op loondoorbetaling bij ziekte. De no-riskpolis geldt voor een beperkte periode na indiensttreding.",
+    "zie": [
+      "Ziektewet",
+      "Loondoorbetaling bij ziekte",
+      "UWV"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Ondernemersrisico",
+    "afk": "",
+    "def": "Het financiële risico dat een zelfstandig ondernemer zelf draagt, waaronder het risico op inkomensverlies bij ziekte, arbeidsongeschiktheid of het wegvallen van opdrachten. Zelfstandigen vallen niet onder de werknemersverzekeringen en moeten deze risico's zelf opvangen, bijvoorbeeld met een AOV, een broodfonds of eigen vermogen. In het belastingrecht speelt ondernemersrisico ook een rol bij de vraag of iemand ondernemer is.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Broodfonds",
+      "Basisverzekering Arbeidsongeschiktheid Zelfstandigen"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Ongevallenverzekering",
+    "afk": "",
+    "def": "Verzekering die een vooraf vastgesteld bedrag uitkeert bij overlijden of blijvende invaliditeit als gevolg van een ongeval. Bij blijvende invaliditeit wordt het uitkeringspercentage doorgaans bepaald aan de hand van medische richtlijnen, los van inkomensverlies. Een ongevallenverzekering dekt geen arbeidsongeschiktheid door ziekte en is geen vervanging voor een AOV.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Uitsluiting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Oververzekering",
+    "afk": "",
+    "def": "Situatie waarin het verzekerd bedrag hoger is dan het inkomen dat bij arbeidsongeschiktheid wegvalt. Verzekeraars hanteren daarom een maximum verzekerbaar inkomen of percentage en toetsen bij een claim het werkelijke inkomen. Bij oververzekering kan de uitkering worden beperkt tot het werkelijk gederfde inkomen, afhankelijk van de polisvoorwaarden.",
+    "zie": [
+      "Verzekerd bedrag",
+      "Claimbeoordeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Participatiewet",
+    "afk": "",
+    "def": "Sociale voorziening die een bijstandsuitkering biedt aan wie onvoldoende inkomen en vermogen heeft om in het levensonderhoud te voorzien, en die ondersteuning bij het vinden van werk regelt. De gemeente voert de Participatiewet uit. Voor zelfstandigen zonder andere voorziening kan bijstand het laatste vangnet zijn, waarbij partnerinkomen en vermogen worden getoetst.",
+    "zie": [
+      "Sociaal zekerheidsstelsel",
+      "Toeslagenwet",
+      "Ondernemersrisico"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Passende arbeid",
+    "afk": "",
+    "def": "Arbeidsongeschiktheidscriterium waarbij wordt beoordeeld of de verzekerde nog werk kan doen dat aansluit bij zijn krachten, bekwaamheden, opleiding en ervaring. Het criterium ligt qua ruimte tussen beroepsarbeidsongeschiktheid en gangbare arbeid. In de WW en de WIA heeft het begrip passende arbeid een eigen wettelijke betekenis, gericht op de plicht om werk te aanvaarden.",
+    "zie": [
+      "Beroepsarbeidsongeschiktheid",
+      "Gangbare arbeid",
+      "Arbeidsongeschiktheidscriterium"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Plan van aanpak",
+    "afk": "",
+    "def": "Afspraken tussen werkgever en zieke werknemer over de stappen en activiteiten die gericht zijn op werkhervatting. Volgens de Wet verbetering poortwachter wordt het plan van aanpak uiterlijk in de achtste ziekteweek opgesteld, op basis van de probleemanalyse van de bedrijfsarts. Het plan wordt periodiek geëvalueerd en bijgesteld.",
+    "zie": [
+      "Probleemanalyse",
+      "Wet verbetering poortwachter",
+      "Re-integratieverslag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premie",
+    "afk": "",
+    "def": "Het bedrag dat de verzekeringnemer betaalt voor de dekking van een verzekering. Bij een AOV hangt de premie onder meer af van leeftijd, beroepsklasse, verzekerd bedrag, wachttijd, eindleeftijd en het arbeidsongeschiktheidscriterium. Er wordt onderscheid gemaakt tussen gelijkblijvende en stijgende premie.",
+    "zie": [
+      "Gelijkblijvende premie",
+      "Stijgende premie",
+      "Beroepsklasse",
+      "Premieaftrek AOV"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premieaftrek AOV",
+    "afk": "",
+    "def": "Premies voor een particuliere arbeidsongeschiktheidsverzekering die recht geeft op periodieke uitkeringen zijn in box 1 aftrekbaar als uitgave voor inkomensvoorzieningen. Tegenover de aftrek staat dat de uitkeringen belast zijn in box 1. Premies voor verzekeringen met een uitkering ineens, zoals een ongevallenverzekering, zijn niet aftrekbaar.",
+    "zie": [
+      "Belasting op AOV-uitkering",
+      "Premie",
+      "Ongevallenverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premieopslag",
+    "afk": "",
+    "def": "Verhoging van de standaardpremie die een verzekeraar bij de medische acceptatie kan toepassen als het gezondheidsrisico van de aanvrager hoger is dan gemiddeld. Een premieopslag is een alternatief voor of aanvulling op een uitsluiting. De opslag wordt vastgelegd in het polisblad.",
+    "zie": [
+      "Medische acceptatie",
+      "Uitsluiting",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Premievrijstelling bij arbeidsongeschiktheid",
+    "afk": "",
+    "def": "Regeling waarbij de verzekerde tijdens arbeidsongeschiktheid geen of minder premie hoeft te betalen voor zijn verzekering. Bij een AOV is de vrijstelling meestal naar rato van het uitkeringspercentage. Ook bij andere verzekeringen, zoals lijfrente- of levensverzekeringen, kan premievrijstelling bij arbeidsongeschiktheid worden meeverzekerd.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Uitkeringstabel",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Probleemanalyse",
+    "afk": "",
+    "def": "Analyse van de bedrijfsarts van de oorzaken van het verzuim, de beperkingen en mogelijkheden van de werknemer en de kansen op werkhervatting. Volgens de Wet verbetering poortwachter wordt de probleemanalyse opgesteld wanneer langdurig verzuim dreigt, uiterlijk in de zesde ziekteweek. Op basis hiervan stellen werkgever en werknemer het plan van aanpak op.",
+    "zie": [
+      "Plan van aanpak",
+      "Bedrijfsarts",
+      "Wet verbetering poortwachter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Re-integratie eerste spoor",
+    "afk": "",
+    "def": "Re-integratie van een zieke werknemer in het eigen werk, aangepast werk of ander passend werk bij de eigen werkgever. De werkgever is verplicht deze mogelijkheden eerst te onderzoeken. Pas als terugkeer bij de eigen werkgever niet mogelijk blijkt, komt re-integratie tweede spoor in beeld.",
+    "zie": [
+      "Re-integratie tweede spoor",
+      "Wet verbetering poortwachter",
+      "Plan van aanpak"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Re-integratie tweede spoor",
+    "afk": "",
+    "def": "Re-integratie van een zieke werknemer naar passend werk bij een andere werkgever, wanneer terugkeer bij de eigen werkgever niet (volledig) mogelijk is. De werkgever moet dit traject tijdig inzetten, vaak met hulp van een re-integratiebureau. Het UWV toetst bij de WIA-aanvraag of het tweede spoor tijdig en voldoende is ingezet.",
+    "zie": [
+      "Re-integratie eerste spoor",
+      "Loonsanctie",
+      "Re-integratieverslag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Re-integratieverslag",
+    "afk": "",
+    "def": "Dossier dat werkgever en werknemer samenstellen en meesturen bij de WIA-aanvraag, met daarin de probleemanalyse, het plan van aanpak, de evaluaties en de ondernomen re-integratieactiviteiten. Het UWV beoordeelt aan de hand van dit verslag of voldoende re-integratie-inspanningen zijn verricht. Bij tekortkomingen kan het UWV een loonsanctie opleggen.",
+    "zie": [
+      "Loonsanctie",
+      "Plan van aanpak",
+      "Wet verbetering poortwachter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Schenkkring",
+    "afk": "",
+    "def": "Groep zelfstandigen die elkaar bij arbeidsongeschiktheid financieel steunen via schenkingen, vaak georganiseerd via een platform of aanbieder. Het principe is vergelijkbaar met een broodfonds. Een schenkkring is geen verzekering, waardoor er geen afdwingbaar recht op uitkering bestaat.",
+    "zie": [
+      "Broodfonds",
+      "Crowdsurance"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Sociaal zekerheidsstelsel",
+    "afk": "",
+    "def": "Het geheel van wettelijke regelingen dat inkomen biedt bij onder meer ziekte, arbeidsongeschiktheid, werkloosheid, ouderdom en overlijden. Het stelsel bestaat uit werknemersverzekeringen (zoals Ziektewet, WIA en WW), volksverzekeringen (zoals AOW en Anw) en sociale voorzieningen (zoals de Participatiewet en de Toeslagenwet). Zelfstandigen vallen wel onder de volksverzekeringen, maar niet onder de werknemersverzekeringen.",
+    "zie": [
+      "Ziektewet",
+      "WIA",
+      "WW",
+      "Anw"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Stijgende premie",
+    "afk": "",
+    "def": "Premiesysteem waarbij de premie voor een AOV periodiek, meestal jaarlijks, stijgt met de leeftijd van de verzekerde. In de beginjaren is de premie lager dan bij een gelijkblijvende premie, maar op latere leeftijd aanzienlijk hoger. Dit systeem wordt ook leeftijdsafhankelijke premie genoemd.",
+    "zie": [
+      "Gelijkblijvende premie",
+      "Premie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Stop-loss",
+    "afk": "",
+    "def": "Dekkingsvorm waarbij een werkgever het verzuimrisico grotendeels zelf draagt en de verzekeraar alleen uitkeert als de totale verzuimkosten in een jaar een vooraf afgesproken grens overschrijden. Stop-loss beschermt tegen uitschieters in de verzuimkosten. De dekking wordt vooral gebruikt door grotere werkgevers.",
+    "zie": [
+      "Verzuimverzekering",
+      "Loondoorbetaling bij ziekte"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Toeslagenwet",
+    "afk": "TW",
+    "def": "Sociale voorziening die een uitkering op grond van onder meer de WW, Ziektewet of WIA aanvult tot maximaal het sociaal minimum, als het totale huishoudinkomen daaronder ligt. Het UWV voert de Toeslagenwet uit en toetst daarbij onder meer het inkomen van de partner. De toeslag is geen recht op zichzelf, maar is gekoppeld aan een werknemersuitkering.",
+    "zie": [
+      "WW",
+      "WIA",
+      "Ziektewet",
+      "Sociaal zekerheidsstelsel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitkeringsduur",
+    "afk": "",
+    "def": "De maximale periode gedurende welke een uitkering wordt betaald. Bij een AOV loopt de uitkering doorgaans tot herstel, overlijden of de eindleeftijd, tenzij een beperkte uitkeringsduur per geval is gekozen. Bij wettelijke uitkeringen zoals de WW en de loongerelateerde WGA-uitkering hangt de duur af van het arbeidsverleden.",
+    "zie": [
+      "Eindleeftijd",
+      "Kortdurende AOV",
+      "WW",
+      "WGA-loongerelateerde uitkering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitkeringstabel",
+    "afk": "",
+    "def": "Tabel in een AOV-polis die aangeeft welk percentage van het verzekerd bedrag wordt uitgekeerd bij een bepaald arbeidsongeschiktheidspercentage. Onder een minimumpercentage, vaak 25%, bestaat meestal geen recht op uitkering, terwijl bij een hoog percentage, vaak vanaf 80%, volledig wordt uitgekeerd. Tussenliggende percentages leiden tot een gedeeltelijke uitkering.",
+    "zie": [
+      "Arbeidsongeschiktheidspercentage",
+      "Verzekerd bedrag",
+      "Premievrijstelling bij arbeidsongeschiktheid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Uitsluiting",
+    "afk": "",
+    "def": "Bepaling in de polis dat arbeidsongeschiktheid door een bepaalde aandoening, oorzaak of activiteit niet is gedekt. Uitsluitingen kunnen algemeen zijn (in de polisvoorwaarden) of persoonlijk, naar aanleiding van de medische acceptatie, zoals een uitsluiting voor rugklachten. Bij persoonlijke uitsluitingen kan soms na verloop van tijd om herbeoordeling worden gevraagd.",
+    "zie": [
+      "Medische acceptatie",
+      "Premieopslag",
+      "Mededelingsplicht"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "UWV",
+    "afk": "UWV",
+    "def": "Het Uitvoeringsinstituut Werknemersverzekeringen voert de werknemersverzekeringen uit, zoals de Ziektewet, de WIA en de WW, en daarnaast onder meer de Wajong en de Toeslagenwet. Het UWV beoordeelt aanvragen, stelt uitkeringen vast, toetst re-integratie-inspanningen van werkgevers en ondersteunt bij werk zoeken. Het UWV is een zelfstandig bestuursorgaan.",
+    "zie": [
+      "Ziektewet",
+      "WIA",
+      "WW",
+      "Claimbeoordeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vangnetter",
+    "afk": "",
+    "def": "Werknemer zonder werkgever die loon doorbetaalt bij ziekte, die daarom rechtstreeks een Ziektewet-uitkering kan krijgen. Voorbeelden zijn werknemers van wie het tijdelijke contract tijdens ziekte afloopt, uitzendkrachten zonder doorbetalingsplicht en zieke WW-gerechtigden. De kosten van vangnetters kunnen via de premie Werkhervattingskas of via eigenrisicodragerschap bij de (ex-)werkgever terechtkomen.",
+    "zie": [
+      "Ziektewet",
+      "Ziektewet-eigenrisicodragerschap",
+      "Werkhervattingskas"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verdiencapaciteit",
+    "afk": "",
+    "def": "Het inkomen dat iemand met zijn medische beperkingen nog kan verdienen met arbeid die hij volgens de beoordeling kan verrichten. In de WIA bepaalt de arbeidsdeskundige de resterende verdiencapaciteit aan de hand van geselecteerde functies. Het verschil tussen het maatmaninkomen en de resterende verdiencapaciteit bepaalt het arbeidsongeschiktheidspercentage.",
+    "zie": [
+      "Maatmaninkomen",
+      "Arbeidsongeschiktheidspercentage",
+      "Arbeidsdeskundige"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzekerd bedrag",
+    "afk": "",
+    "def": "Het bedrag dat een AOV per jaar of per maand uitkeert bij volledige arbeidsongeschiktheid. Verzekeraars stellen grenzen aan het verzekerd bedrag in verhouding tot het inkomen, om oververzekering te voorkomen. Bij gedeeltelijke arbeidsongeschiktheid wordt een deel van het verzekerd bedrag uitgekeerd volgens de uitkeringstabel.",
+    "zie": [
+      "Oververzekering",
+      "Uitkeringstabel",
+      "Indexatie",
+      "Belasting op AOV-uitkering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzekeringsarts",
+    "afk": "",
+    "def": "Arts die in opdracht van het UWV of een verzekeraar de medische beperkingen van iemand met een uitkeringsaanvraag beoordeelt. Bij het UWV legt de verzekeringsarts deze beperkingen vast in de Functionele Mogelijkhedenlijst. De verzekeringsarts heeft geen behandelende rol en staat los van de bedrijfsarts.",
+    "zie": [
+      "Functionele Mogelijkhedenlijst",
+      "Claimbeoordeling",
+      "Arbeidsdeskundige",
+      "Bedrijfsarts"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzuim",
+    "afk": "",
+    "def": "Afwezigheid van een werknemer van het werk wegens ziekte. Bij verzuim gelden de verplichtingen van loondoorbetaling bij ziekte en de stappen uit de Wet verbetering poortwachter. Werkgevers meten verzuim vaak met een verzuimpercentage en een meldingsfrequentie.",
+    "zie": [
+      "Loondoorbetaling bij ziekte",
+      "Verzuimbegeleiding",
+      "Verzuimverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzuimbegeleiding",
+    "afk": "",
+    "def": "Het geheel van activiteiten waarmee een werkgever, met ondersteuning van de bedrijfsarts of arbodienst, zieke werknemers begeleidt naar werkhervatting. Verzuimbegeleiding omvat onder meer het contact met de werknemer, de stappen uit de Wet verbetering poortwachter en het inzetten van interventies. Verzuimverzekeraars bieden verzuimbegeleiding vaak als onderdeel van hun dienstverlening aan.",
+    "zie": [
+      "Arbodienst",
+      "Wet verbetering poortwachter",
+      "Verzuimverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzuimverzekering",
+    "afk": "",
+    "def": "Schadeverzekering voor werkgevers die (een deel van) de kosten van loondoorbetaling bij ziekte vergoedt. Belangrijke keuzes zijn het eigenrisicotermijn per ziektegeval, het percentage van het loon dat wordt vergoed en eventueel een stop-lossdekking. De verzekering wordt vaak gecombineerd met verzuimbegeleiding en re-integratiediensten.",
+    "zie": [
+      "Loondoorbetaling bij ziekte",
+      "Stop-loss",
+      "Wachttijd",
+      "Verzuimbegeleiding"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wachttijd",
+    "afk": "",
+    "def": "De periode na het begin van arbeidsongeschiktheid waarin nog geen uitkering wordt verstrekt, ook wel eigenrisicotermijn genoemd. Bij een AOV kan de wachttijd worden gekozen, bijvoorbeeld 30, 90 of 365 dagen; een langere wachttijd verlaagt de premie. Bij een verzuimverzekering is de eigenrisicotermijn de periode per ziektegeval die de werkgever zelf draagt; in de WIA geldt een wachttijd van 104 weken.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Verzuimverzekering",
+      "WIA"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wajong",
+    "afk": "Wajong",
+    "def": "De Wet arbeidsongeschiktheidsvoorziening jonggehandicapten biedt onder voorwaarden een uitkering aan mensen die op jonge leeftijd of tijdens hun studie arbeidsongeschikt zijn geworden. De regeling wordt uitgevoerd door het UWV. De voorwaarden voor toegang zijn in de loop van de tijd aangescherpt, waardoor de huidige Wajong vooral geldt voor mensen die duurzaam geen arbeidsvermogen hebben.",
+    "zie": [
+      "UWV",
+      "Sociaal zekerheidsstelsel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Werkgeversverzekering",
+    "afk": "",
+    "def": "Verzekering die een werkgever afsluit om de eigen financiële risico's bij ziekte of arbeidsongeschiktheid van werknemers af te dekken, zoals een verzuimverzekering of een eigenrisicodragersverzekering voor WGA of Ziektewet. Werkgeversverzekeringen verschillen van collectieve inkomensverzekeringen, die het inkomen van de werknemer zelf aanvullen. Beide worden in de praktijk vaak samen geadviseerd.",
+    "zie": [
+      "Verzuimverzekering",
+      "WGA-eigenrisicodrager",
+      "Ziektewet-eigenrisicodragerschap",
+      "Collectieve inkomensverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Werkhervattingskas",
+    "afk": "Whk",
+    "def": "Fonds waaruit het UWV de WGA-uitkeringen en Ziektewet-uitkeringen aan bepaalde groepen (ex-)werknemers financiert. Werkgevers betalen hiervoor een gedifferentieerde premie, die voor middelgrote en grote werkgevers mede afhangt van de instroom van eigen (ex-)werknemers in de WGA en Ziektewet. Werkgevers die eigenrisicodrager zijn, betalen voor het betreffende deel geen Whk-premie.",
+    "zie": [
+      "WGA-eigenrisicodrager",
+      "Ziektewet-eigenrisicodragerschap",
+      "Vangnetter"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Werkloosheidsverzekering",
+    "afk": "",
+    "def": "Particuliere verzekering die bij onvrijwillige werkloosheid een aanvullende uitkering geeft, bijvoorbeeld bovenop de WW of ter dekking van vaste lasten. De dekking en de uitkeringsduur zijn doorgaans beperkt en er gelden vaak een wachttijd en een carenztijd na het afsluiten. Werkloosheid die bij het afsluiten al te voorzien was, is meestal uitgesloten.",
+    "zie": [
+      "WW",
+      "Woonlastenverzekering",
+      "Betalingsbeschermer"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet verbetering poortwachter",
+    "afk": "Wvp",
+    "def": "Wet die de verplichtingen van werkgever en werknemer bij langdurig verzuim regelt, met als doel snelle werkhervatting. Vaste mijlpalen zijn onder meer de probleemanalyse (uiterlijk week 6), het plan van aanpak (uiterlijk week 8), de ziekmelding bij het UWV (uiterlijk week 42), de eerstejaarsevaluatie en het re-integratieverslag bij de WIA-aanvraag. Bij onvoldoende inspanningen van de werkgever kan het UWV een loonsanctie opleggen.",
+    "zie": [
+      "Probleemanalyse",
+      "Plan van aanpak",
+      "Loonsanctie",
+      "Re-integratieverslag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA",
+    "afk": "WGA",
+    "def": "De regeling Werkhervatting gedeeltelijk arbeidsgeschikten is het onderdeel van de WIA voor werknemers die ten minste 35% arbeidsongeschikt zijn, maar niet volledig en duurzaam arbeidsongeschikt. De WGA kent drie uitkeringen: de loongerelateerde uitkering, de loonaanvullingsuitkering en de vervolguitkering. Welke uitkering iemand na de loongerelateerde fase krijgt, hangt af van de mate waarin hij zijn resterende verdiencapaciteit benut.",
+    "zie": [
+      "WIA",
+      "WGA-loongerelateerde uitkering",
+      "WGA-loonaanvullingsuitkering",
+      "WGA-vervolguitkering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA-eigenrisicodrager",
+    "afk": "",
+    "def": "Werkgever die er voor kiest de WGA-uitkeringen van (ex-)werknemers zelf te betalen en de re-integratie zelf te verzorgen, in plaats van daarvoor premie aan de Werkhervattingskas af te dragen. De werkgever draagt het risico gedurende maximaal tien jaar per uitkering en heeft daarvoor een garantieverklaring nodig. Het risico wordt vaak ondergebracht bij een verzekeraar via een eigenrisicodragersverzekering.",
+    "zie": [
+      "Werkhervattingskas",
+      "WGA",
+      "Ziektewet-eigenrisicodragerschap"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA-hiaat",
+    "afk": "",
+    "def": "Het inkomensgat dat ontstaat wanneer een gedeeltelijk arbeidsongeschikte werknemer na de loongerelateerde WGA-uitkering een vervolguitkering krijgt, omdat hij minder dan 50% van zijn resterende verdiencapaciteit benut. De vervolguitkering is gebaseerd op het minimumloon en ligt vaak ver onder het oorspronkelijke inkomen. Dit gat kan worden verzekerd met een WGA-hiaatverzekering, meestal via een collectief contract van de werkgever.",
+    "zie": [
+      "WGA-vervolguitkering",
+      "WIA-excedent",
+      "Collectieve inkomensverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA-loonaanvullingsuitkering",
+    "afk": "",
+    "def": "WGA-uitkering na afloop van de loongerelateerde uitkering voor wie ten minste 50% van zijn resterende verdiencapaciteit benut. De uitkering bedraagt 70% van het verschil tussen het (gemaximeerde) maandloon en de resterende verdiencapaciteit. De uitkering duurt zolang aan de voorwaarden wordt voldaan, uiterlijk tot de AOW-leeftijd.",
+    "zie": [
+      "WGA",
+      "WGA-vervolguitkering",
+      "Verdiencapaciteit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA-loongerelateerde uitkering",
+    "afk": "",
+    "def": "De eerste uitkering binnen de WGA voor werknemers die aan de wekeneis voldoen. De uitkering bedraagt de eerste twee maanden 75% en daarna 70% van het verschil tussen het (gemaximeerde) dagloon en het inkomen uit werk. De duur hangt af van het arbeidsverleden, op dezelfde manier als bij de WW.",
+    "zie": [
+      "WGA",
+      "WGA-loonaanvullingsuitkering",
+      "WGA-vervolguitkering",
+      "Dagloon"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WGA-vervolguitkering",
+    "afk": "",
+    "def": "WGA-uitkering na afloop van de loongerelateerde uitkering voor wie minder dan 50% van zijn resterende verdiencapaciteit benut of niet werkt. De hoogte is een percentage van het wettelijk minimumloon (of van het maandloon als dat lager is), afhankelijk van de arbeidsongeschiktheidsklasse. Het verschil met het oorspronkelijke inkomen wordt het WGA-hiaat genoemd.",
+    "zie": [
+      "WGA-hiaat",
+      "WGA-loonaanvullingsuitkering",
+      "WGA"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WIA",
+    "afk": "WIA",
+    "def": "De Wet werk en inkomen naar arbeidsvermogen regelt de uitkering voor werknemers die na 104 weken ziekte arbeidsongeschikt zijn. Wie minder dan 35% arbeidsongeschikt is, heeft geen recht op een WIA-uitkering. De WIA bestaat uit de IVA voor volledig en duurzaam arbeidsongeschikten en de WGA voor gedeeltelijk of niet-duurzaam arbeidsongeschikten.",
+    "zie": [
+      "IVA",
+      "WGA",
+      "Arbeidsongeschiktheidspercentage",
+      "Claimbeoordeling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WIA-excedent",
+    "afk": "",
+    "def": "Het deel van het loon boven het maximum dagloon, waarover geen WIA-uitkering wordt berekend. Werknemers met een inkomen boven dit maximum lopen bij arbeidsongeschiktheid daardoor relatief veel inkomensverlies. Een WIA-excedentverzekering, meestal collectief via de werkgever, keert een aanvulling uit over dit inkomensdeel.",
+    "zie": [
+      "Maximum dagloon",
+      "WGA-hiaat",
+      "Collectieve inkomensverzekering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Woonlastenverzekering",
+    "afk": "",
+    "def": "Verzekering die bij arbeidsongeschiktheid en/of onvrijwillige werkloosheid een vast maandbedrag uitkeert om woonlasten, zoals de hypotheek, te kunnen blijven betalen. De uitkering is doorgaans beperkt in duur per gebeurtenis en er gelden een wachttijd en uitsluitingen. Een woonlastenverzekering is bedoeld als tijdelijke overbrugging en dekt geen volledig inkomensverlies.",
+    "zie": [
+      "Werkloosheidsverzekering",
+      "Betalingsbeschermer",
+      "Wachttijd"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WW",
+    "afk": "WW",
+    "def": "De Werkloosheidswet biedt werknemers die (gedeeltelijk) werkloos worden een tijdelijke uitkering, mits zij aan de wekeneis voldoen: in de 36 weken voor werkloosheid ten minste 26 weken gewerkt. De uitkering bedraagt de eerste twee maanden 75% en daarna 70% van het (gemaximeerde) dagloon. De duur hangt af van het arbeidsverleden en bedraagt minimaal 3 en maximaal 24 maanden; het kabinet heeft voorstellen gedaan om de maximale duur te verkorten.",
+    "zie": [
+      "Dagloon",
+      "UWV",
+      "Werkloosheidsverzekering",
+      "Toeslagenwet"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Ziektewet",
+    "afk": "ZW",
+    "def": "Werknemersverzekering die een uitkering geeft bij ziekte aan werknemers die geen werkgever (meer) hebben die loon doorbetaalt, zoals vangnetters, en in bijzondere situaties zoals de no-riskpolis en ziekte door zwangerschap. De uitkering bedraagt in de regel 70% van het (gemaximeerde) dagloon en duurt maximaal 104 weken. Voor de meeste zieke werknemers geldt in plaats daarvan loondoorbetaling bij ziekte door de werkgever.",
+    "zie": [
+      "Vangnetter",
+      "No-riskpolis",
+      "Loondoorbetaling bij ziekte",
+      "Ziektewet-eigenrisicodragerschap"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Ziektewet-eigenrisicodragerschap",
+    "afk": "",
+    "def": "Keuze van een werkgever om de Ziektewet-uitkeringen en re-integratie van zieke ex-werknemers met een geëindigd tijdelijk contract en van flexwerkers zelf te dragen, in plaats van daarvoor premie aan de Werkhervattingskas te betalen. De werkgever wordt dan ook verantwoordelijk voor de verzuimbegeleiding van deze vangnetters. Het risico kan worden verzekerd via een verzekeraar.",
+    "zie": [
+      "Vangnetter",
+      "Werkhervattingskas",
+      "WGA-eigenrisicodrager"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "ZZP-pakket",
+    "afk": "",
+    "def": "Verzamelterm voor een gebundeld verzekerings- of voorzieningenpakket voor zelfstandigen zonder personeel, bijvoorbeeld een AOV met beperkte dekking gecombineerd met andere verzekeringen. Kenmerken zijn vaak een vast verzekerd bedrag, een beperkt arbeidsongeschiktheidscriterium of een beperkte uitkeringsduur, tegen een lagere premie. De inhoud verschilt sterk per aanbieder.",
+    "zie": [
+      "Arbeidsongeschiktheidsverzekering",
+      "Kortdurende AOV",
+      "Gangbare arbeid"
+    ],
+    "volatiel": false
+  }
+]

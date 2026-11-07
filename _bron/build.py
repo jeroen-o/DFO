@@ -1510,7 +1510,7 @@ def portals_section():
          '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs en medewerkers · zonder account</p>',
          [("https://ai-permanent-actueel.nl/kennistoets/", "Start de kennistoets"), ("https://ai-permanent-actueel.nl/#modules", "Bekijk de 7 modules")]),
         ("https://pa-wft.nl/", "shield", "Wft Permanent Actueel", "Kennis actueel, elk kwartaal weer. Oefen per Wft-module met vragen over wat er actueel is, met uitleg bij elk antwoord.",
-         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs · 9 Wft-modules · met certificaat. Oefentoets: levert geen PE-examen op.</p>',
+         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Gratis voor alle adviseurs · 9 Wft-modules · met certificaat</p>',
          [("https://pa-wft.nl/toets.html", "Start de kennistoets"), ("https://pa-wft.nl/index.html#modules", "Bekijk de 9 modules")]),
     ]
     html_ = ""
