@@ -13,6 +13,7 @@ E = html.escape
 NVHP = json.loads((SRC / "nvhp.json").read_text())
 NVHP_MC = "https://www.hypothecairplanner.nl/adviseur/kenniscentrum/masterclasses"
 NVHP_PORTAL = "https://mc.hypothecairplanner.nl/"
+LOCATIE = "hoevelaken"  # alleen NVHP-masterclasses die bij Bureau DFO in Hoevelaken plaatsvinden
 
 TOPICS = {
     "hypotheken": r"hypothe|woning|financiering|nhg|overwaarde|eigenwoning|toetsinkomen|leidraad|rentemiddeling|geldverstrek|krediet|hypotheekmaster|gedragscode",
@@ -72,7 +73,7 @@ def nvhp_items():
     nxt = {}
     today = datetime.date.today().isoformat()
     for d in sorted(NVHP["data"], key=lambda x: x["d"]):
-        if d["d"] >= today:
+        if d["d"] >= today and LOCATIE in d["loc"].lower():
             k = d["t"].lower()[:25]
             nxt.setdefault(k, d)
     out = []
@@ -82,6 +83,8 @@ def nvhp_items():
         tl = c["t"].lower()
         tp = next((v for k, v in NVHP_TOPICS.items() if k in tl), [])
         nd = nxt.get(tl[:25])
+        if not nd:  # alleen masterclasses met een geplande datum in Hoevelaken (bij Bureau DFO)
+            continue
         out.append({"t": c["t"], "u": c["u"], "prijs": c["prijs"], "topics": set(tp), "tok": tokens(c["t"]),
                     "next": nd, "src": "NVHP"})
     return out
@@ -229,7 +232,7 @@ def make_block(dfo, nv, ptop, ptok, title="", fallback=True, kop="Passende oplei
         return f'<div><h3>{h}</h3><p class="muted vk-note">{note}</p><div class="grid g3" style="gap:14px">{"".join(cards)}</div><p class="vk-foot">{foot}</p></div>'
     cols = col("Opleidingen van Bureau DFO", "Praktijkgerichte trainingen, webinars en leergangen.", d,
                '<a class="more arrow" href="opleidingen.html">Alle DFO-opleidingen </a>') + \
-           col("Masterclasses van de NVHP", "Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.", n,
+           col("NVHP-masterclasses in Hoevelaken", "Bij Bureau DFO; ook toegankelijk voor adviseurs die geen NVHP-lid zijn.", n,
                f'<a class="more arrow" href="{NVHP_MC}" rel="noopener">Alle NVHP-masterclasses </a>') + \
            col("Documenten &amp; modellen", "Direct toepasbaar in je praktijk, te bestellen in de webshop.", docs,
                '<a class="more arrow" href="webshop.html">Naar de webshop </a>', doc_card)
@@ -254,7 +257,7 @@ def nvhp_strip(nv):
     if not xs:
         return ""
     return (f'<section class="alt" id="nvhp-mc"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Ook voor niet-leden</span>'
-            f'<h2>Eerstvolgende NVHP-masterclasses</h2><p>Verdiepende masterclasses over hypotheken, vermogen en estate planning. Bureau DFO voert het secretariaat van de NVHP; '
+            f'<h2>NVHP-masterclasses bij Bureau DFO in Hoevelaken</h2><p>Verdiepende masterclasses over hypotheken, vermogen en estate planning. Bureau DFO voert het secretariaat van de NVHP; '
             f'de masterclasses staan open voor iedere financieel adviseur, ook als je geen NVHP-lid bent.</p></div>'
             f'<div class="grid g3">{"".join(card(x) for x in xs)}</div>'
             f'<div class="btns"><a class="btn btn-primary arrow" href="{NVHP_PORTAL}" rel="noopener">Masterclass volgen</a>'
@@ -317,7 +320,7 @@ def nvhp_section():
     today = datetime.date.today().isoformat()
     rows = ""
     for d in sorted(NVHP["data"], key=lambda x: (x["d"], x["tijd"])):
-        if d["d"] < today:
+        if d["d"] < today or LOCATIE not in d["loc"].lower():
             continue
         dd = datetime.date.fromisoformat(d["d"])
         cur = next((c for c in NVHP["cursussen"] if c["t"].lower()[:20] == d["t"].lower()[:20]), None)
@@ -325,10 +328,10 @@ def nvhp_section():
         rows += (f'<a class="date" href="{E(href)}" rel="noopener"><div class="d"><b>{dd.day}</b><span>{MAAND[dd.month-1]}</span></div>'
                  f'<div><div class="t">{E(d["t"])}</div><div class="m">{E(d["tijd"])} · {E(d["loc"])} · {E(d["doc"])}</div></div><div class="p">NVHP</div></a>')
     return f"""<section id="nvhp"><div class="wrap">
-  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Open voor alle financieel adviseurs</span><h2>Masterclasses van de NVHP</h2>
-  <p>De masterclasses van de NVHP staan open voor iedere financieel adviseur, ook als je geen lid bent van de NVHP. Bureau DFO voert het secretariaat van de NVHP. Voor Erkend Hypothecair Planners tellen de masterclasses mee voor hun permanente educatie: zij volgen per kalenderjaar minimaal drie verschillende masterclasses om de titel te mogen blijven voeren. De prijs ligt in 2026 tussen € 162,50 en € 243,50 per masterclass. Inschrijven gaat via het <a href="{NVHP_PORTAL}" rel="noopener">NVHP-opleidingsportaal</a>; niet-leden maken daar een account aan, leden loggen in zodat hun gegevens al zijn ingevuld.</p></div>
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Open voor alle financieel adviseurs</span><h2>NVHP-masterclasses bij Bureau DFO in Hoevelaken</h2>
+  <p>De masterclasses van de NVHP staan open voor iedere financieel adviseur, ook als je geen lid bent van de NVHP. Bureau DFO voert het secretariaat van de NVHP. Voor Erkend Hypothecair Planners tellen de masterclasses mee voor hun permanente educatie: zij volgen per kalenderjaar minimaal drie verschillende masterclasses om de titel te mogen blijven voeren. De prijs ligt in 2026 tussen € 162,50 en € 243,50 per masterclass. Inschrijven gaat via het <a href="{NVHP_PORTAL}" rel="noopener">NVHP-opleidingsportaal</a>; niet-leden maken daar een account aan, leden loggen in zodat hun gegevens al zijn ingevuld. Hieronder staan de masterclasses die bij Bureau DFO in Hoevelaken worden gegeven.</p></div>
   <div class="grid g3">{cards}</div>
-  <h3 style="margin-top:36px">Geplande data NVHP</h3>
+  <h3 style="margin-top:36px">Geplande data in Hoevelaken</h3>
   <div class="list">{rows}</div>
   <div class="btns"><a class="btn btn-primary arrow" href="{NVHP_PORTAL}" rel="noopener">Masterclass volgen</a><a class="btn btn-ghost" href="{NVHP_MC}" rel="noopener">Regels en voorwaarden masterclasses</a></div>
 </div></section>"""
