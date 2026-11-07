@@ -106,6 +106,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
     </div>
     <div><h4>Aanbod</h4><ul>
       <li><a href="opleidingen.html">Opleidingen &amp; agenda</a></li>
+      <li><a href="opleidingen.html#nvhp">NVHP-masterclasses</a></li>
       <li><a href="documenten.html">Modeldocumenten &amp; contracten</a></li>
       <li><a href="compliance.html">DFO Compliance</a></li>
       <li><a href="abonnementen.html">Abonnementen &amp; servicepakketten</a></li>
@@ -563,7 +564,7 @@ def build_opleidingen():
     body = hero("Opleidingen voor financieel dienstverleners",
                 "Praktijkgerichte trainingen, masterclasses en meerdaagse leergangen. Kies een opleiding en meld je direct aan via het DFO-opleidingsportaal.",
                 crumbs=["Opleidingen"],
-                btns='<a class="btn btn-light arrow" href="#aanbod">Bekijk het aanbod</a><a class="btn btn-ghost" href="#agenda">Agenda</a>')
+                btns='<a class="btn btn-light arrow" href="#aanbod">Bekijk het aanbod</a><a class="btn btn-ghost" href="#agenda">Agenda</a><a class="btn btn-ghost" href="#nvhp">NVHP-masterclasses</a>')
     body += f"""
 <section id="aanbod"><div class="wrap">
   <div class="sec-head"><h2>Overzicht cursussen</h2><p>Hier vind je ons volledige aanbod opleidingen. Niet helemaal duidelijk welke opleiding voor jou de juiste is? We geven je graag advies!</p></div>
@@ -582,6 +583,8 @@ def build_opleidingen():
   <div class="list" id="dates"></div>
   <p class="muted" style="font-size:.85rem;margin-top:12px">Beschikbaarheid en actuele data vind je altijd in het <a href="{PORTAL}/alle-cursus-evenementen/overzicht" rel="noopener">opleidingsportaal</a>. Bekijk ook <a href="{PORTAL}/cursussen/cursussen" rel="noopener">alle opleidingen in het portaal</a>.</p>
 </div></section>
+
+{__import__("related").nvhp_section()}
 
 <section><div class="wrap split">
   <div>
@@ -1491,6 +1494,12 @@ def portals_section():
 </div></section>"""
 
 
+
+def build_related_pages():
+    import related
+    print("opleidingsblokken toegevoegd op", related.build_related(cursussen, agenda), "pagina's")
+
+
 if __name__ == "__main__":
     COLS.extend(c for c in extra_columns() if c["slug"] not in {x["slug"] for x in COLS})
 
@@ -1500,6 +1509,6 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_404, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
