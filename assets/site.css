@@ -346,3 +346,6 @@ header.site .logo img{height:42px;width:auto;max-width:none;flex-shrink:0;object
 .flogo img{width:auto;max-width:none;object-fit:contain}
 nav.main{min-width:0}
 @media (max-width:1280px) and (min-width:1181px){nav.main a{padding:9px 8px;font-size:.86rem}nav.main a.cta{margin-left:2px}}
+/* Logo/illustratie-afbeeldingen (svg) volledig tonen in kaarten */
+.card.img .ph img[src$=".svg"]{object-fit:contain;padding:16px 24px;background:#fff}
+.card.img .ph:has(img[src$=".svg"]){background:#fff}
