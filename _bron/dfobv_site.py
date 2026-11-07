@@ -60,6 +60,11 @@ def rewrite(href):
     host = (p.netloc or "").lower()
     if host in ("www.dfobv.nl", "dfobv.nl"):
         path = unquote(p.path)
+        if "/wp-content/uploads/" in path and path.lower().endswith(".mp4"):
+            f = path.split("/uploads/")[-1].replace("/", "-")
+            if (ROOT / "assets/dfobv/video" / f).exists():
+                return f"assets/dfobv/video/{f}"
+            return h.split("?")[0]
         if "/wp-content/uploads/" in path and path.lower().endswith(".pdf"):
             f = path.split("/uploads/")[-1].replace("/", "-")
             if (PDFDIR / f).exists():
@@ -195,8 +200,11 @@ def clean(raw):
             done.add(id(el))
             src = (el.find("source") or {}).get("src") if el.find("source") else el.get("src")
             if src:
-                src = src.split("?")[0]
-                out.append(f'<p><a class="btn btn-ghost arrow" href="{E(src)}" rel="noopener">Bekijk de video (mp4)</a></p>')
+                src = rewrite(src.split("?")[0])
+                if src.startswith("assets/"):
+                    out.append(f'<div class="vid"><video controls preload="metadata" playsinline src="{E(src)}"></video></div>')
+                else:
+                    out.append(f'<p><a class="btn btn-ghost arrow" href="{E(src)}" rel="noopener">Bekijk de video (mp4)</a></p>')
         elif n in ("div", "span", "section", "li") and el.find(True) is None:
             # losse tekst in Elementor-widgets
             t = re.sub(r"\s+", " ", el.get_text(" ", strip=True))

@@ -285,3 +285,4 @@ ul.mini a:hover{color:var(--blue);text-decoration:underline}
 .tablewrap table{border-collapse:collapse;width:100%;font-size:.92rem}
 .tablewrap td,.tablewrap th{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
 details.date summary::-webkit-details-marker{display:none}
+.vid{margin:1.2em 0}.vid video{width:100%;max-width:860px;border-radius:12px;background:#000;display:block}
