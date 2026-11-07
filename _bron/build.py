@@ -112,7 +112,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="nazorg-calculator.html">Calculator nazorgabonnement</a></li>
     </ul></div>
     <div><h4>Faciliteiten</h4><ul>
-      <li><a href="zalencentrum.html">DFO Zalencentrum</a></li>
+      <li><a href="zalencentrum.html">DFO Vergadercentrum</a></li>
       <li><a href="studio.html">DFO Studio</a></li>
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
@@ -757,10 +757,10 @@ def build_zalen():
 <p style="font-size:.9rem">{E(typ)} • {E(cap)}<br>Opstelling: {E(ops)}<br>Faciliteiten: {E(fac)}</p>
 <a class="more arrow" href="{mailto('info@dfozalen.nl', f'Aanvraag {n.split(" (")[0]}', f'Ik wil graag zaal {n} reserveren.%0A%0ADatum:%0AAantal personen:%0AOpstelling:%0ACatering:%0A'.replace('%0A', chr(10)))}">Aanvragen </a></div></div>'''
     zs = sections_of("diensten/dfo-zalencentrum/index.html")
-    intro = render_units([b for b in zs["Alle ruimte om samen te komen, te leren én te inspireren!"] if b[0] != "btn"])
-    body = hero("DFO Zalencentrum", "Van boardroom tot superzaal: in Hoevelaken vind je voor elke vergadering, training of bijeenkomst de ruimte die bij je past.",
-                crumbs=["Zalencentrum"], img="assets/img/superzaal.jpg", small=False,
-                btns=f'<a class="btn btn-light arrow" href="{mailto("info@dfozalen.nl","Offerteaanvraag DFO Zalencentrum")}">Offerte aanvragen</a><a class="btn btn-ghost" href="#zalen">Bekijk de zalen</a>')
+    intro = render_units([b for b in zs["Alle ruimte om samen te komen, te leren én te inspireren!"] if b[0] != "btn"]).replace("DFO Zalencentrum", "DFO Vergadercentrum")
+    body = hero("DFO Vergadercentrum", "Van boardroom tot superzaal: in Hoevelaken vind je voor elke vergadering, training of bijeenkomst de ruimte die bij je past.",
+                crumbs=["Vergadercentrum"], img="assets/img/superzaal.jpg", small=False,
+                btns=f'<a class="btn btn-light arrow" href="{mailto("info@dfozalen.nl","Offerteaanvraag DFO Vergadercentrum")}">Offerte aanvragen</a><a class="btn btn-ghost" href="#zalen">Bekijk de zalen</a>')
     body += f"""
 <section><div class="wrap split">
   <div><h2>Alle ruimte om samen te komen, te leren én te inspireren!</h2>{intro}</div>
@@ -774,8 +774,8 @@ def build_zalen():
 <section class="tight"><div class="wrap"><div class="note"><strong>Ontvangst en kantine</strong><br>Bij het huren van onze zalen word je altijd ontvangen door een van onze gastvrouwen en heb je toegang tot onze kantine.</div></div></section>
 """ + callout("Een ruimte reserveren of combineren?",
               "We denken graag mee over de beste opstelling en logistiek. Neem contact met ons op voor beschikbaarheid en cateringopties. Werkt de knop niet? Stuur dan een mail naar info@dfozalen.nl.",
-              mailto("info@dfozalen.nl", "Offerteaanvraag DFO Zalencentrum"), "Vraag een offerte aan") + f'<section class="tight" style="padding-top:0"><div class="wrap center"><a class="btn btn-ghost arrow" href="{mailto("info@dfozalen.nl", "Vraag over DFO Zalencentrum")}">Of heb je vragen? Mail ons</a> <a class="btn btn-ghost arrow" href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route via Google Maps</a></div></section>'
-    page("zalencentrum.html", "Vergaderruimte huren in Hoevelaken – DFO Zalencentrum",
+              mailto("info@dfozalen.nl", "Offerteaanvraag DFO Vergadercentrum"), "Vraag een offerte aan") + f'<section class="tight" style="padding-top:0"><div class="wrap center"><a class="btn btn-ghost arrow" href="{mailto("info@dfozalen.nl", "Vraag over DFO Vergadercentrum")}">Of heb je vragen? Mail ons</a> <a class="btn btn-ghost arrow" href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route via Google Maps</a></div></section>'
+    page("zalencentrum.html", "Vergaderruimte huren in Hoevelaken – DFO Vergadercentrum",
          "Zeven vergader- en cursuszalen voor 8 tot 70 personen bij knooppunt Hoevelaken. Gratis parkeren, persoonlijke ontvangst.", body)
 
 
@@ -914,7 +914,7 @@ def build_contact():
       <a class="card" href="{TEL_HREF}"><div class="icon">{icon('users')}</div><h3>Telefonisch</h3><p>{TEL}</p></a>
       <a class="card" href="mailto:{MAIL}"><div class="icon">{icon('mail')}</div><h3>E-mail</h3><p>{MAIL}</p></a>
       <a class="card" href="mailto:opleidingen@dfobv.nl"><div class="icon">{icon('cap')}</div><h3>Opleidingen</h3><p>opleidingen@dfobv.nl</p></a>
-      <a class="card" href="mailto:info@dfozalen.nl"><div class="icon">{icon('room')}</div><h3>Zalencentrum</h3><p>info@dfozalen.nl</p></a>
+      <a class="card" href="mailto:info@dfozalen.nl"><div class="icon">{icon('room')}</div><h3>Vergadercentrum</h3><p>info@dfozalen.nl</p></a>
     </div>
     <h2>Bezoekadres</h2>
     <p>Bureau DFO<br>{ADRES}</p>
