@@ -15,6 +15,7 @@ DOMEINEN = [
     ("kredieten", "Kredieten", "hypotheken"),
     ("inkomen", "Inkomensverzekeringen", "inkomen"),
     ("wetgeving", "Wet- en regelgeving", "compliance"),
+    ("afm", "AFM: regels & leidraden", "compliance"),
 ]
 
 
@@ -70,7 +71,7 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
             f'<article class="kb-item" id="{it["id"]}" data-d="{it["dom"]}" data-s="{E((it["term"] + " " + (it.get("afk") or "") + " " + it["def"]).lower())}">'
             f'<div class="kb-head"><h3>{E(it["term"])}{afk}</h3><span class="tag">{E(it["domnaam"])}</span>{vol}</div>'
             f'<p>{E(it["def"])}</p>'
-            + (f'<p class="kb-zie"><a href="{E(it["link"])}"{" rel=noopener" if it["link"].startswith("http") else ""}>{"Bekijk het artikel" if it.get("bron") in ("Wft","BGfo","TRHK") else "Bekijk de wettekst"} →</a>{" · bron: " + E(it["bron"]) if it.get("bron") else ""}</p>' if it.get("link") else "")
+            + (f'<p class="kb-zie"><a href="{E(it["link"])}"{" rel=noopener" if it["link"].startswith("http") else ""}>{"Bekijk het artikel" if it.get("bron") in ("Wft","BGfo","TRHK") else ("Lees verder bij de AFM" if it.get("bron") == "AFM" else "Bekijk de wettekst")} →</a>{" · bron: " + E(it["bron"]) if it.get("bron") else ""}</p>' if it.get("link") else "")
             + (f'<p class="kb-zie"><strong>Zie ook:</strong> {zie}</p>' if zie else "")
             + "</article>")
     chips = f'<button class="chip" data-d="" aria-pressed="true">Alle ({len(items)})</button>' + "".join(

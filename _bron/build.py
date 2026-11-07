@@ -1495,7 +1495,7 @@ def kennisbank_tile():
     voorbeeld = " · ".join(f'<a href="kennisbank.html#{i["id"]}">{E(i["afk"] or i["term"])}</a>' for i in [x for x in items if x.get("afk")][:0])
     return f"""<div class="card kb-tile" style="margin-bottom:24px"><div class="split" style="gap:28px;align-items:center">
   <div><a href="kennisbank.html" class="portal-head" style="text-decoration:none;color:inherit"><div class="icon">{icon('doc')}</div><h3 style="font-size:1.4rem">Kennisbank</h3></a>
-  <p class="muted">{n if n else 'Honderden'} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen en wet- en regelgeving (Wft, BGfo, TRHK), helder uitgelegd voor financieel adviseurs.</p>
+  <p class="muted">{n if n else 'Honderden'} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen wet- en regelgeving (Wft, BGfo, TRHK) en AFM-leidraden, helder uitgelegd voor financieel adviseurs.</p>
   <div class="chips" style="margin:0">{doms}</div></div>
   <form action="kennisbank.html" method="get" class="f" role="search">
     <label>Zoek een begrip of afkorting<input type="search" name="q" placeholder="Bijv. NHG, WGA, eigen risico, jaarruimte…"></label>
@@ -1549,6 +1549,8 @@ def build_wetten_pages():
 
 
 def build_kennisbank_page():
+    import afm_kennis
+    afm_kennis.build()
     import kennisbank
     print("kennisbank:", kennisbank.build_kennisbank(page, hero, callout, icon, cursussen, agenda), "begrippen")
 
