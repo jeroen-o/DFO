@@ -340,3 +340,9 @@ ul.wtoc li{margin:.35em 0}
 @media (max-width:1180px){.topbar .wrap>a:nth-of-type(n+4){display:none}}
 @media (max-width:700px){.topbar .wrap>a{display:none}.tsearch{max-width:none}}
 @media (max-width:560px){.hsearch{flex-wrap:wrap}.hsearch input{flex-basis:100%}.hsearch .btn{width:100%;justify-content:center}}
+/* Logo nooit vervormen */
+header.site .logo{flex:0 0 auto;display:block}
+header.site .logo img{height:42px;width:auto;max-width:none;flex-shrink:0;object-fit:contain}
+.flogo img{width:auto;max-width:none;object-fit:contain}
+nav.main{min-width:0}
+@media (max-width:1280px) and (min-width:1181px){nav.main a{padding:9px 8px;font-size:.86rem}nav.main a.cta{margin-left:2px}}
