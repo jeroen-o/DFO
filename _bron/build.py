@@ -29,7 +29,7 @@ NAV = [
     ("themas.html", "Thema’s"),
     ("compliance.html", "Compliance"),
     ("abonnementen.html", "Abonnementen"),
-    ("zalencentrum.html", "Vergaderruimte"),
+    ("vergadercentrum.html", "Vergaderruimte"),
     ("studio.html", "Studio"),
     ("over-dfo.html", "Over DFO"),
 ]
@@ -112,7 +112,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="nazorg-calculator.html">Calculator nazorgabonnement</a></li>
     </ul></div>
     <div><h4>Faciliteiten</h4><ul>
-      <li><a href="zalencentrum.html">DFO Vergadercentrum</a></li>
+      <li><a href="vergadercentrum.html">DFO Vergadercentrum</a></li>
       <li><a href="studio.html">DFO Studio</a></li>
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
@@ -486,7 +486,7 @@ def build_home():
   <div class="grid g3">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
-    {svc_card("zalencentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
+    {svc_card("vergadercentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
@@ -775,7 +775,7 @@ def build_zalen():
 """ + callout("Een ruimte reserveren of combineren?",
               "We denken graag mee over de beste opstelling en logistiek. Neem contact met ons op voor beschikbaarheid en cateringopties. Werkt de knop niet? Stuur dan een mail naar info@dfozalen.nl.",
               mailto("info@dfozalen.nl", "Offerteaanvraag DFO Vergadercentrum"), "Vraag een offerte aan") + f'<section class="tight" style="padding-top:0"><div class="wrap center"><a class="btn btn-ghost arrow" href="{mailto("info@dfozalen.nl", "Vraag over DFO Vergadercentrum")}">Of heb je vragen? Mail ons</a> <a class="btn btn-ghost arrow" href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route via Google Maps</a></div></section>'
-    page("zalencentrum.html", "Vergaderruimte huren in Hoevelaken – DFO Vergadercentrum",
+    page("vergadercentrum.html", "Vergaderruimte huren in Hoevelaken – DFO Vergadercentrum",
          "Zeven vergader- en cursuszalen voor 8 tot 70 personen bij knooppunt Hoevelaken. Gratis parkeren, persoonlijke ontvangst.", body)
 
 
@@ -821,7 +821,7 @@ def build_over():
   <div class="grid g3">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
-    {svc_card("zalencentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
+    {svc_card("vergadercentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
@@ -946,6 +946,14 @@ location.href='mailto:'+s.value+'?subject='+encodeURIComponent('Contact via webs
     page("contact.html", "Contact – Bureau DFO", "Contact met Bureau DFO in Hoevelaken: 033 258 04 60, info@dfobv.nl. Route en bezoekadres.", body, scripts=js)
 
 
+def build_redirects():
+    for old, new in [("zalencentrum.html", "vergadercentrum.html")]:
+        (ROOT / old).write_text(f'''<!doctype html><html lang="nl"><head><meta charset="utf-8"><title>Doorverwijzing</title>
+<link rel="canonical" href="{new}"><meta http-equiv="refresh" content="0; url={new}"><meta name="robots" content="noindex">
+<script>location.replace("{new}"+location.hash)</script></head><body><p>Deze pagina is verhuisd naar <a href="{new}">{new}</a>.</p></body></html>
+''')
+
+
 def build_404():
     body = hero("Pagina niet gevonden", "Deze pagina bestaat niet (meer). Kijk in het menu of ga terug naar de homepage.",
                 btns='<a class="btn btn-light arrow" href="index.html">Naar home</a>')
@@ -1043,6 +1051,8 @@ def build_zoeken():
             continue
         s = BeautifulSoup(f.read_text(), "html.parser")
         main = s.find("main")
+        if main is None:
+            continue
         for t in main(["script", "style"]):
             t.decompose()
         title = s.title.string.split(" – ")[0]
@@ -1087,6 +1097,6 @@ q.addEventListener('input',go);const p=new URLSearchParams(location.search).get(
 if __name__ == "__main__":
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_404, build_zoeken]:
+               build_calculator, build_contact, build_themas, build_404, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")

@@ -11,7 +11,7 @@ LINKMAP = {
     "over-dfo/ons-team": "over-dfo.html#team", "over-dfo/bureau-dfo": "over-dfo.html",
     "over-dfo/werken-bij": "over-dfo.html#werken-bij",
     "documenten-contracten": "documenten.html", "diensten/compliance": "compliance.html",
-    "diensten/onze-abonnementen": "abonnementen.html", "diensten/dfo-zalencentrum": "zalencentrum.html",
+    "diensten/onze-abonnementen": "abonnementen.html", "diensten/dfo-zalencentrum": "vergadercentrum.html",
     "studio/webinar-producties": "studio-webinar.html", "studio/podcastproducties": "studio-podcast.html",
     "studio/videoproductie": "studio-video.html",
     "studio/studio-verhuur-met-technische-ondersteuning-professionele-producties-zorgeloos-geregeld": "studio-verhuur.html",
