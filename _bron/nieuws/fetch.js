@@ -6,6 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 const OUT = path.join(__dirname, 'nieuws.json');
+const ONLY = (process.env.NIEUWS_ONLY || '').split(',').filter(Boolean);
 const MAX_PER_SOURCE = 15;     // max. aantal nieuwe artikelpagina's per bron per run (voor datum/omschrijving)
 const KEEP_DAYS = 180;
 
@@ -41,6 +42,9 @@ const SOURCES = [
   { naam: 'EIOPA', type: 'html', url: 'https://www.eiopa.europa.eu/media/news_en', pat: /eiopa\.europa\.eu\/[a-z0-9-]{20,}_en$/, filter: false, home: 'https://www.eiopa.europa.eu/' },
   { naam: 'Pensioenfederatie', type: 'html', url: 'https://www.pensioenfederatie.nl/', pat: /pensioenfederatie\.nl\/[a-z0-9-]{15,}\/?$/, textRe: /^Nieuws\b/, filter: false, home: 'https://www.pensioenfederatie.nl/' },
   { naam: 'Tweede Kamer', type: 'html', url: 'https://www.tweedekamer.nl/nieuws/kamernieuws', pat: /\/nieuws\/kamernieuws\/[a-z0-9-]{8,}$/, filter: true, strict: true, prefilter: true, home: 'https://www.tweedekamer.nl/' },
+  { naam: 'BKR', type: 'html', url: 'https://www.bkr.nl/nl/inzichtelijk', pat: /bkr\.nl\/nl\/inzichtelijk\/[a-z0-9-]{8,}$/, filter: false, home: 'https://www.bkr.nl/' },
+  { naam: 'BKR', type: 'html', url: 'https://www.bkr.nl/nl/persberichten', pat: /bkr\.nl\/nl\/persberichten\/[a-z0-9-]{8,}$/, filter: false, home: 'https://www.bkr.nl/' },
+  { naam: 'SVn', type: 'html', url: 'https://www.svn.nl/over-svn/nieuws/', pat: /svn\.nl\/over-svn\/nieuws\/[a-z0-9-]{8,}\/?$/, filter: true, home: 'https://www.svn.nl/' },
   { naam: 'DFO Signalen', type: 'html', raw: true, titleFromUrl: u => { const m = u.match(/week-(\d+)-(20\d\d)/); return m ? `DFO Signalen week ${m[1]} – ${m[2]}` : ''; }, url: 'https://www.dfosignalen.nl/', pat: /\/nieuwsbrief-dfo-signalen\/nieuwsbrief-dfo-signalen-week-\d+-20\d\d\/?$/, filter: false, home: 'https://www.dfosignalen.nl/' },
   { naam: 'Wft Permanent Actueel', type: 'pawft', url: 'https://pa-wft.nl/nieuws.html', filter: false, home: 'https://pa-wft.nl/' },
   { naam: 'AI Permanent Actueel', type: 'aipa', url: 'https://ai-permanent-actueel.nl/nieuw/', filter: false, home: 'https://ai-permanent-actueel.nl/' },
@@ -130,6 +134,7 @@ function parseRss(xml) {
   }
 
   for (const src of SOURCES) {
+    if (ONLY.length && !ONLY.includes(src.naam)) continue;
     let found = [];
     visits = 0;
     try {
@@ -179,7 +184,8 @@ function parseRss(xml) {
           if (src.textRe && !src.textRe.test(t0)) continue;
           const t = t0.replace(/^Nieuws\s+/, '').replace(/\s+\d{1,2}-\d{1,2}-20\d\d$/, '').replace(/^\d{1,2}\s+[a-z]+\s+20\d\d\s+/i, '');
           seen.add(u);
-          found.push({ t: t.length > 15 ? t.split('\n')[0].replace(/^(nieuws|persbericht|blog)\s+/i, '').replace(/^\d{1,2}\s+\w+\s+20\d\d\s+/, '') : '', u, d: '', x: '' });
+          const dm = t0.match(/^(\d{1,2})-(\d{1,2})-(20\d\d)\b/);
+          found.push({ d: dm ? `${dm[3]}-${dm[2].padStart(2, '0')}-${dm[1].padStart(2, '0')}` : '', t: t.length > 15 ? t.split('\n')[0].replace(/^(nieuws|persbericht|blog)\s+/i, '').replace(/^\d{1,2}\s+\w+\s+20\d\d\s+/, '') : '', u, x: '' });
         }
         found = found.slice(0, 15);
       }
@@ -194,7 +200,7 @@ function parseRss(xml) {
         if (it.html || !it.x || !it.d || /is the central bank of the European Union/.test(it.x)) it = await enrich(it);
         delete it.html;
         if (src.titleFromUrl) it.t = src.titleFromUrl(it.u) || it.t;
-        if (!it.t || /one moment|just a moment|access denied|attention required|pagina niet gevonden|not found/i.test(it.t)) continue;
+        if (!it.t || /^(inloggen|login|nieuws)$/i.test(it.t.trim()) || /one moment|just a moment|access denied|attention required|pagina niet gevonden|not found/i.test(it.t)) continue;
         if (src.filter && !kw.test(it.t + ' ' + it.x)) continue;
         byUrl.set(it.u, { ...it, bron: src.naam, home: src.home, opgehaald: new Date().toISOString().slice(0, 10) });
         added++;

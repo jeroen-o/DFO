@@ -1586,41 +1586,59 @@ def build_nieuws():
                     ("NVM", "https://www.nvm.nl/"), ("Belastingdienst", "https://www.belastingdienst.nl/"),
                     ("Ministerie van Financiën", "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien"), ("Rijksoverheid", "https://www.rijksoverheid.nl/"),
                     ("Tweede Kamer", "https://www.tweedekamer.nl/"), ("DFO Signalen", "https://www.dfosignalen.nl/"),
-                    ("Wft Permanent Actueel", "https://pa-wft.nl/"), ("AI Permanent Actueel", "https://ai-permanent-actueel.nl/")]
+                    ("Wft Permanent Actueel", "https://pa-wft.nl/"), ("AI Permanent Actueel", "https://ai-permanent-actueel.nl/"),
+                    ("BKR", "https://www.bkr.nl/"), ("SVn", "https://www.svn.nl/")]
+    import nieuws_cat
+    for i in items:
+        if re.fullmatch(r"(?i)inloggen|lees (het|meer).*|nieuws", i["t"].strip()):  # menutekst i.p.v. titel: titel uit URL
+            sl = i["u"].rstrip("/").rsplit("/", 1)[-1].replace("-", " ")
+            i["t"] = sl[:1].upper() + sl[1:]
+        i["c"] = nieuws_cat.cat(i)
+    ccnt = {c: sum(1 for i in items if i["c"] == c) for c in nieuws_cat.CATS}
+    cchips = f'<button class="chip" data-c="" aria-pressed="true">Alle onderwerpen ({len(items)})</button>' + "".join(
+        f'<button class="chip" data-c="{c.lower()}" aria-pressed="false">{c} ({ccnt[c]})</button>' for c in nieuws_cat.CATS if ccnt[c])
+    pins = ""
+    for c, lst in nieuws_cat.ACHTERGROND.items():
+        li = "".join(f'<li><a href="{E(a["u"])}" rel="noopener" target="_blank">{E(a["t"])}</a> <span class="nw-pin-b">{E(a["bron"])}</span><br><span>{E(a["x"])}</span></li>' for a in lst)
+        pins += (f'<aside class="nw nw-pin" data-pc="{c.lower()}" hidden><div class="nw-meta"><span class="tag alt">Achtergrond</span></div>'
+                 f'<h3>Regels en achtergrond: {c.lower()}</h3><ul>{li}</ul></aside>')
     cnt = {b: sum(1 for i in items if i["bron"] == b) for b, _ in alle_bronnen}
-    chips = f'<button class="chip" data-b="" aria-pressed="true">Alle ({len(items)})</button>' + "".join(
+    chips = f'<button class="chip" data-b="" aria-pressed="true">Alle bronnen</button>' + "".join(
         f'<button class="chip" data-b="{E(b)}" aria-pressed="false">{E(b)} ({cnt[b]})</button>' for b, _ in alle_bronnen if cnt.get(b))
     rows = ""
     for i in items:
         d = datetime.date.fromisoformat(i["d"]) if i.get("d") else None
         dl = f"{d.day} {MAANDEN_LANG[d.month-1]} {d.year}" if d else ""
         x = i.get("x") or ""
-        rows += (f'<article class="nw" data-b="{E(i["bron"])}" data-s="{E((i["t"] + " " + x + " " + i["bron"]).lower())}">'
-                 f'<div class="nw-meta"><span class="tag">{E(i["bron"])}</span><time datetime="{E(i.get("d",""))}">{dl}</time></div>'
+        rows += (f'<article class="nw" data-c="{i["c"].lower()}" data-b="{E(i["bron"])}" data-s="{E((i["t"] + " " + x + " " + i["bron"]).lower())}">'
+                 f'<div class="nw-meta"><span class="tag">{E(i["bron"])}</span><span class="nw-cat">{i["c"]}</span><time datetime="{E(i.get("d",""))}">{dl}</time></div>'
                  f'<h3><a href="{E(i["u"])}" rel="noopener" target="_blank">{E(i["t"])}</a></h3>'
                  + (f'<p>{E(x)}</p>' if x else "")
                  + f'<a class="btn btn-ghost nw-btn" href="{E(i["u"])}" rel="noopener" target="_blank">Lees bij {E(i["bron"])} →</a></article>')
     bron_links = " · ".join(f'<a href="{u}" rel="noopener">{E(b)}</a>' for b, u in alle_bronnen)
-    body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, de overheid, brancheorganisaties, marktcijfers en DFO, dagelijks bijgewerkt.",
+    body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken, verzekeringen, pensioenen en kredieten van toezichthouders, de overheid, brancheorganisaties, marktcijfers en DFO, dagelijks bijgewerkt.",
                 crumbs=["Actueel nieuws"])
     body += f"""
 <section><div class="wrap nws">
   <p class="muted" style="font-size:.88rem">Laatst bijgewerkt: {E(bij)} (UTC)</p>
   <div class="filters"><input type="search" id="nq" placeholder="Zoek in het nieuws, bijv. NHG, rente, AOV…" aria-label="Zoek in het nieuws"></div>
+  <div class="chips nw-cats" id="ncat" role="group" aria-label="Filter op onderwerp">{cchips}</div>
   <div class="chips" id="nb" role="group" aria-label="Filter op bron">{chips}</div>
   <div class="count" id="nc"></div>
-  <div id="nl">{rows}</div>
+  <div id="nl">{pins}{rows}</div>
   <div class="empty" id="ne" hidden>Geen nieuws gevonden.</div>
   <p class="muted nw-bronnen" style="margin-top:28px">Bronnen: {bron_links}</p>
   <div class="note" style="margin-top:12px">Dit overzicht wordt elke dag automatisch samengesteld uit de nieuwsberichten van de genoemde partijen. Per bericht tonen we een korte omschrijving; het volledige bericht lees je bij de bron. Bureau DFO is niet verantwoordelijk voor de inhoud van externe berichten.</div>
 </div></section>
 """ + callout("Wekelijks de signalen uit de markt?", "Meld je aan voor DFO Signalen: jouw wekelijkse update speciaal voor onafhankelijk financieel adviseurs.", "signalen.html", "Naar DFO Signalen")
     js = """<script>
-const nq=document.getElementById('nq'),arts=[...document.querySelectorAll('.nw')];let nb='';
-function f(){const t=nq.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let n=0;arts.forEach(a=>{const ok=(!nb||a.dataset.b===nb)&&t.every(w=>a.dataset.s.includes(w));a.hidden=!ok;if(ok)n++});
-document.getElementById('nc').textContent=n+' berichten';document.getElementById('ne').hidden=n>0;}
-document.querySelectorAll('#nb .chip').forEach(b=>b.onclick=()=>{nb=b.dataset.b;document.querySelectorAll('#nb .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));f();});
-nq.oninput=f;f();
+const nq=document.getElementById('nq'),arts=[...document.querySelectorAll('.nw:not(.nw-pin)')],pins=[...document.querySelectorAll('.nw-pin')];let nb='',nc='';
+function f(){const t=nq.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let n=0;arts.forEach(a=>{const ok=(!nb||a.dataset.b===nb)&&(!nc||a.dataset.c===nc)&&t.every(w=>a.dataset.s.includes(w));a.hidden=!ok;if(ok)n++});
+pins.forEach(p=>p.hidden=!(nc&&p.dataset.pc===nc&&!nb&&!t.length));
+document.getElementById('nc').textContent=n+(n===1?' bericht':' berichten');document.getElementById('ne').hidden=n>0;}
+function grp(id,set){document.querySelectorAll('#'+id+' .chip').forEach(b=>b.onclick=()=>{set(b);document.querySelectorAll('#'+id+' .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));f();});}
+grp('nb',b=>nb=b.dataset.b);grp('ncat',b=>{nc=b.dataset.c;history.replaceState(null,'',location.pathname+location.search+(nc?'#'+nc:''));});
+nq.oninput=f;const h=location.hash.slice(1),hc=h&&document.querySelector('#ncat .chip[data-c="'+h+'"]');if(hc)hc.click();else f();
 </script>"""
     page("nieuws.html", "Actueel nieuws hypotheken en verzekeringen – Bureau DFO",
          "Dagelijks bijgewerkt nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, overheid, brancheorganisaties en DFO.", body, scripts=js)

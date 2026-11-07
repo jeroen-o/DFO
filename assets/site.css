@@ -427,3 +427,11 @@ p,li,td{hyphens:manual}
 .nw-bronnen{font-size:.88rem;line-height:1.9}
 @media(max-width:640px){.nw{padding:16px}.nw-btn{min-height:40px;display:inline-flex;align-items:center}.nw-bronnen{line-height:2.2}}
 @media(max-width:640px){.nws #nb{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;margin-right:-16px;padding-right:16px;scrollbar-width:thin}.nws #nb .chip{flex:0 0 auto;white-space:nowrap}}
+.nw-cats{margin-bottom:10px}.nw-cats .chip{font-weight:600;font-size:.92rem;padding:9px 16px}
+#nb .chip{font-size:.8rem;padding:6px 12px}
+.nw-cat{font-size:.78rem;font-weight:600;color:var(--blue)}
+.nw-pin{border-color:var(--blue);border-left-width:4px;background:#f3f7fc}
+@media(max-width:640px){.nws .nw-cats{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;margin-right:-16px;padding-right:16px;scrollbar-width:thin}.nws .nw-cats .chip{flex:0 0 auto;white-space:nowrap}}
+.nw-pin ul{list-style:none;margin:0;padding:0}.nw-pin li{padding:10px 0;border-top:1px solid var(--line);font-size:.93rem;color:var(--ink-2)}.nw-pin li:first-child{border-top:0;padding-top:4px}
+.nw-pin li a{font-weight:600}.nw-pin-b{font-size:.78rem;font-weight:600;color:var(--muted);white-space:nowrap}
+.nw-meta{flex-wrap:wrap;row-gap:4px}
