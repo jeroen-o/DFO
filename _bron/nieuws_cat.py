@@ -10,7 +10,7 @@ KW = {
 }
 DEFAULT = {"NHG": "Hypotheken", "HDN": "Hypotheken", "NVM": "Hypotheken", "Kadaster": "Hypotheken", "CBS": "Hypotheken", "NVHP": "Hypotheken",
            "Verbond van Verzekeraars": "Verzekeringen", "SIVI": "Verzekeringen", "Adfiz": "Verzekeringen", "EIOPA": "Verzekeringen",
-           "Pensioenfederatie": "Pensioenen", "BKR": "Kredieten", "SVn": "Hypotheken"}
+           "Pensioenfederatie": "Pensioenen", "BKR": "Kredieten", "SVn": "Hypotheken", "Volkshuisvesting Nederland": "Hypotheken"}
 DEFAULT_W = {"Pensioenfederatie": 3}
 RX = {k: re.compile(v, re.I) for k, v in KW.items()}
 

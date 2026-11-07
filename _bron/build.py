@@ -1587,7 +1587,7 @@ def build_nieuws():
                     ("Ministerie van Financiën", "https://www.rijksoverheid.nl/ministeries/ministerie-van-financien"), ("Rijksoverheid", "https://www.rijksoverheid.nl/"),
                     ("Tweede Kamer", "https://www.tweedekamer.nl/"), ("DFO Signalen", "https://www.dfosignalen.nl/"),
                     ("Wft Permanent Actueel", "https://pa-wft.nl/"), ("AI Permanent Actueel", "https://ai-permanent-actueel.nl/"),
-                    ("BKR", "https://www.bkr.nl/"), ("SVn", "https://www.svn.nl/")]
+                    ("BKR", "https://www.bkr.nl/"), ("SVn", "https://www.svn.nl/"), ("Volkshuisvesting Nederland", "https://www.volkshuisvestingnederland.nl/")]
     import nieuws_cat
     for i in items:
         if re.fullmatch(r"(?i)inloggen|lees (het|meer).*|nieuws", i["t"].strip()):  # menutekst i.p.v. titel: titel uit URL
