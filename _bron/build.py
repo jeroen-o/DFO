@@ -117,6 +117,9 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
       <li><a href="columns.html">Columns Jurjen Oosterbaan</a></li>
+      <li><a href="signalen.html">DFO Signalen</a></li>
+      <li><a href="serviceproviders.html">Serviceproviders vergelijken</a></li>
+      <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
       <li><a href="de-mening-van.html">De mening van</a></li>
       <li><a href="performance.html">Performance-onderzoek</a></li>
       <li><a href="themas.html">Thema’s</a></li>
@@ -483,7 +486,9 @@ def build_home():
   </div>
 </div></section>
 
-<section class="alt"><div class="wrap">
+{portals_section()}
+
+<section><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Wat we doen</span><h2>Alles onder één dak</h2>
   <p>Van kennisontwikkeling tot uitvoering: Bureau DFO biedt financiële dienstverleners en hun brancheorganisaties een breed pakket aan diensten, allemaal onder één dak in Hoevelaken.</p></div>
   <div class="grid g3">
@@ -911,7 +916,7 @@ def build_onderzoek():
   </div>
 </div></section>
 <section><div class="wrap split">
-  <div><h2>Serviceproviders vergelijken</h2><p>Vergelijk alle serviceproviders op kwaliteit, snelheid, aanbod en waardering in onze online vergelijker.</p><a class="btn btn-primary arrow" href="https://sp.dfobv.nl/" rel="noopener">Naar de vergelijker</a></div>
+  <div><h2>Serviceproviders vergelijken</h2><p>Vergelijk alle serviceproviders op kwaliteit, snelheid, aanbod en waardering in onze online vergelijker.</p><a class="btn btn-primary arrow" href="serviceproviders.html">Naar de vergelijker</a></div>
   <div><h2>Klanttevredenheidsonderzoek</h2><p>Wil je weten hoe jouw klanten je dienstverlening waarderen? Wij voeren in jouw opdracht een onafhankelijk onderzoek uit. Met een servicepakket krijg je korting of is het inbegrepen.</p><a class="btn btn-ghost arrow" href="abonnementen.html">Bekijk servicepakketten</a></div>
 </div></section>
 """ + callout("Onderzoek in opdracht?", "Tjeerd Erkens vertelt je graag meer over de mogelijkheden.", mailto("terkens@dfobv.nl", "Onderzoek in opdracht"), "Mail Tjeerd")
@@ -1274,10 +1279,214 @@ def build_actievoorwaarden():
          "Actievoorwaarden aanbod DFO Nieuwsbrief Wft.", body)
 
 
+
+SIG = json.loads((SRC / "signalen.json").read_text())
+SIG_SP = json.loads((SRC / "signalen-speciaal.json").read_text())
+SIG_AANMELD = "https://cdn.flxml.eu/f-1b07d67d3b31b795"
+for e in SIG:
+    m = re.search(r"week-(\d+)-(\d{4})", e["u"])
+    e["jaar"] = m.group(2) if m else ""
+
+
+def sig_row(e):
+    return (f'<a class="date" href="{E(e["u"])}" rel="noopener"><div class="d"><b>{E(e["t"].split()[-1])}</b><span>wk {E(e["jaar"][2:])}</span></div>'
+            f'<div><div class="t">{E(e["t"])} – {E(e["jaar"])}</div><div class="m">{E(e["d"])}</div></div><div class="p">Lezen →</div></a>')
+
+
+def signalen_tile():
+    rows = "".join(sig_row(e) for e in SIG[:3])
+    return f"""<section class="alt" id="signalen"><div class="wrap"><div class="card" style="padding:0;overflow:hidden"><div class="split" style="gap:0;align-items:stretch">
+  <div style="padding:34px">
+    <span class="kicker" style="color:var(--blue)">Gratis wekelijkse nieuwsbrief</span>
+    <h2>DFO Signalen</h2>
+    <p>Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.</p>
+    <div class="btns"><a class="btn btn-primary arrow" href="{SIG_AANMELD}" rel="noopener">Aanmelden nieuwsbrief</a><a class="btn btn-ghost" href="signalen.html">Alle edities &amp; speciale signalen</a></div>
+  </div>
+  <div style="background:var(--bg);padding:24px 24px 24px 0"><div class="list">{rows}</div></div>
+</div></div></div></section>"""
+
+
+def build_signalen():
+    years = []
+    for e in SIG:
+        if not years or years[-1][0] != e["jaar"]:
+            years.append((e["jaar"], []))
+        years[-1][1].append(e)
+    arch = "".join(f'<h3 style="margin-top:28px">{y}</h3><div class="list">{"".join(sig_row(e) for e in es)}</div>' for y, es in years)
+    sp = "".join(f'<div class="card"><span class="tag">Speciale DFO Signalen</span><h3>{E(i["t"])}</h3>{"".join(f"<p>{E(p)}</p>" for p in i["p"])}</div>' for i in SIG_SP)
+    body = hero("DFO Signalen", "Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.",
+                crumbs=["DFO Signalen"], img="assets/img/signalen.jpg", small=False,
+                btns=f'<a class="btn btn-light arrow" href="{SIG_AANMELD}" rel="noopener">Aanmelden nieuwsbrief</a><a class="btn btn-ghost" href="#archief">Alle edities</a>')
+    body += f"""
+<section><div class="wrap">
+  <div class="sec-head"><h2>Speciale DFO Signalen</h2><p>Alsjeblieft! Cijfers en analyses uit het onderzoek van Bureau DFO naar de advies- en bemiddelingsmarkt.</p></div>
+  <div class="grid g3" style="align-items:start">{sp}</div>
+</div></section>
+<section class="alt" id="archief"><div class="wrap" style="max-width:900px">
+  <div class="sec-head"><h2>Alle edities</h2><p>{len(SIG)} edities van DFO Signalen. Klik op een week om de nieuwsbrief te lezen op dfosignalen.nl.</p></div>
+  {arch}
+</div></section>
+""" + callout("Meld je gratis aan", "Ontvang DFO Signalen elke week in je mailbox. Vragen of tips? Mail naar signalen@dfobv.nl.", SIG_AANMELD, "Meld je gratis aan")
+    page("signalen.html", "DFO Signalen – de nieuwsbrief voor de financieel adviseur",
+         "DFO Signalen: jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.", body)
+
+
+
+SP = "https://sp.dfobv.nl"
+SP_AZ = json.loads((SRC / "serviceproviders.json").read_text())
+SP_FEAT = [
+    ("Capsearch", "Serviceprovider voor vastgoed en bedrijfsfinanciering.", "/serviceprovider/capsearch"),
+    ("certe assuradeuren", "Bij certe groep zetten we ons dagelijks in om risicoadviseurs en hun klanten in heel Nederland duurzaam te ondersteunen.", "/serviceprovider/certe-assuradeuren/"),
+    ("Financieel fit", "Wij zorgen ervoor dat consumenten financieel fit zijn en blijven dankzij een sterke digitale ondersteuning.", "/serviceprovider/financieel-fit/"),
+    ("Financieel Zeker", "Je financiën op orde. Financieel Zeker ziet het als haar verantwoordelijkheid. Je financiën moeten goed geregeld zijn.", "/serviceprovider/financieel-zeker"),
+    ("Heinenoord", "Volmachtbedrijf en serviceprovider. Al meer dan 30 jaar persoonlijke service en betrouwbare kwaliteit.", "/serviceprovider/heinenoord-assuradeuren/"),
+    ("Hoeksche Waard Assuradeuren", "Volledig gedigitaliseerde ondersteunende infrastructuur.", "/serviceprovider/hoeksche-waard-assuradeuren/"),
+    ("Home Invest", "Home Invest is een landelijke hypotheek serviceprovider met persoonlijk contact en veel expertise, onafhankelijk van aanbieders.", "/serviceprovider/home-invest/"),
+    ("Huismerk", "Volledige ondersteuning via dossier support via het Huismerk Serviceteam", "/serviceprovider/huismerk/"),
+    ("LNI", "LNI is een kwalitatief hoogstaande dienstverlener “serviceprovider” voor het intermediair", "/serviceprovider/landelijk-netwerk-inkoopcombinatie/"),
+    ("Turien & Co Assuradeuren", "Turien & Co. Assuradeuren, een assuradeur met een mix van Nederlandse en buitenlandse volmachten.", "/serviceprovider/turien-amp-co-assuradeuren"),
+    ("VCN Verzekeringen", "VCN zorgt ervoor dat advies mensenwerk blijft.", "/serviceprovider/vcn/"),
+    ("VCN Kredieten", "Beste serviceprovider voor consumptieve leningen, zakelijke kredieten en alternatieve financieringen.", "/serviceprovider/vcn-kredieten"),
+    ("VCN Hypotheken", "Het breedste aanbod aan hypotheekverstrekkers, het hoogste kennisniveau en vaste aanspreekpunten.", "/serviceprovider/vcn-hypotheken"),
+    ("VKG", "VKG biedt u toegang tot de gehele financiële markt. Efficiënt en doelgericht.", "/serviceprovider/vkg"),
+    ("Voogd", "Voogd is dé serviceprovider voor particuliere en zakelijke schadeverzekeringen.", "/serviceprovider/voogd-en-voogd/"),
+]
+SP_DOCS = [
+    ("Persbericht 2026", "https://www.dfobv.nl/wp-content/uploads/2026/06/260622-Persbericht-Waardering-serviceproviders.pdf"),
+    ("Vakpaper Serviceproviders 2026 – meting 1", "https://www.dfobv.nl/wp-content/uploads/2026/06/Vakpaper-Serviceproviders-2026-meting-1.pdf"),
+    ("Alle persberichten", "https://sp.dfobv.nl/wp-content/persberichten.pdf"),
+    ("Serviceproviderscongres", "https://www.serviceproviderscongres.nl/"),
+]
+
+
+def spu(u):
+    return u if u.startswith("http") else SP + u
+
+
+def serviceproviders_tile():
+    feat = "".join(f'<a class="chip" href="{E(spu(u))}" rel="noopener" style="text-decoration:none">{E(n)}</a>' for n, _, u in SP_FEAT[:8])
+    return f"""<section id="serviceproviders-tegel"><div class="wrap"><div class="card" style="padding:0;overflow:hidden"><div class="split rev" style="gap:0;align-items:stretch">
+  <div style="padding:34px">
+    <span class="kicker" style="color:var(--blue)">Vergelijker</span>
+    <h2>DFO Serviceproviders</h2>
+    <p>Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering. Bureau DFO vergelijkt {len(SP_AZ)} serviceproviders op kerngegevens, primaire en aanvullende diensten, samenwerking en meer.</p>
+    <div class="chips">{feat}</div>
+    <div class="btns"><a class="btn btn-primary arrow" href="serviceproviders.html">Vergelijk alle serviceproviders</a><a class="btn btn-ghost" href="{SP_DOCS[0][1]}" rel="noopener">Persbericht 2026</a></div>
+  </div>
+  <div style="background:var(--bg)"><img src="assets/img/video.jpg" alt="" loading="lazy" style="width:100%;height:100%;object-fit:cover"></div>
+</div></div></div></section>"""
+
+
+def build_serviceproviders():
+    letters = {}
+    for a in sorted(SP_AZ, key=lambda x: x["t"].lower()):
+        letters.setdefault(a["t"][0].upper(), []).append(a)
+    az = "".join(f'<div class="doc-group"><h4>{L}</h4><ul class="doc-list">' + "".join(
+        f'<li><a href="{E(spu(a["u"]))}" rel="noopener">{icon("brief")}<span>{E(a["t"])}</span></a></li>' for a in xs) + "</ul></div>"
+        for L, xs in letters.items())
+    feat = "".join(f'<a class="card" href="{E(spu(u))}" rel="noopener"><h3>{E(n)}</h3><p>{E(d)}</p><span class="more arrow">Meer info </span></a>' for n, d, u in SP_FEAT)
+    chap = "".join(f'<div class="card"><h3>{E(t)}</h3><p>{E(d)}</p></div>' for t, d in [
+        ("Kerngegevens", "Alle feitelijke informatie over de serviceprovider"),
+        ("Primaire diensten", "Alle diensten die bijdragen aan het primaire proces van adviseren en bemiddelen in financiële producten"),
+        ("Aanvullende diensten", "Diensten die aanvullend worden aangeboden"),
+        ("Samenwerking / deelnemerschap", "De vorm waarin de diensten worden aangeboden en de zaken die te maken hebben met de aansluiting bij de betreffende serviceprovider"),
+        ("Diversen", "Extra informatie vanuit de serviceprovider.")])
+    docs = "".join(f'<a class="card" href="{E(u)}" rel="noopener"><div class="icon">{icon("doc")}</div><h3>{E(t)}</h3><span class="more arrow">Openen </span></a>' for t, u in SP_DOCS)
+    body = hero("Welkom op de website van serviceproviders", "Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering.",
+                crumbs=['<a href="onderzoek.html">Onderzoek</a>', "Serviceproviders"],
+                btns='<a class="btn btn-light arrow" href="#alle">Klik hier voor alle serviceproviders</a><a class="btn btn-ghost" href="' + SP_DOCS[0][1] + '" rel="noopener">Persbericht 2026</a>')
+    body += f"""
+<section><div class="wrap split" style="align-items:start">
+  <div class="prose"><h2>Meerwaarde Serviceproviders</h2>
+  <p>Bureau DFO constateert onder intermediairs een groeiende belangstelling voor het inschakelen van de dienstverlening van een zogenaamde serviceprovider.</p>
+  <p>Veel van deze serviceproviders hebben verzekeringsvolmachten van maatschappijen of offertevolmachten van geldverstrekkers. Deze volmachten kunnen van grote meerwaarde zijn voor het acceptatie- of offertetraject van verzekeringen, resp. kredieten.</p>
+  <p>Er is inmiddels een groot aantal serviceproviders met een aanzienlijke verscheidenheid in het dienstenaanbod. Dit maakt het voor een financieel dienstverlener lastig om zich objectief te oriënteren op een serviceprovider die aansluit bij het gewenst profiel.</p>
+  <p>Daarom heeft Bureau DFO aan bekende serviceproviders gevraagd een aantal vragen over hun dienstverlening te beantwoorden. De resultaten van deze inventarisatie vindt u op de volgende pagina’s.</p>
+  <p>Bureau DFO hoopt dat deze overzichten bijdragen aan een goed onderbouwde keuze van de financieel dienstverlener voor een serviceprovider. Heeft u vragen over deze informatie, neemt u dan contact op met Agaat van Ekeren via 033 2542019.</p></div>
+  <div><h3>In de pers: Waardering serviceproviders 2026</h3><div class="grid" style="gap:14px">{docs}</div></div>
+</div></section>
+<section class="alt"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">De beste match · Complete check</span><h2>Wij vergelijken…</h2><p>De dienstverlening is onderverdeeld in de volgende ‘hoofdstukken’</p></div>
+  <div class="grid g3">{chap}</div></div></section>
+<section><div class="wrap"><div class="sec-head"><h2>Uitgelichte serviceproviders</h2><p>Ons complete aanbod vindt u, alfabetisch gerangschikt onderaan deze pagina.</p></div>
+  <div class="grid g3">{feat}</div></div></section>
+<section class="alt" id="alle"><div class="wrap"><div class="sec-head"><h2>Ons gehele aanbod van serviceproviders</h2><p>Hieronder vindt u een compleet overzicht van alle serviceproviders die wij vergelijken. Klik op de provider waar u meer informatie over wilt, om alle details te bekijken.</p></div>
+  {az}</div></section>
+""" + callout("Vragen over de vergelijking?", "Neem contact op met Agaat van Ekeren, relatiemanager bij Bureau DFO.", mailto("avanekeren@dfobv.nl", "Vraag over Serviceproviders"), "Mail Agaat")
+    page("serviceproviders.html", "DFO Serviceproviders – vergelijk serviceproviders", "Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering.", body)
+
+
+
+NAZ = "https://www.dfonazorg.nl"
+NAZ_LOGIN = "https://inloggen.dfonazorg.nl/inloggen/"
+
+
+def build_nazorg():
+    body = hero("Nazorg &amp; Onderhoud Portal", "Welkom bij de Nazorg &amp; Onderhoud Portal van Bureau DFO!",
+                crumbs=["Nazorg &amp; Onderhoud"],
+                btns=f'<a class="btn btn-light arrow" href="{NAZ}/aanmelden/" rel="noopener">Account aanmaken</a><a class="btn btn-ghost" href="{NAZ_LOGIN}" rel="noopener">Inloggen</a>')
+    body = body.replace('<div class="img"><img src="assets/img/nazorg.svg"', '<div class="img" style="background:#fff;display:grid;place-items:center;padding:30px"><img src="assets/img/nazorg.svg" style="object-fit:contain"')
+    body += f"""
+<section><div class="wrap split" style="align-items:start">
+  <div class="prose">
+  <p>Nazorg op financiële producten staat in het middelpunt van de belangstelling. Niet alleen is het zo dat toezichthouder AFM haar wens heeft geuit om te komen tot een wettelijke inkadering van deze nazorg. Ook groeit de hoeveelheid jurisprudentie over de invulling van nazorg door financiële dienstverleners.</p>
+  <p>Maar bovenal heeft de ‘intelligente lock down’ als gevolg van de coronapandemie bij veel kantoren het besef gekweekt dat planmatig onderhoud van lopende financiële producten bij de bestaande klanten (= nazorg) een waardevol en rendabel onderdeel kan zijn van hun dienstverlening. Goed gepland en efficiënt uitgevoerd onderhoud zorgt voor tevreden klanten en een stabiele omzet.</p>
+  <p>Bureau DFO helpt u graag om de door uw onderneming te leveren nazorg op een goede en doordachte manier in te vullen. In deze portal vindt u een groot aantal modeldocumenten die u kunnen helpen bij het maken van afspraken met klanten over, en het vastleggen van uw nazorgverplichtingen. Ook heeft Bureau DFO voor u alle relevante publicaties van de AFM over nazorg verzameld en gemakkelijk toegankelijk gemaakt. En tot slot is er een enorme hoeveelheid jurisprudentie voor u ontsloten, waaruit blijkt hoe rechters of Kifid aankijken tegen geschillen over het al dan niet correct uitvoeren van nazorg door financiële dienstverleners.</p>
+  <p>Op deze portal treft u alle op dit moment beschikbare nazorgdocumenten aan. Deze worden indien nodig geactualiseerd. Heeft u vragen mail ons dan op <a href="mailto:info@dfobv.nl">info@dfobv.nl</a></p>
+  <div class="btns"><a class="btn btn-primary arrow" href="{NAZ_LOGIN}" rel="noopener">Naar alle nazorg documenten</a></div>
+  </div>
+  <div class="grid" style="gap:16px">
+    <div class="card"><h3>Heeft u al een account bij Nazorg Portal?</h3><p>Klik hier, login en download direct uw bestanden.</p><a class="more arrow" href="{NAZ_LOGIN}" rel="noopener">Klik hier </a></div>
+    <div class="card price"><h3>Nog geen account? Maak er snel één aan!</h3><p>Door het aanmaken van een account krijg u toegang tot alle downloads/bestanden.</p>
+      <p>Fijn dat u interesse heeft om toegang te krijgen tot de documentatie in de DFO Portal Nazorg &amp; Onderhoud. De documentatie in deze omgeving is zorgvuldig samengesteld en wordt continue geüpdatet en voorzien van nieuwe informatie/documenten.</p>
+      <div class="amount">€ 195,- <small>eenmalig, exclusief btw</small></div>
+      <p class="fine">Uw aanvraag nemen wij in behandeling, u ontvangt een bevestiging in uw inbox. Na bevestiging van uw aanmelding krijgt u toegang tot alle documenten en ontvangt u automatisch nieuwe documenten en updates.</p>
+      <a class="btn btn-primary arrow" href="{NAZ}/aanmelden/" rel="noopener" style="margin-top:10px">Account aanmaken</a></div>
+  </div>
+</div></section>
+<section class="alt"><div class="wrap grid g3">
+  <a class="card" href="documenten.html#nazorg"><div class="icon">{icon('doc')}</div><h3>Modeldocumenten nazorg</h3><p>Alle nazorgdocumenten uit de DFO-webshop, per onderwerp.</p><span class="more arrow">Bekijk documenten </span></a>
+  <a class="card" href="nazorg-calculator.html"><div class="icon">{icon('calc')}</div><h3>Calculator onderhoud- en nazorgabonnement</h3><p>Bereken het benodigde maandbedrag en de fte voor je abonnement.</p><span class="more arrow">Naar de calculator </span></a>
+  <a class="card" href="{NAZ}/" rel="noopener"><div class="icon">{icon('folder')}</div><h3>dfonazorg.nl</h3><p>De DFO Portal Nazorg &amp; Onderhoud.</p><span class="more arrow">Bezoek de portal </span></a>
+</div></section>
+"""
+    page("nazorg.html", "Nazorg & Onderhoud Portal – Bureau DFO",
+         "De Nazorg & Onderhoud Portal van Bureau DFO: modeldocumenten, AFM-publicaties en jurisprudentie over nazorg.", body)
+
+
+def portals_section():
+    """Vier tegels voor de DFO-portalen."""
+    sig = "".join(f'<li><a href="{E(e["u"])}" rel="noopener">{E(e["t"])} – {E(e["d"])}</a></li>' for e in SIG[:3])
+    cats = ["Hypotheken", "Schade", "Inkomen, leven & pensioen", "Bedrijfsvoering", "Compliance"]
+    nxt = agenda[0] if agenda else None
+    nd = datetime.date.fromisoformat(nxt["d"]) if nxt else None
+    nxt_html = f'<p class="fine" style="font-size:.86rem;color:var(--muted)">Eerstvolgende: <strong>{nd.day} {MAANDEN_LANG[nd.month-1]}</strong> – {E(nxt["t"])}</p>' if nxt else ""
+    tiles = [
+        ("opleidingen.html", "cap", "Opleidingsportaal", f"Het opleidingsportaal voor financieel dienstverleners: {len(cursussen)} opleidingen in hypotheken, schade, inkomen, compliance en bedrijfsvoering.",
+         nxt_html + '<div class="chips" style="margin:6px 0 0">' + "".join(f'<span class="tag">{E(c)}</span>' for c in cats) + "</div>",
+         [("opleidingen.html", "Alle opleidingen"), ("opleidingen.html#agenda", "Agenda"), (PORTAL + "/inloggen-prs/standaard", "Inloggen")]),
+        ("signalen.html", "mail", "DFO Signalen", "Jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.",
+         f'<ul class="mini">{sig}</ul>', [("signalen.html", "Alle edities"), (SIG_AANMELD, "Gratis aanmelden")]),
+        ("serviceproviders.html", "chart", "Serviceproviders", f"Vergelijk {len(SP_AZ)} serviceproviders op kwaliteit, snelheid, aanbod en waardering.",
+         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Kerngegevens · primaire en aanvullende diensten · samenwerking · diversen</p>',
+         [("serviceproviders.html", "Vergelijk alle serviceproviders"), (SP_DOCS[0][1], "Persbericht 2026")]),
+        ("nazorg.html", "folder", "Nazorg &amp; Onderhoud", "Het portaal met alle documenten over nazorg en onderhoud: modeldocumenten, AFM-publicaties en jurisprudentie.",
+         '<p class="fine" style="font-size:.86rem;color:var(--muted)">Toegang: eenmalig € 195,- excl. btw</p>',
+         [("nazorg.html", "Meer over de portal"), (NAZ_LOGIN, "Inloggen")]),
+    ]
+    html_ = ""
+    for href, ic, t, d, extra, links in tiles:
+        ls = "".join(f'<a class="more arrow" href="{E(u)}"{" rel=noopener" if u.startswith("http") else ""} style="display:block;margin-top:6px">{E(lt)} </a>' for u, lt in links)
+        html_ += f'<div class="card portal"><a href="{href}" class="portal-head"><div class="icon">{icon(ic)}</div><h3>{t}</h3></a><p>{d}</p>{extra}<div style="margin-top:auto;padding-top:14px">{ls}</div></div>'
+    return f"""<section class="alt" id="portalen"><div class="wrap">
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Portalen</span><h2>Alle DFO-portalen op één plek</h2></div>
+  <div class="grid g4">{html_}</div>
+</div></section>"""
+
+
 if __name__ == "__main__":
     COLS.extend(c for c in extra_columns() if c["slug"] not in {x["slug"] for x in COLS})
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_404, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_404, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")

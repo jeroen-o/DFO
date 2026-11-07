@@ -35,6 +35,14 @@ FOOTER = {"Extra informatie", "Op de hoogte blijven?", "Contact"}
 def maplink(href, page_rel):
     if not href:
         return "#"
+    if href.rstrip("/") in ("https://www.dfosignalen.nl", "http://www.dfosignalen.nl"):
+        return "signalen.html"
+    if href.rstrip("/") in ("https://sp.dfobv.nl", "http://sp.dfobv.nl"):
+        return "serviceproviders.html"
+    if href.rstrip("/") in ("https://www.dfonazorg.nl", "http://www.dfonazorg.nl"):
+        return "nazorg.html"
+    if href.rstrip("/") in ("https://www.dfo-opleidingen.nl", "http://www.dfo-opleidingen.nl"):
+        return "opleidingen.html"
     if href.startswith(("http", "mailto:", "tel:")):
         return href.replace("tel:033 258 04 60", "tel:+31332580460")
     base = Path(page_rel).parent

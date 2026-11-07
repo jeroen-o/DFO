@@ -268,3 +268,9 @@ ol.steps-ol li strong{display:block;color:var(--ink)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 @media (max-width:1180px){nav.main .sr{position:static;width:auto;height:auto;clip:auto}}
 .card .tag,.card.img .tag{align-self:flex-start}
+.portal .portal-head{text-decoration:none;color:inherit;display:block}
+.portal .portal-head:hover h3{color:var(--blue)}
+.portal p{color:var(--muted);font-size:.93rem}
+ul.mini{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:6px;font-size:.86rem}
+ul.mini a{color:var(--ink-2);text-decoration:none}
+ul.mini a:hover{color:var(--blue);text-decoration:underline}
