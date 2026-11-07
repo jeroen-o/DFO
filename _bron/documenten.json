@@ -1,0 +1,1550 @@
+[
+ {
+  "slug": "advies",
+  "title": "Advies",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Algemeen inventarisatieformulier particuliere relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-particuliere-relatie/"
+     },
+     {
+      "t": "Model Reglement archivering adviesdossier",
+      "u": "https://www.dfobv.nl/product/model-reglement-archivering-adviesdossier/"
+     },
+     {
+      "t": "Modelbrief aan klant die geen informatie wil verstrekken",
+      "u": "https://www.dfobv.nl/product/modelbrief-aan-klant-die-geen-informatie-wil-verstrekken/"
+     }
+    ]
+   },
+   {
+    "name": "Hypotheken – kredieten",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging hypotheken",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-hypotheken/"
+     },
+     {
+      "t": "Inventarisatieformulier hypothecair krediet",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-hypothecair-krediet/"
+     },
+     {
+      "t": "Model opgave secundaire arbeidsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/herzien-en-aangevuld-model-opgave-secundaire-arbeidsvoorwaarden/"
+     },
+     {
+      "t": "Checklist hypotheken",
+      "u": "https://www.dfobv.nl/product/checklist-hypotheken/"
+     },
+     {
+      "t": "Brievenpakket hypotheken",
+      "u": "https://www.dfobv.nl/product/brievenpakket-hypotheken/"
+     },
+     {
+      "t": "Handboek Hypotheekadvies en-bemiddeling van A tot Z",
+      "u": "https://www.dfobv.nl/product/hypotheektraject-van-a-tot-z/"
+     },
+     {
+      "t": "Opdracht consumptief krediet",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-consumptief-krediet/"
+     },
+     {
+      "t": "Opdracht woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-betalingsbeschermer/"
+     },
+     {
+      "t": "Inventarisatieformulier consumptief krediet",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-consumptief-krediet/"
+     },
+     {
+      "t": "Checklist adviesdossier consumptief krediet / woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-consumptief-krediet-betalingsbeschermer/"
+     },
+     {
+      "t": "Afwijking van advies inzake woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/afwijking-van-advies-inzake-woonlastenverzekering/"
+     }
+    ]
+   },
+   {
+    "name": "Vermogen",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-advies-bemiddeling-en-nazorg-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Model Cliëntenovereenkomst Nationaal Regime Mifid",
+      "u": "https://www.dfobv.nl/product/model-clientenovereenkomst-aanpassing-jan-2017/"
+     },
+     {
+      "t": "Inventarisatieformulier vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-vermogensopbouwproducten/"
+     },
+     {
+      "t": "Checklist adviesdossier vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitkeringsproduct/"
+     },
+     {
+      "t": "Inventarisatieformulier uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-uitkeringsproduct/"
+     },
+     {
+      "t": "Opdrachtbevestiging overlijdensrisicoverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-overlijdensrisicoverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitvaartverzekering",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitvaartverzekering/"
+     }
+    ]
+   },
+   {
+    "name": "AOV",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging arbeidsongeschiktheidsverzekering (AOV)",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Modellen opdracht deeldiensten AOV",
+      "u": "https://www.dfobv.nl/product/modellen-opdracht-deeldiensten-aov/"
+     },
+     {
+      "t": "Inventarisatieformulier AOV",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-aov/"
+     },
+     {
+      "t": "Model Advies Arbeidsongeschiktheidsverzekering",
+      "u": "https://www.dfobv.nl/product/model-advies-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Checklist adviesdossier AOV",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-aov/"
+     },
+     {
+      "t": "Compleet handboek AOV",
+      "u": "https://www.dfobv.nl/product/compleet-handboek-aov/"
+     }
+    ]
+   },
+   {
+    "name": "Schade particulier",
+    "items": [
+     {
+      "t": "Verzekeringstechnische risicoanalyse particuliere relatie",
+      "u": "https://www.dfobv.nl/product/verzekeringstechnische-risicoanalyse-particuliere-relatie/"
+     }
+    ]
+   },
+   {
+    "name": "Schade zakelijk",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en begeleiding zakelijke verzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-begeleiding-zakelijke-verzekeringen/"
+     },
+     {
+      "t": "Algemeen inventarisatieformulier advies zakelijke relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-advies-zakelijke-relatie/"
+     },
+     {
+      "t": "Opdrachtbevestiging risicoanalyse zakelijke verzekeringen",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-risicoanalyse-zakelijke-verzekeringen/"
+     },
+     {
+      "t": "Inventarisatieformulier brandverzekeringen zakelijke relatie",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-brandverzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Inkomen collectief",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Inventarisatieformulier collectieve inkomensverzekering",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Checklist adviesdossier collectieve inkomensverzekering",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Totaalpakket documenten collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/totaalpakket-documenten-collectieve-inkomensverzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Pensioen collectief – DGA",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling tweedepijler pensioenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-tweedepijler-pensioenverzekering/"
+     },
+     {
+      "t": "Inventarisatieformulier tweedepijler pensioen",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-tweedepijler-pensioen/"
+     },
+     {
+      "t": "Checklist tweedepijler pensioen / DGA-pensioen",
+      "u": "https://www.dfobv.nl/product/checklist-tweedepijler-pensioen-dga-pensioen/"
+     },
+     {
+      "t": "Checklist Dienstverlening op maat – verkort adviestraject",
+      "u": "https://www.dfobv.nl/product/checklist-dienstverlening-op-maat-verkort-adviestraject/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "avg",
+  "title": "AVG",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Model dienstenwijzer incl. privacy paragraaf",
+      "u": "https://www.dfobv.nl/product/model-dienstenwijzer-met-privacy/"
+     },
+     {
+      "t": "Model privacy verklaring",
+      "u": "https://www.dfobv.nl/product/model-privacy-verklaring/"
+     },
+     {
+      "t": "Model verwerkersovereenkomst AVG",
+      "u": "https://www.dfobv.nl/product/model-verwerkersovereenkomst-avg/"
+     },
+     {
+      "t": "Protocol meldplicht datalekken",
+      "u": "https://www.dfobv.nl/product/493/"
+     },
+     {
+      "t": "Checklist preventie cyberrisico’s en datalekken voor financiële dienstverlener",
+      "u": "https://www.dfobv.nl/product/checklist-preventie-cyberrisicos-en-datalekken-financiele-dienstverlener/"
+     },
+     {
+      "t": "Model Register verwerking persoonsgegevens",
+      "u": "https://www.dfobv.nl/product/verwerkingen-persoonsgegevens/"
+     },
+     {
+      "t": "Model privacybeleid",
+      "u": "https://www.dfobv.nl/product/model-privacybeleid/"
+     },
+     {
+      "t": "Model register datalekken",
+      "u": "https://www.dfobv.nl/product/model-register-datalekken/"
+     },
+     {
+      "t": "Modelovereenkomst Functionaris voor de Gegevensbescherming (FG)",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-functionaris-voor-de-gegevensbescherming/"
+     },
+     {
+      "t": "Checklist organisatorische maatregelen voor veilig online werken",
+      "u": "https://www.dfobv.nl/product/checklist-organisatorische-maatregelen-voor-veilig-online-werken/"
+     },
+     {
+      "t": "Documentatieset privacy & personeel",
+      "u": "https://www.dfobv.nl/product/documentatieset-privacy-en-personeel/"
+     },
+     {
+      "t": "Zelf Audit bedrijfsprocessen",
+      "u": "https://www.dfobv.nl/product/zelf-audit-bedrijfsprocessen/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bedrijfsvoering",
+  "title": "Bedrijfsvoering",
+  "groups": [
+   {
+    "name": "Belangrijke documenten voor uw kantoor",
+    "items": [
+     {
+      "t": "Algemene leveringsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/algemene-leveringsvoorwaarden/"
+     },
+     {
+      "t": "Klachtenprocedure",
+      "u": "https://www.dfobv.nl/product/klachtenprocedure/"
+     },
+     {
+      "t": "Incidentenregeling",
+      "u": "https://www.dfobv.nl/product/incidentenregeling/"
+     },
+     {
+      "t": "Model dienstenwijzer incl. privacy paragraaf",
+      "u": "https://www.dfobv.nl/product/model-dienstenwijzer-met-privacy/"
+     },
+     {
+      "t": "Model Reglement archivering adviesdossier",
+      "u": "https://www.dfobv.nl/product/model-reglement-archivering-adviesdossier/"
+     },
+     {
+      "t": "Juridische set modellen voor werken met abonnementen",
+      "u": "https://www.dfobv.nl/product/juridische-set-modellen-voor-werken-met-abonnementen/"
+     },
+     {
+      "t": "Echtscheiding: Model algemene voorwaarden",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-algemene-voorwaarden/"
+     },
+     {
+      "t": "Echtscheiding: Model dienstverleningsovereenkomst",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-dienstverleningsovereenkomst/"
+     }
+    ]
+   },
+   {
+    "name": "Interne organisatie",
+    "items": [
+     {
+      "t": "Meldplicht betrouwbaarheid medewerkers",
+      "u": "https://www.dfobv.nl/product/meldplicht-betrouwbaarheid-medewerkers/"
+     },
+     {
+      "t": "Inrichting klantdossier hypotheken",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-hypotheken/"
+     },
+     {
+      "t": "Inrichting klantdossier leven-en pensioenverzekeringen",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-leven-en-pensioenverzekeringen/"
+     },
+     {
+      "t": "Inrichting klantdossier AOV",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-arbeidsongeschiktheidsverzekering/"
+     }
+    ]
+   },
+   {
+    "name": "Samenwerkingen",
+    "items": [
+     {
+      "t": "Overzicht samenwerkingsvormen financiële dienstverlening",
+      "u": "https://www.dfobv.nl/product/overzicht-samenwerkingsvormen-financiele-dienstverlening/"
+     },
+     {
+      "t": "Modelovereenkomst collectieve vergunning",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-inzake-collectieve-vergunning/"
+     },
+     {
+      "t": "Modelovereenkomst inzake ondersteuning vakbekwaamheid",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-inzake-ondersteuning-vakbekwaamheid/"
+     },
+     {
+      "t": "Modelovereenkomst betrouwbaarheid klantcontact",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-betrouwbaarheid-klantcontact/"
+     },
+     {
+      "t": "Machtiging aangesloten instelling",
+      "u": "https://www.dfobv.nl/product/machtiging-aangesloten-instelling/"
+     },
+     {
+      "t": "Portefeuillerechten bij beëindiging samenwerking service provider",
+      "u": "https://www.dfobv.nl/product/portefeuillerechten-bij-beeindiging-samenwerking-serviceprovider/"
+     },
+     {
+      "t": "Modelcontract bemiddelaar/onderbemiddelaar",
+      "u": "https://www.dfobv.nl/product/modelcontract-bemiddelaaronderbemiddelaar/"
+     },
+     {
+      "t": "Model Leadovereenkomst",
+      "u": "https://www.dfobv.nl/product/model-leadovereenkomst/"
+     },
+     {
+      "t": "Verwijzingsovereenkomst",
+      "u": "https://www.dfobv.nl/product/verwijzingsovereenkomst/"
+     },
+     {
+      "t": "Modelovereenkomst freelancer financiële dienstverlening",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-freelancer-financiele-dienstverlening/"
+     }
+    ]
+   },
+   {
+    "name": "Portefeuillewaardering en verkoop",
+    "items": [
+     {
+      "t": "Overeenkomst tot overdracht van een assurantieportefeuille",
+      "u": "https://www.dfobv.nl/product/conceptkoopovereenkomst-tot-overdracht-van-een-assurantieportefeuille/"
+     },
+     {
+      "t": "Juridische contractmodellen aan-en verkoop portefeuille",
+      "u": "https://www.dfobv.nl/product/juridische-contractmodellen-aan-en-verkoop-portefeuille/"
+     },
+     {
+      "t": "Juridische en fiscale aspecten koop en financiering onderneming",
+      "u": "https://www.dfobv.nl/product/juridische-en-fiscale-aspecten-bij-de-koop-en-verkoop-van-een-assurantieonderneming-en-betaling-van-de-koopprijs-in-termijnen/"
+     },
+     {
+      "t": "Documentatieset waardering assurantieportefeuilles 2019",
+      "u": "https://www.dfobv.nl/product/documentatieset-waardering-assurantieportefeuilles-2019/"
+     }
+    ]
+   },
+   {
+    "name": "Betalingen – incasso – fiscale behandeling beloning",
+    "items": [
+     {
+      "t": "Machtigingsformulier automatische Incasso-SEPA",
+      "u": "https://www.dfobv.nl/product/machtigingsformulier-automatische-incasso-sepa/"
+     },
+     {
+      "t": "Gids fiscale behandeling directe beloning",
+      "u": "https://www.dfobv.nl/product/gids-fiscale-behandeling-directe-beloning/"
+     },
+     {
+      "t": "Documentatieset assurantiebelasting",
+      "u": "https://www.dfobv.nl/product/documentatieset-aanvraag-assurantiebelasting/"
+     },
+     {
+      "t": "Reader incasso",
+      "u": "https://www.dfobv.nl/product/reader-incasso/"
+     },
+     {
+      "t": "Modelbrief beëindiging dienstverlening niet-betalende klant",
+      "u": "https://www.dfobv.nl/product/modelbrief-beeindiging-dienstverlening/"
+     },
+     {
+      "t": "Betalingsregeling advies-en bemiddelingsnota",
+      "u": "https://www.dfobv.nl/product/betalingsregeling-advies-en-bemiddelingsnota/"
+     },
+     {
+      "t": "Modelbrief bevestiging beëindiging betaalde nazorg",
+      "u": "https://www.dfobv.nl/product/modelbrief-bevestiging-beeindiging-betaalde-nazorg/"
+     },
+     {
+      "t": "Modelbrief herstelkostenregeling output verzekeraars",
+      "u": "https://www.dfobv.nl/product/modelbrief-herstelkostenregeling-output-verzekeraars/"
+     }
+    ]
+   },
+   {
+    "name": "Beloningsbeleid",
+    "items": [
+     {
+      "t": "Documentatieset variabele beloning",
+      "u": "https://www.dfobv.nl/product/notitie-variabele-beloning-en-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Modellen beheerst beloningsbeleid",
+      "u": "https://www.dfobv.nl/product/modellen-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Combinatie Notitie variabele beloning en beheerst beloningsbeleid en Modellen intern beloningsbeleid",
+      "u": "https://www.dfobv.nl/product/combinatie-notitie-variabele-beloning-en-beheerst-beloningsbeleid-en-modellen-intern-beloningsbeleid/"
+     }
+    ]
+   },
+   {
+    "name": "Diversen",
+    "items": [
+     {
+      "t": "Checklist website financiële dienstverlener",
+      "u": "https://www.dfobv.nl/product/checklist-website-financiele-dienstverlener/"
+     },
+     {
+      "t": "Checklist organisatorische maatregelen voor veilig online werken",
+      "u": "https://www.dfobv.nl/product/checklist-organisatorische-maatregelen-voor-veilig-online-werken/"
+     },
+     {
+      "t": "Informatie en checklist cloud computing",
+      "u": "https://www.dfobv.nl/product/informatie-en-checklist-cloud-computing/"
+     },
+     {
+      "t": "Checklist preventie cyberrisico’s en datalekken voor financiële dienstverlener",
+      "u": "https://www.dfobv.nl/product/checklist-preventie-cyberrisicos-en-datalekken-financiele-dienstverlener/"
+     },
+     {
+      "t": "Notitie klantwaarderingen",
+      "u": "https://www.dfobv.nl/product/notitie-klantwaarderingen/"
+     },
+     {
+      "t": "Zelfanalyseformulier onderneming",
+      "u": "https://www.dfobv.nl/product/zelfanalyseformulier-onderneming/"
+     },
+     {
+      "t": "Zelf Audit bedrijfsprocessen",
+      "u": "https://www.dfobv.nl/product/zelf-audit-bedrijfsprocessen/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "bemiddeling",
+  "title": "Bemiddeling",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Informatie en modelcontract execution only",
+      "u": "https://www.dfobv.nl/product/informatie-en-modelcontract-execution-only/"
+     },
+     {
+      "t": "Modelbrief aan klant die geen informatie wil verstrekken",
+      "u": "https://www.dfobv.nl/product/modelbrief-aan-klant-die-geen-informatie-wil-verstrekken/"
+     }
+    ]
+   },
+   {
+    "name": "Hypotheken & kredieten",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging hypotheken",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-hypotheken/"
+     },
+     {
+      "t": "Brievenpakket hypotheken",
+      "u": "https://www.dfobv.nl/product/brievenpakket-hypotheken/"
+     },
+     {
+      "t": "Handboek Hypotheekadvies en-bemiddeling van A tot Z",
+      "u": "https://www.dfobv.nl/product/hypotheektraject-van-a-tot-z/"
+     },
+     {
+      "t": "Opdracht consumptief krediet",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-consumptief-krediet/"
+     },
+     {
+      "t": "Opdracht woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-betalingsbeschermer/"
+     }
+    ]
+   },
+   {
+    "name": "AOV",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging arbeidsongeschiktheidsverzekering (AOV)",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Modellen opdracht deeldiensten AOV",
+      "u": "https://www.dfobv.nl/product/modellen-opdracht-deeldiensten-aov/"
+     },
+     {
+      "t": "Compleet handboek AOV",
+      "u": "https://www.dfobv.nl/product/compleet-handboek-aov/"
+     }
+    ]
+   },
+   {
+    "name": "Vermogen",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-advies-bemiddeling-en-nazorg-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Model Cliëntenovereenkomst Nationaal Regime Mifid",
+      "u": "https://www.dfobv.nl/product/model-clientenovereenkomst-aanpassing-jan-2017/"
+     },
+     {
+      "t": "Opdrachtbevestiging overlijdensrisicoverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-overlijdensrisicoverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitvaartverzekering",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitvaartverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitkeringsproduct/"
+     }
+    ]
+   },
+   {
+    "name": "Schade zakelijk",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en begeleiding zakelijke verzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-begeleiding-zakelijke-verzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Inkomen collectief",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Totaalpakket documenten collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/totaalpakket-documenten-collectieve-inkomensverzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Pensioen collectief – DGA",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling tweedepijler pensioenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-tweedepijler-pensioenverzekering/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "hypotheken-kredieten",
+  "title": "Hypotheken & kredieten",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Inrichting klantdossier hypotheken",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-hypotheken/"
+     }
+    ]
+   },
+   {
+    "name": "Advies en bemiddeling",
+    "items": [
+     {
+      "t": "Opdrachtformulier hypotheken",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-hypotheken/"
+     },
+     {
+      "t": "Algemeen inventarisatieformulier particuliere relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-particuliere-relatie/"
+     },
+     {
+      "t": "Inventarisatieformulier hypothecair krediet",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-hypothecair-krediet/"
+     },
+     {
+      "t": "Model opgave secundaire arbeidsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/herzien-en-aangevuld-model-opgave-secundaire-arbeidsvoorwaarden/"
+     },
+     {
+      "t": "Checklist hypotheken",
+      "u": "https://www.dfobv.nl/product/checklist-hypotheken/"
+     },
+     {
+      "t": "Opdracht consumptief krediet",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-consumptief-krediet/"
+     },
+     {
+      "t": "Inventarisatieformulier consumptief krediet",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-consumptief-krediet/"
+     },
+     {
+      "t": "Checklist adviesdossier consumptief krediet / woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-consumptief-krediet-betalingsbeschermer/"
+     },
+     {
+      "t": "Afwijking van advies inzake woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/afwijking-van-advies-inzake-woonlastenverzekering/"
+     },
+     {
+      "t": "Checklist Dienstverlening op maat-verkort adviestraject",
+      "u": "https://www.dfobv.nl/product/checklist-dienstverlening-op-maat-verkort-adviestraject/"
+     }
+    ]
+   },
+   {
+    "name": "Nazorg",
+    "items": [
+     {
+      "t": "Abonnementsvoorwaarden nazorg hypothecair krediet",
+      "u": "https://www.dfobv.nl/product/abonnementsvoorwaarden-nazorg-hypothecair-krediet/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek hypotheken",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-hypotheken/"
+     },
+     {
+      "t": "Klantformulier nazorg hypotheken",
+      "u": "https://www.dfobv.nl/product/klantformulier-nazorg-hypothecair-krediet/"
+     },
+     {
+      "t": "Documentatieset rentemiddeling",
+      "u": "https://www.dfobv.nl/product/documentatieset-rentemiddeling/"
+     },
+     {
+      "t": "Brievenpakket hypotheken",
+      "u": "https://www.dfobv.nl/product/brievenpakket-hypotheken/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "inkomen",
+  "title": "Inkomen",
+  "groups": [
+   {
+    "name": "Individueel – AOV",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging arbeidsongeschiktheidsverzekering (AOV)",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Modellen opdracht deeldiensten AOV",
+      "u": "https://www.dfobv.nl/product/modellen-opdracht-deeldiensten-aov/"
+     },
+     {
+      "t": "Algemeen inventarisatieformulier particuliere relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-particuliere-relatie/"
+     },
+     {
+      "t": "Inventarisatieformulier AOV",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-aov/"
+     },
+     {
+      "t": "Model Advies Arbeidsongeschiktheidsverzekering",
+      "u": "https://www.dfobv.nl/product/model-advies-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Checklist adviesdossier AOV",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-aov/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek AOV",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Nazorgpakket AOV",
+      "u": "https://www.dfobv.nl/product/nazorgpakket-aov/"
+     },
+     {
+      "t": "Inrichting klantdossier AOV",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "AOV marketing set",
+      "u": "https://www.dfobv.nl/product/aov-marketing-set/"
+     },
+     {
+      "t": "Compleet handboek AOV",
+      "u": "https://www.dfobv.nl/product/compleet-handboek-aov/"
+     },
+     {
+      "t": "Checklist Dienstverlening op maat – verkort adviestraject",
+      "u": "https://www.dfobv.nl/product/checklist-dienstverlening-op-maat-verkort-adviestraject/"
+     }
+    ]
+   },
+   {
+    "name": "Individueel – woonlastenverzekering",
+    "items": [
+     {
+      "t": "Opdracht woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-betalingsbeschermer/"
+     },
+     {
+      "t": "Checklist adviesdossier consumptief krediet / woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-consumptief-krediet-betalingsbeschermer/"
+     },
+     {
+      "t": "Afwijking van advies inzake woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/afwijking-van-advies-inzake-woonlastenverzekering/"
+     },
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Inventarisatieformulier collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Checklist adviesdossier collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Model Beheerovereenkomst collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-beheerovereenkomst-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Totaalpakket documenten collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/totaalpakket-documenten-collectieve-inkomensverzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Collectief",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en bemiddeling collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Inventarisatieformulier collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Checklist adviesdossier collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Model Beheerovereenkomst collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-beheerovereenkomst-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Totaalpakket documenten collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/totaalpakket-documenten-collectieve-inkomensverzekeringen/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "nazorg",
+  "title": "Nazorg",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Modelbrief beëindiging dienstverlening niet-betalende klant",
+      "u": "https://www.dfobv.nl/product/modelbrief-beeindiging-dienstverlening/"
+     },
+     {
+      "t": "Modelbrief bevestiging beëindiging betaalde nazorg",
+      "u": "https://www.dfobv.nl/product/modelbrief-bevestiging-beeindiging-betaalde-nazorg/"
+     },
+     {
+      "t": "Modelbrief aan klant die geen informatie wil verstrekken",
+      "u": "https://www.dfobv.nl/product/modelbrief-aan-klant-die-geen-informatie-wil-verstrekken/"
+     },
+     {
+      "t": "Model waarschuwingsbrieven bij opzegging polis door klant",
+      "u": "https://www.dfobv.nl/product/model-waarschuwingsbrieven-bij-opzegging-polis-door-klant/"
+     },
+     {
+      "t": "Juridische set modellen voor werken met abonnementen",
+      "u": "https://www.dfobv.nl/product/juridische-set-modellen-voor-werken-met-abonnementen/"
+     }
+    ]
+   },
+   {
+    "name": "Hypotheken – kredieten",
+    "items": [
+     {
+      "t": "Abonnementsvoorwaarden nazorg hypothecair krediet",
+      "u": "https://www.dfobv.nl/product/abonnementsvoorwaarden-nazorg-hypothecair-krediet/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek hypotheken",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-hypotheken/"
+     },
+     {
+      "t": "Klantformulier nazorg hypotheken",
+      "u": "https://www.dfobv.nl/product/klantformulier-nazorg-hypothecair-krediet/"
+     },
+     {
+      "t": "Documentatieset rentemiddeling",
+      "u": "https://www.dfobv.nl/product/documentatieset-rentemiddeling/"
+     },
+     {
+      "t": "Brievenpakket hypotheken",
+      "u": "https://www.dfobv.nl/product/brievenpakket-hypotheken/"
+     },
+     {
+      "t": "Handboek Hypotheekadvies en-bemiddeling van A tot Z",
+      "u": "https://www.dfobv.nl/product/hypotheektraject-van-a-tot-z/"
+     },
+     {
+      "t": "Opdracht consumptief krediet",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-consumptief-krediet/"
+     },
+     {
+      "t": "Opdracht woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-betalingsbeschermer/"
+     }
+    ]
+   },
+   {
+    "name": "Vermogen",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-advies-bemiddeling-en-nazorg-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Model Cliëntenovereenkomst Nationaal Regime Mifid",
+      "u": "https://www.dfobv.nl/product/model-clientenovereenkomst-aanpassing-jan-2017/"
+     },
+     {
+      "t": "Opdrachtbevestiging overlijdensrisicoverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-overlijdensrisicoverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitvaartverzekering",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitvaartverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitkeringsproduct/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Actiepakket hersteladvies",
+      "u": "https://www.dfobv.nl/product/actiepakket-hersteladvies/"
+     }
+    ]
+   },
+   {
+    "name": "AOV",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging arbeidsongeschiktheidsverzekering (AOV)",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Modellen opdracht deeldiensten AOV",
+      "u": "https://www.dfobv.nl/product/modellen-opdracht-deeldiensten-aov/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek AOV",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-arbeidsongeschiktheidsverzekering/"
+     },
+     {
+      "t": "Nazorgpakket AOV",
+      "u": "https://www.dfobv.nl/product/nazorgpakket-aov/"
+     },
+     {
+      "t": "Compleet handboek AOV",
+      "u": "https://www.dfobv.nl/product/compleet-handboek-aov/"
+     }
+    ]
+   },
+   {
+    "name": "Schade particulier",
+    "items": [
+     {
+      "t": "Verzekeringstechnische risicoanalyse particuliere relatie",
+      "u": "https://www.dfobv.nl/product/verzekeringstechnische-risicoanalyse-particuliere-relatie/"
+     },
+     {
+      "t": "Reader verkeersrecht",
+      "u": "https://www.dfobv.nl/product/reader-verkeersrecht-voor-de-schadebehandelaar/"
+     },
+     {
+      "t": "Procesbeschrijving schadebehandeling particuliere relaties",
+      "u": "https://www.dfobv.nl/product/procesbeschrijving-particuliere-relaties/"
+     },
+     {
+      "t": "Abonnementsvoorwaarden particulier schade",
+      "u": "https://www.dfobv.nl/product/abonnementsvoorwaarden-particulier-schade/"
+     },
+     {
+      "t": "Processen schadebehandeling motorrijtuigen",
+      "u": "https://www.dfobv.nl/product/processen-schadebehandeling-motorrijtuigen/"
+     },
+     {
+      "t": "Brievenpakket schadebehandeling motorrijtuigen",
+      "u": "https://www.dfobv.nl/product/brievenpakket-schadebehandeling-motorrijtuigen/"
+     }
+    ]
+   },
+   {
+    "name": "Inkomen collectief",
+    "items": [
+     {
+      "t": "Model Beheerovereenkomst collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/model-beheerovereenkomst-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Totaalpakket documenten collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/totaalpakket-documenten-collectieve-inkomensverzekeringen/"
+     }
+    ]
+   },
+   {
+    "name": "Echtscheiding",
+    "items": [
+     {
+      "t": "Uitleg dienstverlening scheidingsprofessional",
+      "u": "https://www.dfobv.nl/product/echtscheiding-uitleg-dienstverlening-scheidingsprofessional/"
+     },
+     {
+      "t": "Checklist bezittingen en schulden",
+      "u": "https://www.dfobv.nl/product/echtscheiding-checklist-bezittingen-en-schulden/"
+     },
+     {
+      "t": "Inboedellijst",
+      "u": "https://www.dfobv.nl/product/echtscheiding-inboedellijst/"
+     },
+     {
+      "t": "Uitleg aanpak afwikkeling lijfrente bij echtscheiding etc.",
+      "u": "https://www.dfobv.nl/product/uitleg-aanpak-afwikkeling-lijfrente-fea-2/"
+     },
+     {
+      "t": "Vermogensopstelling en afwikkeling huwelijkse voorwaarden",
+      "u": "https://www.dfobv.nl/product/echtscheiding-vermogensopstelling-en-afwikkeling-huwelijkse-voorwaarden/"
+     },
+     {
+      "t": "Model e-mail toelichting scheidingsregeling",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-e-mail-toelichting-scheidingsregeling/"
+     },
+     {
+      "t": "Inkomsten uitgaven persoonlijk overzicht huishoudboekje",
+      "u": "https://www.dfobv.nl/product/echtscheiding-inkomsten-uitgaven-persoonlijk-overzicht-huishoudboekje/"
+     },
+     {
+      "t": "Factsheet pensioenverdeling",
+      "u": "https://www.dfobv.nl/product/echtscheiding-factsheet-pensioenverdeling/"
+     },
+     {
+      "t": "Factsheet testament en echtscheiding",
+      "u": "https://www.dfobv.nl/product/echtscheiding-factsheet-testament-en-echtscheiding/"
+     },
+     {
+      "t": "Diverse convenanten",
+      "u": "https://www.dfobv.nl/product/echtscheiding-convenanten-allen/"
+     },
+     {
+      "t": "Model aanvullend convenant",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-aanvullend-convenant/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant huwelijk-gemeenschap van goederen",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-huwelijk-gemeenschap-goederen/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant huwelijk-huwelijkse voorwaarden",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-huwelijk-huwelijkse-voorwaarden/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant geregistreerd partnerschap-gemeenschap van goederen",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-geregistreerd-partnerschap-gemeenschap-goederen/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant geregistreerd partnerschap – partnerschapsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-geregistreerd-partnerschap-partnerschapsvoorwaarden/"
+     },
+     {
+      "t": "Modeldocument scheidingsconvenant samenwoners",
+      "u": "https://www.dfobv.nl/product/modeldocument-scheidingsconvenant-samenwoners/"
+     },
+     {
+      "t": "Werkblad ouderschapsplan",
+      "u": "https://www.dfobv.nl/product/echtscheiding-werkblad-ouderschapsplan/"
+     },
+     {
+      "t": "Modeldocument ouderschapsplan voor 1 kind",
+      "u": "https://www.dfobv.nl/product/echtscheiding-modeldocument-ouderschapsplan/"
+     },
+     {
+      "t": "Modeldocument ouderschapsplan meerdere kinderen",
+      "u": "https://www.dfobv.nl/product/modeldocument-ouderschapsplan/"
+     },
+     {
+      "t": "Toolkit vaststellen interne draagplicht 2.0",
+      "u": "https://www.dfobv.nl/product/toolkit-vaststellen-interne-draagplicht-2-0-0/"
+     },
+     {
+      "t": "Pakket ouderschapsplan",
+      "u": "https://www.dfobv.nl/product/echtscheiding-pakket-ouderschapsplan/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "personeel",
+  "title": "Personeel",
+  "groups": [
+   {
+    "name": "Algemeen",
+    "items": [
+     {
+      "t": "Checklist nieuwe medewerker",
+      "u": "https://www.dfobv.nl/product/checklist-nieuwe-medewerker/"
+     },
+     {
+      "t": "Documentatieset privacy & personeel",
+      "u": "https://www.dfobv.nl/product/documentatieset-privacy-en-personeel/"
+     },
+     {
+      "t": "Controle op eerder faillissement",
+      "u": "https://www.dfobv.nl/product/controle-op-eerder-faillissement/"
+     },
+     {
+      "t": "Sjablonen eed of belofte financiële sector",
+      "u": "https://www.dfobv.nl/product/aktes/"
+     },
+     {
+      "t": "Arbeidsovereenkomst voor bepaalde tijd",
+      "u": "https://www.dfobv.nl/product/472/"
+     },
+     {
+      "t": "Arbeidsovereenkomsten (bepaalde en onbepaalde tijd)",
+      "u": "https://www.dfobv.nl/product/arbeidsovereenkomst/"
+     },
+     {
+      "t": "Modelovereenkomst freelancer financiële dienstverlening",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-freelancer-financiele-dienstverlening/"
+     },
+     {
+      "t": "Nulurencontract / oproepcontract",
+      "u": "https://www.dfobv.nl/product/nulurencontract-oproepcontract-model/"
+     },
+     {
+      "t": "Studieovereenkomst",
+      "u": "https://www.dfobv.nl/product/studieovereenkomst/"
+     },
+     {
+      "t": "Min/max urencontract",
+      "u": "https://www.dfobv.nl/product/minmax-uren-contract/"
+     }
+    ]
+   },
+   {
+    "name": "Beloning",
+    "items": [
+     {
+      "t": "Documentatieset variabele beloning",
+      "u": "https://www.dfobv.nl/product/notitie-variabele-beloning-en-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Modellen beheerst beloningsbeleid",
+      "u": "https://www.dfobv.nl/product/modellen-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Combinatie Notitie variabele beloning en beheerst beloningsbeleid en Modellen intern beloningsbeleid Salarischeck op individuele basis",
+      "u": "https://www.dfobv.nl/product/combinatie-notitie-variabele-beloning-en-beheerst-beloningsbeleid-en-modellen-intern-beloningsbeleid/"
+     }
+    ]
+   },
+   {
+    "name": "Aanvullende afspraken en regelingen",
+    "items": [
+     {
+      "t": "Functioneren en motiveren",
+      "u": "https://www.dfobv.nl/product/modeldocumenten-functioneringsgesprek/"
+     },
+     {
+      "t": "Digitale gedragscode",
+      "u": "https://www.dfobv.nl/product/digitale-gedragscode-modeldocument/"
+     },
+     {
+      "t": "Personeelsgids",
+      "u": "https://www.dfobv.nl/product/personeelsgids-2/"
+     },
+     {
+      "t": "Thuiswerkregeling",
+      "u": "https://www.dfobv.nl/product/thuiswerkregeling/"
+     },
+     {
+      "t": "Meldplicht betrouwbaarheid medewerkers",
+      "u": "https://www.dfobv.nl/product/meldplicht-betrouwbaarheid-medewerkers/"
+     },
+     {
+      "t": "Memo Mogelijkheden versobering arbeidsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/memo-mogelijkheden-versobering-arbeidsvoorwaarden/"
+     },
+     {
+      "t": "Notitie concurrentiebeding",
+      "u": "https://www.dfobv.nl/product/notitie-concurrentiebeding/"
+     },
+     {
+      "t": "Notities Versobering arbeidsvoorwaarden en Concurrentiebeding",
+      "u": "https://www.dfobv.nl/product/notities-versobering-arbeidsvoorwaarden-en-concurrentiebeding/"
+     },
+     {
+      "t": "Notitie Erkenning Verworven Competenties (EVC)",
+      "u": "https://www.dfobv.nl/product/notitie-erkenning-verworven-competenties-evc/"
+     },
+     {
+      "t": "Functieomschrijvingen medewerkers financieel advieskantoor",
+      "u": "https://www.dfobv.nl/product/functieomschrijvingen-medewerkers-financieel-advieskantoor/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "schade",
+  "title": "Schade",
+  "groups": [
+   {
+    "name": "Particulier",
+    "items": [
+     {
+      "t": "Algemeen inventarisatieformulier particuliere relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-particuliere-relatie/"
+     },
+     {
+      "t": "Juridische set modellen voor werken met abonnementen",
+      "u": "https://www.dfobv.nl/product/juridische-set-modellen-voor-werken-met-abonnementen/"
+     },
+     {
+      "t": "Abonnementsvoorwaarden particulier schade",
+      "u": "https://www.dfobv.nl/product/abonnementsvoorwaarden-particulier-schade/"
+     },
+     {
+      "t": "Verzekeringstechnische risicoanalyse particuliere relatie",
+      "u": "https://www.dfobv.nl/product/verzekeringstechnische-risicoanalyse-particuliere-relatie/"
+     },
+     {
+      "t": "Procesbeschrijving schadebehandeling particuliere relaties",
+      "u": "https://www.dfobv.nl/product/procesbeschrijving-particuliere-relaties/"
+     },
+     {
+      "t": "Processen schadebehandeling motorrijtuigen",
+      "u": "https://www.dfobv.nl/product/processen-schadebehandeling-motorrijtuigen/"
+     },
+     {
+      "t": "Brievenpakket schadebehandeling motorrijtuigen",
+      "u": "https://www.dfobv.nl/product/brievenpakket-schadebehandeling-motorrijtuigen/"
+     },
+     {
+      "t": "Reader verkeersrecht",
+      "u": "https://www.dfobv.nl/product/reader-verkeersrecht-voor-de-schadebehandelaar/"
+     }
+    ]
+   },
+   {
+    "name": "Zakelijk",
+    "items": [
+     {
+      "t": "Model opdrachtbevestiging advies en begeleiding zakelijke verzekeringen",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-begeleiding-zakelijke-verzekeringen/"
+     },
+     {
+      "t": "Algemeen inventarisatieformulier advies zakelijke relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-advies-zakelijke-relatie/"
+     },
+     {
+      "t": "Inventarisatieformulier brandverzekeringen zakelijke relatie",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-brandverzekeringen/"
+     },
+     {
+      "t": "Opdrachtbevestiging risicoanalyse zakelijke verzekeringen",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-risicoanalyse-zakelijke-verzekeringen/"
+     },
+     {
+      "t": "Notitie cyberrisicoverzekeringen Cyberrisicoverzekeringen uitgelegd",
+      "u": "https://www.dfobv.nl/product/notitie-cyberrisicoverzekeringen/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "vermogen-pensioen",
+  "title": "Vermogen & pensioen",
+  "groups": [
+   {
+    "name": "Vermogen – Individueel",
+    "items": [
+     {
+      "t": "Opdrachtbevestiging vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-advies-bemiddeling-en-nazorg-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Algemeen inventarisatieformulier particuliere relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-particuliere-relatie/"
+     },
+     {
+      "t": "Inventarisatieformulier vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-vermogensopbouwproducten/"
+     },
+     {
+      "t": "Checklist adviesdossier vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Model Cliëntenovereenkomst Nationaal Regime Mifid",
+      "u": "https://www.dfobv.nl/product/model-clientenovereenkomst-aanpassing-jan-2017/"
+     },
+     {
+      "t": "Opdrachtbevestiging overlijdensrisicoverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-overlijdensrisicoverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitvaartverzekering",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitvaartverzekering/"
+     },
+     {
+      "t": "Opdrachtbevestiging uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/opdrachtbevestiging-uitkeringsproduct/"
+     },
+     {
+      "t": "Inventarisatieformulier uitkeringsproduct",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-uitkeringsproduct/"
+     },
+     {
+      "t": "Inrichting klantdossier leven-en pensioenverzekeringen",
+      "u": "https://www.dfobv.nl/product/inrichting-klantdossier-leven-en-pensioenverzekeringen/"
+     },
+     {
+      "t": "Checklist Dienstverlening op maat – verkort adviestraject",
+      "u": "https://www.dfobv.nl/product/checklist-dienstverlening-op-maat-verkort-adviestraject/"
+     }
+    ]
+   },
+   {
+    "name": "Pensioen – tweedepijler",
+    "items": [
+     {
+      "t": "Algemeen inventarisatieformulier advies zakelijke relatie",
+      "u": "https://www.dfobv.nl/product/algemeen-inventarisatieformulier-advies-zakelijke-relatie/"
+     },
+     {
+      "t": "Opdrachtbevestiging advies en bemiddeling tweedepijler pensioenverzekering",
+      "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-tweedepijler-pensioenverzekering/"
+     },
+     {
+      "t": "Inventarisatieformulier tweedepijler pensioen",
+      "u": "https://www.dfobv.nl/product/inventarisatieformulier-tweedepijler-pensioen/"
+     },
+     {
+      "t": "Checklist tweedepijler pensioen / DGA-pensioen",
+      "u": "https://www.dfobv.nl/product/checklist-tweedepijler-pensioen-dga-pensioen/"
+     }
+    ]
+   },
+   {
+    "name": "Nazorg",
+    "items": [
+     {
+      "t": "Actiepakket hersteladvies",
+      "u": "https://www.dfobv.nl/product/actiepakket-hersteladvies/"
+     },
+     {
+      "t": "Checklist onderhoudsgesprek vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/checklist-onderhoudsgesprek-vermogensopbouwproduct/"
+     }
+    ]
+   },
+   {
+    "name": "Echtscheiding",
+    "items": [
+     {
+      "t": "Uitleg dienstverlening scheidingsprofessional",
+      "u": "https://www.dfobv.nl/product/echtscheiding-uitleg-dienstverlening-scheidingsprofessional/"
+     },
+     {
+      "t": "Checklist bezittingen en schulden",
+      "u": "https://www.dfobv.nl/product/echtscheiding-checklist-bezittingen-en-schulden/"
+     },
+     {
+      "t": "Inboedellijst",
+      "u": "https://www.dfobv.nl/product/echtscheiding-inboedellijst/"
+     },
+     {
+      "t": "Uitleg aanpak afwikkeling lijfrente bij echtscheiding en vastlegging hiervan in convenant",
+      "u": "https://www.dfobv.nl/product/uitleg-aanpak-afwikkeling-lijfrente-fea-2/"
+     },
+     {
+      "t": "Vermogensopstelling en afwikkeling huwelijkse voorwaarden",
+      "u": "https://www.dfobv.nl/product/echtscheiding-vermogensopstelling-en-afwikkeling-huwelijkse-voorwaarden/"
+     },
+     {
+      "t": "Model e-mail toelichting scheidingsregeling",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-e-mail-toelichting-scheidingsregeling/"
+     },
+     {
+      "t": "Inkomsten uitgaven persoonlijk overzicht huishoudboekje",
+      "u": "https://www.dfobv.nl/product/echtscheiding-inkomsten-uitgaven-persoonlijk-overzicht-huishoudboekje/"
+     },
+     {
+      "t": "Factsheet pensioenverdeling",
+      "u": "https://www.dfobv.nl/product/echtscheiding-factsheet-pensioenverdeling/"
+     },
+     {
+      "t": "Factsheet testament en echtscheiding",
+      "u": "https://www.dfobv.nl/product/echtscheiding-factsheet-testament-en-echtscheiding/"
+     },
+     {
+      "t": "Diverse convenanten",
+      "u": "https://www.dfobv.nl/product/echtscheiding-convenanten-allen/"
+     },
+     {
+      "t": "Model aanvullend convenant",
+      "u": "https://www.dfobv.nl/product/echtscheiding-model-aanvullend-convenant/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant huwelijk-gemeenschap van goederen",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-huwelijk-gemeenschap-goederen/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant huwelijk-huwelijkse voorwaarden Modeldocument echtscheidingsconvenant geregistreerd partnerschap-gemeenschap van goederen",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-huwelijk-huwelijkse-voorwaarden/"
+     },
+     {
+      "t": "Modeldocument echtscheidingsconvenant geregistreerd partnerschap & partnerschapsvoorwaarden",
+      "u": "https://www.dfobv.nl/product/modeldocument-echtscheidingsconvenant-geregistreerd-partnerschap-partnerschapsvoorwaarden/"
+     },
+     {
+      "t": "Modeldocument scheidingsconvenant samenwoners",
+      "u": "https://www.dfobv.nl/product/modeldocument-scheidingsconvenant-samenwoners/"
+     },
+     {
+      "t": "Werkblad ouderschapsplan",
+      "u": "https://www.dfobv.nl/product/echtscheiding-werkblad-ouderschapsplan/"
+     },
+     {
+      "t": "Modeldocument ouderschapsplan voor 1 kind",
+      "u": "https://www.dfobv.nl/product/echtscheiding-modeldocument-ouderschapsplan/"
+     },
+     {
+      "t": "Modeldocument ouderschapsplan meerdere kinderen",
+      "u": "https://www.dfobv.nl/product/modeldocument-ouderschapsplan/"
+     },
+     {
+      "t": "Toolkit vaststellen interne draagplicht 2.0",
+      "u": "https://www.dfobv.nl/product/toolkit-vaststellen-interne-draagplicht-2-0-0/"
+     },
+     {
+      "t": "Pakket ouderschapsplan",
+      "u": "https://www.dfobv.nl/product/echtscheiding-pakket-ouderschapsplan/"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "wft-wwft",
+  "title": "Wft – Wwft",
+  "groups": [
+   {
+    "name": "Wft – verplichte documenten",
+    "items": [
+     {
+      "t": "Model Reglement archivering adviesdossier",
+      "u": "https://www.dfobv.nl/product/model-reglement-archivering-adviesdossier/"
+     },
+     {
+      "t": "Klachtenprocedure",
+      "u": "https://www.dfobv.nl/product/klachtenprocedure/"
+     },
+     {
+      "t": "Incidentenregeling",
+      "u": "https://www.dfobv.nl/product/incidentenregeling/"
+     },
+     {
+      "t": "Model dienstenwijzer incl. privacy paragraaf",
+      "u": "https://www.dfobv.nl/product/model-dienstenwijzer-met-privacy/"
+     },
+     {
+      "t": "Model Cliëntenovereenkomst Nationaal Regime Mifid",
+      "u": "https://www.dfobv.nl/product/model-clientenovereenkomst-aanpassing-jan-2017/"
+     },
+     {
+      "t": "Sjablonen eed of belofte financiële sector",
+      "u": "https://www.dfobv.nl/product/aktes/"
+     }
+    ]
+   },
+   {
+    "name": "Wft – collectieve vergunning",
+    "items": [
+     {
+      "t": "Modelovereenkomst inzake ondersteuning vakbekwaamheid",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-inzake-ondersteuning-vakbekwaamheid/"
+     },
+     {
+      "t": "Machtiging aangesloten instelling",
+      "u": "https://www.dfobv.nl/product/machtiging-aangesloten-instelling/"
+     },
+     {
+      "t": "Modelovereenkomst collectieve vergunning",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-inzake-collectieve-vergunning/"
+     },
+     {
+      "t": "Modelovereenkomst betrouwbaarheid klantcontact",
+      "u": "https://www.dfobv.nl/product/modelovereenkomst-betrouwbaarheid-klantcontact/"
+     }
+    ]
+   },
+   {
+    "name": "Checklists",
+    "items": [
+     {
+      "t": "Adviesdossier AOV",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-aov/"
+     },
+     {
+      "t": "Hypotheken",
+      "u": "https://www.dfobv.nl/product/checklist-hypotheken/"
+     },
+     {
+      "t": "Tweedepijler pensioen / DGA-pensioen",
+      "u": "https://www.dfobv.nl/product/checklist-tweedepijler-pensioen-dga-pensioen/"
+     },
+     {
+      "t": "Adviesdossier consumptief krediet / woonlastenverzekering",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-consumptief-krediet-betalingsbeschermer/"
+     },
+     {
+      "t": "Adviesdossier vermogensopbouwproduct",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-vermogensopbouwproduct/"
+     },
+     {
+      "t": "Adviesdossier collectieve inkomensverzekeringen",
+      "u": "https://www.dfobv.nl/product/checklist-adviesdossier-collectieve-inkomensverzekeringen/"
+     },
+     {
+      "t": "Dienstverlening op maat – verkort adviestraject",
+      "u": "https://www.dfobv.nl/product/checklist-dienstverlening-op-maat-verkort-adviestraject/"
+     },
+     {
+      "t": "Zelf Audit bedrijfsprocessen",
+      "u": "https://www.dfobv.nl/product/zelf-audit-bedrijfsprocessen/"
+     }
+    ]
+   },
+   {
+    "name": "Beloningsbeleid",
+    "items": [
+     {
+      "t": "Documentatieset variabele beloning",
+      "u": "https://www.dfobv.nl/product/notitie-variabele-beloning-en-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Modellen beheerst beloningsbeleid",
+      "u": "https://www.dfobv.nl/product/modellen-beheerst-beloningsbeleid/"
+     },
+     {
+      "t": "Combinatie Notitie variabele beloning en beheerst beloningsbeleid en Modellen intern beloningsbeleid",
+      "u": "https://www.dfobv.nl/product/combinatie-notitie-variabele-beloning-en-beheerst-beloningsbeleid-en-modellen-intern-beloningsbeleid/"
+     }
+    ]
+   },
+   {
+    "name": "Wwft",
+    "items": [
+     {
+      "t": "Model processen Wwft / Sanctiewet",
+      "u": "https://www.dfobv.nl/product/model-processen-wwft-en-sanctiewet/"
+     },
+     {
+      "t": "Model Wwft beleid financiële dienstverlener",
+      "u": "https://www.dfobv.nl/product/model-wwft-beleid-financiele-dienstverlener/"
+     },
+     {
+      "t": "Model risicoclassificatie Wwft",
+      "u": "https://www.dfobv.nl/product/model-risicoclassificatie-wwft/"
+     }
+    ]
+   }
+  ]
+ }
+]
