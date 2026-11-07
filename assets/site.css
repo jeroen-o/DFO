@@ -424,3 +424,6 @@ p,li,td{hyphens:manual}
 .nw h3 a:hover{color:var(--blue);text-decoration:underline}
 .nw p{color:var(--ink-2);font-size:.95rem;margin:0 0 12px}
 .nw-btn{padding:8px 14px;font-size:.86rem}
+.nw-bronnen{font-size:.88rem;line-height:1.9}
+@media(max-width:640px){.nw{padding:16px}.nw-btn{min-height:40px;display:inline-flex;align-items:center}.nw-bronnen{line-height:2.2}}
+@media(max-width:640px){.nws #nb{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:6px;margin-right:-16px;padding-right:16px;scrollbar-width:thin}.nws #nb .chip{flex:0 0 auto;white-space:nowrap}}

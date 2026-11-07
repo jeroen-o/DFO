@@ -1604,14 +1604,15 @@ def build_nieuws():
     body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, de overheid, brancheorganisaties, marktcijfers en DFO, dagelijks bijgewerkt.",
                 crumbs=["Actueel nieuws"])
     body += f"""
-<section><div class="wrap" style="max-width:980px">
-  <p class="muted" style="font-size:.88rem">Laatst bijgewerkt: {E(bij)} (UTC) · Bronnen: {bron_links}</p>
-  <div class="chips" id="nb">{chips}</div>
+<section><div class="wrap nws">
+  <p class="muted" style="font-size:.88rem">Laatst bijgewerkt: {E(bij)} (UTC)</p>
   <div class="filters"><input type="search" id="nq" placeholder="Zoek in het nieuws, bijv. NHG, rente, AOV…" aria-label="Zoek in het nieuws"></div>
+  <div class="chips" id="nb" role="group" aria-label="Filter op bron">{chips}</div>
   <div class="count" id="nc"></div>
   <div id="nl">{rows}</div>
   <div class="empty" id="ne" hidden>Geen nieuws gevonden.</div>
-  <div class="note" style="margin-top:28px">Dit overzicht wordt elke dag automatisch samengesteld uit de nieuwsberichten van de genoemde partijen. Per bericht tonen we een korte omschrijving; het volledige bericht lees je bij de bron. Bureau DFO is niet verantwoordelijk voor de inhoud van externe berichten.</div>
+  <p class="muted nw-bronnen" style="margin-top:28px">Bronnen: {bron_links}</p>
+  <div class="note" style="margin-top:12px">Dit overzicht wordt elke dag automatisch samengesteld uit de nieuwsberichten van de genoemde partijen. Per bericht tonen we een korte omschrijving; het volledige bericht lees je bij de bron. Bureau DFO is niet verantwoordelijk voor de inhoud van externe berichten.</div>
 </div></section>
 """ + callout("Wekelijks de signalen uit de markt?", "Meld je aan voor DFO Signalen: jouw wekelijkse update speciaal voor onafhankelijk financieel adviseurs.", "signalen.html", "Naar DFO Signalen")
     js = """<script>
