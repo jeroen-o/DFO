@@ -84,6 +84,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <div class="topbar"><div class="wrap">
   <a href="{TEL_HREF}">☎ {TEL}</a>
   <a href="mailto:{MAIL}">{MAIL}</a>
+  <a href="nieuws.html">Nieuws</a>
   <a href="webshop.html">Webshop</a>
   <a href="opleidingen.html#agenda">Agenda</a>
   <a href="https://kennisbank.dfobv.nl/" rel="noopener">Wft-kennisbank</a>
@@ -129,6 +130,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
       <li><a href="columns.html">Columns Jurjen Oosterbaan</a></li>
+      <li><a href="nieuws.html">Actueel nieuws</a></li>
       <li><a href="signalen.html">DFO Signalen</a></li>
       <li><a href="serviceproviders.html">Serviceproviders vergelijken</a></li>
       <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
@@ -513,6 +515,7 @@ def build_home():
 </div></section>
 
 {portals_section()}
+{nieuws_teaser()}
 
 <section><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Wat we doen</span><h2>Alles onder één dak</h2>
@@ -1564,6 +1567,79 @@ def build_related_pages():
     print("opleidingsblokken toegevoegd op", related.build_related(cursussen, agenda), "pagina's")
 
 
+
+def build_nieuws():
+    f = SRC / "nieuws" / "nieuws.json"
+    if not f.exists():
+        return 0
+    data = json.loads(f.read_text())
+    items = data.get("items", [])
+    bij = data.get("bijgewerkt", "")[:16].replace("T", " ")
+    bronnen = {}
+    for i in items:
+        bronnen.setdefault(i["bron"], i.get("home", ""))
+    alle_bronnen = [("DNB", "https://www.dnb.nl/"), ("ECB", "https://www.ecb.europa.eu/"), ("AFM", "https://www.afm.nl/"),
+                    ("Verbond van Verzekeraars", "https://www.verzekeraars.nl/"), ("NVB", "https://www.nvb.nl/"), ("SIVI", "https://www.sivi.org/"),
+                    ("HDN", "https://www.hdn.nl/"), ("NHG", "https://www.nhg.nl/"), ("Rijksoverheid", "https://www.rijksoverheid.nl/")]
+    cnt = {b: sum(1 for i in items if i["bron"] == b) for b, _ in alle_bronnen}
+    chips = f'<button class="chip" data-b="" aria-pressed="true">Alle ({len(items)})</button>' + "".join(
+        f'<button class="chip" data-b="{E(b)}" aria-pressed="false">{E(b)} ({cnt[b]})</button>' for b, _ in alle_bronnen if cnt.get(b))
+    rows = ""
+    for i in items:
+        d = datetime.date.fromisoformat(i["d"]) if i.get("d") else None
+        dl = f"{d.day} {MAANDEN_LANG[d.month-1]} {d.year}" if d else ""
+        x = i.get("x") or ""
+        rows += (f'<article class="nw" data-b="{E(i["bron"])}" data-s="{E((i["t"] + " " + x + " " + i["bron"]).lower())}">'
+                 f'<div class="nw-meta"><span class="tag">{E(i["bron"])}</span><time datetime="{E(i.get("d",""))}">{dl}</time></div>'
+                 f'<h3><a href="{E(i["u"])}" rel="noopener" target="_blank">{E(i["t"])}</a></h3>'
+                 + (f'<p>{E(x)}</p>' if x else "")
+                 + f'<a class="btn btn-ghost nw-btn" href="{E(i["u"])}" rel="noopener" target="_blank">Lees bij {E(i["bron"])} →</a></article>')
+    bron_links = " · ".join(f'<a href="{u}" rel="noopener">{E(b)}</a>' for b, u in alle_bronnen)
+    body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken en verzekeringen van toezichthouders, de overheid en brancheorganisaties, dagelijks bijgewerkt.",
+                crumbs=["Actueel nieuws"])
+    body += f"""
+<section><div class="wrap" style="max-width:980px">
+  <p class="muted" style="font-size:.88rem">Laatst bijgewerkt: {E(bij)} (UTC) · Bronnen: {bron_links}</p>
+  <div class="chips" id="nb">{chips}</div>
+  <div class="filters"><input type="search" id="nq" placeholder="Zoek in het nieuws, bijv. NHG, rente, AOV…" aria-label="Zoek in het nieuws"></div>
+  <div class="count" id="nc"></div>
+  <div id="nl">{rows}</div>
+  <div class="empty" id="ne" hidden>Geen nieuws gevonden.</div>
+  <div class="note" style="margin-top:28px">Dit overzicht wordt elke dag automatisch samengesteld uit de nieuwsberichten van de genoemde partijen. Per bericht tonen we een korte omschrijving; het volledige bericht lees je bij de bron. Bureau DFO is niet verantwoordelijk voor de inhoud van externe berichten.</div>
+</div></section>
+""" + callout("Wekelijks de signalen uit de markt?", "Meld je aan voor DFO Signalen: jouw wekelijkse update speciaal voor onafhankelijk financieel adviseurs.", "signalen.html", "Naar DFO Signalen")
+    js = """<script>
+const nq=document.getElementById('nq'),arts=[...document.querySelectorAll('.nw')];let nb='';
+function f(){const t=nq.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let n=0;arts.forEach(a=>{const ok=(!nb||a.dataset.b===nb)&&t.every(w=>a.dataset.s.includes(w));a.hidden=!ok;if(ok)n++});
+document.getElementById('nc').textContent=n+' berichten';document.getElementById('ne').hidden=n>0;}
+document.querySelectorAll('#nb .chip').forEach(b=>b.onclick=()=>{nb=b.dataset.b;document.querySelectorAll('#nb .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));f();});
+nq.oninput=f;f();
+</script>"""
+    page("nieuws.html", "Actueel nieuws hypotheken en verzekeringen – Bureau DFO",
+         "Dagelijks bijgewerkt nieuws over hypotheken en verzekeringen van DNB, ECB, AFM, Verbond van Verzekeraars, NVB, SIVI, HDN, NHG en Rijksoverheid.", body, scripts=js)
+    return len(items)
+
+
+def nieuws_teaser():
+    f = SRC / "nieuws" / "nieuws.json"
+    if not f.exists():
+        return ""
+    items = json.loads(f.read_text()).get("items", [])[:4]
+    if not items:
+        return ""
+    lis = ""
+    for i in items:
+        d = datetime.date.fromisoformat(i["d"]) if i.get("d") else None
+        lis += (f'<a class="date" href="{E(i["u"])}" rel="noopener" target="_blank"><div class="d"><b>{d.day if d else ""}</b><span>{MAANDEN[d.month-1] if d else ""}</span></div>'
+                f'<div><div class="t">{E(i["t"])}</div><div class="m">{E(i["bron"])}</div></div><div class="p">→</div></a>')
+    return f"""<section class="tight"><div class="wrap split" style="align-items:start">
+  <div><span class="kicker" style="color:var(--blue)">Dagelijks bijgewerkt</span><h2>Actueel nieuws</h2>
+  <p class="muted">Nieuws over hypotheken en verzekeringen van DNB, ECB, AFM, Verbond van Verzekeraars, NVB, SIVI, HDN, NHG en Rijksoverheid.</p>
+  <div class="btns"><a class="btn btn-primary arrow" href="nieuws.html">Al het nieuws</a></div></div>
+  <div class="list">{lis}</div>
+</div></section>"""
+
+
 if __name__ == "__main__":
     COLS.extend(c for c in extra_columns() if c["slug"] not in {x["slug"] for x in COLS})
 
@@ -1573,6 +1649,6 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_wetten_pages, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
