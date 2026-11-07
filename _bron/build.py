@@ -78,7 +78,6 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <body>
 <a class="skip" href="#inhoud">Naar de inhoud</a>
 <div class="topbar"><div class="wrap">
-  <form class="tsearch" action="zoeken.html" method="get" role="search"><input type="search" name="q" placeholder="Zoek op de site: begrip, opleiding, document, wetsartikel…" aria-label="Zoek op de site"><button type="submit">Zoeken</button></form>
   <a href="{TEL_HREF}">☎ {TEL}</a>
   <a href="mailto:{MAIL}">{MAIL}</a>
   <a href="webshop.html">Webshop</a>
@@ -90,8 +89,14 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <header class="site"><div class="wrap">
   <a class="logo" href="index.html" aria-label="Bureau DFO – home"><img src="assets/img/logo.png" alt="Bureau DFO – dienstverlening voor financiële ondernemers" width="613" height="145"></a>
   <button class="menu-btn" aria-expanded="false" aria-controls="mainnav">Menu</button>
-  <nav class="main" id="mainnav" aria-label="Hoofdmenu"><ul>{nav}<li><a href="zoeken.html" aria-label="Zoeken" title="Zoeken"{" aria-current=page" if fname == "zoeken.html" else ""}><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true" style="vertical-align:-3px"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="sr"> Zoeken</span></a></li><li><a class="cta" href="contact.html">Contact</a></li></ul></nav>
-</div></header>
+  <nav class="main" id="mainnav" aria-label="Hoofdmenu"><ul>{nav}<li><a class="cta" href="contact.html">Contact</a></li></ul></nav>
+</div>
+<div class="sitesearch"><div class="wrap"><form action="zoeken.html" method="get" role="search">
+  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+  <input type="search" name="q" placeholder="Zoek op de website: begrip, opleiding, document, wetsartikel, product…" aria-label="Zoek op de website">
+  <button type="submit">Zoeken</button>
+</form></div></div>
+</header>
 <main id="inhoud">
 {body}
 </main>

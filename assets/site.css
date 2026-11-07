@@ -351,3 +351,19 @@ nav.main{min-width:0}
 .card.img .ph:has(img[src$=".svg"]){background:#fff}
 footer.site a.btn-light{color:var(--blue);text-decoration:none}
 footer.site a.btn-light:hover{color:var(--blue-d);background:var(--sky-l);text-decoration:none}
+/* Websitezoeker: tweede regel in de header, over de volle breedte */
+.topbar .tsearch{display:none}
+.sitesearch{border-top:1px solid var(--line);background:#fff}
+.sitesearch .wrap{padding-top:8px;padding-bottom:10px}
+.sitesearch form{display:flex;align-items:center;gap:0;width:100%;background:var(--bg);border:1px solid #cbd2d9;border-radius:10px;padding-left:12px;color:var(--muted)}
+.sitesearch form:focus-within{border-color:var(--blue);box-shadow:0 0 0 3px var(--sky-l)}
+.sitesearch svg{flex:none}
+.sitesearch input{flex:1;min-width:0;font:inherit;font-size:.95rem;padding:10px 12px;border:0;background:transparent;color:var(--ink);outline:none}
+.sitesearch button{font:inherit;font-weight:600;font-size:.92rem;padding:10px 22px;border:0;border-radius:0 9px 9px 0;background:var(--blue);color:#fff;cursor:pointer;align-self:stretch}
+.sitesearch button:hover{background:var(--blue-d)}
+@media (max-width:1180px){nav.main{top:100%}}
+.kb-tools{top:136px}
+.wart,.kb-item,.kb-letter,.wet .wkop{scroll-margin-top:300px}
+@media (max-width:1180px){.kb-tools{top:126px}}
+@media (max-width:700px){.topbar .wrap>a{display:inline}.topbar .wrap>a:nth-of-type(n+3){display:none}.sitesearch .wrap{padding-top:6px;padding-bottom:8px}.sitesearch button{padding:10px 14px}}
+.topbar .wrap{justify-content:flex-end}
