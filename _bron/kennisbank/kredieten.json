@@ -1,0 +1,902 @@
+[
+  {
+    "term": "Achteraf betalen",
+    "afk": "BNPL",
+    "def": "Betaalvorm waarbij een consument een aankoop pas na een bepaalde termijn of in enkele termijnen betaalt, meestal via een externe aanbieder. Voor korte, kosteloze varianten golden lange tijd uitzonderingen op de regels voor consumentenkrediet. De herziene Richtlijn consumentenkrediet (CCD2) brengt veel van deze diensten onder het consumentenkredietregime.",
+    "zie": [
+      "Richtlijn consumentenkrediet",
+      "Consumptief krediet",
+      "Kredietwaardigheidstoets"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Achtergestelde lening",
+    "afk": "",
+    "def": "Lening die bij faillissement of liquidatie van de debiteur pas wordt terugbetaald nadat andere (niet-achtergestelde) schuldeisers zijn voldaan. Financiers zoals banken rekenen een achtergestelde lening daardoor vaak geheel of gedeeltelijk tot het garantievermogen. Tegenover het hogere risico staat doorgaans een hogere rente.",
+    "zie": [
+      "Solvabiliteit",
+      "Zakelijke financiering",
+      "Crowdfunding"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Achterstandscodering",
+    "afk": "",
+    "def": "Systeem van codes waarmee kredietgevers in het Centraal Krediet Informatiesysteem van BKR betalingsproblemen bij een krediet vastleggen. De A-codering geeft aan dat sprake is van een betalingsachterstand; de cijfercoderingen (1, 2, 3) geven zwaardere bijzonderheden aan, zoals het opeisen van de restschuld, een afwijkende (aflossings)regeling of het afschrijven van een vordering als oninbaar. De precieze betekenis en bewaartermijnen staan in het reglement van BKR.",
+    "zie": [
+      "BKR",
+      "Centraal Krediet Informatiesysteem",
+      "Herstelcode",
+      "Opeisbaarheid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Aflopend krediet",
+    "afk": "",
+    "def": "Krediet waarbij een vast bedrag in één keer wordt verstrekt en in een vooraf vastgestelde looptijd met vaste termijnen wordt terugbetaald. Afgeloste bedragen kunnen niet opnieuw worden opgenomen; aan het einde van de looptijd is het krediet volledig afgelost. De persoonlijke lening is de meest voorkomende vorm.",
+    "zie": [
+      "Persoonlijke lening",
+      "Looptijd",
+      "Aflossing",
+      "Doorlopend krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Aflossing",
+    "afk": "",
+    "def": "Terugbetaling van (een deel van) de hoofdsom van een krediet. Bij een aflopend krediet is de termijn meestal een vast bedrag dat bestaat uit aflossing en rente; bij een doorlopend krediet hangt de termijn vaak af van de kredietlimiet of het openstaande saldo. Aflossing vermindert de schuld; de rentecomponent niet.",
+    "zie": [
+      "Vervroegde aflossing",
+      "Looptijd",
+      "Aflopend krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "AFM",
+    "afk": "AFM",
+    "def": "De Autoriteit Financiële Markten is de toezichthouder op het gedrag van financiële ondernemingen in Nederland. De AFM verleent onder meer vergunningen aan aanbieders van en bemiddelaars in consumptief krediet en ziet toe op naleving van de gedragsregels uit de Wft, zoals de kredietwaardigheidstoets en informatieverstrekking.",
+    "zie": [
+      "Wft",
+      "Wft-vergunning consumptief krediet",
+      "Kredietbemiddelaar"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Autofinanciering",
+    "afk": "",
+    "def": "Verzamelnaam voor de financiering van een auto, bijvoorbeeld via een persoonlijke lening, een doorlopend krediet, financial lease of huurkoop. Bij financial lease en huurkoop wordt de consument meestal pas eigenaar na de laatste betaling, terwijl hij bij een lening direct eigenaar is. Private lease is geen financiering van de aankoop, maar een vorm van langdurige huur.",
+    "zie": [
+      "Financial lease",
+      "Private lease",
+      "Huurkoop",
+      "Slottermijn"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beslag",
+    "afk": "",
+    "def": "Rechtsmiddel waarmee een schuldeiser via een gerechtsdeurwaarder goederen, inkomen of banktegoeden van een schuldenaar laat vastleggen om een vordering te verhalen. Voor beslag is in de regel een executoriale titel nodig, zoals een vonnis; uitzonderingen gelden onder meer voor bepaalde overheidsvorderingen. Bij beslag op inkomen moet de beslagvrije voet worden gerespecteerd.",
+    "zie": [
+      "Beslagvrije voet",
+      "Opeisbaarheid",
+      "Schuldhulpverlening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Beslagvrije voet",
+    "afk": "",
+    "def": "Het deel van het inkomen dat bij beslag of verrekening niet mag worden ingehouden, zodat de schuldenaar in zijn noodzakelijke levensonderhoud kan voorzien. Sinds de Wet vereenvoudiging beslagvrije voet (2021) bedraagt deze in beginsel 95% van de toepasselijke bijstandsnorm, met correcties voor onder meer woonlasten en zorgpremie. De bedragen worden periodiek aangepast.",
+    "zie": [
+      "Beslag",
+      "Schuldhulpverlening",
+      "WSNP"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Betalingsbeschermer",
+    "afk": "",
+    "def": "Verzekering die bij arbeidsongeschiktheid, onvrijwillige werkloosheid of overlijden (een deel van) de maandtermijnen van een krediet of de vaste lasten overneemt. Bij krediet wordt de dekking meestal gekoppeld aan de termijn van de lening. Dekking, wachttijden en uitsluitingen verschillen per polis. Een woonlastenverzekering is een verwante vorm die gericht is op de woonlasten.",
+    "zie": [
+      "Woonlastenverzekering",
+      "Persoonlijke lening",
+      "Doorlopend krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Betalingsregeling",
+    "afk": "",
+    "def": "Afspraak tussen schuldenaar en schuldeiser over het in termijnen of op een later moment voldoen van een openstaande schuld of achterstand. Een betalingsregeling kan worden gemeld bij BKR, afhankelijk van het soort afspraak en de afwijking van de oorspronkelijke overeenkomst. Zij is te onderscheiden van een schuldregeling, waarin meerdere schuldeisers betrokken zijn.",
+    "zie": [
+      "Schuldregeling",
+      "Achterstandscodering",
+      "BKR"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "BKR",
+    "afk": "BKR",
+    "def": "Stichting Bureau Krediet Registratie in Tiel, die het Centraal Krediet Informatiesysteem beheert. Aangesloten kredietgevers zijn verplicht kredieten van consumenten en de betaling daarvan te registreren en bij een aanvraag het systeem te raadplegen. Het doel is overkreditering te voorkomen en kredietgevers te helpen bij de kredietwaardigheidstoets.",
+    "zie": [
+      "Centraal Krediet Informatiesysteem",
+      "Achterstandscodering",
+      "Kredietwaardigheidstoets",
+      "Overkreditering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Borgstelling",
+    "afk": "",
+    "def": "Situatie waarin een derde (de borg) zich tegenover de kredietgever verbindt om een schuld te voldoen als de hoofdschuldenaar dat niet doet. De borgtocht is geregeld in Boek 7 van het Burgerlijk Wetboek; voor borgen die als particulier handelen gelden beschermende regels, zoals een vooraf bepaald maximumbedrag. Ook een overheidsregeling als de BMKB wordt wel borgstelling genoemd.",
+    "zie": [
+      "Persoonlijke borgtocht",
+      "Borgstellingsregeling MKB",
+      "Zekerheden"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Borgstellingsregeling MKB",
+    "afk": "BMKB",
+    "def": "Regeling van de Rijksoverheid, uitgevoerd door RVO, waarbij de Staat zich borg stelt voor een deel van een bancair krediet aan een mkb-onderneming. De regeling is bedoeld voor ondernemers met een levensvatbaar plan maar onvoldoende zekerheden. De ondernemer betaalt een eenmalige provisie; voorwaarden en percentages worden periodiek aangepast.",
+    "zie": [
+      "Zekerheden",
+      "Investeringskrediet",
+      "Borgstelling",
+      "Zakelijke financiering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Burgerlijk Wetboek boek 7 titel 2A",
+    "afk": "BW",
+    "def": "Deel van het Burgerlijk Wetboek (artikelen 7:57 e.v.) met de civielrechtelijke regels voor kredietovereenkomsten met consumenten. Titel 2A is in 2011 ingevoerd ter implementatie van de Richtlijn consumentenkrediet en verving grotendeels de Wet op het consumentenkrediet. De titel regelt onder meer informatieverplichtingen, het herroepingsrecht, vervroegde aflossing en de kosten bij overschrijding.",
+    "zie": [
+      "Wet op het consumentenkrediet",
+      "Richtlijn consumentenkrediet",
+      "Herroepingsrecht",
+      "Vervroegde aflossing"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Centraal Krediet Informatiesysteem",
+    "afk": "CKI",
+    "def": "Het registratiesysteem van BKR waarin kredieten en hypotheken van consumenten zijn vastgelegd, met gegevens over het soort krediet, het bedrag, de looptijd en eventuele betalingsachterstanden. Kredietgevers raadplegen het CKI bij een kredietaanvraag. Consumenten kunnen hun eigen registraties kosteloos inzien en een registratie laten corrigeren als die onjuist is.",
+    "zie": [
+      "BKR",
+      "Achterstandscodering",
+      "Herstelcode"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Consumptief krediet",
+    "afk": "",
+    "def": "Krediet aan een natuurlijk persoon die niet handelt in de uitoefening van een beroep of bedrijf, bedoeld voor consumptieve bestedingen en niet gedekt door een hypotheek op een woning. Voorbeelden zijn de persoonlijke lening, het doorlopend krediet, financial lease voor consumenten en geoorloofde roodstand. Op consumptief krediet zijn de Wft en Boek 7 titel 2A BW van toepassing.",
+    "zie": [
+      "Persoonlijke lening",
+      "Doorlopend krediet",
+      "Burgerlijk Wetboek boek 7 titel 2A",
+      "Wft"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Convenanten",
+    "afk": "",
+    "def": "Voorwaarden in een zakelijke kredietovereenkomst waaraan de kredietnemer gedurende de looptijd moet blijven voldoen, zoals een minimale solvabiliteit, een minimale DSCR of een maximale schuld ten opzichte van de EBITDA. Bij overtreding kan de financier de voorwaarden aanpassen, aanvullende zekerheden vragen of het krediet opeisen. Ook informatieplichten, zoals het periodiek aanleveren van cijfers, worden als convenant opgenomen.",
+    "zie": [
+      "Solvabiliteit",
+      "DSCR",
+      "EBITDA",
+      "Opeisbaarheid"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Crowdfunding",
+    "afk": "",
+    "def": "Financieringsvorm waarbij een onderneming geld ophaalt bij een groot aantal investeerders via een online platform, bijvoorbeeld in de vorm van leningen, converteerbare leningen of aandelen. Platforms die in Nederland crowdfundingdiensten aanbieden, hebben een vergunning nodig op grond van de Europese crowdfundingverordening (ECSP), met de AFM als toezichthouder.",
+    "zie": [
+      "Achtergestelde lening",
+      "AFM",
+      "Zakelijke financiering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Debetrente",
+    "afk": "",
+    "def": "De rente die de kredietnemer betaalt over het opgenomen of openstaande kredietbedrag, uitgedrukt als percentage per jaar. De debetrente kan vast of variabel zijn. Anders dan het jaarlijks kostenpercentage omvat de debetrente niet de overige kredietkosten.",
+    "zie": [
+      "Jaarlijks kostenpercentage",
+      "Variabele rente"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Doorlopend krediet",
+    "afk": "",
+    "def": "Krediet met een vaste kredietlimiet waarbinnen de kredietnemer geld kan opnemen; afgeloste bedragen kunnen opnieuw worden opgenomen. De rente is meestal variabel en de maandtermijn wordt vaak berekend als percentage van de limiet of het saldo. Er geldt in de regel geen vaste einddatum zolang de opname- of aflossingsvoorwaarden worden nageleefd.",
+    "zie": [
+      "Kredietlimiet",
+      "Opname",
+      "Variabele rente",
+      "Aflopend krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "DSCR",
+    "afk": "DSCR",
+    "def": "Debt Service Coverage Ratio: kengetal dat aangeeft in hoeverre een onderneming uit haar operationele kasstroom de rente en aflossing van haar schulden kan voldoen. Een DSCR boven 1 betekent dat de kasstroom de verplichtingen overtreft. Financiers gebruiken de DSCR bij de beoordeling van een aanvraag en vaak als convenant.",
+    "zie": [
+      "EBITDA",
+      "Convenanten",
+      "Liquiditeit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "EBITDA",
+    "afk": "EBITDA",
+    "def": "Earnings Before Interest, Taxes, Depreciation and Amortization: het bedrijfsresultaat vóór aftrek van rente, belastingen, afschrijvingen en amortisatie. EBITDA wordt gebruikt als benadering van de operationele kasstroom en als basis voor kengetallen zoals schuld/EBITDA en de DSCR. Het is geen wettelijk gedefinieerd begrip; financiers kunnen het verschillend berekenen.",
+    "zie": [
+      "DSCR",
+      "Convenanten",
+      "Prognose"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Factoring",
+    "afk": "",
+    "def": "Financieringsvorm waarbij een onderneming haar openstaande debiteurenvorderingen overdraagt aan of bevoorschot laat door een factormaatschappij, die direct een groot deel van de factuurwaarde uitbetaalt. Afhankelijk van de vorm neemt de factor ook het debiteurenbeheer of het kredietrisico (non-recourse) over. Factoring wordt vooral ingezet om werkkapitaal vrij te maken.",
+    "zie": [
+      "Werkkapitaal",
+      "Liquiditeit",
+      "Rekening-courantkrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Financial lease",
+    "afk": "",
+    "def": "Leasevorm waarbij het economisch risico van het object bij de lessee ligt en het juridisch eigendom tot de laatste termijn bij de lessor blijft; daarna gaat het eigendom doorgaans over. Zakelijk wordt het object op de balans van de lessee geactiveerd. Financial lease aan consumenten geldt als consumptief krediet en valt onder de regels voor consumentenkrediet.",
+    "zie": [
+      "Operational lease",
+      "Huurkoop",
+      "Autofinanciering",
+      "Slottermijn"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Financieringsvoorstel",
+    "afk": "",
+    "def": "Document waarin de financieringsbehoefte van een onderneming of project wordt onderbouwd en een concrete financieringsstructuur wordt voorgesteld. Het bevat doorgaans een beschrijving van de onderneming, de vermogensbehoefte, de voorgestelde financieringsbronnen, prognoses en de aangeboden zekerheden. Een financier gebruikt het als basis voor de kredietbeoordeling.",
+    "zie": [
+      "Vermogensbehoefte",
+      "Liquiditeitsbegroting",
+      "Prognose",
+      "Zekerheidsstelling"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Gedragscode VFN",
+    "afk": "",
+    "def": "Zelfregulering van de Vereniging van Financieringsondernemingen in Nederland met aanvullende regels voor het verstrekken van consumptief krediet door haar leden. De gedragscode bevat onder meer een toetsingskader voor de maximale leencapaciteit, waarin woonlasten en leefgeldnormen zijn verwerkt. Niet-leden kunnen zich vrijwillig aan vergelijkbare normen houden; de AFM betrekt deze normen in de praktijk bij het toezicht.",
+    "zie": [
+      "VFN",
+      "Leefgeldnorm",
+      "Leencapaciteit",
+      "Kredietwaardigheidstoets"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Herroepingsrecht",
+    "afk": "",
+    "def": "Het wettelijke recht van een consument om een kredietovereenkomst binnen veertien kalenderdagen zonder opgave van redenen te ontbinden. De termijn begint in de regel op de dag van het sluiten van de overeenkomst of, als dat later is, op de dag waarop de consument de contractvoorwaarden en verplichte informatie ontvangt. Bij herroeping betaalt de consument het opgenomen bedrag met de verschuldigde rente over die periode terug.",
+    "zie": [
+      "Burgerlijk Wetboek boek 7 titel 2A",
+      "Consumptief krediet",
+      "Standaard Europese Consumentenkredietinformatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Herstelcode",
+    "afk": "",
+    "def": "Code in het Centraal Krediet Informatiesysteem die aangeeft dat een eerder geregistreerde betalingsachterstand is ingelopen of dat de bijzonderheid is beëindigd. De oorspronkelijke achterstandscodering blijft daarbij zichtbaar, maar met de vermelding dat de situatie is hersteld. Hoe lang een registratie daarna zichtbaar blijft, volgt uit het reglement van BKR.",
+    "zie": [
+      "Achterstandscodering",
+      "Centraal Krediet Informatiesysteem",
+      "BKR"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Huurkoop",
+    "afk": "",
+    "def": "Koop op afbetaling waarbij partijen afspreken dat de eigendom van de zaak pas overgaat op de koper nadat alle termijnen zijn betaald. Huurkoop is geregeld in het Burgerlijk Wetboek en geldt bij consumenten als een vorm van consumptief krediet. Financial lease is in veel gevallen juridisch als huurkoop aan te merken.",
+    "zie": [
+      "Financial lease",
+      "Autofinanciering",
+      "Consumptief krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Hypotheekrecht bedrijfspand",
+    "afk": "",
+    "def": "Zekerheidsrecht op een onroerende zaak, zoals een bedrijfspand, ten gunste van een financier. Het hypotheekrecht wordt gevestigd bij notariële akte en ingeschreven in de openbare registers van het Kadaster. Bij wanbetaling mag de financier het pand (in beginsel openbaar) laten verkopen en zich met voorrang verhalen op de opbrengst.",
+    "zie": [
+      "Zekerheidsstelling",
+      "Pandrecht",
+      "Investeringskrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Investeringskrediet",
+    "afk": "",
+    "def": "Zakelijke lening voor de financiering van vaste activa, zoals machines, inventaris, vervoermiddelen of een bedrijfspand. De looptijd sluit doorgaans aan op de economische levensduur van het geïnvesteerde actief, en de financier vraagt meestal zekerheden op het gefinancierde object.",
+    "zie": [
+      "Vermogensbehoefte",
+      "Zekerheidsstelling",
+      "Borgstellingsregeling MKB",
+      "Rekening-courantkrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Jaarlijks kostenpercentage",
+    "afk": "JKP",
+    "def": "Wettelijk voorgeschreven maatstaf die de totale kosten van een consumptief krediet uitdrukt als percentage per jaar van het kredietbedrag, ook wel effectieve jaarrente genoemd. Het JKP omvat naast de rente ook andere verplichte kosten die de consument voor het krediet betaalt. Kredietgevers moeten het JKP vermelden in reclame en precontractuele informatie, zodat aanbiedingen vergelijkbaar zijn.",
+    "zie": [
+      "Debetrente",
+      "Maximale kredietvergoeding",
+      "Standaard Europese Consumentenkredietinformatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kasgeldlening",
+    "afk": "",
+    "def": "Kortlopende lening met een vast bedrag en een looptijd van in de regel minder dan een jaar, waarbij het bedrag in één keer wordt verstrekt en aan het einde van de looptijd wordt afgelost. De rente staat voor de looptijd vast. Kasgeldleningen worden gebruikt voor tijdelijke financieringsbehoeften, bijvoorbeeld door overheden en grotere ondernemingen.",
+    "zie": [
+      "Rekening-courantkrediet",
+      "Liquiditeit",
+      "Looptijd"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kredietbemiddelaar",
+    "afk": "",
+    "def": "Onderneming die consumenten adviseert over of bemiddelt bij het sluiten van een kredietovereenkomst, zonder zelf kredietgever te zijn. Voor bemiddeling in consumptief krediet is een vergunning van de AFM nodig, tenzij een uitzondering geldt. De bemiddelaar moet onder meer informatie geven over zijn dienstverlening en eventuele vergoedingen.",
+    "zie": [
+      "Wft-vergunning consumptief krediet",
+      "Kredietgever",
+      "AFM"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kredietgever",
+    "afk": "",
+    "def": "Partij die in de uitoefening van een beroep of bedrijf krediet verstrekt, zoals een bank of financieringsmaatschappij. Een kredietgever die consumptief krediet aanbiedt, heeft een vergunning van de AFM nodig (of als bank van DNB) en is verplicht een kredietwaardigheidstoets uit te voeren en, als deelnemer van BKR, het CKI te raadplegen.",
+    "zie": [
+      "Kredietbemiddelaar",
+      "Kredietwaardigheidstoets",
+      "Wft-vergunning consumptief krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kredietlimiet",
+    "afk": "",
+    "def": "Het maximale bedrag dat een kredietnemer binnen een doorlopend krediet of rekening-courantkrediet mag opnemen. De limiet wordt bij het aangaan vastgesteld op basis van de kredietwaardigheidstoets. Een verhoging van de limiet vereist een nieuwe toets.",
+    "zie": [
+      "Doorlopend krediet",
+      "Opname",
+      "Rekening-courantkrediet",
+      "Kredietwaardigheidstoets"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Kredietwaardigheidstoets",
+    "afk": "",
+    "def": "Verplichte beoordeling door de kredietgever, vóór het aangaan of verhogen van een krediet, van de vraag of de consument het krediet verantwoord kan dragen. De toets is gebaseerd op informatie over inkomen, vaste lasten en bestaande schulden, onder meer uit het CKI. De Wft verbiedt het verstrekken van krediet als dat met het oog op overkreditering onverantwoord is.",
+    "zie": [
+      "Leencapaciteit",
+      "Overkreditering",
+      "Centraal Krediet Informatiesysteem",
+      "Gedragscode VFN"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Leefgeldnorm",
+    "afk": "",
+    "def": "Normbedrag dat een huishouden minimaal nodig heeft voor de dagelijkse kosten van levensonderhoud, naast de woonlasten. Bij de toetsing van consumptief krediet volgens de Gedragscode VFN wordt de leefgeldnorm in mindering gebracht op het netto inkomen om de ruimte voor een maandlast te bepalen. De normen zijn gebaseerd op Nibud-cijfers en worden periodiek geactualiseerd.",
+    "zie": [
+      "Nibud-normen",
+      "Gedragscode VFN",
+      "Leencapaciteit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Leencapaciteit",
+    "afk": "",
+    "def": "Het maximale bedrag dat een consument op basis van inkomen, vaste lasten en bestaande verplichtingen verantwoord kan lenen. Bij consumptief krediet wordt de leencapaciteit meestal afgeleid uit de maximale maandlast volgens het toetsingskader van de Gedragscode VFN. Bestaande kredieten, ook ongebruikte limieten, verlagen de leencapaciteit.",
+    "zie": [
+      "Kredietwaardigheidstoets",
+      "Leefgeldnorm",
+      "Gedragscode VFN"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Liquiditeit",
+    "afk": "",
+    "def": "Het vermogen van een onderneming of huishouden om de kortlopende verplichtingen op tijd te betalen. Bij ondernemingen wordt de liquiditeit gemeten met kengetallen zoals de current ratio (vlottende activa gedeeld door kortlopende schulden) en de quick ratio. Een tekort aan liquiditeit kan ook bij een winstgevende onderneming tot betalingsproblemen leiden.",
+    "zie": [
+      "Solvabiliteit",
+      "Liquiditeitsbegroting",
+      "Werkkapitaal"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Liquiditeitsbegroting",
+    "afk": "",
+    "def": "Overzicht van de verwachte ontvangsten en uitgaven van een onderneming per periode, meestal per maand. De begroting laat zien of en wanneer een financieringstekort ontstaat en hoe hoog dat is. Financiers gebruiken de liquiditeitsbegroting om de benodigde omvang van bijvoorbeeld een rekening-courantkrediet te beoordelen.",
+    "zie": [
+      "Liquiditeit",
+      "Prognose",
+      "Rekening-courantkrediet",
+      "Financieringsvoorstel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Looptijd",
+    "afk": "",
+    "def": "De periode waarin een krediet wordt terugbetaald of beschikbaar is. Bij een aflopend krediet ligt de looptijd vooraf vast en is het krediet aan het einde volledig afgelost. Een langere looptijd verlaagt de maandtermijn maar verhoogt in de regel de totale rentekosten.",
+    "zie": [
+      "Aflopend krediet",
+      "Aflossing",
+      "Persoonlijke lening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Maximale kredietvergoeding",
+    "afk": "",
+    "def": "Het wettelijke maximum aan kosten dat een kredietgever bij consumptief krediet in rekening mag brengen, uitgedrukt als jaarpercentage. Op grond van het Besluit kredietvergoeding is dit de wettelijke rente vermeerderd met een opslag; die opslag bedraagt 12 procentpunt (sinds 1 januari 2022, na een tijdelijke verlaging tot 10 procentpunt in 2020-2021). Omdat de wettelijke rente periodiek wijzigt, verandert ook het maximum.",
+    "zie": [
+      "Wettelijke rente",
+      "Jaarlijks kostenpercentage"
+    ],
+    "volatiel": true
+  },
+  {
+    "term": "Negatieve hypotheekverklaring",
+    "afk": "",
+    "def": "Verklaring waarin een kredietnemer zich verbindt zijn onroerende zaken niet zonder toestemming van de financier te bezwaren of te verkopen. Financiers vragen deze verklaring bij kredieten zonder hypothecaire zekerheid. Een negatieve hypotheekverklaring geeft geen zakelijk recht, maar schending is een tekortkoming die tot opeising kan leiden.",
+    "zie": [
+      "Zekerheidsstelling",
+      "Opeisbaarheid",
+      "Hypotheekrecht bedrijfspand"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Nibud-normen",
+    "afk": "",
+    "def": "Door het Nationaal Instituut voor Budgetvoorlichting (Nibud) berekende normbedragen voor de uitgaven van huishoudens, zoals minimale kosten van levensonderhoud. Deze normen vormen de basis voor de leefgeldnormen in de Gedragscode VFN en voor de woonlastennormen bij hypotheken. Het Nibud actualiseert de normen periodiek.",
+    "zie": [
+      "Leefgeldnorm",
+      "Gedragscode VFN",
+      "Leencapaciteit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opeisbaarheid",
+    "afk": "",
+    "def": "De situatie waarin de kredietgever het volledige openstaande bedrag in één keer mag terugvorderen. Bij consumptief krediet is dit wettelijk beperkt: vervroegde opeising is onder meer toegestaan als de consument ten minste twee maanden achterstand heeft, schriftelijk in gebreke is gesteld en de achterstand niet binnen de gestelde termijn heeft voldaan, of in specifieke gevallen zoals overlijden of faillissement. Bij zakelijke kredieten volgt opeisbaarheid uit de overeenkomst, bijvoorbeeld bij schending van convenanten.",
+    "zie": [
+      "Verzuim",
+      "Convenanten",
+      "Achterstandscodering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Operational lease",
+    "afk": "",
+    "def": "Leasevorm waarbij de leasemaatschappij eigenaar blijft van het object en het economisch risico draagt, terwijl de lessee tegen een vaste periodieke vergoeding gebruikmaakt van het object. Onderhoud, verzekering en andere diensten zijn vaak in de vergoeding inbegrepen. Aan het einde van de looptijd gaat het object terug naar de leasemaatschappij; voor consumenten heet deze vorm private lease.",
+    "zie": [
+      "Financial lease",
+      "Private lease",
+      "Autofinanciering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Opname",
+    "afk": "",
+    "def": "Het gebruikmaken van (een deel van) de beschikbare ruimte binnen een kredietlimiet, bijvoorbeeld bij een doorlopend krediet of rekening-courantkrediet. Over het opgenomen bedrag is rente verschuldigd. Het niet-opgenomen deel van de limiet telt bij de kredietwaardigheidstoets in de regel toch mee als verplichting.",
+    "zie": [
+      "Kredietlimiet",
+      "Doorlopend krediet",
+      "Debetrente"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Overkreditering",
+    "afk": "",
+    "def": "Situatie waarin een consument meer krediet heeft dan hij redelijkerwijs kan terugbetalen. Het voorkomen van overkreditering is een kerndoel van de Wft-regels voor consumptief krediet, de kredietwaardigheidstoets, de registratie bij BKR en de Gedragscode VFN.",
+    "zie": [
+      "Kredietwaardigheidstoets",
+      "BKR",
+      "Gedragscode VFN"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Oversluiten",
+    "afk": "",
+    "def": "Het aflossen van één of meer bestaande kredieten met een nieuw krediet, bijvoorbeeld om kredieten samen te voegen of een lagere rente te verkrijgen. Voor het nieuwe krediet geldt een volledige kredietwaardigheidstoets. Bij het afwegen spelen onder meer het rentepercentage, de resterende looptijd en een eventuele vergoeding voor vervroegde aflossing een rol.",
+    "zie": [
+      "Vervroegde aflossing",
+      "Kredietwaardigheidstoets",
+      "Persoonlijke lening"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Pandrecht",
+    "afk": "",
+    "def": "Zekerheidsrecht op roerende zaken (zoals voorraad, machines of inventaris) of op vorderingen (zoals debiteuren), ten gunste van een financier. Een pandrecht kan openbaar of stil (bezitloos) worden gevestigd; een stil pandrecht vereist een authentieke of geregistreerde onderhandse akte. Bij wanbetaling mag de pandhouder de verpande goederen verkopen of de vorderingen innen en zich met voorrang verhalen.",
+    "zie": [
+      "Zekerheidsstelling",
+      "Hypotheekrecht bedrijfspand",
+      "Rekening-courantkrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Persoonlijke borgtocht",
+    "afk": "",
+    "def": "Borgtocht waarbij een natuurlijk persoon, vaak de directeur-grootaandeelhouder of een ondernemer, zich privé borg stelt voor schulden van de onderneming. De financier kan de borg aanspreken als de onderneming niet betaalt. De borgtocht is doorgaans beperkt tot een maximumbedrag en houdt geen rekening met het eigen vermogen van de onderneming.",
+    "zie": [
+      "Borgstelling",
+      "Zekerheidsstelling",
+      "Zakelijke financiering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Persoonlijke lening",
+    "afk": "",
+    "def": "Aflopend consumptief krediet waarbij een vast bedrag in één keer wordt uitbetaald en in een vaste looptijd met vaste maandtermijnen wordt terugbetaald. De rente staat meestal voor de hele looptijd vast. Afgeloste bedragen kunnen niet opnieuw worden opgenomen.",
+    "zie": [
+      "Aflopend krediet",
+      "Looptijd",
+      "Doorlopend krediet",
+      "Vervroegde aflossing"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Private lease",
+    "afk": "",
+    "def": "Operational lease van een auto aan een particulier, waarbij de consument tegen een vast maandbedrag een auto gebruikt zonder eigenaar te worden. Onderhoud, verzekering en wegenbelasting zijn meestal inbegrepen. Private lease valt doorgaans niet onder de wettelijke regels voor consumptief krediet, maar wordt in de praktijk wel bij BKR geregistreerd en kent zelfregulering via een keurmerk.",
+    "zie": [
+      "Operational lease",
+      "Autofinanciering",
+      "BKR"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Prognose",
+    "afk": "",
+    "def": "Onderbouwde verwachting van de toekomstige financiële resultaten van een onderneming, zoals omzet, kosten, winst en kasstroom. Prognoses vormen een vast onderdeel van een financieringsvoorstel en dienen om aan te tonen dat de onderneming rente en aflossing kan opbrengen. De betrouwbaarheid hangt af van de gebruikte uitgangspunten.",
+    "zie": [
+      "Financieringsvoorstel",
+      "Liquiditeitsbegroting",
+      "EBITDA"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Qredits",
+    "afk": "",
+    "def": "Stichting zonder winstoogmerk die microkredieten en mkb-kredieten verstrekt aan (startende) ondernemers die moeilijk bij een bank terechtkunnen. Naast financiering biedt Qredits coaching en ondersteuning bij het opstellen van een ondernemingsplan. Leenbedragen en voorwaarden worden door Qredits zelf vastgesteld en periodiek aangepast.",
+    "zie": [
+      "Zakelijke financiering",
+      "Financieringsvoorstel",
+      "Borgstellingsregeling MKB"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Rekening-courantkrediet",
+    "afk": "",
+    "def": "Zakelijk krediet in de vorm van een kredietlimiet op de lopende bankrekening, waarbinnen de onderneming flexibel kan opnemen en storten. Het dient voor de financiering van schommelingen in het werkkapitaal, zoals voorraden en debiteuren. Financiers vragen meestal zekerheden in de vorm van pandrecht op voorraad en debiteuren.",
+    "zie": [
+      "Kredietlimiet",
+      "Werkkapitaal",
+      "Pandrecht",
+      "Liquiditeitsbegroting"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Richtlijn consumentenkrediet",
+    "afk": "CCD",
+    "def": "Europese richtlijn met regels voor kredietovereenkomsten met consumenten (Consumer Credit Directive). De eerste richtlijn (2008/48/EG) is in Nederland geïmplementeerd in Boek 7 titel 2A BW en de Wft. De herziene richtlijn (EU) 2023/2225, CCD2, vervangt deze en verbreedt de reikwijdte, onder meer naar achteraf betalen en kleine kredieten; lidstaten moesten haar uiterlijk in november 2025 omzetten, met toepassing vanaf november 2026.",
+    "zie": [
+      "Burgerlijk Wetboek boek 7 titel 2A",
+      "Achteraf betalen",
+      "Standaard Europese Consumentenkredietinformatie"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Roodstand",
+    "afk": "",
+    "def": "Negatief saldo op een betaalrekening. Bij een afgesproken roodstandfaciliteit is sprake van geoorloofd rood staan binnen een limiet; gaat de rekeninghouder zonder afspraak of boven de limiet rood, dan is sprake van een overschrijding. Op roodstand zijn specifieke regels voor consumentenkrediet van toepassing, waaronder de maximale kredietvergoeding.",
+    "zie": [
+      "Kredietlimiet",
+      "Maximale kredietvergoeding",
+      "Consumptief krediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Schuldhulpverlening",
+    "afk": "",
+    "def": "Hulp aan personen met problematische schulden, gericht op het stabiliseren van de financiële situatie en het vinden van een oplossing voor de schulden. Gemeenten zijn op grond van de Wet gemeentelijke schuldhulpverlening verantwoordelijk voor de toegang tot deze hulp. Schuldhulpverlening kan uitmonden in een minnelijke schuldregeling en, als dat niet lukt, in een verzoek tot toelating tot de WSNP.",
+    "zie": [
+      "Schuldregeling",
+      "WSNP",
+      "Beslagvrije voet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Schuldregeling",
+    "afk": "",
+    "def": "Regeling waarbij een schuldenaar gedurende een vaste periode een deel van zijn schulden afbetaalt aan alle schuldeisers, waarna de schuldeisers de rest kwijtschelden. In het minnelijke traject berust de regeling op instemming van de schuldeisers; lukt dat niet, dan kan de rechter worden verzocht een schuldeiser te dwingen in te stemmen of de schuldenaar toe te laten tot de WSNP. Een schuldregeling wordt bij BKR geregistreerd.",
+    "zie": [
+      "Schuldhulpverlening",
+      "WSNP",
+      "Betalingsregeling",
+      "Achterstandscodering"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Slottermijn",
+    "afk": "",
+    "def": "Een grotere laatste termijn aan het einde van een lease- of leningsovereenkomst, waardoor de periodieke termijnen lager uitvallen. Een slottermijn komt veel voor bij financial lease van auto's. Aan het einde van de looptijd moet de slottermijn worden voldaan, bijvoorbeeld uit eigen middelen, door verkoop of door herfinanciering.",
+    "zie": [
+      "Financial lease",
+      "Autofinanciering",
+      "Aflossing"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Solvabiliteit",
+    "afk": "",
+    "def": "De mate waarin een onderneming op lange termijn aan al haar verplichtingen kan voldoen, meestal uitgedrukt als eigen vermogen ten opzichte van het totaal vermogen. Financiers kunnen achtergestelde leningen tot het garantievermogen rekenen en hanteren solvabiliteit vaak als convenant. Een lage solvabiliteit maakt een onderneming kwetsbaar voor verliezen.",
+    "zie": [
+      "Liquiditeit",
+      "Achtergestelde lening",
+      "Convenanten"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Standaard Europese Consumentenkredietinformatie",
+    "afk": "SECCI",
+    "def": "Gestandaardiseerd informatieformulier dat een kredietgever of kredietbemiddelaar vóór het sluiten van een consumptief krediet aan de consument moet verstrekken. Het formulier bevat onder meer het kredietbedrag, de looptijd, de debetrente, het jaarlijks kostenpercentage, het totaal te betalen bedrag en informatie over het herroepingsrecht. Het doel is dat consumenten aanbiedingen kunnen vergelijken.",
+    "zie": [
+      "Jaarlijks kostenpercentage",
+      "Herroepingsrecht",
+      "Richtlijn consumentenkrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Variabele rente",
+    "afk": "",
+    "def": "Rente die tijdens de looptijd van een krediet kan worden aangepast door de kredietgever, meestal in lijn met de marktrente. Bij doorlopend krediet is de rente doorgaans variabel. De kredietgever moet de consument over een renteaanpassing informeren voordat deze ingaat.",
+    "zie": [
+      "Debetrente",
+      "Doorlopend krediet",
+      "Maximale kredietvergoeding"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vermogensbehoefte",
+    "afk": "",
+    "def": "Het totale bedrag dat een onderneming nodig heeft om investeringen in vaste activa en werkkapitaal te financieren, bijvoorbeeld bij een start, overname of uitbreiding. De vermogensbehoefte wordt in een investerings- en financieringsoverzicht afgezet tegen eigen middelen en vreemd vermogen.",
+    "zie": [
+      "Financieringsvoorstel",
+      "Werkkapitaal",
+      "Investeringskrediet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Vervroegde aflossing",
+    "afk": "",
+    "def": "Het geheel of gedeeltelijk aflossen van een krediet vóór het einde van de looptijd. Een consument heeft altijd het recht om vervroegd af te lossen. Bij een krediet met vaste rente mag de kredietgever een wettelijk begrensde vergoeding vragen (ten hoogste 1% van het vervroegd afgeloste bedrag bij een resterende looptijd van meer dan een jaar en 0,5% bij een kortere resterende looptijd); bij variabele rente is geen vergoeding toegestaan.",
+    "zie": [
+      "Aflossing",
+      "Oversluiten",
+      "Burgerlijk Wetboek boek 7 titel 2A"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Verzuim",
+    "afk": "",
+    "def": "De situatie waarin een schuldenaar zijn verplichting niet tijdig nakomt en dit hem kan worden toegerekend. Verzuim treedt in de regel in na een ingebrekestelling met een redelijke termijn, tenzij een fatale termijn geldt. Verzuim is een voorwaarde voor schadevergoeding en vaak voor opeising of ontbinding.",
+    "zie": [
+      "Opeisbaarheid",
+      "Achterstandscodering",
+      "Beslag"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "VFN",
+    "afk": "VFN",
+    "def": "De Vereniging van Financieringsondernemingen in Nederland is de brancheorganisatie van aanbieders van consumptief krediet, waaronder financieringsmaatschappijen en een aantal banken. De VFN stelt met de Gedragscode VFN aanvullende normen voor verantwoorde kredietverlening op.",
+    "zie": [
+      "Gedragscode VFN",
+      "Kredietgever",
+      "Leefgeldnorm"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Werkkapitaal",
+    "afk": "",
+    "def": "Het vermogen dat een onderneming nodig heeft voor de financiering van haar dagelijkse bedrijfsvoering, zoals voorraden en debiteuren minus crediteuren. Schommelingen in werkkapitaal worden doorgaans gefinancierd met kortlopende middelen, zoals een rekening-courantkrediet of factoring.",
+    "zie": [
+      "Rekening-courantkrediet",
+      "Factoring",
+      "Liquiditeit",
+      "Vermogensbehoefte"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wet op het consumentenkrediet",
+    "afk": "Wck",
+    "def": "Wet die van 1993 tot 2011 de belangrijkste regels voor consumentenkrediet in Nederland bevatte. In 2011 zijn de civielrechtelijke regels overgebracht naar Boek 7 titel 2A BW en de toezichtregels naar de Wft.",
+    "zie": [
+      "Burgerlijk Wetboek boek 7 titel 2A",
+      "Wft",
+      "Maximale kredietvergoeding"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wettelijke rente",
+    "afk": "",
+    "def": "Door de overheid vastgestelde rente die verschuldigd is bij te late betaling van een geldsom, met een afzonderlijk percentage voor handelstransacties. De wettelijke rente voor niet-handelstransacties vormt de basis voor de maximale kredietvergoeding bij consumptief krediet. Het percentage wordt halfjaarlijks bezien en zo nodig aangepast.",
+    "zie": [
+      "Maximale kredietvergoeding",
+      "Verzuim"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wft",
+    "afk": "Wft",
+    "def": "De Wet op het financieel toezicht regelt het toezicht op de financiële sector in Nederland. Voor consumptief krediet bevat de Wft onder meer de vergunningplicht voor aanbieders en bemiddelaars, de vakbekwaamheidseisen, de informatieplichten en de plicht tot een kredietwaardigheidstoets.",
+    "zie": [
+      "AFM",
+      "Wft-vergunning consumptief krediet",
+      "Kredietwaardigheidstoets"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Wft-vergunning consumptief krediet",
+    "afk": "",
+    "def": "Vergunning van de AFM die op grond van de Wft vereist is voor het aanbieden van, adviseren over of bemiddelen in consumptief krediet. De vergunninghouder moet onder meer voldoen aan eisen van vakbekwaamheid (waaronder het Wft-diploma Consumptief Krediet voor adviseurs), betrouwbaarheid, integere bedrijfsvoering en klachtafhandeling. Banken met een DNB-vergunning mogen consumptief krediet aanbieden zonder afzonderlijke AFM-vergunning.",
+    "zie": [
+      "AFM",
+      "Wft",
+      "Kredietbemiddelaar",
+      "Kredietgever"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Woonlastenverzekering",
+    "afk": "",
+    "def": "Verzekering die bij arbeidsongeschiktheid of onvrijwillige werkloosheid gedurende een beperkte periode een vast bedrag per maand uitkeert ter dekking van de woonlasten. In relatie tot krediet is het vooral van belang omdat het wegvallen van inkomen de betaalbaarheid van kredietlasten kan aantasten. Een betalingsbeschermer is de variant die specifiek op de termijnen van een krediet is gericht.",
+    "zie": [
+      "Betalingsbeschermer",
+      "Leencapaciteit"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "WSNP",
+    "afk": "WSNP",
+    "def": "Wettelijke schuldsaneringsregeling voor natuurlijke personen, opgenomen in de Faillissementswet. De rechter kan een schuldenaar toelaten als een minnelijke schuldregeling niet is gelukt; de schuldenaar moet dan gedurende een vaste periode zoveel mogelijk aflossen, onder toezicht van een bewindvoerder. Na een goed doorlopen traject volgt een schone lei; sinds 1 juli 2023 duurt de regeling in beginsel 18 maanden.",
+    "zie": [
+      "Schuldregeling",
+      "Schuldhulpverlening",
+      "Beslagvrije voet"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Zakelijke financiering",
+    "afk": "",
+    "def": "Verzamelnaam voor krediet en andere vormen van vreemd vermogen voor ondernemingen, zoals rekening-courantkrediet, investeringskrediet, lease, factoring, crowdfunding en achtergestelde leningen. Op zakelijke financiering zijn de beschermende regels voor consumentenkrediet in beginsel niet van toepassing; de voorwaarden volgen grotendeels uit de overeenkomst.",
+    "zie": [
+      "Rekening-courantkrediet",
+      "Investeringskrediet",
+      "Factoring",
+      "Financieringsvoorstel"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Zekerheden",
+    "afk": "",
+    "def": "Rechten of toezeggingen die een kredietgever extra waarborg geven dat een krediet wordt terugbetaald, zoals pandrecht, hypotheekrecht, borgtocht of een negatieve hypotheekverklaring. Zekerheden verlagen het risico voor de financier en kunnen invloed hebben op de rente en de hoogte van het krediet. Bij consumptief krediet worden zelden zakelijke zekerheden gevraagd.",
+    "zie": [
+      "Zekerheidsstelling",
+      "Pandrecht",
+      "Borgstelling",
+      "Borgstellingsregeling MKB"
+    ],
+    "volatiel": false
+  },
+  {
+    "term": "Zekerheidsstelling",
+    "afk": "",
+    "def": "Het verstrekken van zekerheden aan een financier, zoals het vestigen van een pand- of hypotheekrecht of het afgeven van een borgtocht. In een zakelijke kredietofferte staat welke zekerheden vereist zijn. Bij het afwikkelen van een krediet worden de zekerheden in de regel vrijgegeven.",
+    "zie": [
+      "Zekerheden",
+      "Pandrecht",
+      "Hypotheekrecht bedrijfspand",
+      "Persoonlijke borgtocht"
+    ],
+    "volatiel": false
+  }
+]
