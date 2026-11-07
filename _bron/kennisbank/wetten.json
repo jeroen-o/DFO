@@ -1,0 +1,930 @@
+[
+ {
+  "term": "Wet op het financieel toezicht",
+  "afk": "Wft",
+  "def": "Kernwet voor vergunningplicht, vakbekwaamheid, zorgplicht, provisieregels en doorlopend toezicht. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "wft.html",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit Gedragstoezicht financiële ondernemingen Wft",
+  "afk": "BGfo",
+  "def": "Werkt de gedragsnormen uit: dienstverleningsdocument, passend advies, beloningsregels en vakbekwaamheid. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "bgfo.html",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Nadere regeling gedragstoezicht financiële ondernemingen Wft",
+  "afk": "Nrgfo",
+  "def": "Technische uitwerking van het BGfo, onder meer voor informatieverstrekking en kostentransparantie. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020540",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Vrijstellingsregeling Wft",
+  "afk": "",
+  "def": "Bepaalt welke partijen en activiteiten buiten de vergunningplicht vallen. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020536",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit markttoegang financiële ondernemingen Wft",
+  "afk": "Bmfo",
+  "def": "Eisen bij het aanvragen van een vergunning en bij markttoetreding. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020413",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit prudentiële regels Wft",
+  "afk": "Bpr",
+  "def": "Prudentiële eisen, onder meer aan beheerste en integere bedrijfsvoering. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "",
+  "bron": ""
+ },
+ {
+  "term": "Regeling eindtermen en toetstermen examens financiële dienstverlening Wft",
+  "afk": "",
+  "def": "Eind- en toetstermen van de Wft-examens; basis voor vakbekwaamheid en permanente educatie. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0032957",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling gelijkstelling diploma's vakbekwaamheid Wft",
+  "afk": "",
+  "def": "Welke eerdere diploma's en certificaten gelijkgesteld zijn aan Wft-diploma's. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0034397",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Kifid-reglementen",
+  "afk": "Kifid",
+  "def": "Reglementen van de Geschillencommissie en de Commissie van Beroep: termijnen, kosten en procedure bij klachten over financiële dienstverlening. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://www.kifid.nl/reglementen/",
+  "bron": ""
+ },
+ {
+  "term": "Richtlijn verzekeringsdistributie (EU) 2016/97",
+  "afk": "IDD",
+  "def": "Europese eisen aan advies over en distributie van verzekeringen, waaronder productontwikkeling, belangenconflicten en vakbekwaamheid. Geïmplementeerd in de Wft. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32016L0097",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Richtlijn markten voor financiële instrumenten (EU) 2014/65",
+  "afk": "MiFID II",
+  "def": "Europese regels voor beleggingsdienstverlening en beleggingsadvies. Geïmplementeerd in de Wft. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014L0065",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Verordening duurzaamheidsinformatie (EU) 2019/2088",
+  "afk": "SFDR",
+  "def": "Openbaarmaking van duurzaamheidsrisico's en -voorkeuren door financiële adviseurs en aanbieders. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32019R2088",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "PRIIPs-verordening (EU) 1286/2014",
+  "afk": "PRIIPs",
+  "def": "Essentiële-informatiedocument voor verpakte beleggingsproducten en verzekeringsproducten met een beleggingscomponent. Thema: Wft & toezicht.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014R1286",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Tijdelijke regeling hypothecair krediet",
+  "afk": "TRHK",
+  "def": "Leennormen voor hypothecair krediet: financieringslastpercentages en de verhouding lening-waarde. Wijzigt elk jaar per 1 januari. Thema: Krediet & hypotheek.",
+  "volatiel": true,
+  "link": "trhk.html",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Hypothekenrichtlijn (EU) 2014/17",
+  "afk": "MCD",
+  "def": "Europese basis voor de regels over hypothecair krediet aan consumenten, waaronder ESIS-informatie en kredietwaardigheidstoetsing. Geïmplementeerd in de Wft en het BGfo. Thema: Krediet & hypotheek.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014L0017",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Gedragscode Hypothecaire Financieringen 2020",
+  "afk": "GHF",
+  "def": "Zelfregulering van banken en verzekeraars met minimumeisen voor offertes, voorwaarden en kostenoverzichten; sinds 1 augustus 2020. Thema: Krediet & hypotheek.",
+  "volatiel": false,
+  "link": "https://www.nvb.nl/media/3402/gedragscode-hypothecaire-financieringen-2020.pdf",
+  "bron": ""
+ },
+ {
+  "term": "Wet op het consumentenkrediet",
+  "afk": "WCK",
+  "def": "Regelt consumptief krediet voor zover dat niet onder de Wft valt. Thema: Krediet & hypotheek.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004815",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Herziene richtlijn consumentenkrediet (EU) 2023/2225",
+  "afk": "CCD II",
+  "def": "Geldt vanaf 20 november 2026 en brengt onder meer BNPL en lease met koopoptie onder toezicht. De Nederlandse implementatiewet is in voorbereiding. Thema: Krediet & hypotheek.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32023L2225",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Wet ter voorkoming van witwassen en financieren van terrorisme",
+  "afk": "Wwft",
+  "def": "Cliëntenonderzoek, risicobeoordeling en meldplicht ongebruikelijke transacties voor adviseurs en bemiddelaars. Thema: Wwft & integriteit.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0024281",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit Wwft 2018",
+  "afk": "",
+  "def": "Werkt het cliëntenonderzoek en de UBO-verplichtingen uit. Thema: Wwft & integriteit.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0041193",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "EU-witwasverordening (EU) 2024/1624",
+  "afk": "AMLR",
+  "def": "Europees anti-witwaspakket met rechtstreeks werkende regels en een Europese toezichthouder, komt boven op de huidige Wwft. Thema: Wwft & integriteit.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1624",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Zesde anti-witwasrichtlijn (EU) 2024/1640",
+  "afk": "AMLD6",
+  "def": "Richtlijn over nationale toezichtsbevoegdheden, FIU's en UBO-registers; wordt in de Wwft en aanverwante wetgeving geïmplementeerd. Thema: Wwft & integriteit.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024L1640",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Algemene verordening gegevensbescherming (EU) 2016/679",
+  "afk": "AVG",
+  "def": "Europese privacyregels voor het verwerken van klantgegevens: grondslagen, informatieplicht, beveiliging en rechten van betrokkenen. Thema: Privacy & technologie.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32016R0679",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Uitvoeringswet Algemene verordening gegevensbescherming",
+  "afk": "UAVG",
+  "def": "Nederlandse uitwerking van de AVG; bepaalt onder meer wanneer bijzondere persoonsgegevens verwerkt mogen worden. Thema: Privacy & technologie.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0040940",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "AI-verordening (EU) 2024/1689",
+  "afk": "AI Act",
+  "def": "Europese regels voor ontwikkeling en gebruik van AI-systemen, gefaseerd van toepassing. Raakt advieskantoren via software en modellen. Thema: Privacy & technologie.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1689",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Digital Operational Resilience Act (EU) 2022/2554",
+  "afk": "DORA",
+  "def": "Europese eisen aan digitale weerbaarheid, ICT-risicobeheer en uitbesteding in de financiële sector. Thema: Privacy & technologie.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32022R2554",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Grondwet",
+  "afk": "",
+  "def": "Grondrechten en de inrichting van de staat. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0001840",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 1 — Personen- en familierecht",
+  "afk": "BW 1",
+  "def": "Huwelijk, geregistreerd partnerschap, huwelijksvermogensrecht, gezag en curatele. Thema: Familie & relatie.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002656",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 2 — Rechtspersonen",
+  "afk": "BW 2",
+  "def": "Rechtsvormen, bestuur en aansprakelijkheid van rechtspersonen. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0003045",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 3 — Vermogensrecht",
+  "afk": "BW 3",
+  "def": "Algemene vermogensrechtelijke begrippen: goederen, rechtshandelingen, volmacht en verjaring. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0005291",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 4 — Erfrecht",
+  "afk": "BW 4",
+  "def": "Wettelijke verdeling, legitieme portie, testamenten en vereffening van de nalatenschap. Thema: Erfrecht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0012701",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 5 — Zakelijke rechten",
+  "afk": "BW 5",
+  "def": "Eigendom, erfdienstbaarheden, erfpacht, opstal en appartementsrechten. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0005288",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 6 — Verbintenissenrecht",
+  "afk": "BW 6",
+  "def": "Nakoming, wanprestatie, onrechtmatige daad en algemene voorwaarden. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0005289",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 7 — Bijzondere overeenkomsten",
+  "afk": "BW 7",
+  "def": "Koop, opdracht, verzekering, huur en arbeidsovereenkomst. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0005290",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 7A — Bijzondere overeenkomsten, vervolg",
+  "afk": "BW 7A",
+  "def": "Resterende benoemde overeenkomsten uit het oude recht. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0006000",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Burgerlijk Wetboek Boek 10 — Internationaal privaatrecht",
+  "afk": "BW 10",
+  "def": "Welk recht geldt bij grensoverschrijdende situaties, onder meer bij huwelijksvermogen en erfopvolging. Thema: Buitenland.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0030068",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Faillissementswet",
+  "afk": "Fw",
+  "def": "Faillissement, surseance en de wettelijke schuldsanering natuurlijke personen. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0001860",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wetboek van Koophandel",
+  "afk": "WvK",
+  "def": "Resterende handelsrechtelijke bepalingen. Thema: Burgerlijk recht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0001838",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet arbeid en zorg",
+  "afk": "Wazo",
+  "def": "Verlofvormen en uitkeringen rond zwangerschap, geboorte en zorg. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0013008",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemene wet inzake rijksbelastingen",
+  "afk": "AWR",
+  "def": "Formeel belastingrecht: aangifte, aanslag, bezwaar en navordering. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002320",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling Algemene wet inzake rijksbelastingen 1994",
+  "afk": "",
+  "def": "Uitwerking van de formele verplichtingen uit de AWR. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0006736",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet inkomstenbelasting 2001",
+  "afk": "Wet IB 2001",
+  "def": "Eigenwoningregeling, hypotheekrenteaftrek, box 3 en lijfrenteaftrek. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0011353",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Invoeringswet Wet inkomstenbelasting 2001",
+  "afk": "",
+  "def": "Overgangsrecht, onder meer voor kapitaalverzekeringen eigen woning. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0011354",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit inkomstenbelasting 2001",
+  "afk": "",
+  "def": "Uitwerking van begrippen uit de Wet IB 2001. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0012066",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling inkomstenbelasting 2001",
+  "afk": "",
+  "def": "Nadere regels, onder meer voor de eigenwoningschuld en de aflossingsstand. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0012067",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet rechtsherstel box 3",
+  "afk": "",
+  "def": "Herstelwetgeving na het Kerstarrest over de forfaitaire rendementsheffing. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0047699",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Overbruggingswet box 3",
+  "afk": "",
+  "def": "Forfaitaire heffing in box 3 per vermogenscategorie (banktegoeden, overige bezittingen, schulden), vanaf 2023 tot een nieuw stelsel in werking treedt. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0047702",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op de loonbelasting 1964",
+  "afk": "Wet LB",
+  "def": "Loonheffing, pensioenregelingen in de loonsfeer en de werkkostenregeling. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002471",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit loonbelasting 1965",
+  "afk": "",
+  "def": "Uitwerking van de Wet LB. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002489",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling loonbelasting 2011",
+  "afk": "",
+  "def": "Nadere regels over loonbestanddelen en vrijstellingen. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0028965",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op de vennootschapsbelasting 1969",
+  "afk": "Vpb",
+  "def": "Winstbelasting voor rechtspersonen; relevant bij de dga en de bv-structuur. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002672",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit vennootschapsbelasting 1971",
+  "afk": "",
+  "def": "Uitwerking van de Vpb. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002741",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbeschikking vennootschapsbelasting 1971",
+  "afk": "",
+  "def": "Nadere regels bij de Vpb. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002784",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op de dividendbelasting 1965",
+  "afk": "",
+  "def": "Heffing over uitgekeerd dividend. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002515",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op belastingen van rechtsverkeer",
+  "afk": "WBR",
+  "def": "Overdrachtsbelasting en assurantiebelasting. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002740",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit belastingen van rechtsverkeer",
+  "afk": "",
+  "def": "Uitwerking van vrijstellingen en tarieven, onder meer de startersvrijstelling. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002758",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Successiewet 1956",
+  "afk": "SW",
+  "def": "Erfbelasting en schenkbelasting, inclusief vrijstellingen en bedrijfsopvolging. Thema: Erfrecht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002226",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit Successiewet 1956",
+  "afk": "",
+  "def": "Uitwerking van de Successiewet. Thema: Erfrecht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002227",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling schenk- en erfbelasting",
+  "afk": "",
+  "def": "Nadere regels over aangifte en waardering. Thema: Erfrecht.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0027018",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Natuurschoonwet 1928",
+  "afk": "NSW",
+  "def": "Fiscale faciliteiten voor landgoederen. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0001939",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Registratiewet 1970",
+  "afk": "",
+  "def": "Registratie van akten en onderhandse stukken. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002739",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Invorderingswet 1990",
+  "afk": "IW",
+  "def": "Inning van belastingschulden, aansprakelijkheid en betalingsregelingen. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004770",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit Invorderingswet 1990",
+  "afk": "",
+  "def": "Uitwerking van de invordering. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004772",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling Invorderingswet 1990",
+  "afk": "",
+  "def": "Nadere regels, onder meer over uitstel van betaling. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004766",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet waardering onroerende zaken",
+  "afk": "Wet WOZ",
+  "def": "Waardebepaling van onroerende zaken; basis voor eigenwoningforfait en lokale heffingen. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0007119",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling uitgezonderde objecten Wet WOZ",
+  "afk": "",
+  "def": "Welke objecten buiten de WOZ-waardering blijven. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0007142",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit voorkoming dubbele belasting 2001",
+  "afk": "Bvdb",
+  "def": "Voorkoming van dubbele heffing bij inkomen of vermogen in het buitenland. Thema: Buitenland.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0012095",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit voorkoming dubbele belasting BES",
+  "afk": "",
+  "def": "Regeling voor Bonaire, Sint Eustatius en Saba. Thema: Buitenland.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0029674",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit 30%-regeling extraterritoriale werknemers",
+  "afk": "",
+  "def": "Onbelaste vergoeding voor ingekomen werknemers; raakt het toetsinkomen bij hypotheekadvies. Thema: Buitenland.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0033855",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit betaalpauze rente en aflossing eigenwoningschuld",
+  "afk": "",
+  "def": "Voorwaarden waaronder een betaalpauze de renteaftrek niet aantast. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0045648",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Verzamelbesluit kapitaalverzekeringen, SEW en BEW",
+  "afk": "",
+  "def": "Beleidsbesluit over KEW, SEW en BEW, inclusief overgangsrecht en afkoop. Thema: Fiscaal.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0050034",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Pensioenwet",
+  "afk": "PW",
+  "def": "Opbouw, uitvoering en communicatie van tweedepijlerpensioen. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020809",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet toekomst pensioenen",
+  "afk": "Wtp",
+  "def": "Overgang naar het vernieuwde pensioenstelsel met premieregelingen; bepalend voor transitie en nabestaandendekking. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0048328",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit toekomst pensioenen",
+  "afk": "",
+  "def": "Uitwerking van de Wtp, onder meer voor transitie en overgangsrecht. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0048343",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit uitvoering Pensioenwet en Wet verplichte beroepspensioenregeling",
+  "afk": "",
+  "def": "Uitwerking van de Pensioenwet. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020892",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling Pensioenwet en Wet verplichte beroepspensioenregeling",
+  "afk": "",
+  "def": "Nadere regels bij de Pensioenwet. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0020917",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling berekening waarde-overdracht",
+  "afk": "",
+  "def": "Rekenregels bij individuele waarde-overdracht van pensioen. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "",
+  "bron": ""
+ },
+ {
+  "term": "Wet verevening pensioenrechten bij scheiding",
+  "afk": "Wvps",
+  "def": "Verdeling van ouderdomspensioen bij scheiding; geldt sinds 1 mei 1995. De beoogde opvolger is niet ingevoerd. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0006641",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling pensioenberekening deelnemingsjaren voor 1 mei 1995",
+  "afk": "",
+  "def": "Rekenregels voor pensioenjaren van vóór de Wvps. Thema: Pensioen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0007144",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemene wet inkomensafhankelijke regelingen",
+  "afk": "AWIR",
+  "def": "Gemeenschappelijk kader voor alle toeslagen: toetsingsinkomen, partnerbegrip en terugvordering. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0018472",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsbesluit AWIR",
+  "afk": "",
+  "def": "Uitwerking van het toeslagenkader. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0018590",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Uitvoeringsregeling AWIR",
+  "afk": "",
+  "def": "Nadere regels over aanvraag en vaststelling. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0019237",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet kinderopvang",
+  "afk": "",
+  "def": "Recht op en hoogte van de kinderopvangtoeslag. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0017252",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit kinderopvangtoeslag",
+  "afk": "",
+  "def": "Maximum uurprijzen en toetsingstabellen; wijzigt jaarlijks. Thema: Toeslagen.",
+  "volatiel": true,
+  "link": "https://wetten.overheid.nl/BWBR0017321",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op het kindgebonden budget",
+  "afk": "WKB",
+  "def": "Inkomensafhankelijke bijdrage in de kosten van kinderen. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0022751",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op de zorgtoeslag",
+  "afk": "",
+  "def": "Tegemoetkoming in de premie zorgverzekering. Thema: Toeslagen.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0018451",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet op de huurtoeslag",
+  "afk": "",
+  "def": "Voorwaarden en berekening van de huurtoeslag. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0008659",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit op de huurtoeslag",
+  "afk": "",
+  "def": "Uitwerking van de huurtoeslagberekening. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0008763",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet minimumloon en minimumvakantiebijslag",
+  "afk": "WML",
+  "def": "Minimumuurloon en vakantiebijslag; basis voor veel inkomensafhankelijke normen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002638",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet studiefinanciering 2000",
+  "afk": "WSF",
+  "def": "Studiefinanciering en studieschuld; de schuld telt mee bij de leencapaciteit. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0011453",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Werkloosheidswet",
+  "afk": "WW",
+  "def": "Recht, hoogte en duur van de WW-uitkering. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004045",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Toeslagenwet",
+  "afk": "TW",
+  "def": "Aanvulling op een uitkering tot het sociaal minimum. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004043",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet financiering sociale verzekeringen",
+  "afk": "Wfsv",
+  "def": "Premieheffing voor de werknemers- en volksverzekeringen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0017745",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemene Ouderdomswet",
+  "afk": "AOW",
+  "def": "AOW-leeftijd en opbouw; bepalend voor het inkomen na pensionering. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002221",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemene nabestaandenwet",
+  "afk": "Anw",
+  "def": "Nabestaandenuitkering; belangrijk bij de overlijdensrisicoanalyse. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0007795",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemene Kinderbijslagwet",
+  "afk": "AKW",
+  "def": "Kinderbijslag per leeftijdsgroep. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0002368",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit uitvoering kinderbijslag",
+  "afk": "",
+  "def": "Uitwerking van de AKW. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0035261",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Ziektewet",
+  "afk": "ZW",
+  "def": "Uitkering bij ziekte zonder werkgever, onder meer voor uitzendkrachten en na einde dienstverband. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0001888",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet werk en inkomen naar arbeidsvermogen",
+  "afk": "WIA",
+  "def": "WGA en IVA bij langdurige arbeidsongeschiktheid; kern van de inkomensanalyse. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0019057",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet arbeidsongeschiktheidsvoorziening jonggehandicapten",
+  "afk": "Wajong",
+  "def": "Voorziening voor jonggehandicapten. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0008657",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Algemeen inkomensbesluit socialezekerheidswetten",
+  "afk": "",
+  "def": "Welk inkomen wordt verrekend met een uitkering. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0029368",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Dagloonbesluit werknemersverzekeringen",
+  "afk": "",
+  "def": "Berekening van het dagloon voor WW, ZW en WIA. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0033486",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet inkomensvoorziening oudere werklozen",
+  "afk": "IOW",
+  "def": "Vervolguitkering voor oudere werklozen na de WW. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0024394",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet inkomensvoorziening oudere en deels arbeidsongeschikte werklozen",
+  "afk": "IOAW",
+  "def": "Inkomensvoorziening zonder vermogenstoets voor oudere werklozen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004044",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen",
+  "afk": "IOAZ",
+  "def": "Vergelijkbare voorziening voor gestopte zelfstandigen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0004163",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Participatiewet",
+  "afk": "",
+  "def": "Bijstand, vermogensgrenzen en de kostendelersnorm. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0015703",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Zorgverzekeringswet",
+  "afk": "Zvw",
+  "def": "Verzekeringsplicht, basispakket en inkomensafhankelijke bijdrage. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0018450",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling zorgverzekering",
+  "afk": "",
+  "def": "Uitwerking van pakket, eigen risico en bijdragen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0018715",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Regeling aanwijzing directeur-grootaandeelhouder 2016",
+  "afk": "",
+  "def": "Wanneer een dga niet verzekerd is voor de werknemersverzekeringen. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0036819",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet aanpassing wettelijke gemeenschap van goederen 2012",
+  "afk": "",
+  "def": "Overgangsrecht voor huwelijken van vóór 2012. Thema: Familie & relatie.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0029955",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet beperking gemeenschap van goederen 2018",
+  "afk": "",
+  "def": "Beperkte gemeenschap voor huwelijken vanaf 1 januari 2018; bepalend bij scheiding en eigen woning. Thema: Familie & relatie.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0039474",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet herziening partneralimentatie 2020",
+  "afk": "",
+  "def": "Verkorting van de alimentatieduur; raakt het toetsinkomen na scheiding. Thema: Familie & relatie.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0042499",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Besluit overgangsrecht transitievergoeding",
+  "afk": "",
+  "def": "Overgangsregels bij de transitievergoeding. Thema: Sociale zekerheid.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0036595",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Europese Erfrechtverordening 650/2012",
+  "afk": "",
+  "def": "Bepaalt welk erfrecht geldt bij een nalatenschap met een buitenlandcomponent. Thema: Buitenland.",
+  "volatiel": false,
+  "link": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32012R0650",
+  "bron": "EUR-Lex"
+ },
+ {
+  "term": "Wet betaalbare huur",
+  "afk": "Wbh",
+  "def": "Uitbreiding van het puntenstelsel naar de middenhuur per 1 juli 2024; raakt rendement en financierbaarheid van verhuurd vastgoed. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0049889",
+  "bron": "wetten.overheid.nl"
+ },
+ {
+  "term": "Wet goed verhuurderschap",
+  "afk": "Wgv",
+  "def": "Normen voor verhuurders en gemeentelijke handhaving. Thema: Wonen & huur.",
+  "volatiel": false,
+  "link": "https://wetten.overheid.nl/BWBR0048028",
+  "bron": "wetten.overheid.nl"
+ }
+]

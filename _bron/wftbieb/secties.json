@@ -1,0 +1,155 @@
+{
+ "actueel": [
+  {
+   "k": "CCD II — 20 november 2026",
+   "t": "De herziene richtlijn consumentenkrediet gaat gelden; de Tweede Kamer nam de Nederlandse implementatiewet op 6 oktober 2026 aan (Kamerstuk 36924). Aanbieders van BNPL, uitgestelde-betaalkaarten en huur of lease met koopoptie moeten toetsen of zij vergunningplichtig worden onder art. 2:60 Wft. Bemiddelaars in nieuw onder toezicht gebrachte kredietvormen hebben een vergunning nodig onder art. 2:80 Wft."
+  },
+  {
+   "k": "EU-witwaspakket (AMLR/AMLD6)",
+   "t": "AMLR en AMLD6 komen boven op de huidige Wwft; de Wwft wordt op termijn vervangen door een implementatiewet bij het Europese pakket. De poortwachtersrol van adviseurs verandert mee."
+  },
+  {
+   "k": "Hypotheekacceptatie 2026",
+   "t": "De NHG-kostengrens is € 470.000 (2027: € 500.000). Meerdere geldverstrekkers beperken het aflossingsvrije deel bij nieuwe aanvragen tot 30% van de woningwaarde, en taxatierapporten moeten ingaan op funderingsrisico. Check de actuele acceptatiecriteria per geldverstrekker."
+  },
+  {
+   "k": "AI-verordening en DORA",
+   "t": "Gefaseerde toepassing raakt advieskantoren via software, modellen en uitbesteding."
+  },
+  {
+   "k": "TRHK en NHG Voorwaarden & Normen",
+   "t": "Wijzigen jaarlijks per 1 januari — werk met de jaarversie, nooit met een kale link."
+  }
+ ],
+ "toezicht": [
+  {
+   "h": "AFM — adviseurs, bemiddelaars en gevolmachtigden",
+   "p": [
+    "Vergunningplicht, vakbekwaamheid, provisieregels, zorgplicht en doorlopend toezicht. De sectorpagina's van de AFM leggen uit hoe de toezichthouder de Wft-normen toepast."
+   ],
+   "links": [
+    [
+     "Naar de AFM",
+     "https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars"
+    ]
+   ]
+  },
+  {
+   "h": "DNB — integriteitstoezicht",
+   "p": [
+    "De Nederlandsche Bank houdt prudentieel toezicht en ziet bij banken, verzekeraars en pensioenfondsen toe op integriteit en de Wwft. Open Boek Toezicht bundelt beleid, leidraden en Q&A's, waaronder de Leidraad Wwft en Sanctiewet."
+   ],
+   "links": [
+    [
+     "Naar DNB Open Boek Toezicht",
+     "https://www.dnb.nl/voor-de-sector/open-boek-toezicht/thema-s/toezicht-op-financieel-economische-criminaliteit-integriteitstoezicht/"
+    ],
+    [
+     "Introductie Wwft (DNB)",
+     "https://www.dnb.nl/voor-de-sector/open-boek-toezicht/wet-regelgeving/wwft/introductie-wwft/"
+    ]
+   ]
+  },
+  {
+   "h": "Kifid — uitspraken",
+   "p": [
+    "Het uitsprakenregister laat zien waar de zorgplicht in concrete dossiers op stukloopt. Doorzoekbaar op categorie, periode en uitspraaknummer; uitspraken verschijnen als pdf."
+   ],
+   "links": [
+    [
+     "Naar het register",
+     "https://www.kifid.nl/kifid-kennis-en-uitspraken/uitspraken/"
+    ]
+   ]
+  },
+  {
+   "h": "DFO Signalen",
+   "p": [
+    "De wekelijkse nieuwsbrief met signalen uit de markt, modelteksten en praktijkanalyses voor het advieskantoor. Het archief gaat jaren terug."
+   ],
+   "links": [
+    [
+     "Naar DFO Signalen",
+     "https://www.dfosignalen.nl/"
+    ]
+   ]
+  },
+  {
+   "h": "NHG — Voorwaarden & Normen",
+   "p": [
+    "De normen wijzigen jaarlijks per 1 januari en gelden per versiedatum van de offerte. Werk altijd met de jaarversie die op het dossier van toepassing is."
+   ],
+   "links": [
+    [
+     "Naar NHG",
+     "https://www.nhg.nl/"
+    ]
+   ]
+  }
+ ],
+ "rekenen": [
+  {
+   "h": "Financieringslastpercentages",
+   "p": [
+    "De tabellen staan in paragraaf 4 van de Tijdelijke regeling hypothecair krediet en worden elk jaar vervangen."
+   ],
+   "links": [
+    [
+     "Open paragraaf 4 TRHK",
+     "https://wetten.overheid.nl/BWBR0032503/#Paragraaf4"
+    ]
+   ]
+  },
+  {
+   "h": "Jaarruimte en lijfrentepremie",
+   "p": [
+    "De rekenhulp van de Belastingdienst berekent de aftrekbare jaarruimte over het voorgaande kalenderjaar."
+   ],
+   "links": [
+    [
+     "Naar de Belastingdienst",
+     "https://www.belastingdienst.nl/"
+    ]
+   ]
+  },
+  {
+   "h": "Overlevingstafels",
+   "p": [
+    "Sterftekansen en levensverwachting per leeftijd en geslacht, via StatLine van het CBS."
+   ],
+   "links": [
+    [
+     "Naar het CBS",
+     "https://www.cbs.nl/"
+    ]
+   ]
+  }
+ ],
+ "faq": [
+  {
+   "q": "Wat is de Wft?",
+   "a": "De Wet op het financieel toezicht (Wft) is sinds 1 januari 2007 de kernwet voor het toezicht op de financiële sector. De AFM houdt gedragstoezicht, De Nederlandsche Bank prudentieel toezicht. Voor adviseurs en bemiddelaars regelt de Wft onder meer vergunningplicht, vakbekwaamheid, zorgplicht en provisieregels; het Besluit Gedragstoezicht financiële ondernemingen Wft (BGfo) werkt die normen uit."
+  },
+  {
+   "q": "Wanneer heb ik als adviseur of bemiddelaar een AFM-vergunning nodig?",
+   "a": "Wie adviseert over of bemiddelt in financiële producten zoals hypotheken, verzekeringen of consumptief krediet, heeft in beginsel een vergunning van de AFM nodig (art. 2:75 en 2:80 Wft). Er gelden uitzonderingen, bijvoorbeeld voor een aangesloten onderneming onder een collectieve vergunning of via de Vrijstellingsregeling Wft. Toets uw eigen situatie altijd aan de wettekst of laat u adviseren."
+  },
+  {
+   "q": "Wat verandert er door de herziene richtlijn consumentenkrediet (CCD II)?",
+   "a": "CCD II (richtlijn (EU) 2023/2225) geldt vanaf 20 november 2026 en brengt onder meer buy now pay later en huur of lease met koopoptie onder het kredietregime. De Tweede Kamer nam de Nederlandse implementatiewet op 6 oktober 2026 aan (Kamerstuk 36924); aanbieders en bemiddelaars moeten nagaan of zij vergunningplichtig worden."
+  },
+  {
+   "q": "Waar vind ik de financieringslastpercentages voor hypotheken?",
+   "a": "De financieringslastpercentages en de maximale verhouding tussen lening en woningwaarde staan in de Tijdelijke regeling hypothecair krediet (TRHK). Die regeling wijzigt elk jaar per 1 januari; gebruik altijd de versie die geldt op de datum van het dossier."
+  },
+  {
+   "q": "Geldt de Wwft voor financieel adviseurs?",
+   "a": "De Wwft geldt voor de instellingen die in de wet zijn aangewezen, waaronder bemiddelaars in levensverzekeringen. Zij moeten cliëntenonderzoek doen en ongebruikelijke transacties melden. Of en in hoeverre de Wwft op uw kantoor van toepassing is, hangt af van de diensten die u verleent; controleer art. 1a Wwft. Vanaf 2027 komt de Europese witwasverordening (AMLR) daarbovenop."
+  },
+  {
+   "q": "Hoe actueel zijn de verwijzingen in de WFT Bieb?",
+   "a": "Nationale regelingen verwijzen naar wetten.overheid.nl, dat altijd de geldende tekst toont; Europese regels verwijzen naar EUR-Lex. De peildatum bovenaan de pagina geeft aan wanneer het overzicht is bijgewerkt. Kaarten met het label 'Verwijzing te verifiëren' hebben nog geen gecontroleerde directe link."
+  }
+ ],
+ "peildatum": "15 oktober 2026"
+}

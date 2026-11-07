@@ -121,12 +121,15 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="opleidingen.html#nvhp">NVHP-masterclasses</a></li>
       <li><a href="documenten.html">Modeldocumenten &amp; contracten</a></li>
       <li><a href="compliance.html">DFO Compliance</a></li>
+      <li><a href="wft-bieb.html">WFT Bieb: wet- en regelgeving</a></li>
+      <li><a href="kennistoets.html">Wft-kennistoets</a></li>
       <li><a href="abonnementen.html">Abonnementen &amp; servicepakketten</a></li>
       <li><a href="onderzoek.html">Onderzoek</a></li>
       <li><a href="nazorg-calculator.html">Calculator nazorgabonnement</a></li>
     </ul></div>
     <div><h4>Faciliteiten</h4><ul>
       <li><a href="vergadercentrum.html">DFO Vergadercentrum</a></li>
+      <li><a href="https://www.amersfoort-vergaderruimte.nl/" rel="noopener">Vergaderruimte Amersfoort</a></li>
       <li><a href="studio.html">DFO Studio</a></li>
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
@@ -1559,6 +1562,8 @@ def build_wetten_pages():
 def build_kennisbank_page():
     import afm_kennis
     afm_kennis.build()
+    import wftbieb
+    print("wft-bieb:", wftbieb.build(page, hero, callout))
     import kennisbank
     print("kennisbank:", kennisbank.build_kennisbank(page, hero, callout, icon, cursussen, agenda), "begrippen")
 

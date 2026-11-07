@@ -16,6 +16,8 @@ DOMEINEN = [
     ("inkomen", "Inkomensverzekeringen", "inkomen"),
     ("wetgeving", "Wet- en regelgeving", "compliance"),
     ("afm", "AFM: regels & leidraden", "compliance"),
+    ("wetten", "Wetten & regelingen", "compliance"),
+    ("praktijk", "Praktijkthema's Wft", "compliance"),
 ]
 
 
@@ -125,9 +127,9 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
 
     print("kennisbank: begrippen met gerelateerd aanbod:", nrel)
     vandaag = datetime.date.today()
-    body = hero("Kennisbank", f"{len(items)} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen en wet- en regelgeving, helder uitgelegd voor financieel adviseurs.",
+    body = hero("Kennisbank", f"{len(items)} begrippen, wetten en praktijkthema's uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen en wet- en regelgeving, helder uitgelegd voor financieel adviseurs.",
                 crumbs=["Kennisbank"],
-                btns='<a class="btn btn-light arrow" href="#zoek">Zoek een begrip</a><a class="btn btn-ghost" href="#opleidingen">Opleidingen en documenten</a>')
+                btns='<a class="btn btn-light arrow" href="#zoek">Zoek een begrip</a><a class="btn btn-ghost" href="wft-bieb.html">WFT Bieb: alle regelgeving</a><a class="btn btn-ghost" href="kennistoets.html">Wft-kennistoets</a><a class="btn btn-ghost" href="#opleidingen">Opleidingen en documenten</a>')
     body += f"""
 <section id="zoek"><div class="wrap kb">
   <div class="kb-tools">

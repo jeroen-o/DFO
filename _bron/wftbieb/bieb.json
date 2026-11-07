@@ -1,0 +1,1145 @@
+{
+ "THEMAS": {
+  "wft": "Wft & toezicht",
+  "krediet": "Krediet & hypotheek",
+  "integriteit": "Wwft & integriteit",
+  "pensioen": "Pensioen",
+  "fiscaal": "Fiscaal",
+  "familie": "Familie & relatie",
+  "erfrecht": "Erfrecht",
+  "sociaal": "Sociale zekerheid",
+  "toeslagen": "Toeslagen",
+  "wonen": "Wonen & huur",
+  "privacy": "Privacy & technologie",
+  "buitenland": "Buitenland",
+  "burgerlijk": "Burgerlijk recht"
+ },
+ "WETTEN": [
+  {
+   "t": "Wet op het financieel toezicht",
+   "a": "Wft",
+   "b": "BWBR0020368",
+   "c": "wft",
+   "d": "Kernwet voor vergunningplicht, vakbekwaamheid, zorgplicht, provisieregels en doorlopend toezicht."
+  },
+  {
+   "t": "Besluit Gedragstoezicht financiële ondernemingen Wft",
+   "a": "BGfo",
+   "b": "BWBR0020421",
+   "c": "wft",
+   "d": "Werkt de gedragsnormen uit: dienstverleningsdocument, passend advies, beloningsregels en vakbekwaamheid."
+  },
+  {
+   "t": "Nadere regeling gedragstoezicht financiële ondernemingen Wft",
+   "a": "Nrgfo",
+   "b": "BWBR0020540",
+   "c": "wft",
+   "d": "Technische uitwerking van het BGfo, onder meer voor informatieverstrekking en kostentransparantie."
+  },
+  {
+   "t": "Vrijstellingsregeling Wft",
+   "a": "",
+   "b": "BWBR0020536",
+   "c": "wft",
+   "d": "Bepaalt welke partijen en activiteiten buiten de vergunningplicht vallen."
+  },
+  {
+   "t": "Besluit markttoegang financiële ondernemingen Wft",
+   "a": "Bmfo",
+   "b": "BWBR0020413",
+   "c": "wft",
+   "d": "Eisen bij het aanvragen van een vergunning en bij markttoetreding."
+  },
+  {
+   "t": "Besluit prudentiële regels Wft",
+   "a": "Bpr",
+   "b": "",
+   "c": "wft",
+   "d": "Prudentiële eisen, onder meer aan beheerste en integere bedrijfsvoering.",
+   "flag": "check"
+  },
+  {
+   "t": "Regeling eindtermen en toetstermen examens financiële dienstverlening Wft",
+   "a": "",
+   "b": "BWBR0032957",
+   "c": "wft",
+   "d": "Eind- en toetstermen van de Wft-examens; basis voor vakbekwaamheid en permanente educatie."
+  },
+  {
+   "t": "Regeling gelijkstelling diploma's vakbekwaamheid Wft",
+   "a": "",
+   "b": "BWBR0034397",
+   "c": "wft",
+   "d": "Welke eerdere diploma's en certificaten gelijkgesteld zijn aan Wft-diploma's."
+  },
+  {
+   "t": "Kifid-reglementen",
+   "a": "Kifid",
+   "b": "",
+   "c": "wft",
+   "d": "Reglementen van de Geschillencommissie en de Commissie van Beroep: termijnen, kosten en procedure bij klachten over financiële dienstverlening.",
+   "url": "https://www.kifid.nl/reglementen/"
+  },
+  {
+   "t": "Richtlijn verzekeringsdistributie (EU) 2016/97",
+   "a": "IDD",
+   "b": "",
+   "c": "wft",
+   "d": "Europese eisen aan advies over en distributie van verzekeringen, waaronder productontwikkeling, belangenconflicten en vakbekwaamheid. Geïmplementeerd in de Wft.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32016L0097"
+  },
+  {
+   "t": "Richtlijn markten voor financiële instrumenten (EU) 2014/65",
+   "a": "MiFID II",
+   "b": "",
+   "c": "wft",
+   "d": "Europese regels voor beleggingsdienstverlening en beleggingsadvies. Geïmplementeerd in de Wft.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014L0065"
+  },
+  {
+   "t": "Verordening duurzaamheidsinformatie (EU) 2019/2088",
+   "a": "SFDR",
+   "b": "",
+   "c": "wft",
+   "d": "Openbaarmaking van duurzaamheidsrisico's en -voorkeuren door financiële adviseurs en aanbieders.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32019R2088"
+  },
+  {
+   "t": "PRIIPs-verordening (EU) 1286/2014",
+   "a": "PRIIPs",
+   "b": "",
+   "c": "wft",
+   "d": "Essentiële-informatiedocument voor verpakte beleggingsproducten en verzekeringsproducten met een beleggingscomponent.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014R1286"
+  },
+  {
+   "t": "Tijdelijke regeling hypothecair krediet",
+   "a": "TRHK",
+   "b": "BWBR0032503",
+   "c": "krediet",
+   "d": "Leennormen voor hypothecair krediet: financieringslastpercentages en de verhouding lening-waarde. Wijzigt elk jaar per 1 januari.",
+   "flag": "jaarlijks"
+  },
+  {
+   "t": "Hypothekenrichtlijn (EU) 2014/17",
+   "a": "MCD",
+   "b": "",
+   "c": "krediet",
+   "d": "Europese basis voor de regels over hypothecair krediet aan consumenten, waaronder ESIS-informatie en kredietwaardigheidstoetsing. Geïmplementeerd in de Wft en het BGfo.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32014L0017"
+  },
+  {
+   "t": "Gedragscode Hypothecaire Financieringen 2020",
+   "a": "GHF",
+   "b": "",
+   "c": "krediet",
+   "d": "Zelfregulering van banken en verzekeraars met minimumeisen voor offertes, voorwaarden en kostenoverzichten; sinds 1 augustus 2020.",
+   "url": "https://www.nvb.nl/media/3402/gedragscode-hypothecaire-financieringen-2020.pdf"
+  },
+  {
+   "t": "Wet op het consumentenkrediet",
+   "a": "WCK",
+   "b": "BWBR0004815",
+   "c": "krediet",
+   "d": "Regelt consumptief krediet voor zover dat niet onder de Wft valt."
+  },
+  {
+   "t": "Herziene richtlijn consumentenkrediet (EU) 2023/2225",
+   "a": "CCD II",
+   "b": "",
+   "c": "krediet",
+   "d": "Geldt vanaf 20 november 2026 en brengt onder meer BNPL en lease met koopoptie onder toezicht. De Nederlandse implementatiewet is in voorbereiding.",
+   "flag": "nieuw",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32023L2225",
+   "extra": {
+    "href": "https://www.afm.nl/nl-nl/sector/actueel/2026/jun/sb-ccd2-vraag-vergunning-aan",
+    "label": "AFM-toelichting"
+   }
+  },
+  {
+   "t": "Wet ter voorkoming van witwassen en financieren van terrorisme",
+   "a": "Wwft",
+   "b": "BWBR0024281",
+   "c": "integriteit",
+   "d": "Cliëntenonderzoek, risicobeoordeling en meldplicht ongebruikelijke transacties voor adviseurs en bemiddelaars."
+  },
+  {
+   "t": "Uitvoeringsbesluit Wwft 2018",
+   "a": "",
+   "b": "BWBR0041193",
+   "c": "integriteit",
+   "d": "Werkt het cliëntenonderzoek en de UBO-verplichtingen uit."
+  },
+  {
+   "t": "EU-witwasverordening (EU) 2024/1624",
+   "a": "AMLR",
+   "b": "",
+   "c": "integriteit",
+   "d": "Europees anti-witwaspakket met rechtstreeks werkende regels en een Europese toezichthouder, komt boven op de huidige Wwft.",
+   "flag": "nieuw",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1624"
+  },
+  {
+   "t": "Zesde anti-witwasrichtlijn (EU) 2024/1640",
+   "a": "AMLD6",
+   "b": "",
+   "c": "integriteit",
+   "d": "Richtlijn over nationale toezichtsbevoegdheden, FIU's en UBO-registers; wordt in de Wwft en aanverwante wetgeving geïmplementeerd.",
+   "flag": "nieuw",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024L1640"
+  },
+  {
+   "t": "Algemene verordening gegevensbescherming (EU) 2016/679",
+   "a": "AVG",
+   "b": "",
+   "c": "privacy",
+   "d": "Europese privacyregels voor het verwerken van klantgegevens: grondslagen, informatieplicht, beveiliging en rechten van betrokkenen.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32016R0679"
+  },
+  {
+   "t": "Uitvoeringswet Algemene verordening gegevensbescherming",
+   "a": "UAVG",
+   "b": "BWBR0040940",
+   "c": "privacy",
+   "d": "Nederlandse uitwerking van de AVG; bepaalt onder meer wanneer bijzondere persoonsgegevens verwerkt mogen worden."
+  },
+  {
+   "t": "AI-verordening (EU) 2024/1689",
+   "a": "AI Act",
+   "b": "",
+   "c": "privacy",
+   "d": "Europese regels voor ontwikkeling en gebruik van AI-systemen, gefaseerd van toepassing. Raakt advieskantoren via software en modellen.",
+   "flag": "nieuw",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32024R1689"
+  },
+  {
+   "t": "Digital Operational Resilience Act (EU) 2022/2554",
+   "a": "DORA",
+   "b": "",
+   "c": "privacy",
+   "d": "Europese eisen aan digitale weerbaarheid, ICT-risicobeheer en uitbesteding in de financiële sector.",
+   "flag": "nieuw",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32022R2554"
+  },
+  {
+   "t": "Grondwet",
+   "a": "",
+   "b": "BWBR0001840",
+   "c": "burgerlijk",
+   "d": "Grondrechten en de inrichting van de staat."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 1 — Personen- en familierecht",
+   "a": "BW 1",
+   "b": "BWBR0002656",
+   "c": "familie",
+   "d": "Huwelijk, geregistreerd partnerschap, huwelijksvermogensrecht, gezag en curatele."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 2 — Rechtspersonen",
+   "a": "BW 2",
+   "b": "BWBR0003045",
+   "c": "burgerlijk",
+   "d": "Rechtsvormen, bestuur en aansprakelijkheid van rechtspersonen."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 3 — Vermogensrecht",
+   "a": "BW 3",
+   "b": "BWBR0005291",
+   "c": "burgerlijk",
+   "d": "Algemene vermogensrechtelijke begrippen: goederen, rechtshandelingen, volmacht en verjaring."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 4 — Erfrecht",
+   "a": "BW 4",
+   "b": "BWBR0012701",
+   "c": "erfrecht",
+   "d": "Wettelijke verdeling, legitieme portie, testamenten en vereffening van de nalatenschap."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 5 — Zakelijke rechten",
+   "a": "BW 5",
+   "b": "BWBR0005288",
+   "c": "burgerlijk",
+   "d": "Eigendom, erfdienstbaarheden, erfpacht, opstal en appartementsrechten."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 6 — Verbintenissenrecht",
+   "a": "BW 6",
+   "b": "BWBR0005289",
+   "c": "burgerlijk",
+   "d": "Nakoming, wanprestatie, onrechtmatige daad en algemene voorwaarden."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 7 — Bijzondere overeenkomsten",
+   "a": "BW 7",
+   "b": "BWBR0005290",
+   "c": "burgerlijk",
+   "d": "Koop, opdracht, verzekering, huur en arbeidsovereenkomst."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 7A — Bijzondere overeenkomsten, vervolg",
+   "a": "BW 7A",
+   "b": "BWBR0006000",
+   "c": "burgerlijk",
+   "d": "Resterende benoemde overeenkomsten uit het oude recht."
+  },
+  {
+   "t": "Burgerlijk Wetboek Boek 10 — Internationaal privaatrecht",
+   "a": "BW 10",
+   "b": "BWBR0030068",
+   "c": "buitenland",
+   "d": "Welk recht geldt bij grensoverschrijdende situaties, onder meer bij huwelijksvermogen en erfopvolging."
+  },
+  {
+   "t": "Faillissementswet",
+   "a": "Fw",
+   "b": "BWBR0001860",
+   "c": "burgerlijk",
+   "d": "Faillissement, surseance en de wettelijke schuldsanering natuurlijke personen."
+  },
+  {
+   "t": "Wetboek van Koophandel",
+   "a": "WvK",
+   "b": "BWBR0001838",
+   "c": "burgerlijk",
+   "d": "Resterende handelsrechtelijke bepalingen."
+  },
+  {
+   "t": "Wet arbeid en zorg",
+   "a": "Wazo",
+   "b": "BWBR0013008",
+   "c": "sociaal",
+   "d": "Verlofvormen en uitkeringen rond zwangerschap, geboorte en zorg."
+  },
+  {
+   "t": "Algemene wet inzake rijksbelastingen",
+   "a": "AWR",
+   "b": "BWBR0002320",
+   "c": "fiscaal",
+   "d": "Formeel belastingrecht: aangifte, aanslag, bezwaar en navordering."
+  },
+  {
+   "t": "Uitvoeringsregeling Algemene wet inzake rijksbelastingen 1994",
+   "a": "",
+   "b": "BWBR0006736",
+   "c": "fiscaal",
+   "d": "Uitwerking van de formele verplichtingen uit de AWR."
+  },
+  {
+   "t": "Wet inkomstenbelasting 2001",
+   "a": "Wet IB 2001",
+   "b": "BWBR0011353",
+   "c": "fiscaal",
+   "d": "Eigenwoningregeling, hypotheekrenteaftrek, box 3 en lijfrenteaftrek."
+  },
+  {
+   "t": "Invoeringswet Wet inkomstenbelasting 2001",
+   "a": "",
+   "b": "BWBR0011354",
+   "c": "fiscaal",
+   "d": "Overgangsrecht, onder meer voor kapitaalverzekeringen eigen woning."
+  },
+  {
+   "t": "Uitvoeringsbesluit inkomstenbelasting 2001",
+   "a": "",
+   "b": "BWBR0012066",
+   "c": "fiscaal",
+   "d": "Uitwerking van begrippen uit de Wet IB 2001."
+  },
+  {
+   "t": "Uitvoeringsregeling inkomstenbelasting 2001",
+   "a": "",
+   "b": "BWBR0012067",
+   "c": "fiscaal",
+   "d": "Nadere regels, onder meer voor de eigenwoningschuld en de aflossingsstand."
+  },
+  {
+   "t": "Wet rechtsherstel box 3",
+   "a": "",
+   "b": "BWBR0047699",
+   "c": "fiscaal",
+   "d": "Herstelwetgeving na het Kerstarrest over de forfaitaire rendementsheffing."
+  },
+  {
+   "t": "Overbruggingswet box 3",
+   "a": "",
+   "b": "BWBR0047702",
+   "c": "fiscaal",
+   "d": "Forfaitaire heffing in box 3 per vermogenscategorie (banktegoeden, overige bezittingen, schulden), vanaf 2023 tot een nieuw stelsel in werking treedt."
+  },
+  {
+   "t": "Wet op de loonbelasting 1964",
+   "a": "Wet LB",
+   "b": "BWBR0002471",
+   "c": "fiscaal",
+   "d": "Loonheffing, pensioenregelingen in de loonsfeer en de werkkostenregeling."
+  },
+  {
+   "t": "Uitvoeringsbesluit loonbelasting 1965",
+   "a": "",
+   "b": "BWBR0002489",
+   "c": "fiscaal",
+   "d": "Uitwerking van de Wet LB."
+  },
+  {
+   "t": "Uitvoeringsregeling loonbelasting 2011",
+   "a": "",
+   "b": "BWBR0028965",
+   "c": "fiscaal",
+   "d": "Nadere regels over loonbestanddelen en vrijstellingen."
+  },
+  {
+   "t": "Wet op de vennootschapsbelasting 1969",
+   "a": "Vpb",
+   "b": "BWBR0002672",
+   "c": "fiscaal",
+   "d": "Winstbelasting voor rechtspersonen; relevant bij de dga en de bv-structuur."
+  },
+  {
+   "t": "Uitvoeringsbesluit vennootschapsbelasting 1971",
+   "a": "",
+   "b": "BWBR0002741",
+   "c": "fiscaal",
+   "d": "Uitwerking van de Vpb."
+  },
+  {
+   "t": "Uitvoeringsbeschikking vennootschapsbelasting 1971",
+   "a": "",
+   "b": "BWBR0002784",
+   "c": "fiscaal",
+   "d": "Nadere regels bij de Vpb."
+  },
+  {
+   "t": "Wet op de dividendbelasting 1965",
+   "a": "",
+   "b": "BWBR0002515",
+   "c": "fiscaal",
+   "d": "Heffing over uitgekeerd dividend."
+  },
+  {
+   "t": "Wet op belastingen van rechtsverkeer",
+   "a": "WBR",
+   "b": "BWBR0002740",
+   "c": "fiscaal",
+   "d": "Overdrachtsbelasting en assurantiebelasting."
+  },
+  {
+   "t": "Uitvoeringsbesluit belastingen van rechtsverkeer",
+   "a": "",
+   "b": "BWBR0002758",
+   "c": "fiscaal",
+   "d": "Uitwerking van vrijstellingen en tarieven, onder meer de startersvrijstelling."
+  },
+  {
+   "t": "Successiewet 1956",
+   "a": "SW",
+   "b": "BWBR0002226",
+   "c": "erfrecht",
+   "d": "Erfbelasting en schenkbelasting, inclusief vrijstellingen en bedrijfsopvolging."
+  },
+  {
+   "t": "Uitvoeringsbesluit Successiewet 1956",
+   "a": "",
+   "b": "BWBR0002227",
+   "c": "erfrecht",
+   "d": "Uitwerking van de Successiewet."
+  },
+  {
+   "t": "Uitvoeringsregeling schenk- en erfbelasting",
+   "a": "",
+   "b": "BWBR0027018",
+   "c": "erfrecht",
+   "d": "Nadere regels over aangifte en waardering."
+  },
+  {
+   "t": "Natuurschoonwet 1928",
+   "a": "NSW",
+   "b": "BWBR0001939",
+   "c": "fiscaal",
+   "d": "Fiscale faciliteiten voor landgoederen."
+  },
+  {
+   "t": "Registratiewet 1970",
+   "a": "",
+   "b": "BWBR0002739",
+   "c": "fiscaal",
+   "d": "Registratie van akten en onderhandse stukken."
+  },
+  {
+   "t": "Invorderingswet 1990",
+   "a": "IW",
+   "b": "BWBR0004770",
+   "c": "fiscaal",
+   "d": "Inning van belastingschulden, aansprakelijkheid en betalingsregelingen."
+  },
+  {
+   "t": "Uitvoeringsbesluit Invorderingswet 1990",
+   "a": "",
+   "b": "BWBR0004772",
+   "c": "fiscaal",
+   "d": "Uitwerking van de invordering."
+  },
+  {
+   "t": "Uitvoeringsregeling Invorderingswet 1990",
+   "a": "",
+   "b": "BWBR0004766",
+   "c": "fiscaal",
+   "d": "Nadere regels, onder meer over uitstel van betaling."
+  },
+  {
+   "t": "Wet waardering onroerende zaken",
+   "a": "Wet WOZ",
+   "b": "BWBR0007119",
+   "c": "wonen",
+   "d": "Waardebepaling van onroerende zaken; basis voor eigenwoningforfait en lokale heffingen."
+  },
+  {
+   "t": "Uitvoeringsregeling uitgezonderde objecten Wet WOZ",
+   "a": "",
+   "b": "BWBR0007142",
+   "c": "wonen",
+   "d": "Welke objecten buiten de WOZ-waardering blijven."
+  },
+  {
+   "t": "Besluit voorkoming dubbele belasting 2001",
+   "a": "Bvdb",
+   "b": "BWBR0012095",
+   "c": "buitenland",
+   "d": "Voorkoming van dubbele heffing bij inkomen of vermogen in het buitenland."
+  },
+  {
+   "t": "Besluit voorkoming dubbele belasting BES",
+   "a": "",
+   "b": "BWBR0029674",
+   "c": "buitenland",
+   "d": "Regeling voor Bonaire, Sint Eustatius en Saba."
+  },
+  {
+   "t": "Besluit 30%-regeling extraterritoriale werknemers",
+   "a": "",
+   "b": "BWBR0033855",
+   "c": "buitenland",
+   "d": "Onbelaste vergoeding voor ingekomen werknemers; raakt het toetsinkomen bij hypotheekadvies."
+  },
+  {
+   "t": "Besluit betaalpauze rente en aflossing eigenwoningschuld",
+   "a": "",
+   "b": "BWBR0045648",
+   "c": "fiscaal",
+   "d": "Voorwaarden waaronder een betaalpauze de renteaftrek niet aantast."
+  },
+  {
+   "t": "Verzamelbesluit kapitaalverzekeringen, SEW en BEW",
+   "a": "",
+   "b": "BWBR0050034",
+   "c": "fiscaal",
+   "d": "Beleidsbesluit over KEW, SEW en BEW, inclusief overgangsrecht en afkoop."
+  },
+  {
+   "t": "Pensioenwet",
+   "a": "PW",
+   "b": "BWBR0020809",
+   "c": "pensioen",
+   "d": "Opbouw, uitvoering en communicatie van tweedepijlerpensioen."
+  },
+  {
+   "t": "Wet toekomst pensioenen",
+   "a": "Wtp",
+   "b": "BWBR0048328",
+   "c": "pensioen",
+   "d": "Overgang naar het vernieuwde pensioenstelsel met premieregelingen; bepalend voor transitie en nabestaandendekking."
+  },
+  {
+   "t": "Besluit toekomst pensioenen",
+   "a": "",
+   "b": "BWBR0048343",
+   "c": "pensioen",
+   "d": "Uitwerking van de Wtp, onder meer voor transitie en overgangsrecht."
+  },
+  {
+   "t": "Besluit uitvoering Pensioenwet en Wet verplichte beroepspensioenregeling",
+   "a": "",
+   "b": "BWBR0020892",
+   "c": "pensioen",
+   "d": "Uitwerking van de Pensioenwet."
+  },
+  {
+   "t": "Regeling Pensioenwet en Wet verplichte beroepspensioenregeling",
+   "a": "",
+   "b": "BWBR0020917",
+   "c": "pensioen",
+   "d": "Nadere regels bij de Pensioenwet."
+  },
+  {
+   "t": "Regeling berekening waarde-overdracht",
+   "a": "",
+   "b": "",
+   "c": "pensioen",
+   "d": "Rekenregels bij individuele waarde-overdracht van pensioen.",
+   "flag": "check"
+  },
+  {
+   "t": "Wet verevening pensioenrechten bij scheiding",
+   "a": "Wvps",
+   "b": "BWBR0006641",
+   "c": "pensioen",
+   "d": "Verdeling van ouderdomspensioen bij scheiding; geldt sinds 1 mei 1995. De beoogde opvolger is niet ingevoerd."
+  },
+  {
+   "t": "Regeling pensioenberekening deelnemingsjaren voor 1 mei 1995",
+   "a": "",
+   "b": "BWBR0007144",
+   "c": "pensioen",
+   "d": "Rekenregels voor pensioenjaren van vóór de Wvps."
+  },
+  {
+   "t": "Algemene wet inkomensafhankelijke regelingen",
+   "a": "AWIR",
+   "b": "BWBR0018472",
+   "c": "toeslagen",
+   "d": "Gemeenschappelijk kader voor alle toeslagen: toetsingsinkomen, partnerbegrip en terugvordering."
+  },
+  {
+   "t": "Uitvoeringsbesluit AWIR",
+   "a": "",
+   "b": "BWBR0018590",
+   "c": "toeslagen",
+   "d": "Uitwerking van het toeslagenkader."
+  },
+  {
+   "t": "Uitvoeringsregeling AWIR",
+   "a": "",
+   "b": "BWBR0019237",
+   "c": "toeslagen",
+   "d": "Nadere regels over aanvraag en vaststelling."
+  },
+  {
+   "t": "Wet kinderopvang",
+   "a": "",
+   "b": "BWBR0017252",
+   "c": "toeslagen",
+   "d": "Recht op en hoogte van de kinderopvangtoeslag."
+  },
+  {
+   "t": "Besluit kinderopvangtoeslag",
+   "a": "",
+   "b": "BWBR0017321",
+   "c": "toeslagen",
+   "d": "Maximum uurprijzen en toetsingstabellen; wijzigt jaarlijks.",
+   "flag": "jaarlijks"
+  },
+  {
+   "t": "Wet op het kindgebonden budget",
+   "a": "WKB",
+   "b": "BWBR0022751",
+   "c": "toeslagen",
+   "d": "Inkomensafhankelijke bijdrage in de kosten van kinderen."
+  },
+  {
+   "t": "Wet op de zorgtoeslag",
+   "a": "",
+   "b": "BWBR0018451",
+   "c": "toeslagen",
+   "d": "Tegemoetkoming in de premie zorgverzekering."
+  },
+  {
+   "t": "Wet op de huurtoeslag",
+   "a": "",
+   "b": "BWBR0008659",
+   "c": "wonen",
+   "d": "Voorwaarden en berekening van de huurtoeslag."
+  },
+  {
+   "t": "Besluit op de huurtoeslag",
+   "a": "",
+   "b": "BWBR0008763",
+   "c": "wonen",
+   "d": "Uitwerking van de huurtoeslagberekening."
+  },
+  {
+   "t": "Wet minimumloon en minimumvakantiebijslag",
+   "a": "WML",
+   "b": "BWBR0002638",
+   "c": "sociaal",
+   "d": "Minimumuurloon en vakantiebijslag; basis voor veel inkomensafhankelijke normen."
+  },
+  {
+   "t": "Wet studiefinanciering 2000",
+   "a": "WSF",
+   "b": "BWBR0011453",
+   "c": "sociaal",
+   "d": "Studiefinanciering en studieschuld; de schuld telt mee bij de leencapaciteit."
+  },
+  {
+   "t": "Werkloosheidswet",
+   "a": "WW",
+   "b": "BWBR0004045",
+   "c": "sociaal",
+   "d": "Recht, hoogte en duur van de WW-uitkering."
+  },
+  {
+   "t": "Toeslagenwet",
+   "a": "TW",
+   "b": "BWBR0004043",
+   "c": "sociaal",
+   "d": "Aanvulling op een uitkering tot het sociaal minimum."
+  },
+  {
+   "t": "Wet financiering sociale verzekeringen",
+   "a": "Wfsv",
+   "b": "BWBR0017745",
+   "c": "sociaal",
+   "d": "Premieheffing voor de werknemers- en volksverzekeringen."
+  },
+  {
+   "t": "Algemene Ouderdomswet",
+   "a": "AOW",
+   "b": "BWBR0002221",
+   "c": "sociaal",
+   "d": "AOW-leeftijd en opbouw; bepalend voor het inkomen na pensionering."
+  },
+  {
+   "t": "Algemene nabestaandenwet",
+   "a": "Anw",
+   "b": "BWBR0007795",
+   "c": "sociaal",
+   "d": "Nabestaandenuitkering; belangrijk bij de overlijdensrisicoanalyse."
+  },
+  {
+   "t": "Algemene Kinderbijslagwet",
+   "a": "AKW",
+   "b": "BWBR0002368",
+   "c": "sociaal",
+   "d": "Kinderbijslag per leeftijdsgroep."
+  },
+  {
+   "t": "Besluit uitvoering kinderbijslag",
+   "a": "",
+   "b": "BWBR0035261",
+   "c": "sociaal",
+   "d": "Uitwerking van de AKW."
+  },
+  {
+   "t": "Ziektewet",
+   "a": "ZW",
+   "b": "BWBR0001888",
+   "c": "sociaal",
+   "d": "Uitkering bij ziekte zonder werkgever, onder meer voor uitzendkrachten en na einde dienstverband."
+  },
+  {
+   "t": "Wet werk en inkomen naar arbeidsvermogen",
+   "a": "WIA",
+   "b": "BWBR0019057",
+   "c": "sociaal",
+   "d": "WGA en IVA bij langdurige arbeidsongeschiktheid; kern van de inkomensanalyse."
+  },
+  {
+   "t": "Wet arbeidsongeschiktheidsvoorziening jonggehandicapten",
+   "a": "Wajong",
+   "b": "BWBR0008657",
+   "c": "sociaal",
+   "d": "Voorziening voor jonggehandicapten."
+  },
+  {
+   "t": "Algemeen inkomensbesluit socialezekerheidswetten",
+   "a": "",
+   "b": "BWBR0029368",
+   "c": "sociaal",
+   "d": "Welk inkomen wordt verrekend met een uitkering."
+  },
+  {
+   "t": "Dagloonbesluit werknemersverzekeringen",
+   "a": "",
+   "b": "BWBR0033486",
+   "c": "sociaal",
+   "d": "Berekening van het dagloon voor WW, ZW en WIA."
+  },
+  {
+   "t": "Wet inkomensvoorziening oudere werklozen",
+   "a": "IOW",
+   "b": "BWBR0024394",
+   "c": "sociaal",
+   "d": "Vervolguitkering voor oudere werklozen na de WW."
+  },
+  {
+   "t": "Wet inkomensvoorziening oudere en deels arbeidsongeschikte werklozen",
+   "a": "IOAW",
+   "b": "BWBR0004044",
+   "c": "sociaal",
+   "d": "Inkomensvoorziening zonder vermogenstoets voor oudere werklozen."
+  },
+  {
+   "t": "Wet inkomensvoorziening oudere en gedeeltelijk arbeidsongeschikte gewezen zelfstandigen",
+   "a": "IOAZ",
+   "b": "BWBR0004163",
+   "c": "sociaal",
+   "d": "Vergelijkbare voorziening voor gestopte zelfstandigen."
+  },
+  {
+   "t": "Participatiewet",
+   "a": "",
+   "b": "BWBR0015703",
+   "c": "sociaal",
+   "d": "Bijstand, vermogensgrenzen en de kostendelersnorm."
+  },
+  {
+   "t": "Zorgverzekeringswet",
+   "a": "Zvw",
+   "b": "BWBR0018450",
+   "c": "sociaal",
+   "d": "Verzekeringsplicht, basispakket en inkomensafhankelijke bijdrage."
+  },
+  {
+   "t": "Regeling zorgverzekering",
+   "a": "",
+   "b": "BWBR0018715",
+   "c": "sociaal",
+   "d": "Uitwerking van pakket, eigen risico en bijdragen."
+  },
+  {
+   "t": "Regeling aanwijzing directeur-grootaandeelhouder 2016",
+   "a": "",
+   "b": "BWBR0036819",
+   "c": "sociaal",
+   "d": "Wanneer een dga niet verzekerd is voor de werknemersverzekeringen."
+  },
+  {
+   "t": "Wet aanpassing wettelijke gemeenschap van goederen 2012",
+   "a": "",
+   "b": "BWBR0029955",
+   "c": "familie",
+   "d": "Overgangsrecht voor huwelijken van vóór 2012."
+  },
+  {
+   "t": "Wet beperking gemeenschap van goederen 2018",
+   "a": "",
+   "b": "BWBR0039474",
+   "c": "familie",
+   "d": "Beperkte gemeenschap voor huwelijken vanaf 1 januari 2018; bepalend bij scheiding en eigen woning."
+  },
+  {
+   "t": "Wet herziening partneralimentatie 2020",
+   "a": "",
+   "b": "BWBR0042499",
+   "c": "familie",
+   "d": "Verkorting van de alimentatieduur; raakt het toetsinkomen na scheiding."
+  },
+  {
+   "t": "Besluit overgangsrecht transitievergoeding",
+   "a": "",
+   "b": "BWBR0036595",
+   "c": "sociaal",
+   "d": "Overgangsregels bij de transitievergoeding."
+  },
+  {
+   "t": "Europese Erfrechtverordening 650/2012",
+   "a": "",
+   "b": "",
+   "c": "buitenland",
+   "d": "Bepaalt welk erfrecht geldt bij een nalatenschap met een buitenlandcomponent.",
+   "url": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32012R0650"
+  },
+  {
+   "t": "Wet betaalbare huur",
+   "a": "Wbh",
+   "b": "BWBR0049889",
+   "c": "wonen",
+   "d": "Uitbreiding van het puntenstelsel naar de middenhuur per 1 juli 2024; raakt rendement en financierbaarheid van verhuurd vastgoed."
+  },
+  {
+   "t": "Wet goed verhuurderschap",
+   "a": "Wgv",
+   "b": "BWBR0048028",
+   "c": "wonen",
+   "d": "Normen voor verhuurders en gemeentelijke handhaving."
+  }
+ ],
+ "FLAGLABEL": {
+  "jaarlijks": "Wijzigt per 1 jan",
+  "nieuw": "Nieuw of op komst",
+  "check": "Verwijzing te verifiëren"
+ },
+ "KENNIS": [
+  {
+   "bron": "dfo",
+   "titel": "Bureau DFO — modeldocumenten en kennis",
+   "intro": "Modeldocumenten voor de verplichte Wft- en Wwft-vastleggingen, en de wekelijkse Nieuwsbrief Wft (sinds 2006, toen nog Wfd).",
+   "meer": {
+    "href": "https://kennisbank.dfobv.nl/",
+    "label": "Naar de DFO Kennisbank"
+   },
+   "items": [
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Overzicht documenten Wft en Wwft",
+     "u": "https://www2.dfobv.nl/documenten-contracten/wft-wwft/",
+     "d": "Klachtenprocedure, archiveringsregeling, cliëntovereenkomst en andere verplichte vastleggingen."
+    },
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Klachtenprocedure",
+     "u": "https://www.dfobv.nl/product/klachtenprocedure/",
+     "d": "De Wft verplicht een vastgelegde interne klachtenprocedure die bij medewerkers bekend is."
+    },
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Incidentenregeling",
+     "u": "https://www.dfobv.nl/product/incidentenregeling/",
+     "d": "Vastlegging en melding van incidenten, onder meer richting de AFM."
+    },
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Model Wwft-beleid financiële dienstverlener",
+     "u": "https://www.dfobv.nl/product/model-wwft-beleid-financiele-dienstverlener/",
+     "d": "Beleid voor cliëntenonderzoek, risicobeoordeling en melden van ongebruikelijke transacties."
+    },
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Model dienstenwijzer incl. privacyparagraaf",
+     "u": "https://www.dfobv.nl/product/model-dienstenwijzer-met-privacy/",
+     "d": "Precontractuele klantinformatie volgens de Wft, gecombineerd met de AVG-informatieplicht."
+    },
+    {
+     "g": "Modeldocumenten Wft en Wwft",
+     "t": "Model opdrachtbevestiging zakelijk krediet",
+     "u": "https://www.dfobv.nl/product/model-opdrachtbevestiging-advies-en-bemiddeling-zakelijk-krediet/",
+     "d": "Opdrachtbevestiging voor advies en bemiddeling in zakelijk krediet."
+    },
+    {
+     "g": "Bedrijfsvoering en samenwerking",
+     "t": "Documenten bedrijfsvoering",
+     "u": "https://www2.dfobv.nl/documenten-contracten/bedrijfsvoering/",
+     "d": "Modellen voor de inrichting van het kantoor."
+    },
+    {
+     "g": "Bedrijfsvoering en samenwerking",
+     "t": "Modelovereenkomst freelancer financiële dienstverlening",
+     "u": "https://www.dfobv.nl/product/modelovereenkomst-freelancer-financiele-dienstverlening/",
+     "d": "De Wft legt voor freelancers dezelfde eisen op als voor vaste medewerkers, onder meer op vakbekwaamheid en beheerste bedrijfsvoering."
+    },
+    {
+     "g": "Bedrijfsvoering en samenwerking",
+     "t": "Overzicht samenwerkingsvormen financiële dienstverlening",
+     "u": "https://www.dfobv.nl/product/overzicht-samenwerkingsvormen-financiele-dienstverlening/",
+     "d": "Aangesloten onderneming, collectieve vergunning en andere constructies naast elkaar."
+    },
+    {
+     "g": "Abonnementen en opleidingen",
+     "t": "Wft Serviceabonnement kennis en praktijk",
+     "u": "https://www.dfobv.nl/product/bureau-dfo-servicepakket/",
+     "d": "Nieuwsbrief Wft plus e-mailhelpdesk voor Wft-vragen."
+    },
+    {
+     "g": "Abonnementen en opleidingen",
+     "t": "Nieuwsbrief Wft",
+     "u": "https://www.dfobv.nl/product/nieuwsbrief-wft/",
+     "d": "Gemiddeld één nieuwsbrief per week over actuele Wft-ontwikkelingen."
+    },
+    {
+     "g": "Abonnementen en opleidingen",
+     "t": "Opleiding schadebehandelaar financieel advieskantoor",
+     "u": "https://www.dfobv.nl/product/opleiding-schadebehandelaar-financieel-advieskantoor/",
+     "d": ""
+    },
+    {
+     "g": "Abonnementen en opleidingen",
+     "t": "Agenda opleidingen en bijeenkomsten",
+     "u": "https://www.dfobv.nl/agenda/",
+     "d": ""
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Wft-advieseisen gelden ook voor collectieve inkomensverzekeringen",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-actueel/wft-advieseisen-gelden-ook-voor-collectieve-inkomensverzekeringen/",
+     "d": "Zorgplicht en adviesregels bij collectieve AOV- en inkomensproducten."
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "AFM vraagt naar de wijze waarop kantoor de Wwft naleeft",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-actueel/afm-vraagt-naar-de-wijze-waarop-kantoor-de-wwft-naleeft/",
+     "d": "Uitvraag van de AFM naar Wwft-naleving bij advieskantoren."
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Nationaal regime en vakbekwaamheid onder MiFID II",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-actueel/nationaal-regime-en-vakbekwaamheid-financiele-dienstverleners-onder-mifid-ii/",
+     "d": "Vakbekwaamheidseisen voor dienstverleners die onder het nationaal regime vallen."
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Consultatie Leidraad Hypotheekadvisering (nr. 1.059)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/consultatie-leidraad-hypotheekadvisering-reageren-kan-tot-23-januari-a-s-nr-1-059/",
+     "d": ""
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Vragen uit de praktijk rondom aangesloten ondernemingen (nr. 1.046)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/enkele-vragen-uit-de-praktijk-rondom-aangesloten-ondernemingen-nr-1-046/",
+     "d": ""
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "VOG noodzakelijk voor medewerkers financiële dienstverlening (nr. 1.025)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/vog-verklaring-noodzakelijk-voor-medewerkers-financiele-dienstverlening-nr-1-025/",
+     "d": "Integriteitsscreening van medewerkers."
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "AFM verkent kwaliteit hypotheekadvies anno 2024 (nr. 1.005)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/afm-verkent-kwaliteit-hypotheekadvies-anno-2024-nr-1-004/",
+     "d": ""
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Actieve transparantie provisie bij schade particulier (nr. 971)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/actieve-transparantie-provisie-bij-schade-particulier-een-feit-nr-971/",
+     "d": "Provisie actief melden bij particuliere schadeverzekeringen."
+    },
+    {
+     "g": "Uit de Nieuwsbrief",
+     "t": "Eensporig rentebeleid bij nieuwe rentevastperiode (nr. 911)",
+     "u": "https://kennisbank.dfobv.nl/nieuwsbrief-wft/eensporig-rentebeleid-bij-nieuwe-rentevastperiode-nr-911/",
+     "d": ""
+    }
+   ]
+  },
+  {
+   "bron": "eigen",
+   "titel": "Praktijkthema's Wft",
+   "intro": "Korte toelichtingen van de WFT Bieb op onderwerpen die in de advies- en compliancepraktijk steeds terugkomen. Elke toelichting verwijst naar de onderliggende wettekst.",
+   "meer": {
+    "href": "https://www.afm.nl/nl-nl/sector/adviseurs-bemiddelaars",
+    "label": "Sectorinformatie AFM"
+   },
+   "items": [
+    {
+     "g": "Vergunning en organisatie",
+     "t": "Vergunningaanvraag: voorbereiding is het halve werk",
+     "u": "https://wetten.overheid.nl/BWBR0020368",
+     "d": "Een aanvraag strandt vaak op onvolledige vastleggingen: ontbrekende beleidsstukken, onduidelijke verantwoordelijkheden of onvoldoende onderbouwde geschiktheid van dagelijks beleidsbepalers. De eisen gelden ook na verlening doorlopend."
+    },
+    {
+     "g": "Vergunning en organisatie",
+     "t": "Beheerste en integere bedrijfsvoering in de praktijk",
+     "u": "https://wetten.overheid.nl/BWBR0020421",
+     "d": "Leg processen, rollen en controles vast en houd ze actueel. Denk aan klachtafhandeling, incidentenregistratie, uitbesteding en de borging van vakbekwaamheid van alle medewerkers, ook freelancers."
+    },
+    {
+     "g": "Vergunning en organisatie",
+     "t": "Informatiebeveiliging en digitale weerbaarheid",
+     "u": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32022R2554",
+     "d": "Ook kleinere kantoren werken met gevoelige klantdata en externe software. Een actueel overzicht van systemen, toegangsrechten, back-ups en afspraken met leveranciers is de basis."
+    },
+    {
+     "g": "Vergunning en organisatie",
+     "t": "De compliancefunctie: vroeg betrekken, onafhankelijk positioneren",
+     "u": "https://wetten.overheid.nl/BWBR0020368",
+     "d": "Compliance werkt het best als zij al bij nieuwe producten, processen en wijzigingen meekijkt, met voldoende mandaat en een directe lijn naar de leiding."
+    },
+    {
+     "g": "Integriteit en handhaving",
+     "t": "Wwft-naleving: van beleid naar dossier",
+     "u": "https://wetten.overheid.nl/BWBR0024281",
+     "d": "Een Wwft-beleid op papier is niet genoeg. Toezichthouders kijken of cliëntenonderzoek, risicobeoordeling en meldingen aantoonbaar in de dossiers terugkomen en of het beleid periodiek wordt geëvalueerd."
+    },
+    {
+     "g": "Integriteit en handhaving",
+     "t": "Ongebruikelijke transacties tijdig melden",
+     "u": "https://wetten.overheid.nl/BWBR0024281",
+     "d": "De meldtermijn begint zodra het ongebruikelijke karakter bekend is. Leg vast wie beoordeelt en meldt, en hoe dat binnen het kantoor wordt bewaakt."
+    },
+    {
+     "g": "Integriteit en handhaving",
+     "t": "Persoonlijke aansprakelijkheid van leidinggevenden",
+     "u": "https://wetten.overheid.nl/BWBR0020368",
+     "d": "Bij overtredingen kan niet alleen de onderneming, maar ook wie feitelijk leiding gaf aan de verboden gedraging worden aangesproken. Dat maakt toezicht op de eigen organisatie een persoonlijke verantwoordelijkheid."
+    },
+    {
+     "g": "Advies en klantcommunicatie",
+     "t": "Heldere communicatie over kosten en beloning",
+     "u": "https://wetten.overheid.nl/BWBR0020421",
+     "d": "Klanten moeten vooraf begrijpen wat zij betalen en waarvoor. Vermijd vage termen en zorg dat dienstverleningsdocument, opdrachtbevestiging en factuur op elkaar aansluiten."
+    },
+    {
+     "g": "Advies en klantcommunicatie",
+     "t": "Klantbelang centraal bij maatwerk",
+     "u": "https://wetten.overheid.nl/BWBR0020368",
+     "d": "Wie afwijkt van standaardnormen of -producten, moet kunnen uitleggen waarom dat in het belang van de klant is. Leg de afweging en de risico's controleerbaar vast."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Geautomatiseerde acceptatie: blijf zelf controleren",
+     "u": "https://wetten.overheid.nl/BWBR0032503",
+     "d": "Ook bij automatische kredietbeoordeling blijft de verantwoordelijkheid voor een verantwoorde kredietverstrekking staan. Test regelmatig of uitkomsten kloppen met de leennormen."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Rente bij een nieuwe rentevastperiode",
+     "u": "https://wetten.overheid.nl/BWBR0020421",
+     "d": "Klanten bij wie de rentevastperiode afloopt, verwachten een rente die eerlijk aansluit bij het actuele aanbod. Wijs hen tijdig op hun keuzemogelijkheden."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Extra lenen voor verduurzaming",
+     "u": "https://wetten.overheid.nl/BWBR0032503",
+     "d": "De leennormen bieden ruimte voor energiebesparende maatregelen. Het advies blijft wel gericht op betaalbaarheid voor de klant over de hele looptijd."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Lease met koopoptie kan krediet zijn",
+     "u": "https://eur-lex.europa.eu/legal-content/NL/TXT/?uri=CELEX%3A32023L2225",
+     "d": "Huur of lease waarbij de klant het product uiteindelijk kan kopen, kan als consumptief krediet gelden. Onder CCD II worden meer van deze constructies vergunningplichtig."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Aflossingsvrij lenen wordt krapper",
+     "u": "https://wetten.overheid.nl/BWBR0032503",
+     "d": "Los van de wettelijke leennormen scherpen geldverstrekkers hun eigen beleid aan, onder meer voor het aflossingsvrije deel. Bespreek met klanten met een groot aflossingsvrij deel tijdig wat dat betekent bij oversluiten, verhogen of verhuizen."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Funderingsrisico in het advies",
+     "u": "https://wetten.overheid.nl/BWBR0020421",
+     "d": "Funderingsproblemen kunnen de waarde en financierbaarheid van een woning sterk raken. Neem bevindingen uit het taxatierapport mee in het advies en leg vast hoe de klant is geïnformeerd."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Bedenktijd bij woningkoop",
+     "u": "https://wetten.overheid.nl/BWBR0005290",
+     "d": "Een particuliere koper heeft na het ondertekenen van de koopovereenkomst drie dagen bedenktijd (art. 7:2 BW). Dat is kort voor een definitieve financieringstoets; wijs klanten op een financieringsvoorbehoud."
+    },
+    {
+     "g": "Hypotheek en krediet",
+     "t": "Pensioeninkomen in de leencapaciteit",
+     "u": "https://wetten.overheid.nl/BWBR0032503",
+     "d": "Bij oudere aanvragers wordt de toekomstige inkomensdaling na de AOW-leeftijd steeds nadrukkelijker meegewogen. Breng het verwachte pensioeninkomen vroeg in kaart."
+    },
+    {
+     "g": "Fiscaal",
+     "t": "Na 30 jaar renteaftrek: schuld naar box 3",
+     "u": "https://wetten.overheid.nl/BWBR0011353",
+     "d": "De hypotheekrente is maximaal 30 jaar aftrekbaar. Daarna verhuist een resterende eigenwoningschuld naar box 3. Vooral bij oude aflossingsvrije leningen en de bestaande eigenwoningschuld (BEW) verdient dat moment vooraf aandacht."
+    },
+    {
+     "g": "Fiscaal",
+     "t": "Extra aflossen of sparen?",
+     "u": "https://wetten.overheid.nl/BWBR0047702",
+     "d": "De keuze tussen extra aflossen en vermogen aanhouden hangt af van hypotheekrente, renteaftrek, de box 3-heffing en de gewenste liquiditeit. Maak de afweging per klant concreet."
+    },
+    {
+     "g": "Integriteit en handhaving",
+     "t": "Integere bedrijfsvoering als wettelijke norm",
+     "u": "https://wetten.overheid.nl/BWBR0020368",
+     "d": "De Wft eist een integere bedrijfsvoering: belangenconflicten voorkomen, betrokkenheid bij strafbare feiten uitsluiten en vermijden dat het vertrouwen in de onderneming of de markt wordt geschaad. Dit staat los van de Wwft, die specifiek op witwassen en terrorismefinanciering ziet."
+    },
+    {
+     "g": "Pensioen",
+     "t": "Pensioentransitie: concreet communiceren",
+     "u": "https://wetten.overheid.nl/BWBR0020809",
+     "d": "Deelnemers willen weten wat de overgang naar het nieuwe stelsel voor hen persoonlijk betekent. Algemene boodschappen volstaan niet; maak gevolgen en keuzes concreet."
+    }
+   ]
+  }
+ ]
+}
