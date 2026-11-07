@@ -148,6 +148,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="contact.html">Contact &amp; route</a></li>
       <li><a href="{SHOP}/algemene-leveringsvoorwaarden/" rel="noopener">Algemene leveringsvoorwaarden</a></li>
       <li><a href="{SHOP}/klachtenprocedure/" rel="noopener">Klachtenprocedure</a></li>
+      <li><a href="{SHOP}/onafhankelijkheidsverklaring/" rel="noopener">Onafhankelijkheidsverklaring</a></li>
       <li><a href="{SHOP}/privacyverklaring-en-cookies/" rel="noopener">Privacyverklaring</a></li>
       <li><a href="actievoorwaarden-nieuwsbrief-wft.html">Actievoorwaarden Wft-nieuwsbrief</a></li>
     </ul></div>
@@ -790,7 +791,7 @@ def build_zalen():
 TEAM = [
     ("Agaat van Ekeren", "Relatiemanager", "agaat", "avanekeren@dfobv.nl", ["Agaat is verantwoordelijk voor de klanttevredenheid van al onze klanten en werkt samen met Jurjen Oosterbaan Martinius aan diversen projecten. Daarnaast is zij verantwoordelijk voor alle abonnementen die wij aanbieden. Denk hierbij aan het Wft Serviceabonnement en nieuwsbrieven die u bij ons kunt afnemen. Ben je benieuwd naar onze dienstverlening, of wat wij voor je kunnen betekenen, neem dan contact op met Agaat."]),
     ("Anja Heetmayer Knorth", "Administratief medewerker/gastvrouw", "anja", "aheetmayer@dfobv.nl", ["Anja heet je welkom als gastvrouw bij Bureau DFO en doet er alles aan om jouw deelname aan onze bijeenkomsten prettig te laten verlopen."]),
-    ("Gijs", "Huisvriend", "gijs", "", []),
+    ("Gijs", "Huisvriend", "gijs", "", ["Gijs is het vaste en zeer geliefde gezicht op kantoor. Met zijn vriendelijke en energieke karakter weet hij bij iedereen een glimlach op het gezicht te toveren. Hij krijgt volop aandacht van collega’s en draagt dagelijks bij aan een positieve en ontspannen werksfeer. Gijs is voor velen het hoogtepunt van de werkdag."]),
     ("Gea van Esveld", "Gastvrouw", "gea", "gastvrouw@dfobv.nl", ["Gea heet je welkom als gastvrouw bij Bureau DFO en doet er alles aan om jouw deelname aan onze bijeenkomsten prettig te laten verlopen."]),
     ("Ilona Vellekoop", "Bestuurssecretaresse", "ilona", "ivellekoop@dfobv.nl", ["Ilona is bij Bureau DFO werkzaam als secretaresse voor de NVHP"]),
     ("Jurjen Oosterbaan Martinius", "Algemeen directeur", "jurjen", "joosterbaan@dfobv.nl", ["Al 36 jaar is Jurjen eigenaar van Bureau DFO, in ons kantoorpand in Hoevelaken. Jurjen is een autoriteit op het gebied van Wft. Hij kan je ondersteunen op het gebied van ondernemerschap en strategische vraagstukken en is een veelgevraagd spreker en fungeert vaak als sparringspartner.", "Je kunt hem o.a. benaderen over de volgende onderwerpen: Wft, klankborden, strategie, efficiënte bedrijfsvoering en het schrijven van columns. Wil je weten wat hij voor jou kan betekenen? Neem contact op met Agaat van Ekeren."]),
@@ -837,7 +838,7 @@ def build_over():
 </div></section>
 <section><div class="wrap"><div class="sec-head"><h2>Voor wie?</h2></div>{render_units(bs["Voor wie?"])}</div></section>
 <section class="alt" id="team"><div class="wrap">
-  <div class="sec-head"><h2>Ons team</h2></div>
+  <div class="sec-head"><h2>Ons team</h2><p>We stellen graag een aantal collega’s aan u voor. In totaal staan 17 medewerkers voor u klaar om u te helpen bij het succesvol invullen van uw ondernemerschap. Neem contact met ons op om te bespreken hoe we u van dienst kunnen zijn.</p></div>
   <div class="team">{team}</div>
 </div></section>
 <section id="werken-bij"><div class="wrap split" style="align-items:start">
