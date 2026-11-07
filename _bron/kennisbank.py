@@ -56,6 +56,25 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
                 out.append(f'<a href="#{t["id"]}" data-jump="{t["id"]}">{E(t["term"])}</a>')
         return " · ".join(out)
 
+    try:
+        import related as _rel
+        _dfo, _nv = _rel.dfo_items(cursussen or [], agenda or []), _rel.nvhp_items()
+    except Exception as ex:
+        print("kennisbank gerelateerd:", ex); _rel = None
+    nrel = 0
+
+    def rel_links(it):
+        nonlocal nrel
+        if not _rel or it["dom"] in ("wetgeving",):
+            return ""
+        xs = _rel.term_links(it["term"], it.get("afk"), _dfo, _nv)
+        if not xs:
+            return ""
+        nrel += 1
+        lab = {"DOC": "document", "DFO": "opleiding", "NVHP": "NVHP-masterclass"}
+        return '<p class="kb-zie kb-rel"><strong>Gerelateerd:</strong> ' + " · ".join(
+            f'<a href="{E(x["u"])}"{" rel=noopener" if x["u"].startswith("http") else ""}>{E(x["t"])}</a> <span class="muted">({lab[x["src"]]})</span>' for x in xs) + "</p>"
+
     items_sorted = sorted(items, key=lambda i: (slug(i["term"]), i["dom"]))
     letters = sorted({(slug(i["term"])[:1] or "#").upper() for i in items_sorted})
     cards, cur = [], None
@@ -73,6 +92,7 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
             f'<p>{E(it["def"])}</p>'
             + (f'<p class="kb-zie"><a href="{E(it["link"])}"{" rel=noopener" if it["link"].startswith("http") else ""}>{"Bekijk het artikel" if it.get("bron") in ("Wft","BGfo","TRHK") else ("Lees verder bij de AFM" if it.get("bron") == "AFM" else "Bekijk de wettekst")} →</a>{" · bron: " + E(it["bron"]) if it.get("bron") else ""}</p>' if it.get("link") else "")
             + (f'<p class="kb-zie"><strong>Zie ook:</strong> {zie}</p>' if zie else "")
+            + rel_links(it)
             + "</article>")
     chips = f'<button class="chip" data-d="" aria-pressed="true">Alle ({len(items)})</button>' + "".join(
         f'<button class="chip" data-d="{k}" aria-pressed="false">{n} ({counts[k]})</button>' for k, n, _ in DOMEINEN if counts[k])
@@ -93,19 +113,21 @@ def build_kennisbank(page, hero, callout, icon, cursussen=None, agenda=None):
                 ptok |= {"krediet", "kredieten", "financieren", "zakelijk"}
             d = related.pick(dfo, ptop, ptok, 3, 6)
             nvh = related.pick(nv, ptop, ptok, 2, 6, nvhp=True) if k in ("hypotheken", "pensioenen") else []
-            if d or nvh:
-                blocks.append(f'<div class="kb-opl" data-d="{k}"><h3>{n}</h3><div class="grid" style="gap:12px">{"".join(related.card(x) for x in d + nvh)}</div></div>')
+            docs = related.pick(related.doc_items(), ptop, ptok, 2, 6)
+            if d or nvh or docs:
+                blocks.append(f'<div class="kb-opl" data-d="{k}"><h3>{n}</h3><div class="grid" style="gap:12px">{"".join(related.card(x) for x in d + nvh)}{"".join(related.doc_card(x) for x in docs)}</div></div>')
         if blocks:
             opl = (f'<section class="alt" id="opleidingen"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Verdiep je kennis</span>'
-                   f'<h2>Opleidingen per onderwerp</h2><p>Van begrip naar vakmanschap: trainingen van Bureau DFO en masterclasses van de NVHP (ook voor niet-leden).</p></div>'
+                   f'<h2>Opleidingen en documenten per onderwerp</h2><p>Van begrip naar vakmanschap: trainingen van Bureau DFO, masterclasses van de NVHP (ook voor niet-leden) en direct toepasbare modeldocumenten.</p></div>'
                    f'<div class="grid g3" style="align-items:start">{"".join(blocks)}</div></div></section>')
     except Exception as ex:  # opleidingsblok is optioneel
         print("kennisbank opleidingen:", ex)
 
+    print("kennisbank: begrippen met gerelateerd aanbod:", nrel)
     vandaag = datetime.date.today()
     body = hero("Kennisbank", f"{len(items)} begrippen uit schadeverzekeringen, hypotheken, pensioenen, kredieten, inkomensverzekeringen en wet- en regelgeving, helder uitgelegd voor financieel adviseurs.",
                 crumbs=["Kennisbank"],
-                btns='<a class="btn btn-light arrow" href="#zoek">Zoek een begrip</a><a class="btn btn-ghost" href="#opleidingen">Opleidingen per onderwerp</a>')
+                btns='<a class="btn btn-light arrow" href="#zoek">Zoek een begrip</a><a class="btn btn-ghost" href="#opleidingen">Opleidingen en documenten</a>')
     body += f"""
 <section id="zoek"><div class="wrap kb">
   <div class="kb-tools">

@@ -749,7 +749,7 @@ def build_abonnementen():
 </div></section>
 
 <section class="alt"><div class="wrap split">
-  <div><img src="assets/img/expertisegroep.jpg" alt="Expertisegroep Schadebehandeling" loading="lazy" width="832" height="417" style="max-width:340px;margin-bottom:20px">
+  <div><img src="assets/img/expertisegroep.jpg" alt="Expertisegroep Schadebehandeling" loading="lazy" width="832" height="417" style="max-width:min(340px,100%);margin-bottom:20px">
   <h2>Expertisegroep Schadebehandeling</h2><p>Activiteiten van de Expertisegroep Schadebehandeling</p>
   <ul class="check"><li>Actuele en praktijkgerichte workshops;</li><li>Expertmeetings;</li><li>Modelcontracten &amp; -formulieren;</li><li>Opmerkelijk (nieuwsalert met relevante informatie);</li><li>WhatsApp groep voor de deelnemers van de Expertisegroep;</li><li>Eén plek voor alle informatie;</li><li>Onderzoek en benchmark;</li><li>Bewijs van deelname.</li></ul>
   <h3 style="margin-top:28px">Toch nog een vraag?</h3><p>Neem direct contact op met Agaat van Ekeren, relatiemanager bij Bureau DFO. Zij is verantwoordelijk voor onze abonnementen en helpt je graag verder.</p><p><a href="mailto:avanekeren@dfobv.nl">avanekeren@dfobv.nl</a></p>
@@ -1616,6 +1616,18 @@ def build_nieuws():
                  f'<h3><a href="{E(i["u"])}" rel="noopener" target="_blank">{E(i["t"])}</a></h3>'
                  + (f'<p>{E(x)}</p>' if x else "")
                  + f'<a class="btn btn-ghost nw-btn" href="{E(i["u"])}" rel="noopener" target="_blank">Lees bij {E(i["bron"])} →</a></article>')
+    # aanbod per onderwerp (opleidingen, NVHP-masterclasses, documenten)
+    import related
+    _dfo, _nv = related.dfo_items(cursussen, agenda), related.nvhp_items()
+    _vt = {"": ({"hypotheken": 6, "schade": 4, "leven": 3, "compliance": 3}, "hypotheek verzekering pensioen compliance"),
+           "hypotheken": ({"hypotheken": 8}, "hypotheek hypotheken woning financiering overwaarde"),
+           "verzekeringen": ({"schade": 8, "inkomen": 4}, "schadeverzekering verzekering aansprakelijkheid arbeidsongeschiktheid polis"),
+           "pensioenen": ({"leven": 8, "estate": 3}, "pensioen lijfrente vermogen nabestaanden"),
+           "kredieten": ({"hypotheken": 6}, "krediet kredieten financiering lening consumptief"),
+           "overig": ({"compliance": 6, "bedrijfsvoering": 4}, "compliance bedrijfsvoering kantoor")}
+    verdiep = "".join(related.make_block(_dfo, _nv, tp, related.tokens(tk), fallback=True,
+                                         extra_attr=f' data-vc="{c}"' + ("" if c == "" else " hidden")).replace('id="verdiep"', f'id="verdiep-{c or "alle"}"')
+                      for c, (tp, tk) in _vt.items())
     bron_links = " · ".join(f'<a href="{u}" rel="noopener">{E(b)}</a>' for b, u in alle_bronnen)
     body = hero("Actueel nieuws", "Het laatste nieuws over hypotheken, verzekeringen, pensioenen en kredieten van toezichthouders, de overheid, brancheorganisaties, marktcijfers en DFO, dagelijks bijgewerkt.",
                 crumbs=["Actueel nieuws"])
@@ -1631,11 +1643,12 @@ def build_nieuws():
   <p class="muted nw-bronnen" style="margin-top:28px">Bronnen: {bron_links}</p>
   <div class="note" style="margin-top:12px">Dit overzicht wordt elke dag automatisch samengesteld uit de nieuwsberichten van de genoemde partijen. Per bericht tonen we een korte omschrijving; het volledige bericht lees je bij de bron. Bureau DFO is niet verantwoordelijk voor de inhoud van externe berichten.</div>
 </div></section>
-""" + callout("Wekelijks de signalen uit de markt?", "Meld je aan voor DFO Signalen: jouw wekelijkse update speciaal voor onafhankelijk financieel adviseurs.", "signalen.html", "Naar DFO Signalen")
+""" + verdiep + callout("Wekelijks de signalen uit de markt?", "Meld je aan voor DFO Signalen: jouw wekelijkse update speciaal voor onafhankelijk financieel adviseurs.", "signalen.html", "Naar DFO Signalen")
     js = """<script>
 const nq=document.getElementById('nq'),arts=[...document.querySelectorAll('.nw:not(.nw-pin)')],pins=[...document.querySelectorAll('.nw-pin')];let nb='',nc='';
 function f(){const t=nq.value.trim().toLowerCase().split(/\\s+/).filter(Boolean);let n=0;arts.forEach(a=>{const ok=(!nb||a.dataset.b===nb)&&(!nc||a.dataset.c===nc)&&t.every(w=>a.dataset.s.includes(w));a.hidden=!ok;if(ok)n++});
 pins.forEach(p=>p.hidden=!(nc&&p.dataset.pc===nc&&!nb&&!t.length));
+document.querySelectorAll('.verdiep[data-vc]').forEach(v=>v.hidden=v.dataset.vc!==(nc==='overig'?'overig':nc));
 document.getElementById('nc').textContent=n+(n===1?' bericht':' berichten');document.getElementById('ne').hidden=n>0;}
 function grp(id,set){document.querySelectorAll('#'+id+' .chip').forEach(b=>b.onclick=()=>{set(b);document.querySelectorAll('#'+id+' .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));f();});}
 grp('nb',b=>nb=b.dataset.b);grp('ncat',b=>{nc=b.dataset.c;history.replaceState(null,'',location.pathname+location.search+(nc?'#'+nc:''));});

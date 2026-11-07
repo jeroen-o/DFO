@@ -51,11 +51,11 @@ NVHP_TOPICS = {
 # pagina's waar een opleidingsblok niet logisch is
 SKIP = {"index.html", "contact.html", "zoeken.html", "404.html", "zalencentrum.html", "vergadercentrum.html", "over-dfo.html",
         "secretariaten.html", "webshop.html", "agenda-archief.html", "artikelen.html", "info.html", "opleidingen.html",
-        "actievoorwaarden-nieuwsbrief-wft.html", "signalen.html", "serviceproviders.html", "performance.html",
+        "actievoorwaarden-nieuwsbrief-wft.html", "nieuws.html", "documenten.html", "wetgeving.html",
         "info-algemene-leveringsvoorwaarden.html", "info-klachtenprocedure.html", "info-privacyverklaring-en-cookies.html",
         "info-onafhankelijkheidsverklaring.html", "info-contact.html", "info-ons-team.html", "info-over-dfo.html",
         "info-home.html", "info-zaalverhuur.html", "info-stemapparatuur.html", "info-congressen.html", "info-blog.html",
-        "info-opinie.html", "congressen.html", "kennisbank.html"}
+        "info-opinie.html", "kennisbank.html", "info-nieuwsbrieven.html"}
 SKIP_PREFIX = ("studio",)
 
 
@@ -158,9 +158,120 @@ def pick(items, ptop, ptok, n, min_score, title="", nvhp=False):
     return res
 
 
+DOC_CAT = {"bedrijfsvoering": "bedrijfsvoering", "schade": "schade", "hypotheken": "hypotheken", "levenpensioen": "leven",
+           "inkomen": "inkomen", "personeel": "personeel", "avg": "compliance", "wft": "compliance"}
+DOC_SOORT = [("modeldocumenten", "Modeldocument"), ("naslagwerken", "Naslagwerk"), ("onderzoeken", "Onderzoek"), ("marketing", "Marketing")]
+_DOCS = None
+
+
+def doc_items():
+    """Documenten uit de webshop (geen opleidingen/diensten)."""
+    global _DOCS
+    if _DOCS is not None:
+        return _DOCS
+    raw = (ROOT / "webshop.html").read_text()
+    P = json.loads(re.search(r"const P=(\[.*?\]);let wc", raw, re.S).group(1))
+    out = []
+    for p in P:
+        soort = next((n for k, n in DOC_SOORT if any(c.startswith(k) for c in p["cs"])), None)
+        if not soort or any(c.startswith(("opleidingen", "alle-opleidingen")) for c in p["cs"]):
+            continue
+        tp = {DOC_CAT[c] for c in p["cs"] if c in DOC_CAT}
+        tp |= {k for k, pat in TITLE_TOPICS.items() if re.search(pat, p["t"].lower())}
+        out.append({"t": p["t"], "u": f"product-{p['s']}.html", "prijs": (p["p"] + (" " + p["x"] if p.get("x") and p["p"] != "Gratis" else "")) if p["p"] else "",
+                    "topics": tp, "tok": tokens(p["t"] + " " + p.get("k", "")), "src": "DOC", "type": soort})
+    _DOCS = out
+    return out
+
+
+def doc_card(it):
+    return (f'<a class="card" href="{E(it["u"])}"><span class="tag">{E(it["type"])}</span><h3 style="font-size:1rem">{E(it["t"])}</h3>'
+            f'<div style="margin-top:auto;padding-top:10px;font-weight:600">{E(it["prijs"])}</div><span class="more arrow">Bekijk &amp; bestel </span></a>')
+
+
+def upcoming(dfo, n=3, title="", ptop=None):
+    """Eerstvolgende DFO-opleidingen (reserve als niets inhoudelijk past); eerst die op het onderwerp van de pagina."""
+    xs = [x for x in dfo if x.get("next") and not (title and same(x["t"], title))]
+    pt = dict(ptop or {})
+    pt.setdefault("bedrijfsvoering", 0.5)  # algemene kantooronderwerpen als tweede keus
+    rank = lambda x: max([pt.get(t, 0) for t in x["topics"]] + [0])
+    xs.sort(key=lambda x: (-(rank(x) >= 1), -(rank(x) > 0), x["next"]["d"]))
+    seen, res = set(), []
+    for x in xs:
+        k = x["t"].lower()[:30]
+        if k not in seen:
+            seen.add(k); res.append(x)
+        if len(res) == n:
+            break
+    return res
+
+
+def make_block(dfo, nv, ptop, ptok, title="", fallback=True, kop="Passende opleidingen, masterclasses en documenten", extra_attr=""):
+    d = pick(dfo, ptop, ptok, 3, 9, title)
+    n = pick(nv, ptop, ptok, 3, 9, title, nvhp=True)
+    docs = pick(doc_items(), ptop, ptok, 3, 8, title)
+    if not d and fallback:
+        d = upcoming(dfo, 3, title, ptop)
+        if d and not n and not docs:
+            kop = "Eerstvolgende opleidingen"
+    if not d and not n and not docs:
+        return ""
+    cols_items = [x for x in (d, n, docs) if x]
+    multi = len(cols_items) > 1
+
+    def col(h, note, items, foot, cardf=card):
+        if not items:
+            return ""
+        cards = [cardf(x) for x in items]
+        if multi:  # vaste opbouw zodat kolommen rij voor rij gelijk lopen (subgrid)
+            cards += ['<div aria-hidden="true"></div>'] * (3 - len(cards))
+            return f'<div class="vk-col"><h3>{h}</h3><p class="muted vk-note">{note}</p>{"".join(cards)}<p class="vk-foot">{foot}</p></div>'
+        return f'<div><h3>{h}</h3><p class="muted vk-note">{note}</p><div class="grid g3" style="gap:14px">{"".join(cards)}</div><p class="vk-foot">{foot}</p></div>'
+    cols = col("Opleidingen van Bureau DFO", "Praktijkgerichte trainingen, webinars en leergangen.", d,
+               '<a class="more arrow" href="opleidingen.html">Alle DFO-opleidingen </a>') + \
+           col("Masterclasses van de NVHP", "Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.", n,
+               f'<a class="more arrow" href="{NVHP_MC}" rel="noopener">Alle NVHP-masterclasses </a>') + \
+           col("Documenten &amp; modellen", "Direct toepasbaar in je praktijk, te bestellen in de webshop.", docs,
+               '<a class="more arrow" href="webshop.html">Naar de webshop </a>', doc_card)
+    return (f'<section class="alt verdiep" id="verdiep"{extra_attr}><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Verdiep je kennis</span>'
+            f'<h2>{kop}</h2></div><div class="{"vk-grid vk-" + str(len(cols_items)) if multi else ""}">{cols}</div></div></section>')
+
+
+def page_topics(title, body):
+    ptop = {k: v * 4 for k, v in topics_of(title + " ").items()}
+    for k, v in topics_of(body).items():
+        ptop[k] = ptop.get(k, 0) + v
+    if ptop:
+        top = max(ptop.values())
+        ptop = {k: v for k, v in ptop.items() if v >= max(2, top * 0.35)}
+    ptok = tokens(title) | {w for w in tokens(body) if body.lower().count(w) >= 2}
+    return ptop, ptok
+
+
+def nvhp_strip(nv):
+    """Strook met eerstvolgende NVHP-masterclasses (homepage)."""
+    xs = sorted([x for x in nv if x.get("next")], key=lambda x: x["next"]["d"])[:3]
+    if not xs:
+        return ""
+    return (f'<section class="alt" id="nvhp-mc"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Ook voor niet-leden</span>'
+            f'<h2>Eerstvolgende NVHP-masterclasses</h2><p>Verdiepende masterclasses over hypotheken, vermogen en estate planning. Bureau DFO voert het secretariaat van de NVHP; '
+            f'de masterclasses staan open voor iedere financieel adviseur, ook als je geen NVHP-lid bent.</p></div>'
+            f'<div class="grid g3">{"".join(card(x) for x in xs)}</div>'
+            f'<div class="btns"><a class="btn btn-primary arrow" href="{NVHP_PORTAL}" rel="noopener">Masterclass volgen</a>'
+            f'<a class="btn btn-ghost" href="opleidingen.html#nvhp">Alle masterclasses en data</a></div></div></section>')
+
+
 def build_related(cursussen, agenda):
     dfo, nv = dfo_items(cursussen, agenda), nvhp_items()
     count = 0
+    # homepage: NVHP-strook na 'Eerstvolgende opleidingen'
+    hp = ROOT / "index.html"
+    raw = hp.read_text()
+    if 'id="nvhp-mc"' not in raw:
+        i = raw.find("Eerstvolgende opleidingen")
+        j = raw.find("</section>", i)
+        if i > 0 and j > 0:
+            hp.write_text(raw[:j + 10] + "\n" + nvhp_strip(nv) + raw[j + 10:])
     for f in sorted(ROOT.glob("*.html")):
         if f.name in SKIP or f.name.startswith(SKIP_PREFIX):
             continue
@@ -171,42 +282,32 @@ def build_related(cursussen, agenda):
         main = s.find("main")
         h1 = main.find("h1")
         title = h1.get_text(" ", strip=True) if h1 else (s.title.string or "")
-        body = main.get_text(" ", strip=True)
-        ptop = topics_of(title + " ")
-        ptop = {k: v * 4 for k, v in ptop.items()}
-        for k, v in topics_of(body).items():
-            ptop[k] = ptop.get(k, 0) + v
-        # alleen onderwerpen die echt dominant zijn
-        if not ptop:
+        ptop, ptok = page_topics(title, main.get_text(" ", strip=True))
+        if not ptop:  # geen herkenbaar onderwerp: wet- en regelgeving → compliance, anders bedrijfsvoering
+            ptop = {"compliance": 6} if f.name.startswith(("wft", "bgfo", "trhk")) else {"bedrijfsvoering": 4, "compliance": 3}
+        block = make_block(dfo, nv, ptop, ptok, title)
+        if not block:
             continue
-        top = max(ptop.values())
-        ptop = {k: v for k, v in ptop.items() if v >= max(2, top * 0.35)}
-        if not ptop:
-            continue
-        ptok = tokens(title) | {w for w in tokens(body) if body.lower().count(w) >= 2}
-        d = pick(dfo, ptop, ptok, 3, 9, title)
-        n = pick(nv, ptop, ptok, 3, 9, title, nvhp=True)
-        if not d and not n:
-            continue
-        both = bool(d and n)
-        def col(title, note, items, foot):
-            if not items:
-                return ""
-            cards = [card(x) for x in items]
-            if both:  # vaste opbouw zodat beide kolommen rij voor rij gelijk lopen (subgrid)
-                cards += ['<div aria-hidden="true"></div>'] * (3 - len(cards))
-                return (f'<div class="vk-col"><h3>{title}</h3><p class="muted vk-note">{note}</p>{"".join(cards)}<p class="vk-foot">{foot}</p></div>')
-            return (f'<div><h3>{title}</h3><p class="muted vk-note">{note}</p><div class="grid g3" style="gap:14px">{"".join(cards)}</div><p class="vk-foot">{foot}</p></div>')
-        cols = col("Opleidingen van Bureau DFO", "Praktijkgerichte trainingen, webinars en leergangen.", d,
-                   '<a class="more arrow" href="opleidingen.html">Alle DFO-opleidingen </a>') + \
-               col("Masterclasses van de NVHP", "Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.", n,
-                   f'<a class="more arrow" href="{NVHP_MC}" rel="noopener">Alle NVHP-masterclasses </a>')
-        block = (f'<section class="alt" id="verdiep"><div class="wrap"><div class="sec-head"><span class="kicker" style="color:var(--blue)">Verdiep je kennis</span>'
-                 f'<h2>Passende opleidingen en masterclasses</h2></div><div class="{"vk-grid" if both else ""}">{cols}</div></div></section>')
-        raw = raw.replace("</main>", block + "\n</main>", 1)
-        f.write_text(raw)
+        f.write_text(raw.replace("</main>", block + "\n</main>", 1))
         count += 1
     return count
+
+
+def term_links(term, afk, dfo, nv, maxn=2):
+    """Documenten/opleidingen waarvan de titel het begrip letterlijk noemt (kennisbank)."""
+    keys = [k for k in {term.lower(), (afk or "").lower()} if len(k) >= 3]
+    if not keys:
+        return []
+    rx = re.compile(r"(?<![a-zà-ÿ])(" + "|".join(re.escape(k) for k in keys) + r")(?![a-zà-ÿ])", re.I)
+    hits = [x for x in doc_items() + dfo + nv if rx.search(x["t"])]
+    if len(hits) > 12:  # te algemeen begrip
+        return []
+    hits.sort(key=lambda x: ({"DOC": 0, "DFO": 1, "NVHP": 2}[x["src"]], len(x["t"])))
+    seen, res = set(), []
+    for x in hits:
+        if x["t"] not in seen:
+            seen.add(x["t"]); res.append(x)
+    return res[:maxn]
 
 
 def nvhp_section():
