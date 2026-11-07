@@ -80,7 +80,8 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
 <div class="topbar"><div class="wrap">
   <a href="{TEL_HREF}">☎ {TEL}</a>
   <a href="mailto:{MAIL}">{MAIL}</a>
-  <a href="{SHOP}/agenda/" rel="noopener">Agenda</a>
+  <a href="webshop.html">Webshop</a>
+  <a href="opleidingen.html#agenda">Agenda</a>
   <a href="https://kennisbank.dfobv.nl/" rel="noopener">Kennisbank</a>
   <a href="{SHOP}/mijn-account/" rel="noopener">Mijn account</a>
   <a href="{PORTAL}/inloggen-prs/standaard" rel="noopener">Inloggen opleidingsportaal</a>
@@ -128,16 +129,19 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="zoeken.html">Zoeken</a></li>
     </ul></div>
     <div><h4>Webshop &amp; portalen</h4><ul>
+      <li><a href="webshop.html">Webshop (alle producten)</a></li>
+      <li><a href="artikelen.html">Artikelen &amp; opinie</a></li>
+      <li><a href="agenda-archief.html">Agenda-archief</a></li>
       <li><a href="{SHOP}/agenda/" rel="noopener">Agenda opleidingen</a></li>
-      <li><a href="{SHOP}/product/bureau-dfo-kennisflits/" rel="noopener">DFO Kennisflits</a></li>
-      <li><a href="{SHOP}/product/bureau-dfo-servicepakket/" rel="noopener">DFO – Servicepakket</a></li>
-      <li><a href="{SHOP}/product-categorie/hypotheken/" rel="noopener">Hypotheken</a></li>
-      <li><a href="{SHOP}/product-categorie/bedrijfsvoering/" rel="noopener">Bedrijfsvoering</a></li>
-      <li><a href="{SHOP}/product-categorie/inkomen/" rel="noopener">Inkomen</a></li>
-      <li><a href="{SHOP}/product-categorie/levenpensioen/" rel="noopener">Leven &amp; Pensioen</a></li>
-      <li><a href="{SHOP}/product-categorie/personeel/" rel="noopener">Personeel / HR</a></li>
-      <li><a href="{SHOP}/product-categorie/schade/" rel="noopener">Schade</a></li>
-      <li><a href="{SHOP}/product-categorie/alle-opleidingen/" rel="noopener">Alle opleidingen</a></li>
+      <li><a href="product-bureau-dfo-kennisflits.html">DFO Kennisflits</a></li>
+      <li><a href="product-bureau-dfo-servicepakket.html">DFO – Servicepakket</a></li>
+      <li><a href="webshop.html#hypotheken">Hypotheken</a></li>
+      <li><a href="webshop.html#bedrijfsvoering">Bedrijfsvoering</a></li>
+      <li><a href="webshop.html#inkomen">Inkomen</a></li>
+      <li><a href="webshop.html#levenpensioen">Leven &amp; Pensioen</a></li>
+      <li><a href="webshop.html#personeel">Personeel / HR</a></li>
+      <li><a href="webshop.html#schade">Schade</a></li>
+      <li><a href="webshop.html#alle-opleidingen">Alle opleidingen</a></li>
       <li><a href="https://kennisbank.dfobv.nl/" rel="noopener">Kennisbank</a></li>
       <li><a href="{SHOP}/mijn-account/" rel="noopener">Mijn account</a></li>
     </ul></div>
@@ -146,10 +150,11 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="over-dfo.html#team">Ons team</a></li>
       <li><a href="over-dfo.html#werken-bij">Werken bij</a></li>
       <li><a href="contact.html">Contact &amp; route</a></li>
-      <li><a href="{SHOP}/algemene-leveringsvoorwaarden/" rel="noopener">Algemene leveringsvoorwaarden</a></li>
-      <li><a href="{SHOP}/klachtenprocedure/" rel="noopener">Klachtenprocedure</a></li>
-      <li><a href="{SHOP}/onafhankelijkheidsverklaring/" rel="noopener">Onafhankelijkheidsverklaring</a></li>
-      <li><a href="{SHOP}/privacyverklaring-en-cookies/" rel="noopener">Privacyverklaring</a></li>
+      <li><a href="info-algemene-leveringsvoorwaarden.html">Algemene leveringsvoorwaarden</a></li>
+      <li><a href="info-klachtenprocedure.html">Klachtenprocedure</a></li>
+      <li><a href="info-onafhankelijkheidsverklaring.html">Onafhankelijkheidsverklaring</a></li>
+      <li><a href="info-privacyverklaring-en-cookies.html">Privacyverklaring</a></li>
+      <li><a href="info.html">Overige pagina’s dfobv.nl</a></li>
       <li><a href="actievoorwaarden-nieuwsbrief-wft.html">Actievoorwaarden Wft-nieuwsbrief</a></li>
     </ul></div>
   </div>
@@ -625,6 +630,7 @@ def build_documenten():
     total = len({i["u"] for d in DOCS for g in d["groups"] for i in g["items"]})
     chips = '<button class="chip" data-cat="" aria-pressed="true">Alle</button>' + "".join(
         f'<button class="chip" data-cat="{d["slug"]}" aria-pressed="false">{E(d["title"])}</button>' for d in DOCS)
+    import dfobv_site
     docicon = icon("doc")
     cats_html = ""
     for d in DOCS:
@@ -632,7 +638,7 @@ def build_documenten():
         groups = ""
         for g in d["groups"]:
             items = "".join(
-                f'<li><a href="{E(i["u"])}" rel="noopener" data-t="{E(i["t"].lower())}">{docicon}<span>{E(i["t"])}</span></a></li>'
+                f'<li><a href="{E(dfobv_site.rewrite(i["u"]))}" data-t="{E(i["t"].lower())}">{docicon}<span>{E(i["t"])}</span></a></li>'
                 for i in g["items"])
             groups += f'<div class="doc-group"><h4>{E(g["name"])}</h4><ul class="doc-list">{items}</ul></div>'
         cats_html += f'<div class="doc-cat" id="{d["slug"]}" data-cat="{d["slug"]}"><h3>{E(d["title"])} <span class="n">{n}</span></h3>{groups}</div>'
@@ -1082,7 +1088,8 @@ def build_zoeken():
             if len(txt) < 40:
                 continue
             anchor = ("#" + sec["id"]) if sec.get("id") else ""
-            idx.append({"u": f.name + anchor, "p": title, "h": h.get_text(" ", strip=True) if h else title, "x": txt[:1500]})
+            lim = 500 if f.name.startswith(("product-", "artikel-", "info-")) else 1500
+            idx.append({"u": f.name + anchor, "p": title, "h": h.get_text(" ", strip=True) if h else title, "x": txt[:lim]})
     for c in cursussen:
         idx.append({"u": c["u"], "p": "Opleiding", "h": c["t"], "x": c["s"] + " " + c["wg"] + " " + c["prijs"]})
     for d in DOCS:
@@ -1486,6 +1493,11 @@ def portals_section():
 
 if __name__ == "__main__":
     COLS.extend(c for c in extra_columns() if c["slug"] not in {x["slug"] for x in COLS})
+
+    # www.dfobv.nl: pagina's, artikelen, webshop, agenda-archief
+    import dfobv_site
+    stats = dfobv_site.build_dfobv({"page": page, "hero": hero, "callout": callout, "icon": icon})
+    print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
                build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_404, build_zoeken, build_redirects]:

@@ -43,6 +43,9 @@ def maplink(href, page_rel):
         return "nazorg.html"
     if href.rstrip("/") in ("https://www.dfo-opleidingen.nl", "http://www.dfo-opleidingen.nl"):
         return "opleidingen.html"
+    if re.match(r"https?://(www\.)?dfobv\.nl/", href or ""):
+        import dfobv_site
+        return dfobv_site.rewrite(href)
     if href.startswith(("http", "mailto:", "tel:")):
         return href.replace("tel:033 258 04 60", "tel:+31332580460")
     base = Path(page_rel).parent

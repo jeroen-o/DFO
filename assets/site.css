@@ -274,3 +274,14 @@ ol.steps-ol li strong{display:block;color:var(--ink)}
 ul.mini{list-style:none;padding:0;margin:4px 0 0;display:grid;gap:6px;font-size:.86rem}
 ul.mini a{color:var(--ink-2);text-decoration:none}
 ul.mini a:hover{color:var(--blue);text-decoration:underline}
+/* Overgenomen WordPress-inhoud */
+.wp img{max-width:100%;height:auto;border-radius:10px}
+.wp p.wpimg img{max-width:min(100%,640px)}
+.wp h2{margin-top:1.4em}.wp h3{margin-top:1.2em}
+.wp ul,.wp ol{padding-left:1.3em;color:var(--ink-2)}
+.wp li{margin-bottom:.4em}
+.wp blockquote{margin:1.4em 0;padding:4px 0 4px 20px;border-left:4px solid var(--sky);color:var(--blue-d);font-weight:500}
+.tablewrap{overflow-x:auto;margin:1em 0}
+.tablewrap table{border-collapse:collapse;width:100%;font-size:.92rem}
+.tablewrap td,.tablewrap th{border:1px solid var(--line);padding:8px 10px;vertical-align:top;text-align:left}
+details.date summary::-webkit-details-marker{display:none}
