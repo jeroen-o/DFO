@@ -349,3 +349,5 @@ nav.main{min-width:0}
 /* Logo/illustratie-afbeeldingen (svg) volledig tonen in kaarten */
 .card.img .ph img[src$=".svg"]{object-fit:contain;padding:16px 24px;background:#fff}
 .card.img .ph:has(img[src$=".svg"]){background:#fff}
+footer.site a.btn-light{color:var(--blue);text-decoration:none}
+footer.site a.btn-light:hover{color:var(--blue-d);background:var(--sky-l);text-decoration:none}
