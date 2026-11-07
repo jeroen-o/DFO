@@ -21,6 +21,12 @@ LINKMAP = {
     "abonnement-dashboard/toelichting-calculator-onderhoud-en-nazorg": "nazorg-calculator.html",
     "abonnement-dashboard": "https://www2.dfobv.nl/abonnement-dashboard/",
     "zoeken": "zoeken.html", "": "index.html",
+    "columns-jurjen-oosterbaan": "columns.html", "www2-dfobv-nl/de-mening-van-columns": "de-mening-van.html",
+    "maand-van-de-performance": "performance.html#maand-van-de-performance",
+    "samenvattingen-onderzoek-performance-2026": "performance.html#samenvattingen-2026",
+    "week-van-de-serviceproviders": "performance.html#week-van-de-serviceprovider",
+    "winnaars-performance-onderzoek-2025": "performance.html#winnaars-2025",
+    "actievoorwaarden-nieuwsbrief-wft": "actievoorwaarden-nieuwsbrief-wft.html",
 }
 SKIP_TXT = {"Bureau DFO", "Jouw partner voor een beheerste en integere bedrijfsvoering", "DFO Compliance"}
 FOOTER = {"Extra informatie", "Op de hoogte blijven?", "Contact"}
@@ -54,6 +60,8 @@ def maplink(href, page_rel):
                 "vacature-secretaresse-allround.pdf": "assets/pdf/vacature-secretaresse-allround.pdf",
                 "persbericht-bureau-dfo-meedenken-met-kantoor-bepaalt-waardering-serviceproviders.pdf": "assets/pdf/persbericht-bureau-dfo-meedenken-met-kantoor-bepaalt-waardering-serviceproviders.pdf"}.get(
             name, "https://www2.dfobv.nl/" + key)
+    if key.startswith("de-mening-van-columns/"):
+        return "de-mening-van.html#" + key.split("/")[-1].replace("de-mening-van-", "")
     if key.startswith("columns-jurjen-oosterbaan/"):
         return "columns.html#" + key.split("/")[-1].replace("column-jurjen-oosterbaan-", "")
     new = LINKMAP.get(key, "https://www2.dfobv.nl/" + key + "/")
@@ -91,9 +99,9 @@ def inline(el, page_rel):
     return s.strip()
 
 
-def blocks(page_rel):
+def blocks(page_rel, bron=None):
     """Lijst van (soort, inhoud) in documentvolgorde. soort: h1,h2,h3,p,ul,ol,btn,img,yt"""
-    s = BeautifulSoup((BRON / page_rel).read_text(), "html.parser")
+    s = BeautifulSoup(((bron or BRON) / page_rel).read_text(), "html.parser")
     for t in s(["header", "nav", "footer", "script", "style", "noscript", "form"]):
         t.decompose()
     res, done = [], set()
@@ -115,9 +123,15 @@ def blocks(page_rel):
                 continue
             lvl = int(hm.group(1)) if hm else int(el.name[1])
             res.append(("h1" if lvl == 1 else "h2" if lvl == 2 else "h3", txt))
+            a = el.find("a", href=True)
+            if a:
+                res.append(("btn", (txt, maplink(a["href"], page_rel))))
         elif el.name == "div" and "handler" in cls:
             done.add(id(el))
             res.append(("h3", txt))
+        elif el.name == "a" and "media" in cls and el.find("img"):
+            done.add(id(el))
+            res.append(("imglink", (el.find("img").get("src", ""), maplink(el.get("href"), page_rel))))
         elif el.name == "a" and "button" in cls:
             done.add(id(el))
             if txt:
@@ -135,6 +149,10 @@ def blocks(page_rel):
                 res.append(("p", h))
             for im in el.find_all("img"):
                 res.append(("img", im.get("src", "")))
+            for fr in el.find_all("iframe"):
+                m = re.search(r"youtube\.com/embed/([\w-]+)", fr.get("src", ""))
+                if m:
+                    res.append(("yt", m.group(1)))
         elif el.name == "iframe":
             done.add(id(el))
             m = re.search(r"youtube\.com/embed/([\w-]+)", el.get("src", ""))

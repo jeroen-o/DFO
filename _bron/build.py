@@ -117,6 +117,8 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="congressen.html">Congressen</a></li>
       <li><a href="secretariaten.html">Secretariaatsvoering</a></li>
       <li><a href="columns.html">Columns Jurjen Oosterbaan</a></li>
+      <li><a href="de-mening-van.html">De mening van</a></li>
+      <li><a href="performance.html">Performance-onderzoek</a></li>
       <li><a href="themas.html">Thema’s</a></li>
       <li><a href="https://www.youtube.com/@bureaudfo6854/videos" rel="noopener">Webinars op YouTube</a></li>
       <li><a href="https://www.youtube.com/@VIPcongres/videos" rel="noopener">Videoproducties op YouTube</a></li>
@@ -144,6 +146,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="{SHOP}/algemene-leveringsvoorwaarden/" rel="noopener">Algemene leveringsvoorwaarden</a></li>
       <li><a href="{SHOP}/klachtenprocedure/" rel="noopener">Klachtenprocedure</a></li>
       <li><a href="{SHOP}/privacyverklaring-en-cookies/" rel="noopener">Privacyverklaring</a></li>
+      <li><a href="actievoorwaarden-nieuwsbrief-wft.html">Actievoorwaarden Wft-nieuwsbrief</a></li>
     </ul></div>
   </div>
   <div class="fbottom"><span>© {year} Bureau DFO B.V.</span><span><a href="https://www.linkedin.com/company/bureaudfo" rel="noopener">LinkedIn</a> · <a href="https://twitter.com/BureauDFO" rel="noopener">Twitter / X</a> · <a href="https://www.dfosignalen.nl/" rel="noopener">DFO Signalen</a></span></div>
@@ -198,7 +201,7 @@ IMGMAP = {
     "adult-blond-hair-blurred-background": "personeel", "opleiding3-250x184-1-250x184": "opleiding3",
     "business-services-21": "bedrijfsvoering", "singalen": "signalen", "clausules-250x184": "clausules",
     "wsorv": "lijfrente", "nazorg-onderhoud": "nazorg", "jurjen-oosterbaan": "jurjen", "agaat-1": "agaat",
-    "expertisegroepschade": "expertisegroep", "de-wel-14-16": "de-wel", "1-superzaal": "superzaal",
+    "expertisegroepschade": "expertisegroep", "performance-ii-corporate-infographic-cover": "performance", "persbericht-serviceproviders-ii-1200x760": "persbericht", "de-wel-14-16": "de-wel", "1-superzaal": "superzaal",
 }
 
 
@@ -883,6 +886,7 @@ def build_columns():
     body = hero("Columns van Jurjen Oosterbaan Martinius", "Scherpe observaties over het vak van financieel adviseur, de rol van aanbieders en de normen in onze sector.",
                 crumbs=["Columns"])
     body += f'<section class="tight"><div class="wrap grid g3">{toc}</div></section>{arts}'
+    body += f'<section class="tight"><div class="wrap"><a class="card" href="de-mening-van.html" style="max-width:520px"><span class="tag">Ook lezen</span><h3>De mening van…</h3><p>Professionals uit de sector over actuele ontwikkelingen: Jan Hamburger, Janthony Wielink en Paul Schuiling.</p><span class="more arrow">Lees de bijdragen </span></a></div></section>'
     body += callout("Lees ook de andere blogs van Jurjen", "Alle columns en opiniestukken vind je op de opiniepagina van Bureau DFO.", "https://www.dfobv.nl/opinie/", "Lees alle andere columns")
     page("columns.html", "Columns Jurjen Oosterbaan Martinius – Bureau DFO", "Columns van Jurjen Oosterbaan Martinius, algemeen directeur van Bureau DFO, over de financiële adviesbranche.", body)
 
@@ -897,7 +901,16 @@ def build_onderzoek():
   <a class="card img" href="https://www.dfobv.nl/wp-content/uploads/2026/10/Samenvatting-Performance-onderzoek-Kwaliteit-binnendienst-en-acceptatie-2026.pdf" rel="noopener"><div class="ph"><img src="assets/img/performance.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">2026 II</span><h3>Performanceonderzoek aanbieders</h3><p>Kwaliteit van binnendienst en acceptatie, gemeten over twee jaar op zes onderdelen van de samenwerking.</p><span class="more arrow">Samenvatting (pdf) </span></div></a>
   <a class="card img" href="https://www.dfobv.nl/product/onderzoeksrapport-waardering-assurantieportefeuilles-2026/" rel="noopener"><div class="ph"><img src="assets/img/bedrijfsvoering.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">Sinds 2004</span><h3>Waardering assurantieportefeuilles</h3><p>Hoe bepalen advieskantoren de waarde van hun assurantieportefeuille? Met trenddata over vijftien jaar.</p><span class="more arrow">Bekijk het rapport </span></div></a>
 </div></section>
-<section class="alt"><div class="wrap split">
+<section class="alt"><div class="wrap">
+  <div class="sec-head"><h2>Performance-onderzoek</h2><p>Samenvattingen Meting I en II 2026, de winnaars van 2025, de Maand van de Performance en de Week van de Serviceprovider.</p></div>
+  <div class="grid g4">
+    <a class="card" href="performance.html#samenvattingen-2026"><span class="tag">2026</span><h3>Samenvattingen Meting I en II</h3><span class="more arrow">Downloaden </span></a>
+    <a class="card" href="performance.html#winnaars-2025"><span class="tag">2025</span><h3>Winnaars Performance onderzoek</h3><span class="more arrow">Bekijken </span></a>
+    <a class="card" href="performance.html#maand-van-de-performance"><span class="tag">2024</span><h3>Maand van de Performance</h3><span class="more arrow">Vakpapers </span></a>
+    <a class="card" href="performance.html#week-van-de-serviceprovider"><span class="tag">2024</span><h3>Week van de Serviceprovider</h3><span class="more arrow">Winnaars &amp; video’s </span></a>
+  </div>
+</div></section>
+<section><div class="wrap split">
   <div><h2>Serviceproviders vergelijken</h2><p>Vergelijk alle serviceproviders op kwaliteit, snelheid, aanbod en waardering in onze online vergelijker.</p><a class="btn btn-primary arrow" href="https://sp.dfobv.nl/" rel="noopener">Naar de vergelijker</a></div>
   <div><h2>Klanttevredenheidsonderzoek</h2><p>Wil je weten hoe jouw klanten je dienstverlening waarderen? Wij voeren in jouw opdracht een onafhankelijk onderzoek uit. Met een servicepakket krijg je korting of is het inbegrepen.</p><a class="btn btn-ghost arrow" href="abonnementen.html">Bekijk servicepakketten</a></div>
 </div></section>
@@ -1094,9 +1107,177 @@ q.addEventListener('input',go);const p=new URLSearchParams(location.search).get(
     page("zoeken.html", "Zoeken – Bureau DFO", "Zoek op de website van Bureau DFO.", body, scripts=js)
 
 
+EXTRA = Path(__file__).resolve().parent / "bron-www2-extra"
+
+
+def xblocks(rel):
+    bl = vblocks(rel, EXTRA)
+    out = []
+    for k, v in bl:
+        if k in ("h2", "h3") and v.startswith("Lees ook de andere"):
+            break
+        if k == "h3" and v.startswith("Jouw partner waar het gaat"):
+            continue
+        out.append((k, v))
+    return out
+
+
+def ximg(src):
+    base = re.sub(r"\.\d+x\d+(x\d+x\d+)?\.", ".", src.split("/")[-1]).rsplit(".", 1)[0]
+    p = ROOT / "assets/img" / (base + ".jpg")
+    return f"assets/img/{base}.jpg" if p.exists() else img_src(src)
+
+
+def extra_columns():
+    """De 3 columns die alleen via de sitemap bereikbaar waren, in hetzelfde formaat als columns.json."""
+    res = []
+    for slug, maand in [("januari-2025-2", "januari 2025"), ("januari-2025", "januari 2025"), ("december-2024", "december 2024")]:
+        bl = xblocks(f"columns-jurjen-oosterbaan/column-jurjen-oosterbaan-{slug}/index.html")
+        title, blocks_ = None, []
+        for k, v in bl:
+            t = html.unescape(re.sub(r"<[^>]+>", "", v)).strip() if isinstance(v, str) else ""
+            if k == "h2" and title is None:
+                title = t
+                continue
+            if k == "h2":
+                blocks_.append(["h", t])
+            elif k == "p" and t:
+                blocks_.append(["p", t])
+        res.append({"slug": slug, "maand": maand, "titel": title, "blocks": blocks_})
+    return res
+
+
+def build_performance():
+    sam = xblocks("samenvattingen-onderzoek-performance-2026/index.html")
+    win = xblocks("winnaars-performance-onderzoek-2025/index.html")
+    maand = xblocks("maand-van-de-performance/index.html")
+    week = xblocks("week-van-de-serviceproviders/index.html")
+    intro26 = next(v for k, v in sam if k == "p").replace("<br>", "").strip()
+    imgs26 = [ximg(v) for k, v in sam if k == "img" and "puzzle" not in v]
+    dl26 = [v for k, v in sam if k == "btn"]
+    labels = ["Meting I – Kwaliteit accountmanagement en buitendienst", "Meting II – Kwaliteit binnendienst en acceptatie"]
+    cards26 = "".join(
+        f'<a class="card img" href="{E(u)}" rel="noopener"><div class="ph" style="aspect-ratio:auto"><img src="{im}" alt="" loading="lazy"></div>'
+        f'<div class="body"><h3>{lab}</h3><span class="more arrow">{E(t)} </span></div></a>'
+        for im, (t, u), lab in zip(imgs26, dl26, labels))
+    wp = [v for k, v in win if k == "p"]
+    wdl = next(v for k, v in win if k == "btn")
+    mdl = next(v for k, v in maand if k == "btn")
+    cards, cur = [], None
+    for k, v in maand:
+        if k == "h2":
+            cur = {"h": v, "img": None, "p": "", "btn": None}
+            cards.append(cur)
+        elif cur and k == "img":
+            cur["img"] = ximg(v)
+        elif cur and k == "p":
+            cur["p"] = v
+        elif cur and k == "btn":
+            cur["btn"] = v
+    mcards = "".join(
+        f'<div class="card img"><div class="ph" style="aspect-ratio:auto"><img src="{c["img"]}" alt="" loading="lazy"></div>'
+        f'<div class="body"><span class="tag">{E(c["h"])}</span><p>{c["p"]}</p>'
+        f'<a class="more arrow" href="{E(c["btn"][1])}" rel="noopener">{E(c["btn"][0])} </a></div></div>' for c in cards)
+    wk_intro = next(v for k, v in week if k == "p")
+    il = [v for k, v in week if k == "imglink"]
+    winners, prev = [], None
+    for k, v in week:
+        if k == "p" and v != wk_intro:
+            prev = v
+        elif k == "yt" and prev:
+            winners.append((prev.replace("Hypotkeken", "Hypotheken"), v))
+            prev = None
+    wcards = "".join(f'<div class="card"><p style="color:var(--ink);font-weight:600">{p}</p>{yt_html([y])}</div>' for p, y in winners)
+    body = hero("Performance-onderzoek",
+                "Hoe waardeert het intermediair de dienstverlening van aanbieders en serviceproviders? Download de gratis samenvattingen en vakpapers.",
+                crumbs=['<a href="onderzoek.html">Onderzoek</a>', "Performance"])
+    rest = "".join(f"<p>{x}</p>" for x in wp[1:])
+    body += f"""
+<section id="samenvattingen-2026"><div class="wrap">
+  <div class="sec-head"><h2>Performance Onderzoek 2026 Samenvattingen Meting I en II</h2><p>{intro26}</p></div>
+  <div class="grid g2">{cards26}</div>
+</div></section>
+<section class="alt" id="winnaars-2025"><div class="wrap split">
+  <div class="prose"><h2>Winnaars Performance onderzoek 2025</h2><p>{wp[0]}</p>
+  <h3><a href="{E(wdl[1])}" rel="noopener">Download hier de gratis samenvatting van het Performance onderzoek 2025 voor financieel adviseurs</a></h3>
+  {rest}
+  <div class="btns"><a class="btn btn-primary arrow" href="{E(wdl[1])}" rel="noopener">Download de samenvatting 2025</a></div></div>
+  <div class="media"><img src="assets/img/winnaars-performance-onderzoek2.jpg" alt="Winnaars Performance onderzoek 2025" loading="lazy"></div>
+</div></section>
+<section id="maand-van-de-performance"><div class="wrap">
+  <div class="split" style="margin-bottom:28px"><div><h2>Oktober: Maand van de Performance</h2>
+  <p><a href="{E(mdl[1])}" rel="noopener"><strong>Download hier de gratis samenvatting van het Performance onderzoek 2024 voor financieel adviseurs</strong></a></p></div>
+  <div><a href="{E(mdl[1])}" rel="noopener"><img src="assets/img/dfo-maand-van-de-performance.jpg" alt="Maand van de Performance" loading="lazy" style="max-width:240px"></a></div></div>
+  <div class="grid g3">{mcards}</div>
+</div></section>
+<section class="alt" id="week-van-de-serviceprovider"><div class="wrap">
+  <div class="split" style="margin-bottom:28px"><div class="prose"><h2>Week van de Serviceprovider</h2><p>{wk_intro}</p>
+  <div class="btns"><a class="btn btn-primary arrow" href="{E(il[1][1])}" rel="noopener">Vakpaper Serviceproviders 2024 (pdf)</a><a class="btn btn-ghost arrow" href="{E(il[0][1])}" rel="noopener">Gratis vakpaper in de webshop</a></div></div>
+  <div><a href="{E(il[0][1])}" rel="noopener"><img src="assets/img/week-van-de-serviceproviderwitte-achtegrond.jpg" alt="Week van de Serviceprovider" loading="lazy"></a>
+  <a href="{E(il[1][1])}" rel="noopener"><img src="assets/img/met-randtekstlijn2024-1.jpg" alt="Vakpaper Serviceproviders 2024" loading="lazy" style="max-width:200px;margin-top:16px"></a></div></div>
+  <div class="grid g3">{wcards}</div>
+</div></section>
+"""
+    page("performance.html", "Performance-onderzoek – Bureau DFO",
+         "Samenvattingen en vakpapers van het DFO Performance-onderzoek en de Week van de Serviceprovider.", body)
+
+
+def build_mening():
+    ov = xblocks("www2-dfobv-nl/de-mening-van-columns/index.html")
+    intro = [v for k, v in ov if k == "p"][:2]
+    arts, toc = "", ""
+    for i, (slug, img) in enumerate([("de-mening-van-jan-hamburger", "janweb-1"),
+                                      ("de-mening-van-janthony-wielink", "janthonie-wielink"),
+                                      ("de-mening-van-paul-schuiling", "paul-schuiling")]):
+        bl = xblocks(f"de-mening-van-columns/{slug}/index.html")
+        if slug.endswith("hamburger"):
+            bl = bl[[j for j, b in enumerate(bl) if b == ("h2", "DE MENING VAN")][0]:]
+        name_p = next(v for k, v in bl if k == "p")
+        parts = name_p.split("<br>")
+        name = re.sub(r"<[^>]+>", "", parts[0]).strip()
+        role = html.unescape(re.sub(r"<[^>]+>", "", parts[1])).strip() if len(parts) > 1 else ""
+        out = ""
+        for k, v in bl:
+            if v == name_p or (k == "h2" and v == "DE MENING VAN") or k in ("img", "imglink", "btn"):
+                continue
+            if k == "h2":
+                out += f"<blockquote>{E(v.strip(chr(34)))}</blockquote>" if v.startswith('"') else f"<h3>{E(v)}</h3>"
+            elif k == "p":
+                out += f"<p>{v}</p>"
+        aid = slug.replace("de-mening-van-", "")
+        alt = ' class="alt"' if i % 2 == 0 else ""
+        toc += (f'<a class="card" href="#{aid}"><span class="tag">De mening van</span><h3>{E(name)}</h3>'
+                f'<p>{E(role)}</p><span class="more arrow">Lees meer </span></a>')
+        arts += (f'<section id="{aid}"{alt}><div class="wrap"><article class="article">'
+                 f'<span class="kicker" style="color:var(--blue)">De mening van</span><h2>{E(name)}</h2>'
+                 f'<div class="byline"><img src="assets/img/{img}.jpg" alt="{E(name)}"><div><strong>{E(name)}</strong><small>{E(role)}</small></div></div>'
+                 f'{out}</article></div></section>')
+    clean_intro = [re.sub(r"</?em>", "", x) for x in intro]
+    body = hero("De mening van", clean_intro[0], crumbs=["De mening van"], img="assets/img/dfo-de-mening-van.jpg", small=False)
+    body += f'<section class="tight"><div class="wrap"><p class="muted">{clean_intro[1]}</p><div class="grid g3">{toc}</div></div></section>{arts}'
+    body += callout("Lees alle andere ‘de mening van’", "Eerdere bijdragen vind je op de website van Bureau DFO.",
+                    "https://www.dfobv.nl/?s=de+mening+van", "Lees alle andere ‘de mening van’")
+    page("de-mening-van.html", "De mening van – Bureau DFO",
+         "Professionals uit de financiële sector geven hun mening over actuele ontwikkelingen.", body)
+
+
+def build_actievoorwaarden():
+    bl = xblocks("actievoorwaarden-nieuwsbrief-wft/index.html")
+    t = next(v for k, v in bl if k == "h1")
+    items = next(v for k, v in bl if k == "ul")
+    lis = "".join(f"<li>{x}</li>" for x in items)
+    ps = "".join(f"<p>{v}</p>" for k, v in bl if k == "p")
+    body = hero(E(t), "", crumbs=['<a href="abonnementen.html">Abonnementen</a>', "Actievoorwaarden"])
+    body += (f'<section><div class="wrap"><div class="prose"><ul class="check">{lis}</ul>{ps}'
+             '<div class="btns"><a class="btn btn-primary arrow" href="abonnementen.html">Naar onze abonnementen</a></div></div></div></section>')
+    page("actievoorwaarden-nieuwsbrief-wft.html", "Actievoorwaarden DFO Nieuwsbrief Wft – Bureau DFO",
+         "Actievoorwaarden aanbod DFO Nieuwsbrief Wft.", body)
+
+
 if __name__ == "__main__":
+    COLS.extend(c for c in extra_columns() if c["slug"] not in {x["slug"] for x in COLS})
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_404, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_404, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
