@@ -98,7 +98,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
     <div>
       <div class="flogo"><img src="assets/img/logo.png" alt="Bureau DFO" width="613" height="145"></div>
       <p>Jouw partner waar het gaat om succesvol ondernemen in de financiële dienstverlening. Sinds 1992.</p>
-      <p>{ADRES}<br>Tel: <a href="{TEL_HREF}">{TEL}</a><br>Mail: <a href="mailto:{MAIL}">{MAIL}</a></p>
+      <p>{ADRES}<br>Tel: <a href="{TEL_HREF}">{TEL}</a><br>Mail: <a href="mailto:{MAIL}">{MAIL}</a><br><a href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route via Google Maps</a></p>
       <h4 style="margin-top:22px">Op de hoogte blijven?</h4>
       <p class="fnews">Schrijf je dan in voor onze nieuwsbrief</p>
       <a class="btn btn-light" href="abonnementen.html#aanvragen" style="padding:9px 16px">Aanmelden</a>
@@ -146,7 +146,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="{SHOP}/privacyverklaring-en-cookies/" rel="noopener">Privacyverklaring</a></li>
     </ul></div>
   </div>
-  <div class="fbottom"><span>© {year} Bureau DFO B.V.</span><span><a href="https://www.linkedin.com/company/bureaudfo" rel="noopener">LinkedIn</a> · <a href="https://www.dfosignalen.nl/" rel="noopener">DFO Signalen</a></span></div>
+  <div class="fbottom"><span>© {year} Bureau DFO B.V.</span><span><a href="https://www.linkedin.com/company/bureaudfo" rel="noopener">LinkedIn</a> · <a href="https://twitter.com/BureauDFO" rel="noopener">Twitter / X</a> · <a href="https://www.dfosignalen.nl/" rel="noopener">DFO Signalen</a></span></div>
 </div></footer>
 <script>
 (function(){{var b=document.querySelector('.menu-btn'),n=document.getElementById('mainnav');
@@ -463,10 +463,11 @@ def build_home():
 
 <section><div class="wrap">
   <div class="news">
-    <a class="card img" href="assets/pdf/persbericht-bureau-dfo-meedenken-met-kantoor-bepaalt-waardering-serviceproviders.pdf">
-      <div class="ph"><img src="assets/img/persbericht.jpg" alt="" loading="lazy" width="960" height="608"></div>
+    <div class="card img">
+      <a class="ph" href="https://www.dfobv.nl/product/gratis-vakpaper-serviceproviders-onderzoek-2026/" rel="noopener"><img src="assets/img/persbericht.jpg" alt="Gratis vakpaper Serviceproviders-onderzoek 2026" loading="lazy" width="960" height="608"></a>
       <div class="body"><span class="tag">Onderzoek</span><h3>{E(t1)}</h3><p>{get(t1)}</p>
-      <span class="more arrow">Lees hier het persbericht </span></div></a>
+      <a class="more arrow" href="assets/pdf/persbericht-bureau-dfo-meedenken-met-kantoor-bepaalt-waardering-serviceproviders.pdf">Lees hier het persbericht </a>
+      <a class="more arrow" href="https://www.dfobv.nl/product/gratis-vakpaper-serviceproviders-onderzoek-2026/" rel="noopener" style="margin-top:6px">Gratis vakpaper Serviceproviders-onderzoek 2026 </a></div></div>
     <a class="card img" href="https://www.dfobv.nl/wp-content/uploads/2026/10/Samenvatting-Performance-onderzoek-Kwaliteit-binnendienst-en-acceptatie-2026.pdf" rel="noopener">
       <div class="ph"><img src="assets/img/performance.jpg" alt="" loading="lazy" width="960" height="676"></div>
       <div class="body"><span class="tag">Gratis download</span><h3>{E(t2)}</h3><p>{get(t2)}</p>
@@ -565,7 +566,7 @@ def build_opleidingen():
   <div class="sec-head"><h2>Agenda</h2><p>Geplande opleidingsdagen. Klik op een datum voor details en aanmelden in het opleidingsportaal.</p></div>
   <div class="filters"><select id="loc" aria-label="Locatie">{lopts}</select></div>
   <div class="list" id="dates"></div>
-  <p class="muted" style="font-size:.85rem;margin-top:12px">Beschikbaarheid en actuele data vind je altijd in het <a href="{PORTAL}/alle-cursus-evenementen/overzicht" rel="noopener">opleidingsportaal</a>.</p>
+  <p class="muted" style="font-size:.85rem;margin-top:12px">Beschikbaarheid en actuele data vind je altijd in het <a href="{PORTAL}/alle-cursus-evenementen/overzicht" rel="noopener">opleidingsportaal</a>. Bekijk ook <a href="{PORTAL}/cursussen/cursussen" rel="noopener">alle opleidingen in het portaal</a>.</p>
 </div></section>
 
 <section><div class="wrap split">
@@ -754,12 +755,12 @@ def build_zalen():
         cards += f'''<div class="card img room"><div class="ph"><img src="assets/img/{img}.jpg" alt="Zaal {E(n)}" loading="lazy" width="960" height="640"></div>
 <div class="body"><h3>{E(n)}</h3>
 <p style="font-size:.9rem">{E(typ)} • {E(cap)}<br>Opstelling: {E(ops)}<br>Faciliteiten: {E(fac)}</p>
-<a class="more arrow" href="{mailto('info@dfozalen.nl', f'Aanvraag zaal {n}', f'Ik wil graag zaal {n} reserveren.%0A%0ADatum:%0AAantal personen:%0AOpstelling:%0ACatering:%0A'.replace('%0A', chr(10)))}">Aanvragen </a></div></div>'''
+<a class="more arrow" href="{mailto('info@dfozalen.nl', f'Aanvraag {n.split(" (")[0]}', f'Ik wil graag zaal {n} reserveren.%0A%0ADatum:%0AAantal personen:%0AOpstelling:%0ACatering:%0A'.replace('%0A', chr(10)))}">Aanvragen </a></div></div>'''
     zs = sections_of("diensten/dfo-zalencentrum/index.html")
     intro = render_units([b for b in zs["Alle ruimte om samen te komen, te leren én te inspireren!"] if b[0] != "btn"])
     body = hero("DFO Zalencentrum", "Van boardroom tot superzaal: in Hoevelaken vind je voor elke vergadering, training of bijeenkomst de ruimte die bij je past.",
                 crumbs=["Zalencentrum"], img="assets/img/superzaal.jpg", small=False,
-                btns=f'<a class="btn btn-light arrow" href="{mailto("info@dfozalen.nl","Offerte aanvraag zaalhuur")}">Offerte aanvragen</a><a class="btn btn-ghost" href="#zalen">Bekijk de zalen</a>')
+                btns=f'<a class="btn btn-light arrow" href="{mailto("info@dfozalen.nl","Offerteaanvraag DFO Zalencentrum")}">Offerte aanvragen</a><a class="btn btn-ghost" href="#zalen">Bekijk de zalen</a>')
     body += f"""
 <section><div class="wrap split">
   <div><h2>Alle ruimte om samen te komen, te leren én te inspireren!</h2>{intro}</div>
@@ -773,7 +774,7 @@ def build_zalen():
 <section class="tight"><div class="wrap"><div class="note"><strong>Ontvangst en kantine</strong><br>Bij het huren van onze zalen word je altijd ontvangen door een van onze gastvrouwen en heb je toegang tot onze kantine.</div></div></section>
 """ + callout("Een ruimte reserveren of combineren?",
               "We denken graag mee over de beste opstelling en logistiek. Neem contact met ons op voor beschikbaarheid en cateringopties. Werkt de knop niet? Stuur dan een mail naar info@dfozalen.nl.",
-              mailto("info@dfozalen.nl", "Offerte aanvraag zaalhuur"), "Vraag een offerte aan")
+              mailto("info@dfozalen.nl", "Offerteaanvraag DFO Zalencentrum"), "Vraag een offerte aan") + f'<section class="tight" style="padding-top:0"><div class="wrap center"><a class="btn btn-ghost arrow" href="{mailto("info@dfozalen.nl", "Vraag over DFO Zalencentrum")}">Of heb je vragen? Mail ons</a> <a class="btn btn-ghost arrow" href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route via Google Maps</a></div></section>'
     page("zalencentrum.html", "Vergaderruimte huren in Hoevelaken – DFO Zalencentrum",
          "Zeven vergader- en cursuszalen voor 8 tot 70 personen bij knooppunt Hoevelaken. Gratis parkeren, persoonlijke ontvangst.", body)
 
@@ -890,8 +891,9 @@ def build_onderzoek():
     body = hero("Onderzoek", "Onafhankelijk onderzoek voor de financiële adviesketen. Wij meten met regelmaat hoe het intermediair de samenwerking met aanbieders en serviceproviders ervaart.",
                 crumbs=["Onderzoek"])
     body += f"""
-<section><div class="wrap news">
+<section><div class="wrap grid g4">
   <a class="card img" href="assets/pdf/persbericht-bureau-dfo-meedenken-met-kantoor-bepaalt-waardering-serviceproviders.pdf"><div class="ph"><img src="assets/img/persbericht.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">2026 II</span><h3>Onderzoek serviceproviders</h3><p>De marktgerichtheid van serviceproviders blijft achter bij wat adviseurs belangrijk vinden. Meedenken met het kantoor is bepalend voor waardering én aanbeveling.</p><span class="more arrow">Persbericht (pdf) </span></div></a>
+  <a class="card img" href="https://www.dfobv.nl/product/gratis-vakpaper-serviceproviders-onderzoek-2026/" rel="noopener"><div class="ph"><img src="assets/img/signalen.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">Gratis</span><h3>Vakpaper Serviceproviders-onderzoek 2026</h3><p>Download het gratis vakpaper bij het Serviceproviders-onderzoek 2026 in de DFO-webshop.</p><span class="more arrow">Naar het vakpaper </span></div></a>
   <a class="card img" href="https://www.dfobv.nl/wp-content/uploads/2026/10/Samenvatting-Performance-onderzoek-Kwaliteit-binnendienst-en-acceptatie-2026.pdf" rel="noopener"><div class="ph"><img src="assets/img/performance.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">2026 II</span><h3>Performanceonderzoek aanbieders</h3><p>Kwaliteit van binnendienst en acceptatie, gemeten over twee jaar op zes onderdelen van de samenwerking.</p><span class="more arrow">Samenvatting (pdf) </span></div></a>
   <a class="card img" href="https://www.dfobv.nl/product/onderzoeksrapport-waardering-assurantieportefeuilles-2026/" rel="noopener"><div class="ph"><img src="assets/img/bedrijfsvoering.jpg" alt="" loading="lazy"></div><div class="body"><span class="tag">Sinds 2004</span><h3>Waardering assurantieportefeuilles</h3><p>Hoe bepalen advieskantoren de waarde van hun assurantieportefeuille? Met trenddata over vijftien jaar.</p><span class="more arrow">Bekijk het rapport </span></div></a>
 </div></section>
@@ -917,7 +919,7 @@ def build_contact():
     <h2>Bezoekadres</h2>
     <p>Bureau DFO<br>{ADRES}</p>
     <ul class="check"><li>Vlak bij knooppunt Hoevelaken (A1/A28)</li><li>Gratis parkeren voor de deur, met laadpalen</li><li>Station Hoevelaken op 10 minuten lopen</li></ul>
-    <p><a class="btn btn-ghost arrow" href="https://www.google.com/maps/search/?api=1&query=De+Wel+14+Hoevelaken" rel="noopener">Route plannen</a></p>
+    <p><a class="btn btn-ghost arrow" href="https://www.google.com/maps/place/Bureau+DFO+BV/@52.1669977,5.4650031,183m/data=!3m1!1e3!4m12!1m5!3m4!2zNTLCsDEwJzAwLjciTiA1wrAyNyc1Ni4yIkU!8m2!3d52.166857!4d5.465621!3m5!1s0x47c6461e8b92bf4b:0x111d772b352974aa!8m2!3d52.1668573!4d5.4656206!16s%2Fg%2F1tdzv" rel="noopener">Route plannen</a></p>
     <img src="assets/img/kaart.jpg" alt="Kaart van de omgeving" loading="lazy" width="960" height="442" style="border-radius:14px;margin-top:16px">
   </div>
   <div class="card">
