@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Abonnement dashboard - DFO bv</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Abonnement dashboard">
+<meta property="og:type" content="website">
+<meta property="og:updated_time" content="1793890914">
+<meta name="twitter:title" content="Abonnement dashboard">
+        <link rel="shortcut icon" type="image/png" href="../assets/files/dfo-favicon.png" data-href_alt="DFO favicon">
+        <link rel="canonical" href="index.html">
+        <link rel="preload" href="../assets/fonts/poppins/poppins-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../assets/fonts/poppins/poppins-medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="../assets/fonts/poppins/poppins-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="stylesheet" href="../assets/css/fonts.css@v=1793890914.css">
+        <link rel="stylesheet" href="../assets/css/website.css@v=1793890914.css">
+        <link rel="stylesheet" href="../assets/css/page-2968739.css@v=1793890914.css">
+        <script>
+    const LANGUAGE_CODE = 'nl';
+</script>
+<script src="../assets/vendors/jquery/jquery.min.js"></script>
+        <script data-cfasync='false' type='text/javascript' defer='' async='' src='https://t.spotler.com/Scripts/ssl/f18f317f-0c31-42d4-b7c1-c35e44ea3107.js'></script>
+        <script src="../js/script.js" defer data-domain="www2.dfobv.nl"></script>
+        
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www2.dfobv.nl"
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Abonnement dashboard",
+            "item": "https://www2.dfobv.nl/abonnement-dashboard/"
+        }
+    ]
+}
+</script>
+    </head>
+    <body>
+        
+        <div class="page" id="page-2968739">
+		<section id="block-8-26489408" class="light">
+			<div class="container container-1">
+				<div class="row row-1">
+		<div class="abocalc-wrap">
+		  <div class="print-header print-only">
+		    <div class="print-header-row">
+		      <img class="brand-logo" id="brandLogo" alt="DFO" src="https://inloggen.dutchmedialab.nl/files/websites/62133/vuzao2qhifdwd40p6xzs.jpg" onerror="this.style.display='none'" />
+		      <div>
+		        <h1>Abonnement Calculator – Rapport</h1>
+		        <div class="print-meta">Gegenereerd op <span id="printDate"></span></div>
+		      </div>
+		    </div>
+		    <div class="print-summary">
+		      <h2>Samenvatting</h2>
+		      <table id="reportSummary" class="report-table">
+		        <tbody>
+		          
+		        </tbody>
+		      </table>
+		    </div>
+		  </div>
+		
+		  <h1>Abonnement Calculator – Financieel Advieskantoren</h1>
+		  <p class="lead">Voer aannames in, registreer handelingen (max 20) en zie direct de minimale abo-prijs per klant per maand, urenbeslag en benodigde FTE.</p>
+		
+		  <div class="grid cols-3">
+		    <div class="card">
+		      <h2>Algemene instellingen</h2>
+		      <label for="customers">Aantal klanten</label>
+		      <input id="customers" type="number" min="1" step="1" value="250">
+		
+		      <div class="grid cols-2">
+		        <div>
+		          <label for="rateA">Tarief medew. A (€/uur)</label>
+		          <input id="rateA" type="number" min="0" step="0.01" value="50">
+		        </div>
+		        <div>
+		          <label for="rateB">Tarief medew. B (€/uur)</label>
+		          <input id="rateB" type="number" min="0" step="0.01" value="80">
+		        </div>
+		      </div>
+		
+		      <div class="grid cols-2">
+		        <div>
+		          <label for="overhead">Kostenopslag (%)</label>
+		          <input id="overhead" type="number" min="0" step="0.1" value="20">
+		        </div>
+		        <div>
+		          <label for="margin">Opslag rendement (%)</label>
+		          <input id="margin" type="number" min="0" step="0.1" value="10">
+		        </div>
+		      </div>
+		
+		      <div>
+		        <label for="fteHours">Werkbare uren per FTE per jaar</label>
+		        <input id="fteHours" type="number" min="1" step="1" value="1600">
+		      </div>
+		    </div>
+		
+		    <div class="card">
+		      <h2>Uitkomsten (automatisch)</h2>
+		      <div class="kpi-grid">
+		        <div class="kpi">
+		          <div class="label">Totale kosten / jaar</div>
+		          <div id="kpiTotalCost" class="value mono">€ 0</div>
+		        </div>
+		        <div class="kpi">
+		          <div class="label">Kosten / klant / maand</div>
+		          <div id="kpiPerClientPerMonth" class="value mono">€ 0</div>
+		        </div>
+		        <div class="kpi">
+		          <div class="label">Min. abo-prijs (mnd)</div>
+		          <div id="kpiMinPrice" class="value mono">€ 0</div>
+		        </div>
+		        <div class="kpi">
+		          <div class="label">Uren medew. A (jr)</div>
+		          <div id="kpiHoursA" class="value mono">0 u</div>
+		        </div>
+		        <div class="kpi">
+		          <div class="label">Uren medew. B (jr)</div>
+		          <div id="kpiHoursB" class="value mono">0 u</div>
+		        </div>
+		        <div class="kpi">
+		          <div class="label">Benodigde FTE A / B</div>
+		          <div id="kpiFTE" class="value mono">0 / 0</div>
+		        </div>
+		      </div>
+		      <p class="note">De minimale abonnementsprijs = kosten per klant per maand, inclusief kosten- en rendementsopslag.</p>
+		    </div>
+		
+		    <div class="card no-print">
+		      <h2>Acties</h2>
+		      <div class="toolbar">
+		        <button id="addRow" class="btn">+ Voeg handeling toe</button>
+		        <button id="resetRows" class="btn secondary">Reset</button>
+		        <button id="exportCSV" class="btn ghost">Exporteer CSV</button>
+		        <button id="printPage" class="btn ghost">Print</button>
+		      </div>
+		      <p class="small muted">Maximaal 20 handelingen. Je kunt zowel <em>Kans (%)</em> invullen als direct <em>Verwachte keren</em>. Indien beide zijn ingevuld, heeft <strong>Verwachte keren</strong> voorrang.</p>
+		    </div>
+		  </div>
+		
+		  <div class="card top-gap print-break-before">
+		    <h2>Handelingen (onderhoud & nazorg)</h2>
+		    <div class="table-wrap">
+		      <table id="actionsTable" aria-describedby="tableHelp">
+		        <thead>
+		          <tr>
+		            <th style="min-width:180px;">Soort handeling</th>
+		            <th style="min-width:220px;">Beschrijving (optioneel)</th>
+		            <th class="right" title="Uren medew. A">Tijd A (u)</th>
+		            <th class="right" title="Uren medew. B">Tijd B (u)</th>
+		            <th class="right" title="Kans per klant per jaar">Kans (%)</th>
+		            <th class="right" title="Aantal gebeurtenissen per jaar voor alle klanten">Verwachte keren</th>
+		            <th class="right">Kosten / handeling</th>
+		            <th class="right">Totale kosten</th>
+		            <th><span class="sr">Acties</span></th>
+		          </tr>
+		        </thead>
+		        <tbody id="actionsBody"></tbody>
+		        <tfoot>
+		          <tr>
+		            <td colspan="7" class="right">Totaal</td>
+		            <td id="sumTotal" class="right mono">€ 0</td>
+		            <td></td>
+		          </tr>
+		        </tfoot>
+		      </table>
+		    </div>
+		    <p id="tableHelp" class="note">Kosten/handeling = (TariefA×TijdA + TariefB×TijdB) × (1 + kostenopslag + rendementsopslag).</p>
+		  </div>
+		
+		  <div class="footer no-print">Prototype – alles draait client-side. Geen gegevensopslag.</div>
+		</div>     
+		</div>     
+		</div>     
+		</section>
+	</div>
+
+        
+        <script src="../assets/js/script.js@v=1793890914"></script>
+<script>
+    window.addEventListener('load', () => {
+        
+(function() {
+  const root = document.querySelector('.abocalc-wrap');
+  if (!root) return;
+
+  const fmtCurrency = new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR' });
+  const fmtNumber = new Intl.NumberFormat('nl-NL', { maximumFractionDigits: 2 });
+  const fmtEuro0 = new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0, maximumFractionDigits: 0 });
+  const fmtEuro2 = new Intl.NumberFormat('nl-NL', { style: 'currency', currency: 'EUR', minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  const el = id => root.querySelector('#' + id);
+
+  const customers = el('customers');
+  const rateA = el('rateA');
+  const rateB = el('rateB');
+  const overhead = el('overhead');
+  const margin = el('margin');
+  const fteHours = el('fteHours');
+
+  const actionsBody = root.querySelector('#actionsBody');
+  const addRowBtn = root.querySelector('#addRow');
+  const resetRowsBtn = root.querySelector('#resetRows');
+  const exportBtn = root.querySelector('#exportCSV');
+  const printBtn = root.querySelector('#printPage');
+
+  const kpiTotalCost = el('kpiTotalCost');
+  const kpiPerClientPerMonth = el('kpiPerClientPerMonth');
+  const kpiMinPrice = el('kpiMinPrice');
+  const kpiHoursA = el('kpiHoursA');
+  const kpiHoursB = el('kpiHoursB');
+  const kpiFTE = el('kpiFTE');
+  const sumTotal = el('sumTotal');
+
+  const printDate = root.querySelector('#printDate');
+  const summaryBody = root.querySelector('#reportSummary tbody');
+  const BRAND_LOGO_URL = 'https://inloggen.dutchmedialab.nl/files/websites/62133/vuzao2qhifdwd40p6xzs.jpg';
+
+  const MAX_ROWS = 20;
+  const pctToFactor = p => 1 + (Number(p||0)/100);
+
+  function rowTemplate(preset={}) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = [
+      '<td data-col="Soort handeling"><input type="text" placeholder="Naam handeling" value="'+(preset.name||'')+'" data-field="name"></td>',
+      '<td data-col="Beschrijving"><input type="text" placeholder="Korte toelichting" value="'+(preset.desc||'')+'" data-field="desc"></td>',
+      '<td data-col="Tijd A (u)" class="right"><input type="number" min="0" step="0.1" value="'+(preset.tA ?? '')+'" data-field="tA"></td>',
+      '<td data-col="Tijd B (u)" class="right"><input type="number" min="0" step="0.1" value="'+(preset.tB ?? '')+'" data-field="tB"></td>',
+      '<td data-col="Kans (%)" class="right"><input type="number" min="0" step="0.1" value="'+(preset.pct ?? '')+'" data-field="pct"></td>',
+      '<td data-col="Verwachte keren" class="right"><input type="number" min="0" step="1" value="'+(preset.count ?? '')+'" data-field="count"></td>',
+      '<td data-col="Kosten/handeling" class="right mono" data-field="unitCost">—</td>',
+      '<td data-col="Totale kosten" class="right mono" data-field="totalCost">—</td>',
+      '<td class="row-actions cell-actions" data-col="Acties">\n' +
+        '<button class="btn secondary" data-action="duplicate" title="Dupliceer">⧉</button>\n' +
+        '<button class="btn danger" data-action="remove" title="Verwijderen">✕</button>' +
+      '</td>'
+    ].join('');
+    return tr;
+  }
+
+  function compute() {
+  const nCustomers = Number(customers.value||0);
+  const pOverhead = Number(overhead.value||0);
+  const pMargin = Number(margin.value||0);
+  const factor = 1 + ((pOverhead + pMargin)/100);
+  const rA = Number(rateA.value||0);
+  const rB = Number(rateB.value||0);
+
+  let totalCost = 0;
+  let totalHoursA = 0;
+  let totalHoursB = 0;
+
+  [...actionsBody.querySelectorAll('tr')].forEach(tr => {
+    const tA = Number(tr.querySelector('[data-field="tA"]').value||0);
+    const tB = Number(tr.querySelector('[data-field="tB"]').value||0);
+    const pct = Number(tr.querySelector('[data-field="pct"]').value||0);
+    const countInput = tr.querySelector('[data-field="count"]').value;
+    const count = countInput !== '' ? Number(countInput) : Math.round(nCustomers * pct/100);
+
+    const base = (rA * tA) + (rB * tB);
+    const unitCost = base * factor;
+
+    const lineHoursA = tA * count;
+    const lineHoursB = tB * count;
+    const lineTotal  = unitCost * count;
+    tr.querySelector('[data-field="unitCost"]').textContent = base ? fmtEuro2.format(unitCost) : '—';
+    tr.querySelector('[data-field="totalCost"]').textContent = (unitCost && count) ? fmtEuro0.format(lineTotal) : '—';
+    totalCost   += isFinite(lineTotal)  ? lineTotal  : 0;
+    totalHoursA += isFinite(lineHoursA) ? lineHoursA : 0;
+    totalHoursB += isFinite(lineHoursB) ? lineHoursB : 0;
+  });
+
+  const costPerClientPerYear  = nCustomers ? (totalCost / nCustomers) : 0;
+  const costPerClientPerMonth = costPerClientPerYear / 12;
+  sumTotal.textContent               = fmtEuro0.format(totalCost);
+  kpiTotalCost.textContent           = fmtEuro0.format(totalCost);
+  kpiPerClientPerMonth.textContent   = fmtEuro2.format(costPerClientPerMonth);
+  kpiMinPrice.textContent            = fmtEuro2.format(costPerClientPerMonth);
+  kpiHoursA.textContent              = `${fmtNumber.format(totalHoursA)} u`;
+  kpiHoursB.textContent              = `${fmtNumber.format(totalHoursB)} u`;
+
+  const fteH = Number(fteHours.value||0) || 1;
+  const fteA = totalHoursA / fteH;
+  const fteB = totalHoursB / fteH;
+  kpiFTE.textContent = `${fmtNumber.format(fteA)} / ${fmtNumber.format(fteB)}`;
+
+  if (printDate) {
+    try { printDate.textContent = new Date().toLocaleString('nl-NL'); } catch(e) {}
+  }
+}
+
+  function bindRow(tr) {
+    tr.addEventListener('input', () => { compute(); buildReportSummary(); });
+    tr.querySelector('[data-action="remove"]').addEventListener('click', () => {
+      tr.remove(); compute(); buildReportSummary(); updateButtonsState();
+    });
+    tr.querySelector('[data-action="duplicate"]').addEventListener('click', () => {
+      if (actionsBody.children.length >= MAX_ROWS) return;
+      const inputs = tr.querySelectorAll('input');
+      const preset = {}; inputs.forEach(i => { preset[i.getAttribute('data-field')] = i.value; });
+      const clone = rowTemplate(preset); bindRow(clone); actionsBody.appendChild(clone);
+      updateButtonsState(); compute(); buildReportSummary();
+    });
+  }
+
+  function addRow(preset) {
+    if (actionsBody.children.length >= MAX_ROWS) return;
+    const tr = rowTemplate(preset||{}); bindRow(tr); actionsBody.appendChild(tr); updateButtonsState();
+  }
+
+  function updateButtonsState() {
+    addRowBtn.disabled = actionsBody.children.length >= MAX_ROWS;
+  }
+
+  function resetRows() {
+    actionsBody.innerHTML = '';
+    seedRows();
+    compute();
+    buildReportSummary();
+  }
+
+  function seedRows() {
+    addRow({ name: 'Hypotheekcheck', desc: 'Controle hypotheekvoorwaarden', tA: 1, tB: 0, pct: 50 });
+    addRow({ name: 'Pensioenupdate', desc: 'Aanpassing pensioenplan', tA: 0, tB: 2, pct: 30 });
+    addRow({ name: 'Verzekeringsadvies', desc: 'Nieuwe verzekering', tA: 1.5, tB: 0, pct: 40 });
+    addRow({ name: 'Belastingcheck', desc: 'Belastingvoordelen controleren', tA: 0, tB: 1, pct: 20 });
+    addRow({ name: 'Spaarplanupdate', desc: 'Aanpassing spaarplan', tA: 1, tB: 0, pct: 30 });
+  }
+
+  function exportCSV() {
+    const nCustomers = Number(customers.value||0);
+    const pOverhead = Number(overhead.value||0);
+    const pMargin = Number(margin.value||0);
+    const rA = Number(rateA.value||0);
+    const rB = Number(rateB.value||0);
+    const factor = 1 + ((pOverhead + pMargin)/100);
+    let totalCost = 0, totalHoursA = 0, totalHoursB = 0;
+    const lines = [];
+
+    [...actionsBody.querySelectorAll('tr')].forEach(tr => {
+      const name = tr.querySelector('[data-field="name"]').value;
+      const desc = tr.querySelector('[data-field="desc"]').value;
+      const tA = Number(tr.querySelector('[data-field="tA"]').value||0);
+      const tB = Number(tr.querySelector('[data-field="tB"]').value||0);
+      const pct = Number(tr.querySelector('[data-field="pct"]').value||0);
+      const countInput = tr.querySelector('[data-field="count"]').value;
+      const count = countInput !== '' ? Number(countInput) : Math.round(nCustomers * pct/100);
+      const base = (rA * tA) + (rB * tB);
+      const unitCost = base * factor;
+      const total = unitCost * count;
+
+      totalCost += isFinite(total) ? total : 0;
+      totalHoursA += isFinite(tA * count) ? (tA * count) : 0;
+      totalHoursB += isFinite(tB * count) ? (tB * count) : 0;
+
+      lines.push([name, desc, tA, tB, pct, count, unitCost, total]);
+    });
+
+    const costPerClientPerYear = nCustomers ? (totalCost / nCustomers) : 0;
+    const costPerClientPerMonth = costPerClientPerYear / 12;
+    const fteH = Number(fteHours.value||0) || 1;
+    const fteA = totalHoursA / fteH;
+    const fteB = totalHoursB / fteH;
+
+    const rows = [];
+    rows.push(['Abonnement Calculator – Export']);
+    rows.push(['Gegenereerd op', new Date().toLocaleString('nl-NL')]);
+    rows.push([]);
+    rows.push(['Instellingen']);
+    rows.push(['Aantal klanten', nCustomers]);
+    rows.push(['Tarief medewerker A (€/uur)', rA]);
+    rows.push(['Tarief medewerker B (€/uur)', rB]);
+    rows.push(['Kostenopslag onderneming (%)', pOverhead]);
+    rows.push(['Opslag rendement (%)', pMargin]);
+    rows.push(['Werkbare uren per FTE per jaar', Number(fteHours.value||0)]);
+    rows.push([]);
+    rows.push(["KPI's"]);
+    rows.push(['Totale kosten / jaar (EUR)', totalCost]);
+    rows.push(['Kosten / klant / maand (EUR)', costPerClientPerMonth]);
+    rows.push(['Minimale abonnementsprijs (EUR/mnd)', costPerClientPerMonth]);
+    rows.push(['Uren medewerker A (jr)', totalHoursA]);
+    rows.push(['Uren medewerker B (jr)', totalHoursB]);
+    rows.push(['Benodigde FTE A', fteA]);
+    rows.push(['Benodigde FTE B', fteB]);
+    rows.push([]);
+    rows.push(['Details per handeling']);
+    rows.push(['Soort handeling','Beschrijving','Tijd A (u)','Tijd B (u)','Kans (%)','Verwachte keren','Kosten/handeling (EUR)','Totale kosten (EUR)']);
+    lines.forEach(l => rows.push(l));
+    rows.push([]);
+    rows.push(['Totaal kosten/jaar', '', '', '', '', '', '', totalCost]);
+
+    const csv = rows.map(r => r.map(cell => {
+      if (typeof cell === 'string') { const s = cell.replace(/\"/g,'""'); return '"'+s+'"'; }
+      return cell;
+    }).join(';')).join('\n');
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'abonnement-calculator_export.csv'; a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function buildReportSummary() {
+    if (!summaryBody) return;
+    summaryBody.innerHTML = '';
+
+    const nCustomers = Number(customers.value||0);
+    const pOverhead = Number(overhead.value||0);
+    const pMargin = Number(margin.value||0);
+    const rA = Number(rateA.value||0);
+    const rB = Number(rateB.value||0);
+
+    const totalCostTxt = kpiTotalCost.textContent;
+    const perClientMonthTxt = kpiPerClientPerMonth.textContent;
+    const minPriceTxt = kpiMinPrice.textContent;
+    const hoursATxt = kpiHoursA.textContent;
+    const hoursBTxt = kpiHoursB.textContent;
+    const fteTxt = kpiFTE.textContent;
+
+    const add = (label, value) => {
+      const tr = document.createElement('tr');
+      const td1 = document.createElement('td'); td1.textContent = label;
+      const td2 = document.createElement('td'); td2.textContent = value;
+      tr.appendChild(td1); tr.appendChild(td2); summaryBody.appendChild(tr);
+    };
+
+    add('Aantal klanten', nCustomers);
+    add('Tarief medewerker A (€/uur)', rA);
+    add('Tarief medewerker B (€/uur)', rB);
+    add('Kostenopslag onderneming (%)', pOverhead);
+    add('Opslag rendement (%)', pMargin);
+    add('Totale kosten / jaar', totalCostTxt);
+    add('Kosten / klant / maand', perClientMonthTxt);
+    add('Minimale abonnementsprijs (mnd)', minPriceTxt);
+    add('Uren medewerker A (jr)', hoursATxt);
+    add('Uren medewerker B (jr)', hoursBTxt);
+    add('Benodigde FTE A / B', fteTxt);
+  }
+
+  function bindGlobals() {
+    [customers, rateA, rateB, overhead, margin, fteHours].forEach(i => i.addEventListener('input', () => { compute(); buildReportSummary(); }));
+    addRowBtn.addEventListener('click', () => { addRow({}); compute(); buildReportSummary(); });
+    resetRowsBtn.addEventListener('click', () => { resetRows(); buildReportSummary(); });
+    exportBtn.addEventListener('click', exportCSV);
+    printBtn.addEventListener('click', () => { buildReportSummary(); window.print(); });
+
+    window.addEventListener('beforeprint', buildReportSummary);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', start);
+  } else {
+    start();
+  }
+
+  function start() {
+    bindGlobals();
+    seedRows();
+    compute();
+    buildReportSummary();
+    try {
+      const img = root.querySelector('#brandLogo');
+      if (img && BRAND_LOGO_URL) { img.src = BRAND_LOGO_URL; img.style.display = 'block'; }
+    } catch(e) {}
+  }
+})();
+
+if (window.parent !== window) {
+            window.parent.postMessage({'height': document.body.scrollHeight});
+        }
+    });
+</script>
+    </body>
+</html>
