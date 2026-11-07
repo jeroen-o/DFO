@@ -6,6 +6,7 @@ Bron-data: _bron/opleidingen.json, _bron/documenten.json, _bron/columns.json
 De gegenereerde .html-bestanden worden gewoon gecommit; GitHub Pages heeft geen build-step nodig.
 """
 import json, html, re, datetime, os
+from urllib.parse import quote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1677,3 +1678,34 @@ if __name__ == "__main__":
                build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
+    # afbeeldingen die niet (meer) bestaan bij de bron: tag weglaten i.p.v. kapot plaatje
+    _n = 0
+    for _f in ROOT.glob("*.html"):
+        _s = _f.read_text()
+        _t = re.sub(r'<img src="(assets/[^"]+)"[^>]*>', lambda m: m.group(0) if (ROOT / m.group(1)).exists() else "", _s)
+        _t = re.sub(r'<a href="(assets/dfobv/img/[^"]+)">(.*?)</a>', lambda m: m.group(0) if (ROOT / m.group(1)).exists() else m.group(2), _t)
+        if _t != _s:
+            _f.write_text(_t); _n += 1
+    print("pagina's met verwijderde ontbrekende afbeeldingen:", _n)
+    # links naar producten die niet meer in de webshop staan
+    _dood = {k: v for k, v in json.loads((SRC / "dode_producten.json").read_text()).items() if not k.startswith("_")}
+    _rx = re.compile(r'<a href="(?:https?://(?:www\.)?dfobv\.nl)?/product/(' + "|".join(map(re.escape, _dood)) + r')/?(?:\?[^"]*)?"([^>]*)>(.*?)</a>', re.S)
+    _rx2 = re.compile(r'<a href="https?://(?:www\.)?dfobv\.nl/\?post_type=product&(?:amp;)?p=63796"([^>]*)>(.*?)</a>', re.S)
+    def _fix(m):
+        slug, attrs, inner = m.group(1), m.group(2), m.group(3)
+        nieuw = _dood[slug]
+        if nieuw:
+            href = f"product-{nieuw}.html" if (ROOT / f"product-{nieuw}.html").exists() else f"https://www.dfobv.nl/product/{nieuw}/"
+            return f'<a href="{href}"{attrs}>{inner}</a>'
+        if "data-t=" in attrs:  # documentenlijst: vragen per mail
+            titel = re.sub(r"<[^>]+>", "", inner).strip()
+            href = "mailto:info@dfobv.nl?subject=" + quote("Document aanvragen: " + titel)
+            return f'<a href="{href}"{attrs} title="Niet meer in de webshop: vraag het aan bij Bureau DFO">{inner}</a>'
+        return inner
+    _n = 0
+    for _f in ROOT.glob("*.html"):
+        _s = _f.read_text()
+        _t = _rx2.sub(lambda m: f'<a href="product-onderzoeksrapport-waardering-assurantieportefeuilles-2026.html"{m.group(1)}>{m.group(2)}</a>', _rx.sub(_fix, _s))
+        if _t != _s:
+            _f.write_text(_t); _n += 1
+    print("pagina's met verouderde productlinks aangepast:", _n)

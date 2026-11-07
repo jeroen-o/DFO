@@ -58,7 +58,7 @@ def rewrite(href):
         return h.replace("tel:033 258 04 60", "tel:+31332580460")
     p = urlparse(h)
     host = (p.netloc or "").lower()
-    if host in ("www.dfobv.nl", "dfobv.nl"):
+    if host in ("www.dfobv.nl", "dfobv.nl") or (not host and h.startswith("/") and not h.startswith("//")):
         path = unquote(p.path)
         if "/wp-content/uploads/" in path and path.lower().endswith(".mp4"):
             f = path.split("/uploads/")[-1].replace("/", "-")
