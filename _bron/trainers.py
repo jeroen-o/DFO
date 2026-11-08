@@ -162,17 +162,26 @@ def build(page, hero, callout, cursussen, agenda):
         desc = f"{p['naam']}: {(p.get('functie') or ', '.join(p['rollen']))}. " + (re.sub(r'\s+', ' ', p.get('bio') or '')[:110])
         page(f"trainer-{p['slug']}.html", f"{p['naam']} – trainer en docent – Bureau DFO", desc.strip()[:158], body)
 
-    # --- overzicht
+    # --- overzicht: eerst de trainers en docenten, daarna de dagvoorzitters en sprekers
+    TR = ("DFO-trainer", "NVHP-docent", "Compliance")
+    trainers = [p for p in mensen if set(TR) & set(p["rollen"])]
     dagv = [p for p in mensen if "Dagvoorzitter" in p["rollen"] or "Spreker" in p["rollen"]]
     dagv.sort(key=lambda p: ("Dagvoorzitter" not in p["rollen"], p["naam"].split()[-1].lower()))
-    cnt = {r: sum(1 for p in mensen if r in p["rollen"]) for r in ROLVOLGORDE}
-    chips = f'<button class="chip" data-r="" aria-pressed="true">Iedereen ({len(mensen)})</button>' + "".join(
-        f'<button class="chip" data-r="{r}" aria-pressed="false">{ {"DFO-trainer": "DFO-trainers", "NVHP-docent": "NVHP-docenten", "Compliance": "Compliance", "Dagvoorzitter": "Dagvoorzitters", "Spreker": "Sprekers"}[r] } ({cnt[r]})</button>'
-        for r in ROLVOLGORDE if cnt[r])
+    cnt = {r: sum(1 for p in trainers if r in p["rollen"]) for r in TR}
+    chips = f'<button class="chip" data-r="" aria-pressed="true">Alle trainers ({len(trainers)})</button>' + "".join(
+        f'<button class="chip" data-r="{r}" aria-pressed="false">{ {"DFO-trainer": "DFO-trainers", "NVHP-docent": "NVHP-docenten", "Compliance": "Compliance"}[r] } ({cnt[r]})</button>'
+        for r in TR if cnt[r])
     body = hero("Trainers, docenten en dagvoorzitters",
-                "Met deze trainers en docenten werkt Bureau DFO samen: de trainers van DFO Opleidingen en DFO Compliance en de docenten van de NVHP-masterclasses. Ook voor je eigen bijeenkomst of congres boek je ze via Bureau DFO.",
+                "Met deze trainers en docenten werkt Bureau DFO samen: de trainers van DFO Opleidingen en DFO Compliance en de docenten van de NVHP-masterclasses. Daaronder vind je de dagvoorzitters en sprekers voor je congres of bijeenkomst. Boeken gaat via Bureau DFO.",
                 crumbs=['<a href="opleidingen.html">Opleidingen</a>', "Trainers en docenten"],
-                btns=f'<a class="btn btn-light arrow" href="#dagvoorzitters">Dagvoorzitter of spreker inhuren</a><a class="btn btn-ghost" href="#alle">Alle trainers</a><a class="btn btn-ghost" href="#aansluiten">Zelf aansluiten</a>')
+                btns=f'<a class="btn btn-light arrow" href="#alle">Alle trainers</a><a class="btn btn-ghost" href="#dagvoorzitters">Dagvoorzitters en sprekers</a><a class="btn btn-ghost" href="#aansluiten">Zelf aansluiten</a>')
+    body += f"""
+<section id="alle"><div class="wrap">
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">{len(trainers)} trainers en docenten</span><h2>Met wie wij samenwerken</h2></div>
+  <div class="chips" id="trc" role="group" aria-label="Filter">{chips}</div>
+  <div class="grid tr-grid" id="trl">{"".join(kaart(p) for p in trainers)}</div>
+  <div class="note" style="margin-top:26px"><strong>Wil je een trainer boeken?</strong> Voor een incompany-training of workshop: neem contact op met <a href="mailto:{MAIL}?subject={quote('Trainer boeken')}">{MAIL}</a> of bel 033 258 04 60.</div>
+</div></section>"""
     if dagv:
         body += f"""
 <section class="alt" id="dagvoorzitters"><div class="wrap">
@@ -181,14 +190,7 @@ def build(page, hero, callout, cursussen, agenda):
   <div class="grid tr-grid">{"".join(kaart(p) for p in dagv)}</div>
   <div class="btns"><a class="btn btn-primary arrow" href="mailto:{MAIL}?subject={quote('Dagvoorzitter of spreker inhuren')}">Vraag een dagvoorzitter of spreker aan</a><a class="btn btn-ghost" href="congressen.html">Congresorganisatie</a></div>
 </div></section>"""
-    body += f"""
-<section id="alle"><div class="wrap">
-  <div class="sec-head"><span class="kicker" style="color:var(--blue)">{len(mensen)} trainers en docenten</span><h2>Met wie wij samenwerken</h2></div>
-  <div class="chips" id="trc" role="group" aria-label="Filter">{chips}</div>
-  <div class="grid tr-grid" id="trl">{"".join(kaart(p) for p in mensen)}</div>
-  <div class="note" style="margin-top:26px"><strong>Wil je een trainer boeken?</strong> Voor een incompany-training, een lezing of een dagvoorzitterschap: neem contact op met <a href="mailto:{MAIL}?subject={quote('Trainer boeken')}">{MAIL}</a> of bel 033 258 04 60.</div>
-</div></section>
-""" + aansluiten(len(mensen), len(cursussen)) + callout("Liever direct een opleiding volgen?", "Bekijk het actuele aanbod van Bureau DFO en de NVHP-masterclasses in Hoevelaken.", "opleidingen.html", "Naar de opleidingen")
+    body += aansluiten(len(mensen), len(cursussen)) + callout("Liever direct een opleiding volgen?", "Bekijk het actuele aanbod van Bureau DFO en de NVHP-masterclasses in Hoevelaken.", "opleidingen.html", "Naar de opleidingen")
     js = """<script>
 document.querySelectorAll('#trc .chip').forEach(b=>b.onclick=()=>{const r=b.dataset.r;document.querySelectorAll('#trc .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));
 document.querySelectorAll('#trl .tr-card').forEach(c=>c.hidden=!!r&&!c.dataset.r.split(' ').includes(r));});
