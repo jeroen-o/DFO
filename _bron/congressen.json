@@ -67,53 +67,5 @@
   ],
   "knop": "Claim je plek",
   "bron": "https://www.pitchstraat.nl/"
- },
- {
-  "slug": "kps",
-  "naam": "KPS-congressen en bijeenkomsten",
-  "url": "https://www.kps.nl/",
-  "img": "assets/img/congres/kps.jpg",
-  "label": "Congres · KPS",
-  "tekst": "Bureau DFO organiseert de congressen en bijeenkomsten van KPS, de Kring van Pensioenspecialisten. KPS ontstond in 1991 om alle deskundigheden binnen de pensioensector bij elkaar te brengen; op de congressen en studiebijeenkomsten delen deelnemers hun kennis in open discussies over ‘inkomen voor later’ en bouwen ze aan hun netwerk.",
-  "details": [
-   "Voorjaarscongres, nieuwjaarsbijeenkomst, het jaarlijkse KPS Debat en studiebijeenkomsten",
-   "Werkgroepen maken de voors en tegens van wetsvoorstellen inzichtelijk",
-   "Meer over KPS op kps.nl"
-  ],
-  "data": [
-   {
-    "d": "2026-01-14",
-    "t": "Nieuwjaarsbijeenkomst ‘Koopkracht’",
-    "loc": "Kasteel de Hooghe Vuursche, Baarn"
-   },
-   {
-    "d": "2026-05-27",
-    "t": "Voorjaarscongres",
-    "loc": "Secretariaat Hoevelaken"
-   },
-   {
-    "d": "2026-09-23",
-    "t": "Pensioen Hackathon",
-    "loc": "PGGM Zeist"
-   },
-   {
-    "d": "2026-10-29",
-    "t": "Lunch-webinar werkgroepen Pensioenadvies, zorgplicht & Wft en Financial Planning",
-    "loc": "Online"
-   },
-   {
-    "d": "2027-01-21",
-    "t": "KPS Nieuwjaarsbijeenkomst",
-    "loc": "Stadion Woudestein, Rotterdam"
-   },
-   {
-    "d": "2027-01-29",
-    "t": "Event KPS/TKP/Achmea/Pensioenlab",
-    "loc": "a.s.r. Utrecht"
-   }
-  ],
-  "knop": "Naar KPS.nl",
-  "agenda": "https://www.kps.nl/agenda/jaarplanning-studie-bijeenkomsten/",
-  "bron": "https://www.kps.nl/"
  }
 ]
