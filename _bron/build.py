@@ -1080,7 +1080,8 @@ def build_congressen():
     t, lead, body = render_verbatim("congressen/index.html", ["Congressen"], hero_img="assets/img/congres.jpg")
     body = body.replace('<section><div class="wrap"><div class="prose">',
                         '<section><div class="wrap"><div class="prose"><img src="assets/img/vip.jpg" alt="VIPcongres 2024" loading="lazy" style="border-radius:14px;margin-bottom:24px">', 1)
-    body = body.replace("</main>", '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section></main>', 1) if "</main>" in body else body + '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section>'
+    # volgorde: trainers, dan dagvoorzitters en sprekers (ingevuld door trainers.py), dan de congrestekst en de events
+    body = body.replace('<section><div class="wrap"><div class="prose">', '<!--congres-mensen--><section><div class="wrap"><div class="prose">', 1)
     body = body.replace("</main>", congres_events() + "</main>", 1) if "</main>" in body else body + congres_events()
     page("congressen.html", "Congressen – Bureau DFO", "Congresorganisatie door Bureau DFO voor de financiële sector, o.a. VIPcongres, NVHP en KPS.", body)
 

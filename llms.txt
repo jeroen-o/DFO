@@ -8,7 +8,7 @@ Informatie op deze site is algemene uitleg en geen advies; bedragen en regels wi
 
 - [Bureau DFO](https://jeroen-o.github.io/DFO/): Bureau DFO - Jouw partner waar het gaat om succesvol ondernemen in de financiële dienstverlening
 - [Opleidingen & agenda](https://jeroen-o.github.io/DFO/opleidingen.html): Het volledige opleidingsaanbod van Bureau DFO voor financieel adviseurs: hypotheken, schade, inkomen, compliance en bedrijfsvoering. Met agenda en incompany.
-- [Trainers, docenten en dagvoorzitters](https://jeroen-o.github.io/DFO/trainers.html): Met deze 30 trainers, docenten en dagvoorzitters werkt Bureau DFO samen: DFO Opleidingen, DFO Compliance en NVHP-masterclasses. Boek een trainer via info@dfobv.nl.
+- [Trainers, docenten en dagvoorzitters](https://jeroen-o.github.io/DFO/trainers.html): Met deze 32 trainers, docenten en dagvoorzitters werkt Bureau DFO samen: DFO Opleidingen, DFO Compliance en NVHP-masterclasses. Boek een trainer via info@dfobv.nl.
 - [Modeldocumenten & contracten](https://jeroen-o.github.io/DFO/documenten.html): Ruim 200 modeldocumenten, checklists en contracten voor financieel advieskantoren: Wft, Wwft, AVG, hypotheken, schade, inkomen, personeel en nazorg.
 - [Webshop](https://jeroen-o.github.io/DFO/webshop.html): Alle producten van Bureau DFO: modeldocumenten, opleidingen, rapporten en abonnementen.
 - [Compliance: AFM-vergunning en Wft-audit](https://jeroen-o.github.io/DFO/compliance.html): DFO Compliance: ondersteuning bij AFM-vergunning, geborgde bedrijfsvoering, Wwft, AVG, Sanctiewet, MiFID en Wft-audit.
