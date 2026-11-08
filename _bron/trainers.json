@@ -46,16 +46,23 @@
  {
   "slug": "marian-eizinga-hanemaaijer",
   "naam": "Marian Eizinga-Hanemaaijer",
-  "functie": "Financieel planner (CFP) en trainer Financiële Psychologie",
+  "functie": "Onafhankelijk financieel planner (CFP), vakdocent en trainer Financiële Psychologie",
   "rollen": [
    "NVHP-docent"
   ],
-  "bio": "Marian Eizinga-Hanemaaijer CFP is onafhankelijk en zelfstandig financieel planner onder de naam Financieel Plan Marian. Daarnaast is zij vakdocent en trainer Financiële Psychologie; voor de NVHP verzorgt zij de masterclass Financiële Psychologie.",
+  "bio": "Marian Eizinga-Hanemaaijer CFP is onafhankelijk en zelfstandig financieel planner onder de naam Financieel Plan Marian. Daarnaast is zij vakdocent en trainer Financiële Psychologie. Voor de NVHP verzorgt zij de masterclass Financiële Psychologie, waarin hypothecair planners kennis uit de gedragswetenschap en praktische tools krijgen om klantgedrag te herkennen en beter te begeleiden. Ook de eigen overtuigingen en blinde vlekken van de adviseur komen daarin aan bod. Zij vergelijkt het laten groeien van klanten graag met het laten groeien van planten: goed kijken én luisteren naar wat de klant nodig heeft, staat bij financiële planning voorop.",
   "foto": "assets/img/trainers/marian-eizinga-hanemaaijer.jpg",
   "organisatie": "Financieel Plan Marian",
   "bronnen": [
    "https://mc.hypothecairplanner.nl/cursus-nvhp/financiele-psychologie"
-  ]
+  ],
+  "kwaliteiten": [
+   "Gecertificeerd financieel planner (CFP) met eigen praktijk",
+   "Vertaalt gedragswetenschap naar het hypotheekadviesgesprek",
+   "Helpt adviseurs emoties en overtuigingen van klanten te herkennen",
+   "Laat adviseurs reflecteren op eigen reflexen en blinde vlekken"
+  ],
+  "waarom": "Zij combineert de dagelijkse praktijk van een zelfstandig financieel planner met kennis van financiële psychologie. Daarmee is zij geschikt voor organisaties die hun adviseurs willen leren het gedrag van klanten beter te begrijpen en het adviesgesprek mensgerichter te voeren."
  },
  {
   "slug": "martine-glebbeek",
@@ -225,26 +232,41 @@
   "rollen": [
    "DFO-trainer"
   ],
-  "bio": "Christine Klaren is al ruim 30 jaar actief op het gebied van verzekeringen en heeft meer dan 20 jaar ervaring in het verzorgen van opleidingen. Bij Bureau DFO verzorgt zij de training De autoverzekering centraal.",
+  "bio": "Christine Klaren is al ruim 30 jaar actief op het gebied van verzekeringen en heeft meer dan 20 jaar ervaring in het verzorgen van opleidingen. Bij Bureau DFO verzorgt zij de workshop De autoverzekering centraal, bedoeld voor binnendienstmedewerkers en vooral voor starters in het vak. Daarin behandelt zij de juridische gevolgen van informeren en adviseren, actuele ontwikkelingen bij autoverzekeringen en leermomenten uit de praktijk rond klant- en voertuigidentificatie. Ook laat zij zien hoe een kantoor zijn meerwaarde voor relaties kan uitdragen.",
   "foto": "assets/img/trainers/christine-klaren.jpg",
   "organisatie": "",
   "bronnen": [
    "https://www.dfo-opleidingen.nl/cursus/de-autoverzekering-centraal"
-  ]
+  ],
+  "kwaliteiten": [
+   "Ruim 30 jaar ervaring in verzekeringen",
+   "Meer dan 20 jaar ervaring als opleider",
+   "Kent de juridische kant van informeren en adviseren",
+   "Leert binnendienstmedewerkers de meerwaarde van het kantoor uitdragen"
+  ],
+  "waarom": "Zij combineert lange praktijkervaring in verzekeringen met ruime ervaring als opleider. Dat maakt haar geschikt voor kantoren die hun (startende) binnendienstmedewerkers vaktechnisch sterker willen maken op het gebied van autoverzekeringen."
  },
  {
   "slug": "jasper-korrel",
   "naam": "Jasper Korrel",
-  "functie": "Zakelijk Inkomen",
+  "functie": "Werkzaam bij Zakelijk Inkomen",
   "rollen": [
    "NVHP-docent"
   ],
-  "bio": "Jasper Korrel is werkzaam bij Zakelijk Inkomen. Voor de NVHP verzorgt hij de masterclass over inkomensbepaling van zelfstandige ondernemers.",
+  "bio": "Jasper Korrel is werkzaam bij Zakelijk Inkomen, een bedrijf uit Nieuwegein dat inkomensverklaringen opstelt voor ondernemers die een hypotheek aanvragen, zoals zzp'ers, IB-ondernemers, vof-partners en dga's. Voor de NVHP verzorgt hij de masterclass Inkomensbepaling zelfstandige ondernemers. Daarin behandelt hij onder meer waarom winst niet hetzelfde is als toetsinkomen en waarom een bv om een andere aanpak vraagt dan een eenmanszaak. Ook laat hij zien waarom de goedkoopste rente voor een ondernemer niet altijd de beste keuze is, en dat er vaak al na twaalf maanden ondernemerschap mogelijkheden zijn.",
   "foto": "assets/img/trainers/jasper-korrel.jpg",
   "organisatie": "Zakelijk Inkomen",
   "bronnen": [
-   "https://mc.hypothecairplanner.nl/cursus-nvhp/inkomensbepaling-zelfstandige-ondernemers-zakelijk-inkomen"
-  ]
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/inkomensbepaling-zelfstandige-ondernemers-zakelijk-inkomen",
+   "https://zakelijkinkomen.nl/"
+  ],
+  "kwaliteiten": [
+   "Kent het verschil tussen winst en toetsinkomen",
+   "Weet hoe geldverstrekkers ondernemersinkomen verschillend beoordelen",
+   "Maakt onderscheid tussen eenmanszaak en bv inzichtelijk",
+   "Kent de mogelijkheden voor startende ondernemers"
+  ],
+  "waarom": "Hij werkt bij een partij die inkomensverklaringen voor ondernemers opstelt en weet daardoor hoe het inkomen van zelfstandigen in de praktijk wordt bepaald. Dat maakt hem geschikt voor organisaties waarvan de hypotheekadviseurs ondernemers als klant hebben."
  },
  {
   "slug": "rene-kuiper",
@@ -326,16 +348,27 @@
  {
   "slug": "michael-mackaaij",
   "naam": "Michael Mackaaij",
-  "functie": "Voorzitter CGA en directeur nexxbiz",
+  "functie": "Voorzitter Contactgroep Automatisering (CGA) en directeur nexxbiz",
   "rollen": [
    "Dagvoorzitter"
   ],
-  "bio": "Michael Mackaaij is voorzitter van CGA en directeur van nexxbiz. Hij maakt deel uit van de organisatie van het VIP Congres.",
+  "bio": "Michael Mackaaij is directeur van nexxbiz, een softwarebedrijf uit Utrecht dat een polisadministratiesysteem met een flexibele proceslaag levert aan verzekeraars. Daarnaast is hij voorzitter van de Stichting Contactgroep Automatisering (CGA), die softwareleveranciers in de financiële dienstverlening vertegenwoordigt en overlegt met partijen als de AFM, Adfiz, HDN, SIVI en het Verbond van Verzekeraars. In die rol hoort hij bij de organisatie van het VIP Congres, een initiatief van de CGA. In vakmedia vertelt hij over het implementeren van systemen bij verzekeraars en het belang van een brug tussen business en IT.",
   "foto": "assets/img/trainers/michael-mackaaij.jpg",
-  "organisatie": "nexxbiz",
+  "organisatie": "nexxbiz · Contactgroep Automatisering",
   "bronnen": [
-   "https://www.vipcongres.nl/"
-  ]
+   "https://www.contactgroepautomatisering.nl/bestuur/",
+   "https://www.contactgroepautomatisering.nl/",
+   "https://www.vipcongres.nl/",
+   "https://nexxbiz.io/",
+   "https://www.consultancy.nl/nieuws/51284/een-jarenlange-samenwerking-itds-en-nexxbiz"
+  ],
+  "kwaliteiten": [
+   "Leidt een softwarebedrijf voor verzekeraars",
+   "Voorzitter van de koepel van softwareleveranciers (CGA)",
+   "Kent de rol van IT in de financiële dienstverlening",
+   "Betrokken bij de organisatie van het VIP Congres"
+  ],
+  "waarom": "Als voorzitter van de CGA en directeur van een softwarebedrijf voor verzekeraars overziet hij het speelveld van automatisering en digitalisering in de financiële sector. Dat maakt hem een logische dagvoorzitter voor bijeenkomsten over IT, innovatie en samenwerking in die sector."
  },
  {
   "slug": "jurjen-oosterbaan-martinius",
@@ -405,14 +438,21 @@
   "rollen": [
    "NVHP-docent"
   ],
-  "bio": "Frank Paalman is als docent verbonden aan Impact en is daarnaast hypothecair planner. Hij was betrokken bij de totstandkoming van de nieuwe AFM-leidraad hypotheekadvisering, die hij in een NVHP-masterclass behandelt.",
+  "bio": "Frank Paalman is als docent verbonden aan Impact en is daarnaast hypothecair planner. Hij was betrokken bij de totstandkoming van de geactualiseerde Leidraad Hypotheekadvisering die de AFM in december 2025 publiceerde. Voor de NVHP verzorgt hij een masterclass over die leidraad. Daarin gaat het niet alleen om kennis, maar ook om het onderbouwen van advieskeuzes in het adviesrapport en om het gesprek met de klant over de financiële gevolgen van life events, met inzichten uit de (neuro)psychologie. Daarnaast geeft hij NVHP-masterclasses over De nieuwe pensioenwet en Senioren en overwaarde.",
   "foto": "assets/img/trainers/frank-paalman.jpg",
   "organisatie": "Impact",
   "bronnen": [
    "https://mc.hypothecairplanner.nl/cursus-nvhp/leidraad",
    "https://mc.hypothecairplanner.nl/cursus-nvhp/de-nieuwe-pensioenwet",
    "https://mc.hypothecairplanner.nl/cursus-nvhp/senioren-en-overwaarde"
-  ]
+  ],
+  "kwaliteiten": [
+   "Betrokken bij de totstandkoming van de AFM-leidraad hypotheekadvisering",
+   "Combineert docentschap met praktijk als hypothecair planner",
+   "Vertaalt regelgeving naar onderbouwing in het adviesrapport",
+   "Kent de kansen van de nieuwe pensioenwet voor betaalbaar wonen"
+  ],
+  "waarom": "Door zijn betrokkenheid bij de nieuwe AFM-leidraad en zijn eigen praktijk als hypothecair planner kan hij regelgeving direct vertalen naar het adviesgesprek. Dat maakt hem geschikt voor organisaties die hun hypotheekadviseurs passend en toetsbaar willen leren adviseren."
  },
  {
   "slug": "eric-bastiaan-pothoven",
@@ -489,16 +529,24 @@
  {
   "slug": "julian-schouwenaars",
   "naam": "Julian Schouwenaars",
-  "functie": "Trainer beleggen en lijfrenteadvies",
+  "functie": "Business Partner Intermediair bij Doelbeleggen.nl (CFP®)",
   "rollen": [
    "DFO-trainer"
   ],
-  "bio": "Julian Schouwenaars verzorgt de eendaagse training Verdiep je in beleggen & lijfrenteadvies, die Bureau DFO samen met Doelbeleggen organiseert.",
+  "bio": "Julian Schouwenaars CFP® is Business Partner Intermediair bij Doelbeleggen.nl, een initiatief van de onafhankelijke vermogensbeheerder Velthuyse & Mulder Vermogensbeheer, opgericht in 1999. Hij verzorgt de eendaagse training Verdiep je in beleggen & lijfrenteadvies, die Bureau DFO samen met Doelbeleggen organiseert. In die training leren financieel adviseurs, planners en hypotheekadviseurs hoe zij praktisch en compliant adviseren over beleggen, jaarruimte, expiraties en uitkerende lijfrentes. Daarbij komen ook het bepalen van een beleggingsprofiel, het weerleggen van klantbezwaren en het voorkomen van adviesfouten aan bod.",
   "foto": "assets/img/trainers/julian-schouwenaars.jpg",
-  "organisatie": "",
+  "organisatie": "Doelbeleggen.nl",
   "bronnen": [
+   "https://www.doelbeleggen.nl/over-ons",
    "https://www.dfo-opleidingen.nl/cursus/eendaagse-verdiep-je-in-beleggen-lijfrenteadvies-incl-seh-en-ffp-pe-punten"
-  ]
+  ],
+  "kwaliteiten": [
+   "Gecertificeerd financieel planner (CFP®)",
+   "Werkt dagelijks met intermediairs bij Doelbeleggen.nl",
+   "Behandelt lijfrenteadvies van opbouw tot uitkering",
+   "Maakt beleggingsadvies praktisch toepasbaar voor adviseurs"
+  ],
+  "waarom": "Als CFP® en vaste contactpersoon voor intermediairs bij een vermogensbeheerder kent hij de vragen die adviseurs over beleggen en lijfrentes hebben. Dat maakt hem geschikt voor organisaties die hun adviseurs willen leren beleggen en lijfrenteadvies compliant in hun advies mee te nemen."
  },
  {
   "slug": "paul-schuiling",
@@ -591,18 +639,33 @@
  {
   "slug": "erik-van-toledo",
   "naam": "Erik van Toledo",
-  "functie": "Trainer lijfrenten",
+  "functie": "Trainer lijfrenten (op persoonlijke titel); werkzaam bij de Belastingdienst",
   "rollen": [
    "DFO-trainer"
   ],
-  "bio": "Erik van Toledo verzorgt bij Bureau DFO de actualiteitentraining en het webinar over lijfrenten. Daarnaast presenteerde hij een reeks digitale verdiepingsmodules over onder meer expirerende lijfrenten, lijfrenten voor ondernemers en lijfrenten in de aangifte.",
+  "bio": "Erik van Toledo werkt bij de Belastingdienst, onder meer als verbindingslid van de Kennisgroep Verzekeringsproducten en Assurantiebelasting. Hij beheert de fiscale website www.fiscaalleven.eu over de fiscaliteit van levensverzekeringen. Bij Bureau DFO verzorgt hij de actualiteitentraining en het webinar over lijfrenten, en presenteerde hij een reeks digitale verdiepingsmodules over onder meer expirerende lijfrenten, lijfrenten voor de ondernemer/zzp'er, afkoop en lijfrenten in de aangifte. Hij schrijft daarnaast voor de DFO-nieuwsbrief Lijfrente. Zijn bijdragen schrijft en verzorgt hij op persoonlijke titel.",
   "foto": "assets/img/trainers/erik-van-toledo.jpg",
-  "organisatie": "",
+  "organisatie": "Fiscaalleven.eu",
   "bronnen": [
-   "https://www.dfo-opleidingen.nl/cursus/basis-training-lijfrenten",
-   "https://www.dfo-opleidingen.nl/cursus/webinar-lijfrenten",
+   "product-producten-lijfrente.html",
+   "product-webinar-lijfrenten.html",
    "product-actualiteitentraining-lijfrenten.html",
-   "product-lijfrente-verdiepingsmodule-2-lijfrenten-en-de-ondernemer-zzper.html"
+   "https://www.salarisvanmorgen.nl/?p=45369",
+   "https://www.fiscaalleven.eu/",
+   "https://www.dfo-opleidingen.nl/cursus/webinar-lijfrenten"
+  ],
+  "kwaliteiten": [
+   "Kent lijfrentefiscaliteit vanuit de Belastingdienst",
+   "Verbindingslid Kennisgroep Verzekeringsproducten en Assurantiebelasting",
+   "Beheert de vakwebsite fiscaalleven.eu",
+   "Behandelt ook lijfrenten voor ondernemers en zzp'ers"
+  ],
+  "waarom": "Hij kent de fiscale regels rond lijfrenten van binnenuit, vanuit zijn werk bij de Belastingdienst en de Kennisgroep Verzekeringsproducten. Dat maakt hem een gezaghebbende trainer voor adviseurs die bij willen blijven met de actualiteiten en de complexe vragen rond lijfrenten.",
+  "links": [
+   [
+    "Fiscaalleven.eu",
+    "https://www.fiscaalleven.eu/"
+   ]
   ]
  },
  {
