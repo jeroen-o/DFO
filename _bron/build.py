@@ -47,6 +47,7 @@ ICONS = {
     "calc": '<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 11h2M12 11h0M16 11h0M8 15h2M12 15h0M16 15v3"/>',
     "folder": '<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>',
     "event": '<rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/>',
+    "trainer": '<circle cx="8" cy="6" r="3"/><path d="M2 21v-3a6 6 0 0 1 12 0v3"/><path d="M14 4h8v8h-6"/><path d="M17 8l-3 4"/>',
     "brief": '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>',
 }
 
@@ -526,13 +527,15 @@ def build_home():
 <section><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Wat we doen</span><h2>Alles onder één dak</h2>
   <p>Van kennisontwikkeling tot uitvoering: Bureau DFO biedt financiële dienstverleners en hun brancheorganisaties een breed pakket aan diensten, allemaal onder één dak in Hoevelaken.</p></div>
-  <div class="grid g3">
+  <div class="grid g4">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
     {svc_card("vergadercentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
+    {svc_card("trainers.html","trainer","Docenten &amp; trainers","— ervaren trainers, sprekers en dagvoorzitters uit de praktijk")}
+    {svc_card("congressen.html","event","Congressen","— congresorganisatie, van KPS Debat tot VIP Congres")}
   </div>
 </div></section>
 
@@ -864,13 +867,15 @@ def build_over():
 <section class="alt"><div class="wrap">
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Alles onder één dak</span><h2>Bureau DFO ontzorgt op meerdere fronten</h2>
   <p>Van kennisontwikkeling tot uitvoering: Bureau DFO biedt financiële dienstverleners en hun brancheorganisaties een breed pakket aan diensten, allemaal onder één dak in Hoevelaken.</p></div>
-  <div class="grid g3">
+  <div class="grid g4">
     {svc_card("opleidingen.html","cap","Opleidingen","— praktijkgerichte kennis voor financieel adviseurs")}
     {svc_card("secretariaten.html","users","Secretariaten","— ledenadministratie en bestuursondersteuning uit handen genomen")}
     {svc_card("vergadercentrum.html","room","Vergaderruimte","— vergader- en cursusruimtes inclusief ontvangst")}
     {svc_card("studio.html","mic","Studio","— webinar-, podcast- en videoproducties")}
     {svc_card("compliance.html","shield","Compliance","— grip op wet- en regelgeving, van Wft tot AVG")}
     {svc_card("onderzoek.html","chart","Onderzoek","— onafhankelijk onderzoek voor de financiële adviesketen")}
+    {svc_card("trainers.html","trainer","Docenten &amp; trainers","— ervaren trainers, sprekers en dagvoorzitters uit de praktijk")}
+    {svc_card("congressen.html","event","Congressen","— congresorganisatie, van KPS Debat tot VIP Congres")}
   </div>
 </div></section>
 <section><div class="wrap"><div class="sec-head"><h2>Voor wie?</h2></div>{render_units(bs["Voor wie?"])}</div></section>
