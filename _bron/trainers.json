@@ -485,25 +485,31 @@
  {
   "slug": "dennes-roes",
   "naam": "Dennes Roes",
-  "functie": "Erkend Hypothecair Planner, auditor en spreker",
+  "functie": "Directeur Hypotheekadvies bij Blinqx Verzekering & Hypotheek",
   "rollen": [
    "DFO-trainer",
    "Spreker"
   ],
-  "bio": "Dennes Roes is Erkend Hypothecair Planner en eigenaar van BijMij Hypotheek & Advies in Vorden, met bijna veertig jaar ervaring in het vak. Hij maakt hypotheekplannen die passen bij het leven van de klant, nu en op de lange termijn, met aandacht voor inkomen, vermogen, pensioen en fiscaliteit. Daarbij bespreekt hij ‘wat als’-scenario's, zoals werkloosheid, scheiding, overlijden of eerder stoppen met werken.\n\nDaarnaast toetst hij als auditor onafhankelijk hypotheekdossiers van advieskantoren op passendheid en juistheid. Als creatief directeur bij Topicus pleitte hij voor een ‘Connected Finance’-platform dat de regie teruggeeft aan de consument, door mensen, platformen en data met elkaar te verbinden.",
+  "bio": "Dennes Roes werkt bij Blinqx Verzekering & Hypotheek en is als directeur Hypotheekadvies verantwoordelijk voor Blinqx Hypotheekadvies (Fastlane). In zijn carrière heeft hij meerdere adviesapplicaties succesvol naar de markt gebracht. Als innovator en kennispartner is hij de ideale sparringpartner.\n\nOok op het gebied van makelaardij heeft Dennes zijn steentje bijgedragen, met MijnHuiszaken. Als creatief directeur bij Topicus pleitte hij eerder voor een ‘Connected Finance’-platform dat de regie teruggeeft aan de consument, door mensen, platformen en data met elkaar te verbinden.",
   "foto": "assets/img/trainers/dennes-roes.jpg",
-  "organisatie": "BijMij Hypotheek & Advies",
+  "organisatie": "Blinqx Verzekering & Hypotheek",
   "bronnen": [
-   "https://www.hypothecairplanner.nl/adviseur/dh-dennes-roes",
+   "Aangeleverd door Bureau DFO (november 2026)",
    "https://www.vvponline.nl/artikelen/connecten-van-financiele-data"
   ],
   "kwaliteiten": [
-   "Erkend Hypothecair Planner met bijna veertig jaar ervaring",
-   "Toetst als onafhankelijk auditor hypotheekdossiers van advieskantoren",
-   "Denkt in ‘wat als’-scenario's en langetermijndoelen van de klant",
-   "Verbindt advies, data en technologie (‘Connected Finance’)"
+   "Directeur Hypotheekadvies, verantwoordelijk voor Blinqx Hypotheekadvies (Fastlane)",
+   "Bracht meerdere adviesapplicaties succesvol naar de markt",
+   "Innovator en kennispartner: de ideale sparringpartner",
+   "Kent ook de makelaardij, onder meer via MijnHuiszaken"
   ],
-  "waarom": "Dennes combineert de praktijk van de hypotheekadviseur met de blik van een auditor en een innovator. Daardoor kan hij een zaal adviseurs zowel inhoudelijk scherp houden op dossierkwaliteit als inspireren over de rol van data en technologie in het advies."
+  "waarom": "Dennes weet als geen ander hoe software het hypotheekadvies sneller en beter maakt: hij heeft meerdere adviesapplicaties naar de markt gebracht. Als spreker of trainer neemt hij adviseurs mee in wat innovatie concreet oplevert voor hun kantoor en hun klanten.",
+  "links": [
+   [
+    "Blinqx",
+    "https://www.blinqx.tech/"
+   ]
+  ]
  },
  {
   "slug": "joost-schipaanboord",
