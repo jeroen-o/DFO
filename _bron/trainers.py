@@ -95,7 +95,7 @@ def build(page, hero, callout, cursussen, agenda):
                 if not c:
                     continue
                 x = nv.setdefault(c["u"], {"t": c["t"], "u": c["u"], "prijs": c["prijs"], "data": []})
-                if d["d"] >= today and "hoevelaken" in d["loc"].lower():
+                if d["d"] >= today and "hoevelaken" in d["loc"].lower() and d.get("plaatsen") != 0:
                     x["data"].append(d)
         p["_dfo"], p["_nvhp"] = list(dfo.values()), list(nv.values())
         rollen = set(p.get("rollen", []))
