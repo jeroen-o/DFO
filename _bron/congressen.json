@@ -4,7 +4,7 @@
   "naam": "KPS Debat 2026 – Grip of gok: waar ligt de grens van verantwoord beleggen?",
   "url": "https://cdn.flxml.eu/f-c85d0cdd92255c9c",
   "img": "assets/img/congres/kps-debat-2026.jpg",
-  "label": "KPS Debat",
+  "label": "Congres · KPS Debat",
   "tekst": "Hoeveel risico durf je te nemen met het pensioen van morgen? En wanneer verandert verantwoord beleggen in een gok? Tijdens het jaarlijkse KPS-debat gaat debatleider Jannie Benedictus de confrontatie aan met drie actuele dilemma's. Je kunt niet alleen luisteren, maar je per stelling ook aanmelden om actief mee te debatteren. Georganiseerd door de KPS Werkgroep Beleggingen.",
   "details": [
    "VS-concentratierisico: grip op geopolitieke risico's of bewust wegkijken? Inleider: Peter Spijkman, Investment Strategist Aegon AM",
@@ -28,7 +28,7 @@
   "naam": "Serviceproviders Congres 2027 – Onderhoud & Nazorg",
   "url": "https://www.serviceproviderscongres.nl/",
   "img": "assets/img/congres/serviceproviderscongres.jpg",
-  "label": "Serviceproviderscongres.nl",
+  "label": "Congres · Serviceproviderscongres.nl",
   "tekst": "Ontmoet leveranciers die jouw advieskantoor versterken en helpen groeien: automatiseerders, belangenbehartigers en serviceproviders die laten zien hoe je slimmer werkt, meer uit data haalt en je marge gezond houdt. Thema: Onderhoud & Nazorg. Een initiatief van de Contactgroep Automatisering, de NVHP en Bureau DFO.",
   "details": [
    "Kosteloos voor medewerkers van een intermediair, assurantie- of hypotheekkantoor of volmachtbedrijf, inclusief lunch en borrel",
@@ -50,7 +50,7 @@
   "naam": "Pitchstraat.nl – fintech-pitches op het VIP Congres",
   "url": "https://www.pitchstraat.nl/",
   "img": "assets/img/congres/pitchstraat.jpg",
-  "label": "Pitchstraat.nl",
+  "label": "Op het VIP Congres · Pitchstraat.nl",
   "tekst": "De Pitchstraat is het startpunt van het vijfde VIP Congres (thema re:Invent). Start-ups en scale-ups in fintech krijgen exact 10 minuten om een vakjury en de aanwezige directeuren en IT-beslissers te overtuigen van hun innovatie. De jury let op innovatiekracht, schaalbaarheid, business case en overtuigingskracht.",
   "details": [
    "Hoofdprijs van € 5.000 voor de beste pitch",
@@ -70,14 +70,15 @@
  },
  {
   "slug": "kps",
-  "naam": "KPS – Kring van Pensioenspecialisten",
+  "naam": "KPS-congressen en bijeenkomsten",
   "url": "https://www.kps.nl/",
   "img": "assets/img/congres/kps.jpg",
-  "label": "KPS.nl",
-  "tekst": "KPS ontstond in 1991 uit de behoefte om alle deskundigheden binnen de pensioensector bij elkaar te brengen. Deelnemers delen en verrijken hun kennis in open discussies over ‘inkomen voor later’ en bouwen aan hun netwerk. Het secretariaat van KPS zit in Hoevelaken; Bureau DFO organiseert de bijeenkomsten en congressen van KPS.",
+  "label": "Congres · KPS",
+  "tekst": "Bureau DFO organiseert de congressen en bijeenkomsten van KPS, de Kring van Pensioenspecialisten. KPS ontstond in 1991 om alle deskundigheden binnen de pensioensector bij elkaar te brengen; op de congressen en studiebijeenkomsten delen deelnemers hun kennis in open discussies over ‘inkomen voor later’ en bouwen ze aan hun netwerk.",
   "details": [
-   "Congressen, studiebijeenkomsten, debatten en werkgroepbijeenkomsten",
-   "Werkgroepen maken de voors en tegens van wetsvoorstellen inzichtelijk"
+   "Voorjaarscongres, nieuwjaarsbijeenkomst, het jaarlijkse KPS Debat en studiebijeenkomsten",
+   "Werkgroepen maken de voors en tegens van wetsvoorstellen inzichtelijk",
+   "Meer over KPS op kps.nl"
   ],
   "data": [
    {

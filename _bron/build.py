@@ -1072,8 +1072,8 @@ def congres_events():
                   f'<h4 class="cg-h4">Eerstvolgende data</h4>{agenda}'
                   f'<div class="btns"><a class="btn btn-primary arrow" href="{E(c["url"])}" rel="noopener">{E(c["knop"])}</a>{meer}</div></div></article>')
     return f"""<section class="alt" id="events"><div class="wrap">
-  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Congressen en events</span><h2>Congressen en events van Bureau DFO en partners</h2>
-  <p>Naast het VIPcongres en de ledendagen van de NVHP organiseert Bureau DFO deze congressen en bijeenkomsten, samen met partners uit de sector.</p></div>
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Congressen</span><h2>Congressen van Bureau DFO en partners</h2>
+  <p>Naast het VIPcongres en de ledendagen van de NVHP organiseert Bureau DFO de KPS-congressen en het Serviceproviders Congres, samen met partners uit de sector.</p></div>
   <div class="grid cg-grid">{cards}</div>
 </div></section>"""
 
