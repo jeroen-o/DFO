@@ -149,7 +149,7 @@ def build(page, hero, callout, cursussen, agenda):
                 + (f'<a class="btn btn-ghost" href="{boekmail(p)}">Boek als trainer</a>' if (dag or spreker) and (p["_dfo"] or p["_nvhp"] or "DFO-trainer" in p["rollen"]) else ""))
         body = hero(E(p["naam"]), E(p.get("functie") or ", ".join(p["rollen"])), crumbs=['<a href="trainers.html">Trainers en docenten</a>', E(p["naam"])])
         body += f"""
-<section><div class="wrap tr-profiel">
+{"<!--geen-verdiep-->" if not (set(p["rollen"]) & {"DFO-trainer", "NVHP-docent", "Compliance"}) else ""}<section><div class="wrap tr-profiel">
   <div class="tr-side">{foto(p, "tr-foto tr-groot")}<div class="tr-tags">{tags(p)}</div>{org}</div>
   <div class="tr-main">
     {bio}

@@ -281,7 +281,7 @@ def build_related(cursussen, agenda):
         if f.name in SKIP or f.name.startswith(SKIP_PREFIX):
             continue
         raw = f.read_text()
-        if 'id="verdiep"' in raw or "<main" not in raw:
+        if 'id="verdiep"' in raw or "<main" not in raw or "<!--geen-verdiep-->" in raw:  # o.a. sprekers/dagvoorzitters zonder trainingen
             continue
         s = BeautifulSoup(raw, "html.parser")
         main = s.find("main")
