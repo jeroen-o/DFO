@@ -284,15 +284,32 @@
  {
   "slug": "jeroen-oversteegen",
   "naam": "Jeroen Oversteegen",
-  "functie": "Spreker; bestuurslid NVHP",
+  "functie": "Directeur Business Partners bij Blinqx; spreker",
   "rollen": [
    "Spreker"
   ],
-  "bio": "Jeroen Oversteegen is lid van het bestuur van de NVHP. Samen met docent Jan Kilkens besprak hij in een NVHP-opname de beleidswijziging rond de aflossingsvrije hypotheek vanuit vakmatig oogpunt.",
+  "bio": "Jeroen Oversteegen is Erkend Financieel Adviseur en Erkend Hypothecair Planner, met ruim dertig jaar praktijkervaring in de financiële dienstverlening. Als directeur van de Nationale Hypotheekbond en partner bij de Holland Financial Business Group bouwde hij mee aan kennisplatforms en digitale adviessystemen, met praktische oplossingen als portefeuillesignalen, crm en workflow, adviessoftware, AI en rekentools voor de adviespraktijk.\n\nNa de overdracht van HFBG, de Nationale Hypotheekbond en Faster Forward Elements is hij Directeur Business Partners bij Blinqx, waar hij zich bezighoudt met de ontwikkeling van software voor pensioen, verzekeringen en hypotheken. Via Oversteegen.nl ontwikkelt hij rekentools en AI-tools voor de financiële sector.\n\nHij is secretaris van het bestuur van de Contactgroep Automatisering, de organisatie achter het VIP Congres en de Pitchstraat, en lid van het bestuur van de NVHP. Zijn ervaring met brondata en digitale innovatie deelt hij regelmatig met vakgenoten tijdens masterclasses en congressen.",
   "foto": "assets/img/trainers/jeroen-oversteegen.jpg",
-  "organisatie": "NVHP",
+  "organisatie": "Blinqx · Oversteegen.nl · Contactgroep Automatisering · NVHP",
   "bronnen": [
+   "https://oversteegen.nl/",
+   "https://www.contactgroepautomatisering.nl/bestuur/",
+   "https://www.contactgroepautomatisering.nl/deelnemers/blinqx-jeroen-oversteegen/",
    "https://www.dfosignalen.nl/nieuwsbrief-dfo-signalen/nieuwsbrief-dfo-signalen-week-7-2026/"
+  ],
+  "links": [
+   [
+    "Oversteegen.nl",
+    "https://oversteegen.nl/"
+   ],
+   [
+    "Blinqx",
+    "https://www.blinqx.tech/"
+   ],
+   [
+    "Contactgroep Automatisering",
+    "https://www.contactgroepautomatisering.nl/bestuur/"
+   ]
   ]
  },
  {

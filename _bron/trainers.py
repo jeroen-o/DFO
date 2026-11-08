@@ -134,6 +134,8 @@ def build(page, hero, callout, cursussen, agenda):
             aanbod += (f'<h2 class="tr-h2">NVHP-masterclasses in Hoevelaken</h2><p class="muted" style="font-size:.9rem">Ook toegankelijk voor adviseurs die geen NVHP-lid zijn.</p>'
                        f'{lijst(p["_nvhp"], True)}')
         org = f'<p class="tr-org">{E(p["organisatie"])}</p>' if p.get("organisatie") else ""
+        if p.get("links"):
+            org += '<p class="tr-org">' + "<br>".join(f'<a href="{E(u)}" rel="noopener">{E(t)}</a>' for t, u in p["links"]) + "</p>"
         bio = "".join(f"<p>{E(x)}</p>" for x in re.split(r"\n{2,}", p.get("bio") or "") if x.strip()) or \
             f'<p class="muted">Meer weten over {E(p["naam"])}? Neem contact op met Bureau DFO.</p>'
         knop = (f'<a class="btn btn-primary arrow" href="{boekmail(p, dag, spreker)}">{"Boek als dagvoorzitter" if dag else ("Boek als spreker" if spreker else "Boek deze trainer")}</a>'
