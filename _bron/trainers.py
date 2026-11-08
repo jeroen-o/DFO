@@ -139,6 +139,8 @@ def build(page, hero, callout, cursussen, agenda):
         bio = "".join(f"<p>{E(x)}</p>" for x in re.split(r"\n{2,}", p.get("bio") or "") if x.strip()) or \
             f'<p class="muted">Meer weten over {E(p["naam"])}? Neem contact op met Bureau DFO.</p>'
         kwal = ""
+        if p.get("historie"):
+            kwal += f'<h2 class="tr-h2">Loopbaan</h2><ul class="tr-hist">' + "".join(f"<li>{E(h)}</li>" for h in p["historie"]) + "</ul>"
         if p.get("kwaliteiten"):
             kwal += f'<h2 class="tr-h2">Kwaliteiten van {E(p["naam"].split()[0])}</h2><ul class="tr-kwal">' + "".join(f"<li>{E(k)}</li>" for k in p["kwaliteiten"]) + "</ul>"
         if p.get("waarom"):
