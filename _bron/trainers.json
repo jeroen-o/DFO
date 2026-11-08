@@ -378,14 +378,15 @@
  {
   "slug": "jurjen-snater",
   "naam": "Jurjen Snater",
-  "functie": "Docent hypotheekadvies",
+  "functie": "Trainer, coach en financieel adviseur (JPS-Alkmaar)",
   "rollen": [
    "DFO-trainer"
   ],
-  "bio": "Jurjen Snater verzorgt samen met Rob Timmermans de workshop Kwaliteit hypotheekadvies en dossiervorming, over het opstellen van een reproduceerbaar adviesdossier dat voldoet aan de eisen van de Wft.",
-  "foto": "",
-  "organisatie": "",
+  "bio": "Jurjen Snater uit Alkmaar combineert het verzorgen van trainingen met een eigen financiële adviespraktijk, waar hij particulieren en ondernemers adviseert over onder meer hypotheken en financiële planning. Hij verzorgt trainingen in de financiële branche, zoals opleidingen voor Wft-diploma's, PE Plus en PE SEH, en trainingen op het gebied van sales, communicatie en resultaatverbetering.\n\nBanken en verzekeraars huren hem regelmatig in voor ondersteuning bij reconstrueerbaar advies (Wft), hersteladvies en het trainen en coachen van adviseurs. Bij Bureau DFO verzorgt hij samen met Rob Timmermans de workshop Kwaliteit hypotheekadvies en dossiervorming.",
+  "foto": "assets/img/trainers/jurjen-snater.jpg",
+  "organisatie": "JPS-Alkmaar",
   "bronnen": [
+   "https://www.jps-alkmaar.nl/",
    "https://www.dfo-opleidingen.nl/cursus/kwaliteit-hypotheekadvies-en-dossiervorming-workshop",
    "product-workshop-kwaliteit-hypotheekadvies-en-dossiervorming.html"
   ]
