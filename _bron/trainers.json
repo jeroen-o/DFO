@@ -97,14 +97,16 @@
  {
   "slug": "dominique-van-der-heide-wijma",
   "naam": "Dominique van der Heide Wijma",
-  "functie": "Dagvoorzitter",
+  "functie": "Dagvoorzitter, presentatrice en interviewer",
   "rollen": [
    "Dagvoorzitter"
   ],
-  "bio": "",
-  "foto": "",
-  "organisatie": "",
-  "bronnen": []
+  "bio": "Dominique van der Heide Wijma is presentatrice, dagvoorzitter en ondernemer met affiniteit met de financiële dienstverlening. Ze werkt ruim 30 jaar in de financiële sector, onder meer als zelfstandig hypotheekintermediair, en deed marketing- en salesopdrachten en producties binnen de branche.\n\nAls dagvoorzitter bewaakt ze structuur en tijd, voelt ze de energie in de zaal aan en zorgt ze dat sprekers tot hun recht komen. Ze is sparringpartner van intermediaire organisaties op het gebied van marketing en distributie en ambassadeur van de Stichting Erkend Financieel Adviseur.",
+  "foto": "assets/img/trainers/dominique-van-der-heide-wijma.jpg",
+  "organisatie": "Passie voor je Klant",
+  "bronnen": [
+   "https://www.passievoorjeklant.nl/over-ons"
+  ]
  },
  {
   "slug": "anita-hol-bubeck",
