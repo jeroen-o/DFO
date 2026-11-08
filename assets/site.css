@@ -487,3 +487,6 @@ p,li,td{hyphens:manual}
 .cg-body .tag{align-self:flex-start;margin:0}.cg-h4{font-size:.95rem;margin:12px 0 6px}
 .cg-data{list-style:none;margin:0 0 14px;padding:0;font-size:.9rem}.cg-data li{padding:7px 0;border-top:1px solid var(--line)}.cg-data li:first-child{border-top:0}
 .cg-body .btns{margin-top:auto;padding-top:8px}
+.tr-kwal{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.tr-kwal li{position:relative;padding:10px 14px 10px 40px;background:#f3f7fc;border-radius:10px;font-size:.95rem}
+.tr-kwal li::before{content:"✓";position:absolute;left:14px;top:9px;color:var(--blue);font-weight:700}

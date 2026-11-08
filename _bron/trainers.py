@@ -138,6 +138,11 @@ def build(page, hero, callout, cursussen, agenda):
             org += '<p class="tr-org">' + "<br>".join(f'<a href="{E(u)}" rel="noopener">{E(t)}</a>' for t, u in p["links"]) + "</p>"
         bio = "".join(f"<p>{E(x)}</p>" for x in re.split(r"\n{2,}", p.get("bio") or "") if x.strip()) or \
             f'<p class="muted">Meer weten over {E(p["naam"])}? Neem contact op met Bureau DFO.</p>'
+        kwal = ""
+        if p.get("kwaliteiten"):
+            kwal += f'<h2 class="tr-h2">Kwaliteiten van {E(p["naam"].split()[0])}</h2><ul class="tr-kwal">' + "".join(f"<li>{E(k)}</li>" for k in p["kwaliteiten"]) + "</ul>"
+        if p.get("waarom"):
+            kwal += f'<h2 class="tr-h2">Waarom {E(p["naam"])} boeken?</h2><p>{E(p["waarom"])}</p>'
         knop = (f'<a class="btn btn-primary arrow" href="{boekmail(p, dag, spreker)}">{"Boek als dagvoorzitter" if dag else ("Boek als spreker" if spreker else "Boek deze trainer")}</a>'
                 + (f'<a class="btn btn-ghost" href="{boekmail(p)}">Boek als trainer</a>' if (dag or spreker) and (p["_dfo"] or p["_nvhp"] or "DFO-trainer" in p["rollen"]) else ""))
         body = hero(E(p["naam"]), E(p.get("functie") or ", ".join(p["rollen"])), crumbs=['<a href="trainers.html">Trainers en docenten</a>', E(p["naam"])])
@@ -146,6 +151,7 @@ def build(page, hero, callout, cursussen, agenda):
   <div class="tr-side">{foto(p, "tr-foto tr-groot")}<div class="tr-tags">{tags(p)}</div>{org}</div>
   <div class="tr-main">
     {bio}
+    {kwal}
     {aanbod}
     <div class="tr-boek"><h2 class="tr-h2">Wil je {E(p["naam"])} boeken?</h2>
       <p>Neem contact op met Bureau DFO via <a href="mailto:{MAIL}">{MAIL}</a> of bel 033 258 04 60. Je mailprogramma opent met een concept dat je nog kunt aanvullen.</p>
