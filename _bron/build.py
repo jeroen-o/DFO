@@ -1153,6 +1153,12 @@ def build_zoeken():
             anchor = ("#" + sec["id"]) if sec.get("id") else ""
             lim = 500 if f.name.startswith(("product-", "artikel-", "info-")) else 1500
             idx.append({"u": f.name + anchor, "p": title, "h": h.get_text(" ", strip=True) if h else title, "x": txt[:lim]})
+            # kaarten met een eigen anker (bijv. events op congressen.html) apart doorzoekbaar
+            for art in sec.find_all("article", id=True):
+                ah = art.find(["h2", "h3"])
+                at = re.sub(r"\s+", " ", art.get_text(" ", strip=True))
+                if ah and len(at) > 40:
+                    idx.append({"u": f"{f.name}#{art['id']}", "p": title, "h": ah.get_text(" ", strip=True), "x": at[:1200]})
     for c in cursussen:
         idx.append({"u": c["u"], "p": "Opleiding", "h": c["t"], "x": c["s"] + " " + c["wg"] + " " + c["prijs"]})
     import portalen
