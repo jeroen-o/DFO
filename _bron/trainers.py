@@ -162,7 +162,7 @@ def build(page, hero, callout, cursussen, agenda):
 </div></section>
 """ + callout("Alle trainers en docenten", "Bekijk met welke trainers, docenten en dagvoorzitters Bureau DFO samenwerkt.", "trainers.html", "Naar het overzicht")
         desc = f"{p['naam']}: {(p.get('functie') or ', '.join(p['rollen']))}. " + (re.sub(r'\s+', ' ', p.get('bio') or '')[:110])
-        page(f"trainer-{p['slug']}.html", f"{p['naam']} – trainer en docent – Bureau DFO", desc.strip()[:158], body)
+        page(f"trainer-{p['slug']}.html", f"{p['naam']} – {'dagvoorzitter' if 'Dagvoorzitter' in p['rollen'] and not (set(p['rollen']) & {'DFO-trainer','NVHP-docent','Compliance'}) else ('spreker' if not (set(p['rollen']) & {'DFO-trainer','NVHP-docent','Compliance'}) else ('trainer en spreker' if 'Spreker' in p['rollen'] else 'trainer en docent'))} – Bureau DFO", desc.strip()[:158], body)
 
     # --- overzicht: eerst de trainers en docenten, daarna de dagvoorzitters en sprekers
     TR = ("DFO-trainer", "NVHP-docent", "Compliance")

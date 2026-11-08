@@ -256,11 +256,17 @@ def run(ctx):
             node_page["breadcrumb"] = {"@id": bc["@id"]}
         graph = [ORG, WEBSITE, node_page] + ([bc] if bc else []) + specifiek(fname, raw, ctx, url)
         ld = json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
+        import og
+        ogimg, ogtitel = og.voor_pagina(fname, raw, title, desc, ctx["producten"])
+        ogtype = "article" if fname.startswith(("artikel-", "column")) else ("profile" if fname.startswith("trainer-") else "website")
+        raw = raw.replace('<meta property="og:type" content="website">', f'<meta property="og:type" content="{ogtype}">', 1)
         robots = "noindex, follow" if fname in NOINDEX else "index, follow, max-image-preview:large, max-snippet:-1"
         head = (f'\n<!-- seo --><link rel="canonical" href="{url}">\n<meta name="robots" content="{robots}">\n'
                 f'<meta property="og:url" content="{url}">\n<meta property="og:site_name" content="Bureau DFO">\n<meta property="og:locale" content="nl_NL">\n'
-                f'<meta property="og:image" content="{BASE}assets/img/og-dfo.jpg">\n<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+                f'<meta property="og:image" content="{BASE}{ogimg}">\n<meta property="og:image:secure_url" content="{BASE}{ogimg}">\n<meta property="og:image:type" content="image/jpeg">\n'
+                f'<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n<meta property="og:image:alt" content="{E(ogtitel)}">\n'
                 f'<meta name="twitter:card" content="summary_large_image">\n<meta name="twitter:site" content="@BureauDFO">\n'
+                f'<meta name="twitter:title" content="{E(title)}">\n<meta name="twitter:description" content="{E(desc)}">\n<meta name="twitter:image" content="{BASE}{ogimg}">\n'
                 f'<link rel="alternate" type="text/plain" title="llms.txt" href="llms.txt">\n'
                 f'<script type="application/ld+json">{ld}</script><!-- /seo -->')
         raw = raw.replace("</head>", head + "\n</head>", 1)
