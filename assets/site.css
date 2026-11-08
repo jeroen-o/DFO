@@ -479,3 +479,5 @@ p,li,td{hyphens:manual}
 .tr-main{min-width:0;max-width:760px}.tr-h2{font-size:1.25rem;margin:28px 0 10px}
 .tr-boek{margin-top:30px;padding:22px 24px;border-radius:14px;background:#f3f7fc;border:1px solid var(--line)}
 @media (max-width:760px){.tr-profiel{grid-template-columns:1fr;gap:20px}.tr-side{position:static}.tr-groot{width:160px;height:160px}}
+.tr-voordelen{margin:0;padding-left:1.1em;font-size:.93rem;color:var(--ink-2)}.tr-voordelen li{margin:0 0 7px}
+.tr-partijen{grid-template-columns:repeat(auto-fill,minmax(min(420px,100%),1fr));gap:18px}

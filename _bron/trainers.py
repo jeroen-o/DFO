@@ -37,6 +37,39 @@ def boekmail(p, dag=False):
     return f"mailto:{MAIL}?subject={quote(onderwerp)}&body={quote(body)}"
 
 
+def aansluiten(n_mensen, n_cursussen):
+    """Sectie: aansluiten als trainer, docent of dagvoorzitter."""
+    body = ("Beste Bureau DFO,\n\nIk wil graag aansluiten als trainer / docent / dagvoorzitter (doorhalen wat niet van toepassing is).\n\n"
+            "Naam:\nOrganisatie:\nTelefoon:\nVakgebied(en):\nErvaring als trainer of dagvoorzitter:\nWebsite of LinkedIn:\n\n"
+            "Een foto en korte biografie stuur ik als bijlage mee.\n\nMet vriendelijke groet,\n")
+    href = f"mailto:{MAIL}?subject={quote('Aansluiten als trainer, docent of dagvoorzitter')}&body={quote(body)}"
+    kaart = lambda t, items: f'<div class="card"><h3 style="font-size:1.05rem">{t}</h3><ul class="tr-voordelen">' + "".join(f"<li>{x}</li>" for x in items) + "</ul></div>"
+    return f"""
+<section class="alt" id="aansluiten"><div class="wrap">
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Samenwerken</span><h2>Wil je ook aansluiten als trainer, docent of dagvoorzitter?</h2>
+  <p>Bureau DFO werkt sinds 1992 voor en met financieel dienstverleners. We zoeken vakmensen die hun kennis en ervaring willen delen: in een training, een NVHP-masterclass, een webinar of als dagvoorzitter van een congres of bijeenkomst. Stuur een mail naar <a href="mailto:{MAIL}">{MAIL}</a>.</p></div>
+
+  <h3 class="tr-h2" style="margin-top:6px">Waarom samenwerken met Bureau DFO interessant is</h3>
+  <div class="grid g3" style="margin-bottom:26px">
+    {kaart("Een vaste plek in de branche", ["Bureau DFO is al sinds 1992 actief in de financiële dienstverlening en kent de adviespraktijk van binnenuit.", f"Een breed opleidingsaanbod ({n_cursussen} opleidingen) in hypotheken, schade, inkomen, pensioen, compliance en bedrijfsvoering.", "Bureau DFO voert het secretariaat van de NVHP; veel NVHP-masterclasses vinden plaats in Hoevelaken."])}
+    {kaart("Alles geregeld rond je training", ["Een eigen opleidingslocatie in Hoevelaken: het DFO Vergadercentrum, centraal in het land.", "Inschrijving en deelnemersadministratie via het DFO-opleidingsportaal.", "DFO Studio voor webinars, e-learning en video, zodat je kennis ook online een publiek vindt."])}
+    {kaart("Zichtbaarheid bij je doelgroep", ["Een eigen profielpagina op deze site, gekoppeld aan je opleidingen en data.", "Promotie via de website, de agenda en de wekelijkse nieuwsbrief DFO Signalen.", "Bereik onder onafhankelijk financieel adviseurs, kantoren, serviceproviders en brancheorganisaties."])}
+  </div>
+
+  <h3 class="tr-h2">Wat de samenwerking alle partijen brengt</h3>
+  <div class="grid g2 tr-partijen">
+    {kaart("Voor jou als trainer, docent of dagvoorzitter", ["Je richt je op de inhoud en het geven van de training; de organisatie ligt bij Bureau DFO.", "Nieuwe opdrachten: ook incompany-trainingen, lezingen en dagvoorzitterschappen worden via Bureau DFO aangevraagd.", "Contact met collega-trainers en vakspecialisten, en signalen uit de markt voor nieuwe onderwerpen."])}
+    {kaart("Voor adviseurs en kantoren", ["Actuele, praktijkgerichte kennis van mensen die het vak zelf uitoefenen.", "Opleidingen en masterclasses die aansluiten op wet- en regelgeving en permanente educatie.", "Eén vertrouwd adres voor opleidingen, modeldocumenten, compliance en kennis."])}
+    {kaart("Voor opdrachtgevers van congressen en bijeenkomsten", ["Een dagvoorzitter of spreker die de financiële sector en haar taal kent.", "Bureau DFO denkt mee over programma, sprekers en organisatie, met ervaring in congresorganisatie.", "Eén aanspreekpunt voor de inhoud, de locatie en de techniek."])}
+    {kaart("Voor Bureau DFO en de NVHP", ["Een breed en actueel aanbod met specialisten uit de praktijk.", "Kennis die in opleidingen, webinars, nieuwsbrieven en documenten terugkomt.", "Een netwerk dat de kwaliteit van het financieel advies in Nederland versterkt."])}
+  </div>
+
+  <div class="tr-boek" style="margin-top:26px"><h3 class="tr-h2" style="margin-top:0">Aansluiten? Stuur ons een mail</h3>
+    <p>Vertel kort wie je bent, in welk vakgebied je traint of presenteert en welke ervaring je hebt. Stuur gerust een foto en een korte biografie mee. We nemen contact met je op voor een kennismaking.</p>
+    <div class="btns"><a class="btn btn-primary arrow" href="{href}">Mail naar {MAIL}</a><a class="btn btn-ghost" href="tel:+31332580460">Bel 033 258 04 60</a></div></div>
+</div></section>"""
+
+
 def build(page, hero, callout, cursussen, agenda):
     f = SRC / "trainers.json"
     if not f.exists():
@@ -128,7 +161,7 @@ def build(page, hero, callout, cursussen, agenda):
     body = hero("Trainers, docenten en dagvoorzitters",
                 "Met deze trainers en docenten werkt Bureau DFO samen: de trainers van DFO Opleidingen en DFO Compliance en de docenten van de NVHP-masterclasses. Ook voor je eigen bijeenkomst of congres boek je ze via Bureau DFO.",
                 crumbs=['<a href="opleidingen.html">Opleidingen</a>', "Trainers en docenten"],
-                btns=f'<a class="btn btn-light arrow" href="#dagvoorzitters">Dagvoorzitter inhuren</a><a class="btn btn-ghost" href="#alle">Alle trainers</a>')
+                btns=f'<a class="btn btn-light arrow" href="#dagvoorzitters">Dagvoorzitter inhuren</a><a class="btn btn-ghost" href="#alle">Alle trainers</a><a class="btn btn-ghost" href="#aansluiten">Zelf aansluiten</a>')
     if dagv:
         body += f"""
 <section class="alt" id="dagvoorzitters"><div class="wrap">
@@ -144,7 +177,7 @@ def build(page, hero, callout, cursussen, agenda):
   <div class="grid tr-grid" id="trl">{"".join(kaart(p) for p in mensen)}</div>
   <div class="note" style="margin-top:26px"><strong>Wil je een trainer boeken?</strong> Voor een incompany-training, een lezing of een dagvoorzitterschap: neem contact op met <a href="mailto:{MAIL}?subject={quote('Trainer boeken')}">{MAIL}</a> of bel 033 258 04 60.</div>
 </div></section>
-""" + callout("Liever direct een opleiding volgen?", "Bekijk het actuele aanbod van Bureau DFO en de NVHP-masterclasses in Hoevelaken.", "opleidingen.html", "Naar de opleidingen")
+""" + aansluiten(len(mensen), len(cursussen)) + callout("Liever direct een opleiding volgen?", "Bekijk het actuele aanbod van Bureau DFO en de NVHP-masterclasses in Hoevelaken.", "opleidingen.html", "Naar de opleidingen")
     js = """<script>
 document.querySelectorAll('#trc .chip').forEach(b=>b.onclick=()=>{const r=b.dataset.r;document.querySelectorAll('#trc .chip').forEach(x=>x.setAttribute('aria-pressed',x===b));
 document.querySelectorAll('#trl .tr-card').forEach(c=>c.hidden=!!r&&!c.dataset.r.split(' ').includes(r));});
