@@ -228,7 +228,8 @@ def build_law_pages(page, hero, callout):
                 return f"{pre}.html"
             _, anr, _ = kop_text(a)
             p = ART2PAGE.get((bwb, anr), f"{pre}.html")
-            return p.split("#")[0] + f"#{sid}"
+            # hoofdstukken zonder label (sid '1', '3a') hebben geen eigen anker op de pagina: naar de paginatop
+            return p.split("#")[0] + ("" if re.fullmatch(r"\d+[a-z]?", sid or "") else f"#{sid}")
         nav_index = f'<a href="{pre}.html">{info["kort"]} – inhoudsopgave</a>'
         if len(pages) > 1:
             for i, (parent, unit) in enumerate(pages):

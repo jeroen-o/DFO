@@ -46,7 +46,7 @@ jobs:
         run: |
           git config user.name "dfo-nieuws-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -A -- '*.html' _bron/nieuws/nieuws.json _bron/nvhp.json assets
+          git add -A -- '*.html' sitemap.xml robots.txt llms.txt llms-full.txt _bron/seo _bron/nieuws/nieuws.json _bron/nvhp.json assets
           if git diff --cached --quiet; then
             echo "Geen nieuwe berichten."
           else

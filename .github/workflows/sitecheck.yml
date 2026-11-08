@@ -1,0 +1,72 @@
+name: Wekelijks portalen bijwerken en site controleren
+
+on:
+  schedule:
+    - cron: "43 3 * * 1"   # elke maandag 03:43 UTC (04:43/05:43 NL-tijd)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nieuws          # niet tegelijk met de dagelijkse nieuwsupdate (die pusht ook)
+  cancel-in-progress: false
+
+jobs:
+  sitecheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Afhankelijkheden installeren
+        run: |
+          npm install --no-save playwright@1.47.2
+          npx playwright install --with-deps chromium
+          pip install beautifulsoup4==4.12.3 pillow==10.4.0
+
+      - name: Portalen uitlezen (Signalen, Serviceproviders, Wft/AI Permanent Actueel, Nazorg, Vergaderruimte)
+        run: node _bron/portalen/fetch.js
+
+      - name: Opleidingen en NVHP-planning ophalen
+        run: |
+          node _bron/opleidingen_fetch.js
+          node _bron/nvhp/fetch.js
+
+      - name: Signalen-archief bijwerken
+        run: python3 _bron/portalen.py --sync
+
+      - name: Site opnieuw bouwen (incl. zoeker, sitemap, JSON-LD, llms.txt)
+        run: python3 _bron/build.py
+
+      - name: Sitecheck (SEO/GEO, links, zoeker, portalen, webshop)
+        id: check
+        run: python3 _bron/seo_check.py
+        continue-on-error: true
+
+      - name: Wijzigingen publiceren
+        run: |
+          git config user.name "dfo-nieuws-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A -- '*.html' sitemap.xml robots.txt llms.txt llms-full.txt assets _bron/portalen/*.json _bron/opleidingen.json _bron/nvhp.json _bron/signalen.json _bron/seo _bron/rapport
+          if git diff --cached --quiet; then
+            echo "Geen wijzigingen."
+          else
+            git commit -m "Wekelijkse sitecheck en portalen bijgewerkt $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: Melding bij kritieke fouten
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "::error::De sitecheck vond kritieke fouten. Zie _bron/rapport/sitecheck.md of de samenvatting van deze run."
+          exit 1

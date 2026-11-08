@@ -138,6 +138,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
       <li><a href="signalen.html">DFO Signalen</a></li>
       <li><a href="serviceproviders.html">Serviceproviders vergelijken</a></li>
       <li><a href="nazorg.html">Nazorg &amp; Onderhoud Portal</a></li>
+      <li><a href="portalen.html">Alle portalen in één overzicht</a></li>
       <li><a href="https://ai-permanent-actueel.nl/" rel="noopener">AI Permanent Actueel</a></li>
       <li><a href="https://pa-wft.nl/" rel="noopener">Wft Permanent Actueel</a></li>
       <li><a href="de-mening-van.html">De mening van</a></li>
@@ -1121,6 +1122,8 @@ def build_zoeken():
             idx.append({"u": f.name + anchor, "p": title, "h": h.get_text(" ", strip=True) if h else title, "x": txt[:lim]})
     for c in cursussen:
         idx.append({"u": c["u"], "p": "Opleiding", "h": c["t"], "x": c["s"] + " " + c["wg"] + " " + c["prijs"]})
+    import portalen
+    idx.extend(portalen.zoekitems())
     import kennisbank
     for it in kennisbank.load():
         idx.append({"u": f"kennisbank.html#{it['id']}", "p": "Kennisbank · " + it["domnaam"], "h": it["term"] + (f" ({it['afk']})" if it.get("afk") else ""), "x": it["def"]})
@@ -1550,6 +1553,7 @@ def portals_section():
   <div class="sec-head"><span class="kicker" style="color:var(--blue)">Portalen</span><h2>Alle DFO-portalen op één plek</h2></div>
   {kennisbank_tile()}
   <div class="grid portals-grid">{html_}</div>
+  <p style="margin-top:18px"><a class="btn btn-ghost arrow" href="portalen.html">Alles uit de portalen in één overzicht</a></p>
 </div></section>"""
 
 
@@ -1557,6 +1561,11 @@ def portals_section():
 def build_wetten_pages():
     import wetten
     print("wetten:", wetten.build_law_pages(page, hero, callout))
+
+
+def build_portalen_page():
+    import portalen
+    print("portalen:", portalen.build(page, hero, callout), "pagina's")
 
 
 def build_kennisbank_page():
@@ -1693,7 +1702,7 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_404, build_related_pages, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_portalen_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
     # afbeeldingen die niet (meer) bestaan bij de bron: tag weglaten i.p.v. kapot plaatje
@@ -1727,3 +1736,9 @@ if __name__ == "__main__":
         if _t != _s:
             _f.write_text(_t); _n += 1
     print("pagina's met verouderde productlinks aangepast:", _n)
+    # SEO/GEO: canonical, Open Graph, JSON-LD, sitemap.xml, robots.txt, llms.txt (altijd als laatste stap)
+    import seo, related, kennisbank as _kb
+    _ws = (ROOT / "webshop.html").read_text()
+    _P = json.loads(re.search(r"const P=(\[.*?\]);let wc", _ws, re.S).group(1))
+    print("seo:", seo.run({"cursussen": cursussen, "agenda": agenda, "producten": {p["s"]: p for p in _P},
+                           "nvhp": related.nvhp_items(), "kb": len(_kb.load())}), "pagina's in sitemap")

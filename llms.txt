@@ -1,0 +1,46 @@
+# Bureau DFO
+
+> Bureau DFO (Hoevelaken) ondersteunt financieel adviseurs en financiële ondernemers met opleidingen, modeldocumenten en contracten, compliance-ondersteuning (Wft, Wwft, AVG), onderzoek, nieuwsbrieven, een kennisbank met 1133+ begrippen en de volledige Wft-, BGfo- en TRHK-teksten. Bureau DFO voert ook het secretariaat van de NVHP. Adres: De Wel 14-16, 3871 MV Hoevelaken · 033 258 04 60 · info@dfobv.nl.
+
+Informatie op deze site is algemene uitleg en geen advies; bedragen en regels wijzigen jaarlijks. Raadpleeg bij twijfel de bron (wetten.overheid.nl, AFM, Belastingdienst).
+
+## Belangrijkste pagina's
+
+- [Bureau DFO](https://jeroen-o.github.io/DFO/): Bureau DFO - Jouw partner waar het gaat om succesvol ondernemen in de financiële dienstverlening
+- [Opleidingen & agenda](https://jeroen-o.github.io/DFO/opleidingen.html): Het volledige opleidingsaanbod van Bureau DFO voor financieel adviseurs: hypotheken, schade, inkomen, compliance en bedrijfsvoering. Met agenda en incompany.
+- [Modeldocumenten & contracten](https://jeroen-o.github.io/DFO/documenten.html): Ruim 200 modeldocumenten, checklists en contracten voor financieel advieskantoren: Wft, Wwft, AVG, hypotheken, schade, inkomen, personeel en nazorg.
+- [Webshop](https://jeroen-o.github.io/DFO/webshop.html): Alle producten van Bureau DFO: modeldocumenten, opleidingen, rapporten en abonnementen.
+- [Compliance: AFM-vergunning en Wft-audit](https://jeroen-o.github.io/DFO/compliance.html): DFO Compliance: ondersteuning bij AFM-vergunning, geborgde bedrijfsvoering, Wwft, AVG, Sanctiewet, MiFID en Wft-audit.
+- [Abonnementen: Wft-nieuwsbrief en servicepakketten](https://jeroen-o.github.io/DFO/abonnementen.html): DFO Servicepakket, Wft-nieuwsbrief, nieuwsbrieven Hypotheken en Particulier en DFO Signalen. Maandelijks opzegbaar.
+- [Kennisbank begrippen](https://jeroen-o.github.io/DFO/kennisbank.html): Begrippenlijst schadeverzekeringen, hypotheken, pensioenen, kredieten en inkomensverzekeringen voor financieel adviseurs.
+- [WFT Bieb](https://jeroen-o.github.io/DFO/wft-bieb.html): 116 wetten en regelingen voor financiële dienstverleners per thema: Wft, Wwft, krediet, pensioen, fiscaal, sociale zekerheid en meer.
+- [Wft-kennistoets](https://jeroen-o.github.io/DFO/kennistoets.html): Gratis Wft-kennistoets: 7 wisselende vragen over Wft, Wwft, krediet, pensioen, fiscaal en meer, met uitleg bij elk antwoord.
+- [Wet- en regelgeving](https://jeroen-o.github.io/DFO/wetgeving.html): Wft, BGfo en TRHK volledig, plus een overzicht van alle wetten voor de financiële dienstverlening.
+- [Actueel nieuws hypotheken en verzekeringen](https://jeroen-o.github.io/DFO/nieuws.html): Dagelijks bijgewerkt nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, overheid, brancheorganisaties en DFO.
+- [Alle DFO-portalen](https://jeroen-o.github.io/DFO/portalen.html): Overzicht van 239 pagina's uit de DFO-portalen: DFO Signalen, Serviceproviders, Wft Permanent Actueel, AI Permanent Actueel, Nazorg & Onderhoud en Vergaderruimte Amersfoort.
+- [DFO Signalen](https://jeroen-o.github.io/DFO/signalen.html): DFO Signalen: jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.
+- [DFO Serviceproviders](https://jeroen-o.github.io/DFO/serviceproviders.html): Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering.
+- [Nazorg & Onderhoud Portal](https://jeroen-o.github.io/DFO/nazorg.html): De Nazorg & Onderhoud Portal van Bureau DFO: modeldocumenten, AFM-publicaties en jurisprudentie over nazorg.
+- [Onderzoek](https://jeroen-o.github.io/DFO/onderzoek.html): Onafhankelijk onderzoek van Bureau DFO: serviceproviders, performance van aanbieders en waardering van assurantieportefeuilles.
+- [Performance-onderzoek](https://jeroen-o.github.io/DFO/performance.html): Samenvattingen en vakpapers van het DFO Performance-onderzoek en de Week van de Serviceprovider.
+- [Vergaderruimte huren in Hoevelaken](https://jeroen-o.github.io/DFO/vergadercentrum.html): Zeven vergader- en cursuszalen voor 8 tot 70 personen bij knooppunt Hoevelaken. Gratis parkeren, persoonlijke ontvangst.
+- [DFO Studio](https://jeroen-o.github.io/DFO/studio.html): DFO Studio: de webcam- en webinarstudio voor de financiële dienstverlening.
+- [Congressen](https://jeroen-o.github.io/DFO/congressen.html): Congresorganisatie door Bureau DFO voor de financiële sector, o.a. VIPcongres, NVHP en KPS.
+- [Secretariaten](https://jeroen-o.github.io/DFO/secretariaten.html): Bureau DFO beheert het secretariaat van diverse verenigingen in de financiële sector.
+- [Over Bureau DFO](https://jeroen-o.github.io/DFO/over-dfo.html): Bureau DFO is opgericht in 1992 en richt zich specifiek op de financiële dienstverlening. Maak kennis met ons team.
+- [Contact](https://jeroen-o.github.io/DFO/contact.html): Contact met Bureau DFO in Hoevelaken: 033 258 04 60, info@dfobv.nl. Route en bezoekadres.
+
+## Portalen van Bureau DFO
+
+- [DFO Signalen](https://www.dfosignalen.nl/): wekelijkse nieuwsbrief voor onafhankelijk financieel adviseurs
+- [Serviceproviders](https://sp.dfobv.nl/): serviceproviders vergelijken
+- [Opleidingsportaal](https://www.dfo-opleidingen.nl/): inschrijven voor opleidingen
+- [Wft Permanent Actueel](https://pa-wft.nl/): permanente educatie per Wft-module
+- [AI Permanent Actueel](https://ai-permanent-actueel.nl/): AI-geletterdheid
+- [Nazorg & Onderhoud](https://www.dfonazorg.nl/): documentatie nazorg
+- [Vergaderruimte Amersfoort](https://www.amersfoort-vergaderruimte.nl/)
+
+## Meer
+
+- [Alle pagina's met omschrijving](https://jeroen-o.github.io/DFO/llms-full.txt)
+- [Sitemap](https://jeroen-o.github.io/DFO/sitemap.xml)
