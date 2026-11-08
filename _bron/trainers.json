@@ -1,0 +1,484 @@
+[
+ {
+  "slug": "jos-besselink",
+  "naam": "Jos Besselink",
+  "functie": "Oprichter WijZijnLoek, specialist AOV-advies",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Jos Besselink is oprichter van WijZijnLoek en specialist op het gebied van AOV-advies. Vanuit zijn dagelijkse praktijk helpt hij ondernemers en adviseurs bij het inrichten van zorgvuldig, begrijpelijk en toekomstbestendig AOV-advies. Bij Bureau DFO verzorgt hij de training over AOV-advies voor ondernemers.",
+  "foto": "assets/img/trainers/jos-besselink.jpg",
+  "organisatie": "WijZijnLoek",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/training-aov-adviseren-over-het-grootste-financiele-risico-voor-ondernemers",
+   "product-aov-en-schade-afwikkeling.html"
+  ]
+ },
+ {
+  "slug": "jan-buis",
+  "naam": "Jan Buis",
+  "functie": "Expert zakelijke financiering",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Jan Buis heeft vele jaren ervaring met de beoordeling van jaarrekeningen van ondernemers voor een van de grotere banken. Daardoor weet hij op welke punten geldverstrekkers extra letten bij het doornemen van de financiële stukken van een ondernemer. Bij Bureau DFO verzorgt hij de trainingen over jaarrekening lezen, het toetsinkomen van ondernemers en zakelijk financieren.",
+  "foto": "assets/img/trainers/jan-buis.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/jaarrekening-lezen-voor-de-financieel-adviseur",
+   "https://www.dfo-opleidingen.nl/cursus/financiering-privewoning-van-de-ondernemer",
+   "https://www.dfo-opleidingen.nl/cursus/module-1-inleiding-zakelijk-financieren",
+   "artikel-de-mening-van-jan-buis.html"
+  ]
+ },
+ {
+  "slug": "marian-eizinga-hanemaaijer",
+  "naam": "Marian Eizinga-Hanemaaijer",
+  "functie": "Financieel planner (CFP) en trainer Financiële Psychologie",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Marian Eizinga-Hanemaaijer CFP is onafhankelijk en zelfstandig financieel planner onder de naam Financieel Plan Marian. Daarnaast is zij vakdocent en trainer Financiële Psychologie; voor de NVHP verzorgt zij de masterclass Financiële Psychologie.",
+  "foto": "",
+  "organisatie": "Financieel Plan Marian",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/financiele-psychologie"
+  ]
+ },
+ {
+  "slug": "martine-glebbeek",
+  "naam": "Martine Glebbeek",
+  "functie": "RegisterExecuteur bij De Erfenisdeskundige",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Martine Glebbeek is RegisterExecuteur bij De Erfenisdeskundige. Zij helpt klanten bij het voorbereiden van hun nalatenschap (estate planning) en bij het afwikkelen van nalatenschappen. Sinds 2008 is zij gecertificeerd financieel planner, met als expertise het huwelijksvermogensrecht en het erfrecht.",
+  "foto": "assets/img/trainers/martine-glebbeek.jpg",
+  "organisatie": "De Erfenisdeskundige",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-samengestelde-gezinnen-en-de-juridisch-fiscale-financiele-spaghetti",
+   "https://www.dfo-opleidingen.nl/cursus/training-orv",
+   "https://www.dfo-opleidingen.nl/cursus/training-orv-maak-het-verschil-voor-je-klant"
+  ]
+ },
+ {
+  "slug": "reinier-gunneman",
+  "naam": "Reinier Gunneman",
+  "functie": "Financieel adviseur, hypothecair planner en AI-trainer",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Reinier Gunneman is erkend financieel adviseur, hypothecair planner en financieel echtscheidingsadviseur, en al jaren lid van de NVHP. Daarnaast is hij afgestudeerd informaticus met als specialisatie kunstmatige intelligentie; hij werkte als bancair business analist en later als mede-ontwikkelaar en analist van adviessoftware. Hij heeft inmiddels vele adviseurs getraind in het praktisch gebruik van AI en werkt zelf dagelijks met deze tools.",
+  "foto": "assets/img/trainers/reinier-gunneman.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/basistraining-ai-schade-advieskantoren",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-ai-gespreksverslagen",
+   "product-masterclass-ai-voor-hypotheekadviseurs-praktisch-en-interactief-met-chatgpt-copilot.html"
+  ]
+ },
+ {
+  "slug": "ronald-van-hamersveld",
+  "naam": "Ronald van Hamersveld",
+  "functie": "Financial controller bij Bureau DFO",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Ronald van Hamersveld werkt bij Bureau DFO, waar hij verantwoordelijk is voor de financiële administratie. Hij heeft een fiscale achtergrond en ruime ervaring in het werken met wet- en regelgeving en jurisprudentie. Vanuit zijn praktijkervaring met AI binnen Bureau DFO verzorgt hij de training AI voor schadebehandelaars, waarin hij de mogelijkheden van LegalMike laat zien.",
+  "foto": "assets/img/trainers/ronald-van-hamersveld.jpg",
+  "organisatie": "Bureau DFO",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/training-ai-voor-schadebehandelaars-maak-kennis-met-legalmike",
+   "over-dfo.html"
+  ]
+ },
+ {
+  "slug": "dominique-van-der-heide-wijma",
+  "naam": "Dominique van der Heide Wijma",
+  "functie": "Dagvoorzitter",
+  "rollen": [
+   "Dagvoorzitter"
+  ],
+  "bio": "",
+  "foto": "",
+  "organisatie": "",
+  "bronnen": []
+ },
+ {
+  "slug": "anita-hol-bubeck",
+  "naam": "Anita Hol-Bubeck",
+  "functie": "Docent schadeverzekeringen",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Anita Hol-Bubeck is docent schadeverzekeringen bij Bureau DFO en verzorgt trainingen, workshops en webinars over particuliere en zakelijke schade, zoals de 4-daagse opleiding Schade Zakelijk. In haar opleidingen ligt de nadruk niet alleen op kennisoverdracht, maar vooral op het aanleren van vaardigheden om de theorie toe te passen in het advies. Samen met Bureau DFO ontwikkelde zij de 7-daagse opleiding Schadebehandelaar financieel advieskantoor.",
+  "foto": "assets/img/trainers/anita-hol-bubeck.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/schade-zakelijk",
+   "https://www.dfo-opleidingen.nl/cursus/art-185-wvw-aansprakelijkheid-in-het-verkeer",
+   "product-docente-en-cursisten-aan-het-woord.html",
+   "artikel-meer-aandacht-voor-kwaliteit-schadebehandeling-is-wenselijk.html",
+   "artikel-de-mening-van-anita-hol-bubeck.html"
+  ]
+ },
+ {
+  "slug": "jasper-horsthuis",
+  "naam": "Jasper Horsthuis",
+  "functie": "Oprichter en directeur De Scheidingsdeskundige",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Drs. Jasper Horsthuis MFP RES is oprichter en directeur van De Scheidingsdeskundige, dat al ruim tien jaar opleidingen en praktijkondersteuning biedt aan professionals die betrokken zijn bij scheidingen. Voor de NVHP en Bureau DFO verzorgt hij masterclasses, webinars en workshops over onder meer de wettelijke verdeling, pensioenafwikkeling en rentecompensatie bij scheiding.",
+  "foto": "assets/img/trainers/jasper-horsthuis.jpg",
+  "organisatie": "De Scheidingsdeskundige",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-alles-wat-je-moet-weten-over-de-wettelijke-verdeling",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/3-daagse-leergang-financieel-relatie-adviseur",
+   "https://www.descheidingsdeskundige.nl/over-ons",
+   "product-webinar-pensioenafwikkeling-en-scheiding.html",
+   "product-workshop-scheidingsdeskundige-in-een-dag.html"
+  ]
+ },
+ {
+  "slug": "harry-van-houdt",
+  "naam": "Harry van Houdt",
+  "functie": "Eigenaar Nederlandse Planners Associatie",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Harry van Houdt is eigenaar van de Nederlandse Planners Associatie en professional op het gebied van totale financiële planning. Hij is gespecialiseerd in echtscheidingen, complexe pensioenvraagstukken, estate planning en exclusieve vermogensplanning.",
+  "foto": "",
+  "organisatie": "Nederlandse Planners Associatie",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-estate-planning-in-box-3"
+  ]
+ },
+ {
+  "slug": "jan-kilkens",
+  "naam": "Jan Kilkens",
+  "functie": "Trainer bij Steyn en Allberg",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Jan Kilkens is opgegroeid in de financiële dienstverlening en werkt als trainer bij Steyn en Allberg. Voor de NVHP verzorgt hij masterclasses en lichtte hij in een webinar (februari 2026) de beleidswijziging rond aflossingsvrije hypotheken toe.",
+  "foto": "",
+  "organisatie": "Steyn en Allberg",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/de-kracht-van-aandacht",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/financiering-buiten-gedragscode",
+   "https://www.hypothecairplanner.nl/adviseur/kenniscentrum/gastcolleges"
+  ]
+ },
+ {
+  "slug": "christine-klaren",
+  "naam": "Christine Klaren",
+  "functie": "Trainer verzekeringen",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Christine Klaren is al ruim 30 jaar actief op het gebied van verzekeringen en heeft meer dan 20 jaar ervaring in het verzorgen van opleidingen. Bij Bureau DFO verzorgt zij de training De autoverzekering centraal.",
+  "foto": "assets/img/trainers/christine-klaren.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/de-autoverzekering-centraal"
+  ]
+ },
+ {
+  "slug": "jasper-korrel",
+  "naam": "Jasper Korrel",
+  "functie": "Zakelijk Inkomen",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Jasper Korrel is werkzaam bij Zakelijk Inkomen. Voor de NVHP verzorgt hij de masterclass over inkomensbepaling van zelfstandige ondernemers.",
+  "foto": "",
+  "organisatie": "Zakelijk Inkomen",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/inkomensbepaling-zelfstandige-ondernemers-zakelijk-inkomen"
+  ]
+ },
+ {
+  "slug": "rene-kuiper",
+  "naam": "René Kuiper",
+  "functie": "Adviseur, coach en trainer",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "René Kuiper CFP® is adviseur, coach en trainer. Hij is docent van de Leergang Hypothecair Planner bij Bureau DFO en verzorgt de tweedaagse training over advies aan senioren met overwaarde. Hij staat naar eigen zeggen niet als schoolmeester voor de klas, maar als coach naast de cursisten, ook buiten de les en na afloop van de cursus.",
+  "foto": "assets/img/trainers/rene-kuiper.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner",
+   "https://www.dfo-opleidingen.nl/cursus/tweedaagse-training-vergroot-je-advieskracht-voor-senioren-met-overwaarde",
+   "product-docenten-aan-het-woord.html",
+   "artikel-de-mening-van-rene-kuiper.html"
+  ]
+ },
+ {
+  "slug": "monique-londema",
+  "naam": "Monique Londema",
+  "aliassen": [
+   "Monique Londema Trainer en Opleider"
+  ],
+  "functie": "Financieel planner (CFP) en docent",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Monique Londema CFP® is professional op het gebied van totale financiële planning, met hypothecaire planning als specialisme. Zij is docent van de Leergang Hypothecair Planner bij Bureau DFO en verzorgt voor de NVHP en Bureau DFO masterclasses over onder meer estate planning, testamenten en het schrijven van een adviesrapport.",
+  "foto": "assets/img/trainers/monique-londema.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-klantadviesrapport-schrijven",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/vierluik-estate-planning",
+   "https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner",
+   "product-masterclass-estate-planning-nalatenschapsplanning.html",
+   "product-masterclass-hoe-lees-je-het-testament-van-je-klant.html",
+   "artikel-de-mening-van-monique-londema-2.html"
+  ]
+ },
+ {
+  "slug": "robert-jan-van-loon",
+  "naam": "Robert-Jan van Loon",
+  "functie": "Senior consultant DFO Compliance",
+  "rollen": [
+   "DFO-trainer",
+   "Compliance"
+  ],
+  "bio": "Robert-Jan van Loon is senior consultant bij DFO Compliance. Hij begeleidt Wft-vergunningaanvragen en beantwoordt Wft- en compliancegerelateerde vragen van klanten. Bij Bureau DFO verzorgt hij onder meer de trainingen over het AFM-vergunningentraject, Wwft & Sanctiewet, digitale weerbaarheid en de workshop Bedrijfsvoering op orde.",
+  "foto": "assets/img/trainers/robert-jan-van-loon.jpg",
+  "organisatie": "DFO Compliance",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/dfo-compliance-het-hele-afm-vergunningentraject-doorgenomen-in-een-dagdeel",
+   "https://www.dfo-opleidingen.nl/cursus/training-digitale-weerbaarheid",
+   "https://www.dfo-opleidingen.nl/cursus/informatiebijeenkomst-invullen-afm-marktmonitor-2025",
+   "compliance.html",
+   "info-ons-team.html"
+  ]
+ },
+ {
+  "slug": "michael-mackaaij",
+  "naam": "Michael Mackaaij",
+  "functie": "Voorzitter CGA en directeur nexxbiz",
+  "rollen": [
+   "Dagvoorzitter"
+  ],
+  "bio": "Michael Mackaaij is voorzitter van CGA en directeur van nexxbiz. Hij maakt deel uit van de organisatie van het VIP Congres.",
+  "foto": "",
+  "organisatie": "nexxbiz",
+  "bronnen": [
+   "https://www.vipcongres.nl/"
+  ]
+ },
+ {
+  "slug": "jurjen-oosterbaan-martinius",
+  "naam": "Jurjen Oosterbaan Martinius",
+  "functie": "Algemeen directeur Bureau DFO",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Mr. Jurjen Oosterbaan Martinius is algemeen directeur van Bureau DFO en kent de Wft en de ontwikkelingen in de markt goed. Hij verzorgt het webinar Actualiteiten voor financieel adviseurs en behandelt in het webinar over assurantieportefeuilles de aandachtspunten vanuit de Wft, AVG en Wwft.",
+  "foto": "assets/img/trainers/jurjen-oosterbaan-martinius.jpg",
+  "organisatie": "Bureau DFO",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/webinar-actualiteiten-en-visie-financieel-adviseur-2022",
+   "https://www.dfo-opleidingen.nl/cursus/waardering-assurantieportefeuilles-online",
+   "https://www.vipcongres.nl/"
+  ]
+ },
+ {
+  "slug": "frank-paalman",
+  "naam": "Frank Paalman",
+  "functie": "Docent bij Impact en hypothecair planner",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Frank Paalman is als docent verbonden aan Impact en is daarnaast hypothecair planner. Hij was betrokken bij de totstandkoming van de nieuwe AFM-leidraad hypotheekadvisering, die hij in een NVHP-masterclass behandelt.",
+  "foto": "",
+  "organisatie": "Impact",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/leidraad",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/de-nieuwe-pensioenwet",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/senioren-en-overwaarde"
+  ]
+ },
+ {
+  "slug": "eric-bastiaan-pothoven",
+  "naam": "Eric Bastiaan Pothoven",
+  "aliassen": [
+   "Eric Pothoven",
+   "Erik Pothoven"
+  ],
+  "functie": "Financieel adviseur en fiscaal trainer",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Eric Pothoven is ervaren financieel adviseur en geeft zelf ook nog actief hypotheekadvies. Sinds 2019 geeft en schrijft hij fiscale trainingen bij Lindenhaeghe, met de eigenwoningregeling als specialisme. Samen met externe deskundigen ontwikkelde hij het Fiscaal Paspoort, een tool waarmee adviseurs het fiscale eigenwoningverleden van hun klant berekenen.",
+  "foto": "assets/img/trainers/eric-bastiaan-pothoven.jpg",
+  "organisatie": "Lindenhaeghe",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-draagplichtovereenkomst",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-inventariseren-fiscaal-verleden-2026",
+   "https://www.dfo-opleidingen.nl/cursus/workshop-fiscaal-paspoort",
+   "https://www.dfo-opleidingen.nl/cursus/verdiepingscursus-fiscaal-paspoort-van-kunnen-naar-beheersen"
+  ]
+ },
+ {
+  "slug": "joost-schipaanboord",
+  "naam": "Joost Schipaanboord",
+  "functie": "Trainer zakelijke schadeverzekeringen",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Joost Schipaanboord heeft uitgebreide ervaring met technische inspecties, advisering en corporate insurance, zowel aan de kant van de verzekeraar als aan de kant van de adviseur zakelijke brandverzekeringen. Bij Bureau DFO verzorgt hij onder meer de training Clausules zakelijke brandverzekering en de workshop Risicogericht adviseren van MKB-bedrijven.",
+  "foto": "assets/img/trainers/joost-schipaanboord.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/training-clausules-zakelijke-brandverzekering",
+   "https://www.dfo-opleidingen.nl/cursus/workshop-risicogericht-adviseren-van-mkb-bedrijven"
+  ]
+ },
+ {
+  "slug": "julian-schouwenaars",
+  "naam": "Julian Schouwenaars",
+  "functie": "Trainer beleggen en lijfrenteadvies",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Julian Schouwenaars verzorgt de eendaagse training Verdiep je in beleggen & lijfrenteadvies, die Bureau DFO samen met Doelbeleggen organiseert.",
+  "foto": "assets/img/trainers/julian-schouwenaars.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/eendaagse-verdiep-je-in-beleggen-lijfrenteadvies-incl-seh-en-ffp-pe-punten"
+  ]
+ },
+ {
+  "slug": "paul-schuiling",
+  "naam": "Paul Schuiling",
+  "functie": "Consultant bij Projective Group",
+  "rollen": [
+   "DFO-trainer",
+   "Compliance"
+  ],
+  "bio": "Paul Schuiling heeft jarenlange ervaring bij de AFM als toezichthouder en kent de branche goed. Hij is als consultant verbonden aan Projective Group, een organisatie die gespecialiseerd is in compliance. Samen met Sanel Sunje verzorgt hij voor Bureau DFO de training Wwft.",
+  "foto": "assets/img/trainers/paul-schuiling.jpg",
+  "organisatie": "Projective Group",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/training-wwft-wij-helpen-jou-om-moeilijke-dingen-makkelijker-te-maken"
+  ]
+ },
+ {
+  "slug": "jurjen-snater",
+  "naam": "Jurjen Snater",
+  "functie": "Docent hypotheekadvies",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Jurjen Snater verzorgt samen met Rob Timmermans de workshop Kwaliteit hypotheekadvies en dossiervorming, over het opstellen van een reproduceerbaar adviesdossier dat voldoet aan de eisen van de Wft.",
+  "foto": "",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/kwaliteit-hypotheekadvies-en-dossiervorming-workshop",
+   "product-workshop-kwaliteit-hypotheekadvies-en-dossiervorming.html"
+  ]
+ },
+ {
+  "slug": "sanel-sunje",
+  "naam": "Sanel Sunje",
+  "functie": "Consultant bij Projective Group",
+  "rollen": [
+   "DFO-trainer",
+   "Compliance"
+  ],
+  "bio": "Sanel Sunje heeft veel ervaring met de vereisten uit de Wwft en de Sanctiewet en heeft veel financiële instellingen bijgestaan bij het op orde krijgen van klantdossiers. Sanel is als consultant verbonden aan Projective Group en verzorgt samen met Paul Schuiling voor Bureau DFO de training Wwft.",
+  "foto": "",
+  "organisatie": "Projective Group",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/training-wwft-wij-helpen-jou-om-moeilijke-dingen-makkelijker-te-maken"
+  ]
+ },
+ {
+  "slug": "rob-timmermans",
+  "naam": "Rob Timmermans",
+  "functie": "Directeur Impact Groep",
+  "rollen": [
+   "DFO-trainer",
+   "NVHP-docent"
+  ],
+  "bio": "Rob Timmermans is directeur van de Impact Groep, met een opleidingstak, een exameninstituut en een kenniscentrum. Hij is master in financial planning (MFP) en heeft ruim 30 jaar praktijkervaring in de financiële branche. Zijn kracht is het begrijpelijk maken van complexe materie en de praktische toepassing van wet- en regelgeving; bij Bureau DFO is hij docent van de Leergang Hypothecair Planner.",
+  "foto": "assets/img/trainers/rob-timmermans.jpg",
+  "organisatie": "Impact Groep",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/masterclass-actualiteiten",
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/hypotheekmaster-2026",
+   "https://www.dfo-opleidingen.nl/cursus/leergang-hypothecair-planner",
+   "https://www.dfo-opleidingen.nl/cursus/kwaliteit-hypotheekadvies-en-dossiervorming-workshop"
+  ]
+ },
+ {
+  "slug": "erik-van-toledo",
+  "naam": "Erik van Toledo",
+  "functie": "Trainer lijfrenten",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Erik van Toledo verzorgt bij Bureau DFO de actualiteitentraining en het webinar over lijfrenten. Daarnaast presenteerde hij een reeks digitale verdiepingsmodules over onder meer expirerende lijfrenten, lijfrenten voor ondernemers en lijfrenten in de aangifte.",
+  "foto": "assets/img/trainers/erik-van-toledo.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/basis-training-lijfrenten",
+   "https://www.dfo-opleidingen.nl/cursus/webinar-lijfrenten",
+   "product-actualiteitentraining-lijfrenten.html",
+   "product-lijfrente-verdiepingsmodule-2-lijfrenten-en-de-ondernemer-zzper.html"
+  ]
+ },
+ {
+  "slug": "linda-vervloet",
+  "naam": "Linda Vervloet",
+  "functie": "Trainer branding en marketing",
+  "rollen": [
+   "DFO-trainer"
+  ],
+  "bio": "Linda Vervloet heeft ruim 20 jaar ervaring in branding en marketing binnen de financiële sector. Ze combineert strategisch inzicht met een directe, praktische aanpak. Bij Bureau DFO verzorgt zij de workshop Zichtbaarheid en marketing voor hypotheekkantoren.",
+  "foto": "assets/img/trainers/linda-vervloet.jpg",
+  "organisatie": "",
+  "bronnen": [
+   "https://www.dfo-opleidingen.nl/cursus/workshop-zichtbaarheid-en-marketing-speciaal-voor-hypotheekkantoren"
+  ]
+ },
+ {
+  "slug": "jacqueline-van-der-vorm",
+  "naam": "Jacqueline van der Vorm",
+  "functie": "Docent bij De Scheidingsdeskundige",
+  "rollen": [
+   "NVHP-docent"
+  ],
+  "bio": "Drs. Jacqueline van der Vorm FFP RES MfN is sinds 2018 vaste docent bij De Scheidingsdeskundige. Na haar studie fiscale economie werkte zij als private banker; sinds 2005 is zij zelfstandig financieel planner, gespecialiseerd in financiële en fiscale advisering bij scheiding. Voor de NVHP verzorgt zij praktijkdagen van de leergang Financieel Relatie Adviseur.",
+  "foto": "assets/img/trainers/jacqueline-van-der-vorm.jpg",
+  "organisatie": "De Scheidingsdeskundige",
+  "bronnen": [
+   "https://mc.hypothecairplanner.nl/cursus-nvhp/3-daagse-leergang-financieel-relatie-adviseur",
+   "https://www.descheidingsdeskundige.nl/over-ons"
+  ]
+ },
+ {
+  "slug": "bernardo-walta",
+  "naam": "Bernardo Walta",
+  "functie": "Commercieel directeur De Goudse Verzekeringen",
+  "rollen": [
+   "Dagvoorzitter"
+  ],
+  "bio": "Bernardo Walta is commercieel directeur van De Goudse Verzekeringen. Op 7 juli 2026 was hij dagvoorzitter van het VIP Congres in het AFAS Theater in Leusden, het ICT-netwerkevent voor de financiële sector waar ruim dertig softwarebedrijven hun plannen presenteerden.",
+  "foto": "",
+  "organisatie": "De Goudse Verzekeringen",
+  "bronnen": [
+   "https://www.dfosignalen.nl/nieuwsbrief-dfo-signalen/nieuwsbrief-dfo-signalen-week-24-2026/",
+   "https://www.vipcongres.nl/"
+  ]
+ }
+]
