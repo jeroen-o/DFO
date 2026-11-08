@@ -119,6 +119,7 @@ def page(fname, title, desc, body, extra_head="", scripts=""):
     <div><h4>Aanbod</h4><ul>
       <li><a href="opleidingen.html">Opleidingen &amp; agenda</a></li>
       <li><a href="opleidingen.html#nvhp">NVHP-masterclasses</a></li>
+      <li><a href="trainers.html">Trainers, docenten en dagvoorzitters</a></li>
       <li><a href="documenten.html">Modeldocumenten &amp; contracten</a></li>
       <li><a href="compliance.html">DFO Compliance</a></li>
       <li><a href="wft-bieb.html">WFT Bieb: wet- en regelgeving</a></li>
@@ -591,7 +592,7 @@ def build_opleidingen():
     body = hero("Opleidingen voor financieel dienstverleners",
                 "Praktijkgerichte trainingen, masterclasses en meerdaagse leergangen. Kies een opleiding en meld je direct aan via het DFO-opleidingsportaal.",
                 crumbs=["Opleidingen"],
-                btns='<a class="btn btn-light arrow" href="#aanbod">Bekijk het aanbod</a><a class="btn btn-ghost" href="#agenda">Agenda</a><a class="btn btn-ghost" href="#nvhp">NVHP-masterclasses</a>')
+                btns='<a class="btn btn-light arrow" href="#aanbod">Bekijk het aanbod</a><a class="btn btn-ghost" href="#agenda">Agenda</a><a class="btn btn-ghost" href="#nvhp">NVHP-masterclasses</a><a class="btn btn-ghost" href="trainers.html">Onze trainers</a>')
     body += f"""
 <section id="aanbod"><div class="wrap">
   <div class="sec-head"><h2>Overzicht cursussen</h2><p>Hier vind je ons volledige aanbod opleidingen. Niet helemaal duidelijk welke opleiding voor jou de juiste is? We geven je graag advies!</p></div>
@@ -1055,6 +1056,7 @@ def build_congressen():
     t, lead, body = render_verbatim("congressen/index.html", ["Congressen"], hero_img="assets/img/congres.jpg")
     body = body.replace('<section><div class="wrap"><div class="prose">',
                         '<section><div class="wrap"><div class="prose"><img src="assets/img/vip.jpg" alt="VIPcongres 2024" loading="lazy" style="border-radius:14px;margin-bottom:24px">', 1)
+    body = body.replace("</main>", '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section></main>', 1) if "</main>" in body else body + '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section>'
     page("congressen.html", "Congressen – Bureau DFO", "Congresorganisatie door Bureau DFO voor de financiële sector, o.a. VIPcongres, NVHP en KPS.", body)
 
 
@@ -1568,6 +1570,11 @@ def build_portalen_page():
     print("portalen:", portalen.build(page, hero, callout), "pagina's")
 
 
+def build_trainers_page():
+    import trainers
+    print("trainers:", trainers.build(page, hero, callout, cursussen, agenda))
+
+
 def build_kennisbank_page():
     import afm_kennis
     afm_kennis.build()
@@ -1702,7 +1709,7 @@ if __name__ == "__main__":
     print("dfobv.nl:", stats, "nieuwe afbeeldingen:", dfobv_site.download_images())
     for fn in [build_home, build_opleidingen, build_documenten, build_compliance, build_abonnementen, build_zalen,
                build_studio, build_over, build_columns, build_congressen, build_secretariaten, build_onderzoek,
-               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_portalen_page, build_404, build_related_pages, build_zoeken, build_redirects]:
+               build_calculator, build_contact, build_themas, build_performance, build_mening, build_actievoorwaarden, build_signalen, build_serviceproviders, build_nazorg, build_nieuws, build_wetten_pages, build_kennisbank_page, build_portalen_page, build_trainers_page, build_404, build_related_pages, build_zoeken, build_redirects]:
         fn()
     print("OK –", len(cursussen), "cursussen,", len(agenda), "data")
     # afbeeldingen die niet (meer) bestaan bij de bron: tag weglaten i.p.v. kapot plaatje

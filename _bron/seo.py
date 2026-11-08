@@ -155,6 +155,24 @@ def specifiek(fname, raw, ctx, page_url):
                     "hasDefinedTerm": [{"@type": "DefinedTerm", "@id": page_url + "#" + i, "name": txt(re.sub(r'<span class="kb-afk">.*?</span>', "", h)),
                                         **({"termCode": txt(re.search(r'kb-afk">\((.*?)\)', h).group(1))} if 'kb-afk' in h else {}),
                                         "description": txt(d, 220), "inDefinedTermSet": page_url + "#begrippen"} for i, h, d in terms]})
+    elif fname.startswith("trainer-"):
+        h1 = re.search(r"<h1>(.*?)</h1>", raw, re.S)
+        img = re.search(r'<img class="tr-foto[^"]*" src="([^"]+)"', raw)
+        bio = re.search(r'<div class="tr-main">\s*<p>(.*?)</p>', raw, re.S)
+        rollen = re.findall(r'<div class="tr-side">.*?</div>', raw, re.S)
+        out.append({"@type": "Person", "@id": page_url + "#persoon", "name": txt(h1.group(1)) if h1 else "",
+                    "jobTitle": txt(re.search(r'<p class="lead">(.*?)</p>', raw, re.S).group(1)) if '<p class="lead">' in raw else "Trainer",
+                    **({"image": BASE + img.group(1)} if img else {}), **({"description": txt(bio.group(1), 400)} if bio else {}),
+                    "url": page_url, "affiliation": {"@id": BASE + "#org"},
+                    "knowsAbout": [txt(t) for t in re.findall(r'<span class="tag[^"]*">(.*?)</span>', rollen[0] if rollen else "")]})
+    elif fname == "trainers.html":
+        ppl = re.findall(r'<a class="card tr-card" href="(trainer-[^"]+)"[^>]*>.*?<h3>(.*?)</h3>', raw, re.S)
+        seen = []
+        for u, n in ppl:
+            if u not in [x[0] for x in seen]:
+                seen.append((u, n))
+        out.append({"@type": "ItemList", "name": "Trainers, docenten en dagvoorzitters", "numberOfItems": len(seen),
+                    "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "Person", "name": txt(n), "url": BASE + u}} for i, (u, n) in enumerate(seen)]})
     elif fname == "kennistoets.html":
         out.append({"@type": "Quiz", "name": "Wft-kennistoets", "about": "Wet op het financieel toezicht", "educationalLevel": "Professioneel",
                     "inLanguage": "nl-NL", "provider": {"@id": BASE + "#org"}, "url": page_url})
@@ -278,7 +296,7 @@ def llms(pages, ctx):
             return ""
         url, t, d = byfn[fn]
         return f"- [{label or t.split(' – ')[0]}]({url}): {d}\n"
-    kern = ["index.html", "opleidingen.html", "documenten.html", "webshop.html", "compliance.html", "abonnementen.html", "kennisbank.html", "wft-bieb.html",
+    kern = ["index.html", "opleidingen.html", "trainers.html", "documenten.html", "webshop.html", "compliance.html", "abonnementen.html", "kennisbank.html", "wft-bieb.html",
             "kennistoets.html", "wetgeving.html", "nieuws.html", "portalen.html", "signalen.html", "serviceproviders.html", "nazorg.html", "onderzoek.html",
             "performance.html", "vergadercentrum.html", "studio.html", "congressen.html", "secretariaten.html", "over-dfo.html", "contact.html"]
     s = (f"# Bureau DFO\n\n> Bureau DFO (Hoevelaken) ondersteunt financieel adviseurs en financiële ondernemers met opleidingen, modeldocumenten en contracten, "
