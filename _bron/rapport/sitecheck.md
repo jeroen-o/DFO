@@ -16,12 +16,12 @@
 
 ## Overzicht
 - 528 pagina's in sitemap.xml; 528 indexeerbare pagina's
-- DFO Signalen: 86 pagina's, bijgewerkt 2026-11-07 (vorige week 86)
-- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-07 (vorige week 95)
-- Wft Permanent Actueel: 43 pagina's, bijgewerkt 2026-11-07 (vorige week 43)
-- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-07 (vorige week 12)
-- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-07 (vorige week 2)
-- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-07 (vorige week 1)
+- DFO Signalen: 86 pagina's, bijgewerkt 2026-11-08 (vorige week 86)
+- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-08 (vorige week 95)
+- Wft Permanent Actueel: 43 pagina's, bijgewerkt 2026-11-08 (vorige week 43)
+- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-08 (vorige week 12)
+- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-08 (vorige week 2)
+- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-08 (vorige week 1)
 - Opleidingsportaal: 74 items
 - NVHP-planning: 29 items
 - Nieuws: 197 items
