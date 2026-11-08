@@ -1059,7 +1059,9 @@ def congres_events():
         return ""
     today = datetime.date.today().isoformat()
     cards = ""
-    for c in json.loads(f.read_text()):
+    evs = json.loads(f.read_text())
+    evs.sort(key=lambda c: min([d["d"] for d in c["data"] if d["d"] >= today] or ["9999"]))  # eerstvolgende event eerst
+    for c in evs:
         komend = [d for d in c["data"] if d["d"] >= today][:4]
         rows = "".join(f'<li><strong>{int(d["d"][8:])} {MAANDEN_LANG[int(d["d"][5:7]) - 1]} {d["d"][:4]}</strong> · {E(d["t"])}<br><span class="muted">{E(d["loc"])}</span></li>' for d in komend)
         agenda = (f'<ul class="cg-data">{rows}</ul>' if rows else '<p class="muted">Nieuwe data volgen; kijk op de website van het event.</p>')
