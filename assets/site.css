@@ -481,3 +481,9 @@ p,li,td{hyphens:manual}
 @media (max-width:760px){.tr-profiel{grid-template-columns:1fr;gap:20px}.tr-side{position:static}.tr-groot{width:160px;height:160px}}
 .tr-voordelen{margin:0;padding-left:1.1em;font-size:.93rem;color:var(--ink-2)}.tr-voordelen li{margin:0 0 7px}
 .tr-partijen{grid-template-columns:repeat(auto-fill,minmax(min(420px,100%),1fr));gap:18px}
+.cg-grid{grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr));gap:22px;align-items:stretch}
+.cg-card{padding:0;overflow:hidden;display:flex;flex-direction:column}.cg-img img{width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;display:block}
+.cg-body{padding:20px 22px 22px;display:flex;flex-direction:column;flex:1}.cg-body h3{font-size:1.12rem;margin:10px 0 8px}.cg-body p{font-size:.94rem;color:var(--ink-2)}
+.cg-body .tag{align-self:flex-start;margin:0}.cg-h4{font-size:.95rem;margin:12px 0 6px}
+.cg-data{list-style:none;margin:0 0 14px;padding:0;font-size:.9rem}.cg-data li{padding:7px 0;border-top:1px solid var(--line)}.cg-data li:first-child{border-top:0}
+.cg-body .btns{margin-top:auto;padding-top:8px}

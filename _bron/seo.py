@@ -173,6 +173,15 @@ def specifiek(fname, raw, ctx, page_url):
                 seen.append((u, n))
         out.append({"@type": "ItemList", "name": "Trainers, docenten en dagvoorzitters", "numberOfItems": len(seen),
                     "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@type": "Person", "name": txt(n), "url": BASE + u}} for i, (u, n) in enumerate(seen)]})
+    elif fname == "congressen.html":
+        today = datetime.date.today().isoformat()
+        for c in json.loads((SRC / "congressen.json").read_text()):
+            for d in c["data"]:
+                if d["d"] >= today:
+                    out.append({"@type": "Event", "name": d["t"], "startDate": d["d"], "eventStatus": "https://schema.org/EventScheduled",
+                                "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode" if d["loc"].lower() == "online" else "https://schema.org/OfflineEventAttendanceMode",
+                                "location": {"@type": "VirtualLocation", "url": c["url"]} if d["loc"].lower() == "online" else {"@type": "Place", "name": d["loc"], "address": {"@type": "PostalAddress", "addressLocality": d["loc"].split(",")[-1].strip(), "addressCountry": "NL"}},
+                                "description": txt(c["tekst"], 300), "url": c["url"], "image": BASE + c["img"], "organizer": {"@id": BASE + "#org"}})
     elif fname == "kennistoets.html":
         out.append({"@type": "Quiz", "name": "Wft-kennistoets", "about": "Wet op het financieel toezicht", "educationalLevel": "Professioneel",
                     "inLanguage": "nl-NL", "provider": {"@id": BASE + "#org"}, "url": page_url})

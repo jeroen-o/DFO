@@ -1052,11 +1052,36 @@ def build_studio():
         page(fname, f"{t} – DFO Studio", lead[:155], body)
 
 
+def congres_events():
+    """Kaarten voor de congressen en events die Bureau DFO (mede) organiseert, met de eerstvolgende data."""
+    f = SRC / "congressen.json"
+    if not f.exists():
+        return ""
+    today = datetime.date.today().isoformat()
+    cards = ""
+    for c in json.loads(f.read_text()):
+        komend = [d for d in c["data"] if d["d"] >= today][:4]
+        rows = "".join(f'<li><strong>{int(d["d"][8:])} {MAANDEN_LANG[int(d["d"][5:7]) - 1]} {d["d"][:4]}</strong> · {E(d["t"])}<br><span class="muted">{E(d["loc"])}</span></li>' for d in komend)
+        agenda = (f'<ul class="cg-data">{rows}</ul>' if rows else '<p class="muted">Nieuwe data volgen; kijk op de website van het event.</p>')
+        meer = f'<a class="btn btn-ghost" href="{E(c["agenda"])}" rel="noopener">Volledige agenda</a>' if c.get("agenda") else ""
+        cards += (f'<article class="card cg-card" id="{c["slug"]}"><a href="{E(c["url"])}" rel="noopener" class="cg-img"><img src="{c["img"]}" alt="{E(c["naam"])}" width="960" height="540" loading="lazy"></a>'
+                  f'<div class="cg-body"><span class="tag">{E(c["label"])}</span><h3>{E(c["naam"])}</h3><p>{E(c["tekst"])}</p>'
+                  f'<ul class="tr-voordelen">' + "".join(f"<li>{E(x)}</li>" for x in c["details"]) + "</ul>"
+                  f'<h4 class="cg-h4">Eerstvolgende data</h4>{agenda}'
+                  f'<div class="btns"><a class="btn btn-primary arrow" href="{E(c["url"])}" rel="noopener">{E(c["knop"])}</a>{meer}</div></div></article>')
+    return f"""<section class="alt" id="events"><div class="wrap">
+  <div class="sec-head"><span class="kicker" style="color:var(--blue)">Congressen en events</span><h2>Congressen en events van Bureau DFO en partners</h2>
+  <p>Naast het VIPcongres en de ledendagen van de NVHP organiseert Bureau DFO deze congressen en bijeenkomsten, samen met partners uit de sector.</p></div>
+  <div class="grid cg-grid">{cards}</div>
+</div></section>"""
+
+
 def build_congressen():
     t, lead, body = render_verbatim("congressen/index.html", ["Congressen"], hero_img="assets/img/congres.jpg")
     body = body.replace('<section><div class="wrap"><div class="prose">',
                         '<section><div class="wrap"><div class="prose"><img src="assets/img/vip.jpg" alt="VIPcongres 2024" loading="lazy" style="border-radius:14px;margin-bottom:24px">', 1)
     body = body.replace("</main>", '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section></main>', 1) if "</main>" in body else body + '<section class="tight"><div class="wrap"><div class="callout"><div><h2>Dagvoorzitter of spreker nodig?</h2><p>Huur via Bureau DFO een ervaren dagvoorzitter of trainer die de financiële sector kent.</p></div><div><a class="btn btn-light arrow" href="trainers.html#dagvoorzitters">Bekijk de dagvoorzitters</a></div></div></div></section>'
+    body = body.replace("</main>", congres_events() + "</main>", 1) if "</main>" in body else body + congres_events()
     page("congressen.html", "Congressen – Bureau DFO", "Congresorganisatie door Bureau DFO voor de financiële sector, o.a. VIPcongres, NVHP en KPS.", body)
 
 
