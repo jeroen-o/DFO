@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-08T12:04:20.799Z",
+ "bijgewerkt": "2026-11-09T12:14:48.170Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -183,7 +183,7 @@
    "tijd": "09:15–13:00",
    "loc": "Helmond",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 8
+   "plaatsen": 7
   },
   {
    "t": "De Kracht van Aandacht",
@@ -303,7 +303,7 @@
    "tijd": "09:15–13:00",
    "loc": "Zwolle",
    "doc": "Jan Kilkens",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Alles wat je moet weten over de Wettelijke Verdeling",
@@ -375,7 +375,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
@@ -431,7 +431,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 3
+   "plaatsen": 2
   },
   {
    "t": "Actualiteiten",
@@ -455,7 +455,7 @@
    "tijd": "09:15–13:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Frank Paalman",
-   "plaatsen": 19
+   "plaatsen": 18
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -463,7 +463,7 @@
    "tijd": "13:15–17:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Frank Paalman",
-   "plaatsen": 20
+   "plaatsen": 19
   },
   {
    "t": "Financiering buiten gedragscode",
@@ -471,7 +471,7 @@
    "tijd": "13:15–17:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Jan Kilkens",
-   "plaatsen": 9
+   "plaatsen": 8
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -575,7 +575,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Rob Timmermans",
-   "plaatsen": 2
+   "plaatsen": 1
   },
   {
    "t": "De Kracht van Aandacht",

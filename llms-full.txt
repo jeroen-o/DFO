@@ -18,7 +18,7 @@ Informatie op deze site is algemene uitleg en geen advies; bedragen en regels wi
 - [Wft-kennistoets](https://jeroen-o.github.io/DFO/kennistoets.html): Gratis Wft-kennistoets: 7 wisselende vragen over Wft, Wwft, krediet, pensioen, fiscaal en meer, met uitleg bij elk antwoord.
 - [Wet- en regelgeving](https://jeroen-o.github.io/DFO/wetgeving.html): Wft, BGfo en TRHK volledig, plus een overzicht van alle wetten voor de financiële dienstverlening.
 - [Actueel nieuws hypotheken en verzekeringen](https://jeroen-o.github.io/DFO/nieuws.html): Dagelijks bijgewerkt nieuws over hypotheken, verzekeringen en pensioen van toezichthouders, overheid, brancheorganisaties en DFO.
-- [Alle DFO-portalen](https://jeroen-o.github.io/DFO/portalen.html): Overzicht van 239 pagina's uit de DFO-portalen: DFO Signalen, Serviceproviders, Wft Permanent Actueel, AI Permanent Actueel, Nazorg & Onderhoud en Vergaderruimte Amersfoort.
+- [Alle DFO-portalen](https://jeroen-o.github.io/DFO/portalen.html): Overzicht van 238 pagina's uit de DFO-portalen: DFO Signalen, Serviceproviders, Wft Permanent Actueel, AI Permanent Actueel, Nazorg & Onderhoud en Vergaderruimte Amersfoort.
 - [DFO Signalen](https://jeroen-o.github.io/DFO/signalen.html): DFO Signalen: jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.
 - [DFO Serviceproviders](https://jeroen-o.github.io/DFO/serviceproviders.html): Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering.
 - [Nazorg & Onderhoud Portal](https://jeroen-o.github.io/DFO/nazorg.html): De Nazorg & Onderhoud Portal van Bureau DFO: modeldocumenten, AFM-publicaties en jurisprudentie over nazorg.
@@ -573,7 +573,7 @@ Informatie op deze site is algemene uitleg en geen advies; bedragen en regels wi
 - [Onderzoek](https://jeroen-o.github.io/DFO/onderzoek.html): Onafhankelijk onderzoek van Bureau DFO: serviceproviders, performance van aanbieders en waardering van assurantieportefeuilles.
 - [Over Bureau DFO](https://jeroen-o.github.io/DFO/over-dfo.html): Bureau DFO is opgericht in 1992 en richt zich specifiek op de financiële dienstverlening. Maak kennis met ons team.
 - [Performance-onderzoek](https://jeroen-o.github.io/DFO/performance.html): Samenvattingen en vakpapers van het DFO Performance-onderzoek en de Week van de Serviceprovider.
-- [Alle DFO-portalen](https://jeroen-o.github.io/DFO/portalen.html): Overzicht van 239 pagina's uit de DFO-portalen: DFO Signalen, Serviceproviders, Wft Permanent Actueel, AI Permanent Actueel, Nazorg & Onderhoud en Vergaderruimte Amersfoort.
+- [Alle DFO-portalen](https://jeroen-o.github.io/DFO/portalen.html): Overzicht van 238 pagina's uit de DFO-portalen: DFO Signalen, Serviceproviders, Wft Permanent Actueel, AI Permanent Actueel, Nazorg & Onderhoud en Vergaderruimte Amersfoort.
 - [Secretariaten](https://jeroen-o.github.io/DFO/secretariaten.html): Bureau DFO beheert het secretariaat van diverse verenigingen in de financiële sector.
 - [DFO Serviceproviders](https://jeroen-o.github.io/DFO/serviceproviders.html): Vergelijk de serviceproviders op kwaliteit, snelheid, aanbod en waardering.
 - [DFO Signalen](https://jeroen-o.github.io/DFO/signalen.html): DFO Signalen: jouw wekelijkse update met signalen uit de markt, speciaal voor onafhankelijk financieel adviseurs.

@@ -1,4 +1,4 @@
-# Wekelijkse sitecheck – 2026-11-08
+# Wekelijkse sitecheck – 2026-11-09
 
 **Status:** ⚠️ aandachtspunten
 
@@ -15,15 +15,15 @@
 - dubbele titel 'Bureau DFO Nazorg- en onderhoudspakket DAK – Webshop Bureau ' op 2 pagina's: product-bureau-dfo-nazorg-en-onderhoudspakket-dak-2.html, product-bureau-dfo-nazorg-en-onderhoudspakket-dak.html
 
 ## Overzicht
-- 528 pagina's in sitemap.xml; 528 indexeerbare pagina's
-- DFO Signalen: 86 pagina's, bijgewerkt 2026-11-08 (vorige week 86)
-- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-08 (vorige week 95)
-- Wft Permanent Actueel: 43 pagina's, bijgewerkt 2026-11-08 (vorige week 43)
-- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-08 (vorige week 12)
-- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-08 (vorige week 2)
-- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-08 (vorige week 1)
+- 561 pagina's in sitemap.xml; 561 indexeerbare pagina's
+- DFO Signalen: 86 pagina's, bijgewerkt 2026-11-09 (vorige week 86)
+- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-09 (vorige week 95)
+- Wft Permanent Actueel: 42 pagina's, bijgewerkt 2026-11-09 (vorige week 43)
+- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-09 (vorige week 12)
+- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-09 (vorige week 2)
+- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-09 (vorige week 1)
 - Opleidingsportaal: 74 items
 - NVHP-planning: 29 items
 - Nieuws: 197 items
-- zoeker: 3165 doorzoekbare items, waarvan 239 uit de portalen
+- zoeker: 5415 doorzoekbare items, waarvan 238 uit de portalen
 - 356 webshoplinks gecontroleerd, 0 niet meer bereikbaar
