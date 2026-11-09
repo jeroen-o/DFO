@@ -496,3 +496,20 @@ p,li,td{hyphens:manual}
 .tr-hist{list-style:none;margin:0;padding:0 0 0 18px;border-left:2px solid #cfdcec}
 .tr-hist li{position:relative;padding:6px 0 6px 10px;font-size:.94rem;color:var(--ink-2)}
 .tr-hist li::before{content:"";position:absolute;left:-25px;top:13px;width:10px;height:10px;border-radius:50%;background:var(--blue)}
+/* mobiel: lange samenstellingen afbreken, tapdoelen minimaal ~40px */
+main p,main li{overflow-wrap:break-word}
+@media(max-width:360px){main p,main li{hyphens:auto;-webkit-hyphens:auto}}
+@media(max-width:640px){
+ .opt{display:flex;align-items:center;gap:10px;min-height:40px}
+ .opt input[type=checkbox],.opt input[type=radio]{width:22px;height:22px;flex:0 0 22px}
+ #nb .chip,.chips .chip{min-height:38px}
+}
+@media(max-width:640px){
+ .tr-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+ .tr-card{padding:16px 10px}
+ .tr-card .tr-foto{width:96px;height:96px}
+ .tr-card h3{font-size:.95rem;margin-top:10px}
+ .tr-card .tr-fn{font-size:.78rem;line-height:1.35;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+ .tr-card .tr-tags .tag{font-size:.68rem;padding:3px 7px}
+ .tr-card .more{font-size:.85rem}
+}
