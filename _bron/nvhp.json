@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-11T12:52:12.929Z",
+ "bijgewerkt": "2026-11-12T13:55:37.856Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -178,30 +178,6 @@
  ],
  "data": [
   {
-   "t": "Beleggen voor de Hypothecair Planner",
-   "d": "2026-11-11",
-   "tijd": "09:15–13:00",
-   "loc": "Helmond",
-   "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 7
-  },
-  {
-   "t": "De Kracht van Aandacht",
-   "d": "2026-11-11",
-   "tijd": "09:15–13:00",
-   "loc": "Helmond",
-   "doc": "Jan Kilkens",
-   "plaatsen": 0
-  },
-  {
-   "t": "Overwaarde slim benutten (voorheen Vierluik estate Planning)",
-   "d": "2026-11-11",
-   "tijd": "13:15–17:00",
-   "loc": "Helmond",
-   "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 4
-  },
-  {
    "t": "Senioren en Overwaarde",
    "d": "2026-11-17",
    "tijd": "09:15–13:00",
@@ -247,7 +223,7 @@
    "tijd": "13:15–17:00",
    "loc": "Dordrecht",
    "doc": "Rob Timmermans",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Alles wat je moet weten over de Wettelijke Verdeling",
@@ -351,7 +327,7 @@
    "tijd": "09:15–13:00",
    "loc": "Oostzaan",
    "doc": "Frank Paalman",
-   "plaatsen": 18
+   "plaatsen": 17
   },
   {
    "t": "Senioren en Overwaarde",
@@ -359,7 +335,7 @@
    "tijd": "13:15–17:00",
    "loc": "Oostzaan",
    "doc": "Frank Paalman",
-   "plaatsen": 12
+   "plaatsen": 11
   },
   {
    "t": "Draagplichtovereenkomst",
@@ -407,7 +383,7 @@
    "tijd": "13:15–17:00",
    "loc": "Heerenveen",
    "doc": "Rob Timmermans",
-   "plaatsen": 2
+   "plaatsen": 1
   },
   {
    "t": "De Kracht van Aandacht",
@@ -423,7 +399,7 @@
    "tijd": "13:15–17:00",
    "loc": "Heerenveen",
    "doc": "Jasper Korrel",
-   "plaatsen": 12
+   "plaatsen": 11
   },
   {
    "t": "Zelfstandig wonen en financieren (voorheen De Alleenstaande Klant)",
@@ -511,7 +487,7 @@
    "tijd": "13:15–17:00",
    "loc": "Zwolle",
    "doc": "Rob Timmermans",
-   "plaatsen": 1
+   "plaatsen": 2
   },
   {
    "t": "AI Onderhoud en Nazorg",
@@ -543,7 +519,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Reinier Gunneman",
-   "plaatsen": 7
+   "plaatsen": 5
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -559,7 +535,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Senioren en Overwaarde",
@@ -567,7 +543,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Frank Paalman",
-   "plaatsen": 8
+   "plaatsen": 7
   },
   {
    "t": "Actualiteiten",
@@ -575,7 +551,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Rob Timmermans",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "De Kracht van Aandacht",
@@ -599,7 +575,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Jasper Korrel",
-   "plaatsen": 10
+   "plaatsen": 9
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -647,7 +623,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 11
+   "plaatsen": 6
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -663,7 +639,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 9
+   "plaatsen": 7
   },
   {
    "t": "Inventariseren fiscaal verleden 2026",
@@ -671,7 +647,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Eric Bastiaan Pothoven",
-   "plaatsen": 20
+   "plaatsen": 19
   },
   {
    "t": "Estate Planning in Box 3",
@@ -679,7 +655,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Harry van Houdt",
-   "plaatsen": 14
+   "plaatsen": 13
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
