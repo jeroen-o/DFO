@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-12T13:55:37.856Z",
+ "bijgewerkt": "2026-11-13T13:17:02.002Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -351,7 +351,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
@@ -359,7 +359,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "Beleggen voor de Hypothecair Planner",
@@ -527,7 +527,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Rob Timmermans",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "Overwaarde slim benutten (voorheen Vierluik estate Planning)",
@@ -551,7 +551,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Rob Timmermans",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "De Kracht van Aandacht",
@@ -623,7 +623,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 6
+   "plaatsen": 5
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -639,7 +639,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 7
+   "plaatsen": 6
   },
   {
    "t": "Inventariseren fiscaal verleden 2026",

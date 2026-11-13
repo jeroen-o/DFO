@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-12T13:54:12.028Z",
+ "bijgewerkt": "2026-11-13T13:15:37.587Z",
  "items": [
   {
    "d": "2026-11-12",
@@ -47,6 +47,15 @@
    "opgehaald": "2026-11-12"
   },
   {
+   "d": "2026-11-12",
+   "t": "Een NHG-grens van een half miljoen. Moeten we daar blij mee zijn?",
+   "u": "https://www.nhg.nl/nhg-actueel/column-roald-van-der-linde-nov-2026/",
+   "x": "",
+   "bron": "NHG",
+   "home": "https://www.nhg.nl/",
+   "opgehaald": "2026-11-13"
+  },
+  {
    "t": "Landelijke informatieronde Hypotheken – Houten",
    "u": "https://www.hypothecairplanner.nl/node/369",
    "d": "2026-11-12",
@@ -81,6 +90,15 @@
    "bron": "Pensioenfederatie",
    "home": "https://www.pensioenfederatie.nl/",
    "opgehaald": "2026-11-12"
+  },
+  {
+   "d": "2026-11-12",
+   "t": "Nieuwe online omgeving voor de Verzuimstandaarden",
+   "u": "https://www.sivi.org/actueel/nieuwe-digitale-omgeving-voor-de-verzuimstandaarden/",
+   "x": "De informatie over de Verzuimstandaarden is vernieuwd en overzichtelijker ingericht. Downloads zijn voortaan beschikbaar via GitHub en met de eerste KennisBite biedt SIVI extra ondersteuning bij het gebruik van de standaard.",
+   "bron": "SIVI",
+   "home": "https://www.sivi.org/",
+   "opgehaald": "2026-11-13"
   },
   {
    "t": "Vragen aan de Telegraaf Helpdesk: “mensen zijn vaak onzeker”",
