@@ -271,16 +271,6 @@
    "summary": "Volg de Schade Boost Dag en fris je kennis van schadebehandeling op. Bespreek actuele jurisprudentie, KiFiD-uitspraken, polisvoorwaarden, verkeersrecht en praktijkcasussen voor een sterkere schadepraktijk."
   },
   {
-   "href": "/cursus/training-clausules-zakelijke-brandverzekering",
-   "cols": [
-    "Training Clausules zakelijke brandverzekering",
-    "Eendaagse training",
-    "Schadeverzekeringen zakelijk",
-    "€ 195,00"
-   ],
-   "summary": "Volg de Training Clausules Zakelijke Brandverzekering en leer de belangrijkste clausules herkennen en toepassen. Vergroot je kennis van polisvoorwaarden, onderverzekering, inbraakpreventie en brandrisico's voor een beter zakelijk verzekeringsadvies."
-  },
-  {
    "href": "/cursus/training-digitale-weerbaarheid",
    "cols": [
     "training Digitale Weerbaarheid",
@@ -491,6 +481,16 @@
    "summary": "Volg het Webinar Buitengerechtelijke Kosten (BGK) en leer wanneer BGK vergoed worden. Krijg inzicht in wetgeving, Kifid-uitspraken, convenanten, polisvoorwaarden en de rol van de schadebehandelaar."
   },
   {
+   "href": "/cursus/training-clausules-zakelijke-brandverzekering",
+   "cols": [
+    "Webinar Clausules zakelijke brandverzekering",
+    "Eendaagse training",
+    "Schadeverzekeringen zakelijk",
+    "€ 195,00"
+   ],
+   "summary": "Volg de Training Clausules Zakelijke Brandverzekering en leer de belangrijkste clausules herkennen en toepassen. Vergroot je kennis van polisvoorwaarden, onderverzekering, inbraakpreventie en brandrisico's voor een beter zakelijk verzekeringsadvies."
+  },
+  {
    "href": "/cursus/webinar-contra-expertise",
    "cols": [
     "Webinar Contra-expertise",
@@ -559,6 +559,16 @@
     "€ 235,00"
    ],
    "summary": "Volg de workshop Aansprakelijk Zijn en/of Voelen en leer wanneer iemand juridisch aansprakelijk is of zich alleen aansprakelijk voelt. Ontdek de regels, jurisprudentie, KiFiD-uitspraken en de dekking van aansprakelijkheidsverzekeringen."
+  },
+  {
+   "href": "/cursus/workshop-actualiteiten-aansprakelijkheid-en-verkeer",
+   "cols": [
+    "Workshop Actualiteiten Aansprakelijkheid en Verkeer",
+    "Eendaagse training",
+    "Schadeverzekeringen particulier en zakelijk",
+    "€ 310,00"
+   ],
+   "summary": ""
   },
   {
    "href": "/cursus/workshop-afm-leidraad-stap-voor-stap-uitgelegd",
@@ -745,72 +755,12 @@
   {
    "href": null,
    "cols": [
-    "Masterclass: AI in de Adviespraktijk: Basis AI & Gespreksverslagen (hypotheken)",
-    "11-11-2026",
-    "Hoevelaken",
-    "Reinier Gunneman",
-    "4",
-    "€ 315,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Tweedaagse training: Vergroot je advieskracht voor “senioren” met overwaarde",
-    "11-11-2026",
-    "Hoevelaken",
-    "René Kuiper",
-    "5",
-    "€ 630,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Training: Eigenwoningverleden correct toepassen met het Fiscaal Paspoort",
-    "11-11-2026",
-    "Helmond",
-    "Eric Pothoven",
-    "0",
-    "€ 350,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Workshop bedrijfsvoering op orde",
-    "12-11-2026",
-    "Hoevelaken",
-    "Robert-Jan van Loon",
-    "10",
-    "€ 225,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
     "Training AOV: Adviseren over het grootste financiële risico voor ondernemers",
     "16-11-2026",
     "Hoevelaken",
     "Jos Besselink",
-    "6",
+    "5",
     "€ 205,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Tweedaagse training: Vergroot je advieskracht voor “senioren” met overwaarde",
-    "19-11-2026",
-    "Heerenveen",
-    "René Kuiper",
-    "0",
-    "€ 630,00"
    ],
    "summary": ""
   },
@@ -843,22 +793,10 @@
    "cols": [
     "Training Clausules zakelijke brandverzekering",
     "26-11-2026",
-    "Hoevelaken",
+    "Online",
     "Joost Schipaanboord",
-    "6",
+    "3",
     "€ 195,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Jaarrekening lezen voor de financieel adviseur",
-    "02-12-2026",
-    "Hoevelaken",
-    "Jan Buis",
-    "9",
-    "€ 235,00"
    ],
    "summary": ""
   },
@@ -869,7 +807,7 @@
     "02-12-2026",
     "Hoevelaken",
     "Eric Pothoven",
-    "3",
+    "2",
     "€ 350,00"
    ],
    "summary": ""
@@ -893,7 +831,7 @@
     "07-12-2026",
     "Eindhoven Van der Valk",
     "Reinier Gunneman",
-    "12",
+    "11",
     "€ 315,00"
    ],
    "summary": ""
@@ -941,7 +879,7 @@
     "11-12-2026",
     "Hoevelaken",
     "Jan Buis",
-    "6",
+    "4",
     "€ 235,00"
    ],
    "summary": ""
@@ -953,7 +891,7 @@
     "14-12-2026",
     "Hoevelaken",
     "Robert-Jan van Loon",
-    "10",
+    "8",
     "€ 235,00"
    ],
    "summary": ""
@@ -997,24 +935,24 @@
   {
    "href": null,
    "cols": [
-    "Opleiding Wwft & Sanctiewet",
-    "28-01-2027",
-    "Hoevelaken",
-    "Robert-Jan van Loon",
-    "10",
-    "€ 235,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
     "Workshop Verkeersrecht (basis)",
     "28-01-2027",
     "Hoevelaken",
     "Anita Hol-Bubeck",
     "10",
     "€ 310,00"
+   ],
+   "summary": ""
+  },
+  {
+   "href": null,
+   "cols": [
+    "Opleiding Wwft & Sanctiewet",
+    "28-01-2027",
+    "Hoevelaken",
+    "Robert-Jan van Loon",
+    "10",
+    "€ 235,00"
    ],
    "summary": ""
   },
@@ -1037,7 +975,7 @@
     "02-02-2027",
     "Hoevelaken",
     "Eric Pothoven",
-    "7",
+    "4",
     "€ 350,00"
    ],
    "summary": ""
@@ -1050,6 +988,18 @@
     "Hoevelaken",
     "Anita Hol-Bubeck",
     "10",
+    "€ 310,00"
+   ],
+   "summary": ""
+  },
+  {
+   "href": null,
+   "cols": [
+    "Workshop Actualiteiten Aansprakelijkheid en Verkeer",
+    "18-02-2027",
+    "Hoevelaken",
+    "Anita Hol-Bubeck",
+    "7",
     "€ 310,00"
    ],
    "summary": ""
@@ -1109,7 +1059,7 @@
     "20-04-2027",
     "Heerenveen",
     "René Kuiper",
-    "10",
+    "9",
     "€ 2.400,00"
    ],
    "summary": ""
