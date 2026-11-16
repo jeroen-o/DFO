@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T12:09:27.433Z",
+ "bijgewerkt": "2026-11-16T13:49:25.130Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -359,7 +359,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Beleggen voor de Hypothecair Planner",
@@ -383,7 +383,7 @@
    "tijd": "13:15–17:00",
    "loc": "Heerenveen",
    "doc": "Rob Timmermans",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "De Kracht van Aandacht",
