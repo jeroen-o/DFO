@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T13:49:25.130Z",
+ "bijgewerkt": "2026-11-17T14:37:09.821Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -311,7 +311,7 @@
    "tijd": "09:15–13:00",
    "loc": "Zwolle",
    "doc": "Frank Paalman",
-   "plaatsen": 11
+   "plaatsen": 10
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -319,7 +319,7 @@
    "tijd": "13:15–17:00",
    "loc": "Zwolle",
    "doc": "Frank Paalman",
-   "plaatsen": 18
+   "plaatsen": 17
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -351,7 +351,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
@@ -431,7 +431,7 @@
    "tijd": "09:15–13:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Frank Paalman",
-   "plaatsen": 16
+   "plaatsen": 15
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -447,7 +447,7 @@
    "tijd": "13:15–17:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Jan Kilkens",
-   "plaatsen": 8
+   "plaatsen": 7
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -487,7 +487,7 @@
    "tijd": "13:15–17:00",
    "loc": "Zwolle",
    "doc": "Rob Timmermans",
-   "plaatsen": 2
+   "plaatsen": 1
   },
   {
    "t": "AI Onderhoud en Nazorg",
@@ -519,7 +519,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Reinier Gunneman",
-   "plaatsen": 5
+   "plaatsen": 4
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -543,7 +543,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Frank Paalman",
-   "plaatsen": 7
+   "plaatsen": 6
   },
   {
    "t": "Actualiteiten",
@@ -664,6 +664,22 @@
    "loc": "Hoevelaken",
    "doc": "Frank Paalman",
    "plaatsen": 21
+  },
+  {
+   "t": "Actualiteiten",
+   "d": "2026-12-29",
+   "tijd": "13:15–17:00",
+   "loc": "Hoevelaken",
+   "doc": "Rob Timmermans",
+   "plaatsen": 22
+  },
+  {
+   "t": "De Kracht van Aandacht",
+   "d": "2026-12-29",
+   "tijd": "13:15–17:00",
+   "loc": "Hoevelaken",
+   "doc": "Jan Kilkens",
+   "plaatsen": 16
   }
  ]
 }
