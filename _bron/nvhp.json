@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-18T14:13:18.344Z",
+ "bijgewerkt": "2026-11-19T14:35:08.612Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -199,7 +199,7 @@
    "tijd": "13:15–17:00",
    "loc": "Dordrecht",
    "doc": "Rob Timmermans",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "Alles wat je moet weten over de Wettelijke Verdeling",
@@ -360,14 +360,6 @@
    "loc": "Heerenveen",
    "doc": "Rob Timmermans",
    "plaatsen": 0
-  },
-  {
-   "t": "De Kracht van Aandacht",
-   "d": "2026-12-11",
-   "tijd": "13:15–17:00",
-   "loc": "Ridderkerk",
-   "doc": "Jan Kilkens",
-   "plaatsen": 14
   },
   {
    "t": "Inkomensbepaling zelfstandige ondernemers Zakelijk Inkomen",
