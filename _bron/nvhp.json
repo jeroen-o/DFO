@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-22T13:31:36.816Z",
+ "bijgewerkt": "2026-11-23T13:46:19.506Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -487,7 +487,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Reinier Gunneman",
-   "plaatsen": 4
+   "plaatsen": 1
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -511,7 +511,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Frank Paalman",
-   "plaatsen": 6
+   "plaatsen": 5
   },
   {
    "t": "Actualiteiten",
@@ -615,7 +615,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Eric Bastiaan Pothoven",
-   "plaatsen": 19
+   "plaatsen": 18
   },
   {
    "t": "Estate Planning in Box 3",

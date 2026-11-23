@@ -755,35 +755,11 @@
   {
    "href": null,
    "cols": [
-    "Training AOV: Adviseren over het grootste financiële risico voor ondernemers",
-    "16-11-2026",
-    "Hoevelaken",
-    "Jos Besselink",
-    "5",
-    "€ 205,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
-    "Schade Boost dag",
-    "19-11-2026",
-    "Hoevelaken",
-    "Anita Hol-Bubeck",
-    "1",
-    "€ 310,00"
-   ],
-   "summary": ""
-  },
-  {
-   "href": null,
-   "cols": [
     "Training: Eigenwoningverleden correct toepassen met het Fiscaal Paspoort",
     "24-11-2026",
     "Heerenveen",
     "Eric Pothoven",
-    "7",
+    "6",
     "€ 350,00"
    ],
    "summary": ""
@@ -795,7 +771,7 @@
     "26-11-2026",
     "Online",
     "Joost Schipaanboord",
-    "3",
+    "0",
     "€ 195,00"
    ],
    "summary": ""
@@ -843,7 +819,7 @@
     "08-12-2026",
     "Hoevelaken",
     "Eric Pothoven",
-    "10",
+    "6",
     "€ 350,00"
    ],
    "summary": ""
@@ -867,7 +843,7 @@
     "09-12-2026",
     "Hoevelaken",
     "Eric Pothoven",
-    "5",
+    "0",
     "€ 350,00"
    ],
    "summary": ""
@@ -879,7 +855,7 @@
     "11-12-2026",
     "Hoevelaken",
     "Jan Buis",
-    "4",
+    "0",
     "€ 235,00"
    ],
    "summary": ""
@@ -891,7 +867,19 @@
     "14-12-2026",
     "Hoevelaken",
     "Robert-Jan van Loon",
-    "8",
+    "7",
+    "€ 235,00"
+   ],
+   "summary": ""
+  },
+  {
+   "href": null,
+   "cols": [
+    "Jaarrekening lezen voor de financieel adviseur",
+    "15-12-2026",
+    "Hoevelaken",
+    "Jan Buis",
+    "16",
     "€ 235,00"
    ],
    "summary": ""
@@ -915,7 +903,7 @@
     "13-01-2027",
     "Hoevelaken",
     "Monique Londema",
-    "10",
+    "7",
     "€ 2.400,00"
    ],
    "summary": ""
@@ -939,7 +927,7 @@
     "28-01-2027",
     "Hoevelaken",
     "Anita Hol-Bubeck",
-    "10",
+    "9",
     "€ 310,00"
    ],
    "summary": ""
@@ -963,7 +951,7 @@
     "02-02-2027",
     "Hoevelaken",
     "Anita Hol-Bubeck",
-    "10",
+    "9",
     "€ 235,00"
    ],
    "summary": ""
@@ -975,7 +963,7 @@
     "02-02-2027",
     "Hoevelaken",
     "Eric Pothoven",
-    "4",
+    "5",
     "€ 350,00"
    ],
    "summary": ""
@@ -1049,6 +1037,18 @@
     "Anita Hol-Bubeck",
     "8",
     "€ 245,00"
+   ],
+   "summary": ""
+  },
+  {
+   "href": null,
+   "cols": [
+    "Tweedaagse training: Vergroot je advieskracht voor “senioren” met overwaarde",
+    "14-04-2027",
+    "Hoevelaken",
+    "René Kuiper",
+    "13",
+    "€ 630,00"
    ],
    "summary": ""
   },

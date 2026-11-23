@@ -1,4 +1,4 @@
-# Wekelijkse sitecheck – 2026-11-16
+# Wekelijkse sitecheck – 2026-11-23
 
 **Status:** ⚠️ aandachtspunten
 
@@ -16,14 +16,14 @@
 
 ## Overzicht
 - 561 pagina's in sitemap.xml; 561 indexeerbare pagina's
-- DFO Signalen: 88 pagina's, bijgewerkt 2026-11-16 (vorige week 86)
-- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-16 (vorige week 95)
-- Wft Permanent Actueel: 43 pagina's, bijgewerkt 2026-11-16 (vorige week 42)
-- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-16 (vorige week 12)
-- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-16 (vorige week 2)
-- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-16 (vorige week 1)
+- DFO Signalen: 90 pagina's, bijgewerkt 2026-11-23 (vorige week 88)
+- Serviceproviders (sp.dfobv.nl): 95 pagina's, bijgewerkt 2026-11-23 (vorige week 95)
+- Wft Permanent Actueel: 43 pagina's, bijgewerkt 2026-11-23 (vorige week 43)
+- AI Permanent Actueel: 12 pagina's, bijgewerkt 2026-11-23 (vorige week 12)
+- Nazorg & Onderhoud Portal: 2 pagina's, bijgewerkt 2026-11-23 (vorige week 2)
+- Vergaderruimte Amersfoort: 1 pagina's, bijgewerkt 2026-11-23 (vorige week 1)
 - Opleidingsportaal: 75 items
 - NVHP-planning: 29 items
-- Nieuws: 234 items
-- zoeker: 5419 doorzoekbare items, waarvan 241 uit de portalen
+- Nieuws: 268 items
+- zoeker: 5421 doorzoekbare items, waarvan 243 uit de portalen
 - 356 webshoplinks gecontroleerd, 0 niet meer bereikbaar
