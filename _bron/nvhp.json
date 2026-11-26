@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-25T15:47:33.806Z",
+ "bijgewerkt": "2026-11-26T15:28:35.867Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -179,38 +179,6 @@
  "data": [
   {
    "t": "Hypotheekmaster 2026",
-   "d": "2026-11-25",
-   "tijd": "09:15–13:00",
-   "loc": "Dordrecht",
-   "doc": "Rob Timmermans",
-   "plaatsen": 0
-  },
-  {
-   "t": "Samengestelde gezinnen en de juridisch-fiscale-financiële spaghetti",
-   "d": "2026-11-25",
-   "tijd": "09:15–13:00",
-   "loc": "Dordrecht",
-   "doc": "Martine Glebbeek",
-   "plaatsen": 0
-  },
-  {
-   "t": "Actualiteiten",
-   "d": "2026-11-25",
-   "tijd": "13:15–17:00",
-   "loc": "Dordrecht",
-   "doc": "Rob Timmermans",
-   "plaatsen": 0
-  },
-  {
-   "t": "Alles wat je moet weten over de Wettelijke Verdeling",
-   "d": "2026-11-25",
-   "tijd": "13:15–17:00",
-   "loc": "Dordrecht",
-   "doc": "Jasper Horsthuis",
-   "plaatsen": 0
-  },
-  {
-   "t": "Hypotheekmaster 2026",
    "d": "2026-11-26",
    "tijd": "13:15–17:00",
    "loc": "Oostzaan",
@@ -223,7 +191,7 @@
    "tijd": "13:15–17:00",
    "loc": "Oostzaan",
    "doc": "Martine Glebbeek",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Schrijf een adviesrapport dat klanten wél lezen. Van analyse naar een overtuigend advies. ( voorheen Klantadviesrapport Schrijven)",
@@ -335,7 +303,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Beleggen voor de Hypothecair Planner",
@@ -471,7 +439,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 0
+   "plaatsen": 1
   },
   {
    "t": "Actualiteiten",
@@ -591,7 +559,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 3
+   "plaatsen": 2
   },
   {
    "t": "Hypotheekmaster 2026",
