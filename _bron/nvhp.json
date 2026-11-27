@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-26T15:28:35.867Z",
+ "bijgewerkt": "2026-11-27T15:16:20.079Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -178,28 +178,12 @@
  ],
  "data": [
   {
-   "t": "Hypotheekmaster 2026",
-   "d": "2026-11-26",
-   "tijd": "13:15–17:00",
-   "loc": "Oostzaan",
-   "doc": "Rob Timmermans",
-   "plaatsen": 0
-  },
-  {
-   "t": "Samengestelde gezinnen en de juridisch-fiscale-financiële spaghetti",
-   "d": "2026-11-26",
-   "tijd": "13:15–17:00",
-   "loc": "Oostzaan",
-   "doc": "Martine Glebbeek",
-   "plaatsen": 0
-  },
-  {
    "t": "Schrijf een adviesrapport dat klanten wél lezen. Van analyse naar een overtuigend advies. ( voorheen Klantadviesrapport Schrijven)",
    "d": "2026-11-27",
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Monique Londema",
-   "plaatsen": 3
+   "plaatsen": 4
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -279,7 +263,7 @@
    "tijd": "13:15–17:00",
    "loc": "Oostzaan",
    "doc": "Frank Paalman",
-   "plaatsen": 10
+   "plaatsen": 6
   },
   {
    "t": "Draagplichtovereenkomst",
@@ -295,7 +279,7 @@
    "tijd": "09:15–13:00",
    "loc": "Ridderkerk",
    "doc": "Frank Paalman",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
@@ -343,7 +327,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 2
+   "plaatsen": 1
   },
   {
    "t": "Actualiteiten",
@@ -367,7 +351,7 @@
    "tijd": "09:15–13:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Frank Paalman",
-   "plaatsen": 15
+   "plaatsen": 14
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -375,7 +359,7 @@
    "tijd": "13:15–17:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Frank Paalman",
-   "plaatsen": 17
+   "plaatsen": 16
   },
   {
    "t": "Financiering buiten gedragscode",
@@ -383,7 +367,7 @@
    "tijd": "13:15–17:00",
    "loc": "Eindhoven Van der Valk",
    "doc": "Jan Kilkens",
-   "plaatsen": 7
+   "plaatsen": 4
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -415,7 +399,7 @@
    "tijd": "13:15–17:00",
    "loc": "Zwolle",
    "doc": "Harry van Houdt",
-   "plaatsen": 7
+   "plaatsen": 6
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -439,7 +423,7 @@
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 1
+   "plaatsen": 0
   },
   {
    "t": "Actualiteiten",
@@ -511,7 +495,7 @@
    "tijd": "13:15–17:00",
    "loc": "Ridderkerk",
    "doc": "Jasper Korrel",
-   "plaatsen": 9
+   "plaatsen": 8
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -535,7 +519,7 @@
    "tijd": "13:15–17:00",
    "loc": "De Bonte Wever Assen",
    "doc": "Rob Timmermans",
-   "plaatsen": 8
+   "plaatsen": 7
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -546,20 +530,12 @@
    "plaatsen": 18
   },
   {
-   "t": "Beleggen voor de Hypothecair Planner",
-   "d": "2026-12-21",
-   "tijd": "09:15–13:00",
-   "loc": "Hoevelaken",
-   "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 15
-  },
-  {
    "t": "Hypotheekmaster 2026",
    "d": "2026-12-21",
    "tijd": "09:15–13:00",
    "loc": "Hoevelaken",
    "doc": "Rob Timmermans",
-   "plaatsen": 2
+   "plaatsen": 0
   },
   {
    "t": "Hypotheekmaster 2026",
@@ -575,7 +551,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Monique Londema Trainer en Opleider",
-   "plaatsen": 6
+   "plaatsen": 4
   },
   {
    "t": "Inventariseren fiscaal verleden 2026",
@@ -600,22 +576,6 @@
    "loc": "Hoevelaken",
    "doc": "Frank Paalman",
    "plaatsen": 20
-  },
-  {
-   "t": "Actualiteiten",
-   "d": "2026-12-29",
-   "tijd": "13:15–17:00",
-   "loc": "Hoevelaken",
-   "doc": "Rob Timmermans",
-   "plaatsen": 21
-  },
-  {
-   "t": "De Kracht van Aandacht",
-   "d": "2026-12-29",
-   "tijd": "13:15–17:00",
-   "loc": "Hoevelaken",
-   "doc": "Jan Kilkens",
-   "plaatsen": 16
   }
  ]
 }
