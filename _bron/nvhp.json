@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-27T15:16:20.079Z",
+ "bijgewerkt": "2026-11-28T14:22:35.884Z",
  "cursussen": [
   {
    "t": "3 daagse Leergang Financieel Relatie Adviseur",
@@ -178,30 +178,6 @@
  ],
  "data": [
   {
-   "t": "Schrijf een adviesrapport dat klanten wél lezen. Van analyse naar een overtuigend advies. ( voorheen Klantadviesrapport Schrijven)",
-   "d": "2026-11-27",
-   "tijd": "09:15–13:00",
-   "loc": "Hoevelaken",
-   "doc": "Monique Londema",
-   "plaatsen": 4
-  },
-  {
-   "t": "De Nieuwe pensioenwet",
-   "d": "2026-11-27",
-   "tijd": "13:15–17:00",
-   "loc": "Hoevelaken",
-   "doc": "Frank Paalman",
-   "plaatsen": 0
-  },
-  {
-   "t": "Financiering buiten gedragscode",
-   "d": "2026-11-27",
-   "tijd": "13:15–17:00",
-   "loc": "Hoevelaken",
-   "doc": "Jan Kilkens",
-   "plaatsen": 0
-  },
-  {
    "t": "De Kracht van Aandacht",
    "d": "2026-11-30",
    "tijd": "09:15–13:00",
@@ -239,7 +215,7 @@
    "tijd": "09:15–13:00",
    "loc": "Zwolle",
    "doc": "Frank Paalman",
-   "plaatsen": 8
+   "plaatsen": 7
   },
   {
    "t": "De Nieuwe pensioenwet",
@@ -442,6 +418,14 @@
    "plaatsen": 0
   },
   {
+   "t": "Financiering buiten gedragscode",
+   "d": "2026-12-17",
+   "tijd": "09:15–13:00",
+   "loc": "Hoevelaken",
+   "doc": "Jan Kilkens",
+   "plaatsen": 0
+  },
+  {
    "t": "Hypotheekmaster 2026",
    "d": "2026-12-17",
    "tijd": "09:15–13:00",
@@ -567,7 +551,7 @@
    "tijd": "13:15–17:00",
    "loc": "Hoevelaken",
    "doc": "Harry van Houdt",
-   "plaatsen": 13
+   "plaatsen": 12
   },
   {
    "t": "Hypotheken en Vermogen: alles over Box 3",
